@@ -1,4 +1,7 @@
 
+import Consult from "@/components/Homepage/Consult";
+import Contact from "@/components/Homepage/Contact";
+import Demystifying from "@/components/Homepage/Demystifying";
 import MissionVission from "@/components/Homepage/MissionVission";
 import OfferExpertise from "@/components/Homepage/OfferExpertise";
 import OurImpact from "@/components/Homepage/OurImpact";
@@ -19,8 +22,8 @@ export default function Home() {
 <Restoringhealth/>
 <MissionVission/>
 <Review/>
-
-
+<Contact/>
+<Consult/>
 </>
   );
 }

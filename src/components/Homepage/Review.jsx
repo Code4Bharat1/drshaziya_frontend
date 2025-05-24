@@ -21,13 +21,13 @@ const Review = () => {
       >
         <div className="flex space-x-6 px-6 w-max">
           {reviews.map((review, index) => (
-            <div key={index} className="relative w-[240px] h-[430px] shrink-0 box-border">
+            <div key={index} className="relative w-[240px] h-[350px] shrink-0 box-border">
 
               {/* Yellow Header */}
-              <div className="bg-[#FFD54F] h-20 rounded-t-xl border-b border-gray-300"></div>
+              <div className="bg-[#FFD54F] h-20  border-b border-gray-300"></div>
 
               {/* White Box */}
-              <div className="bg-white rounded-t-[2rem] rounded-b-xl shadow-md p-4 pt-14 -mt-8 relative z-10 h-[260px] border border-gray-300 border-t-0 flex flex-col justify-between box-border">
+              <div className="bg-white rounded-t-[2rem]  shadow-md p-4 pt-14 -mt-8 relative z-10 h-[260px] border border-gray-300 border-t-0 flex flex-col justify-between box-border">
                 <div>
                   <h3 className="font-semibold text-gray-800 text-sm">{review.name}</h3>
                   <p className="text-xs text-gray-700 mt-2 line-clamp-6 overflow-hidden">
