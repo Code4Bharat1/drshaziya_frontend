@@ -1,5 +1,7 @@
 "use client";
 import React from 'react';
+import Link from 'next/link';
+
 
 const expertiseData = [
   {
@@ -7,48 +9,56 @@ const expertiseData = [
     description:
       'Laparoscopic surgery is a minimally invasive procedure using small incisions, specialized instruments and a camera to operate inside the body.',
     image: 'offer1.png',
+    path: '/allartical/lepocrasy',
   },
   {
     title: 'Hernia Surgeries',
     description:
       'Hernia surgery is a procedure to repair a bulge or protrusion caused by an organ pushing through a weak spot in muscle or tissue.',
     image: 'offer2.png',
+    path: '/hernia-surgery',
   },
   {
     title: 'Breast Surgeries',
     description:
       'Breast surgery involves procedures for treating breast conditions; benign and malignant, or cosmetic procedures including reconstruction.',
     image: 'offer3.png',
+    path: '/breast-surgery',
   },
   {
     title: 'Colorectal Surgeries',
     description:
       'Colorectal surgery treats disorders of the rectum, anus, and colon including polyps, tumors, and inflammatory bowel diseases.',
     image: 'offer1.png',
+    path: '/colorectal-surgery',
   },
   {
     title: 'Thyroid Surgeries',
     description:
       'Thyroid surgery is performed to treat thyroid nodules, cancer, or hyperthyroidism by removing part or all of the thyroid gland.',
     image: 'offer1.png',
+    path: '/thyroid-surgery',
   },
   {
     title: 'Gallbladder Surgeries',
     description:
       'Gallbladder removal, also called cholecystectomy, is a common surgery to treat gallstones and gallbladder inflammation.',
     image: 'offer1.png',
+    path: '/gallbladder-surgery',
   },
   {
     title: 'Appendix Surgeries',
     description:
       'Appendectomy is the surgical removal of the appendix, usually performed as an emergency surgery for appendicitis.',
     image: 'offer1.png',
+    path: '/appendix-surgery',
   },
   {
     title: 'Proctology Surgeries',
     description:
       'Proctology surgeries involve treatments of rectum and anus disorders such as hemorrhoids, fissures, and fistulas.',
     image: 'offer1.png',
+    path: '/proctology-surgery',
   },
 ];
 
@@ -86,9 +96,11 @@ const OfferExpertise = () => {
                 </h3>
                 <p className="text-[#000000] text-sm">{item.description}</p>
               </div>
+              <Link href={item.path}>
               <button className=" shadow-[0_3px_2px_rgba(0,0,0,0.3)] bg-[#0085DC] text-white text-xs px-6 py-3 rounded-xl hover:bg-blue-500 mt-5 mx-auto block">
                 KNOW MORE
               </button>
+             </Link>
             </div>
           ))}
         </div>

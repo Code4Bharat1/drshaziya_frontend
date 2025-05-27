@@ -3,7 +3,7 @@ import React from 'react';
 
 const cardData = [
   {
-    title: 'Experienced Doctor in Minimally-Invasive Surgery',
+    title: 'Experienced Doctor in Minimally -Invasive Surgery',
     description:
       'Our brand is well-regarded in the medical community for its accurate diagnosis and precise surgical care, specializing in advanced laser and laparoscopic treatments.',
   },
@@ -30,12 +30,12 @@ const Consult = () => {
         {cardData.map((card, index) => (
           <div
             key={index}
-            className="bg-white border rounded-xl shadow p-6 w-full max-w-[360px] min-h-[280px] flex flex-col"
+            className="bg-white border rounded-xl shadow p-7 w-full max-w-[350px] min-h-[280px] flex flex-col"
           >
             <h3 className="text-lg font-semibold text-[#000000] mb-4 whitespace-pre-line">
               {card.title}
             </h3>
-            <p className="text-md text-[#000000] leading-relaxed flex-grow">
+            <p className="text-md text-[#000000] leading-relaxed flex-grow font-roboto">
               {card.description}
             </p>
           </div>

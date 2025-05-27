@@ -3,12 +3,13 @@ import React from 'react';
 
 const Contact = () => {
   return (
-    <div className="bg-[#0085DC] text-white rounded-xl border-4 border-[#FFD54F] p-8 flex flex-col md:flex-row items-center justify-between max-w-4xl mx-auto mt-3 mb-3 shadow-lg">
+  
+    <div className="bg-[#0085DC] text-white rounded-xl border-4 border-[#FFD54F] p-8 flex flex-col md:flex-row items-center justify-between max-w-4xl mx-auto mt-2 mb-9 ">
       
       {/* Left Side */}
       <div className="md:w-1/2 mb-8 md:mb-0 md:pr-6">
         <h2 className="text-3xl font-bold mb-4">Book a Consultation</h2>
-        <p className="text-base mb-6 leading-relaxed">
+        <p className="text-base mb-6 leading-relaxed font-inter">
           Dr. Shazia utilizes cutting-edge technologies for precision and effectiveness of her specialty surgeries,
           ensuring optimal patient outcomes and facilitating faster healing for those undergoing treatment.
         </p>
@@ -17,7 +18,7 @@ const Contact = () => {
         <div className="mt-6">
           <p className="font-semibold mb-1">Need an Appointment?</p>
           <p className="text-sm">Call us Or Whatsapp on these numbers-</p>
-          <p className="text-lg font-bold mt-1">
+          <p className="text-sm font-bold mt-1">
             9833584847 | 9892933421
           </p>
         </div>
@@ -54,6 +55,7 @@ const Contact = () => {
         </form>
       </div>
     </div>
+
   );
 };
 

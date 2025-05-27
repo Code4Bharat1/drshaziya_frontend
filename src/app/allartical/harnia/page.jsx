@@ -1,4 +1,4 @@
-import Harnia from '@/components/AllArtical/Harnia'
+import Harnia from '@/components/AllSurgery/Harnia'
 import Contact from '@/components/Homepage/Contact'
 import React from 'react'
 

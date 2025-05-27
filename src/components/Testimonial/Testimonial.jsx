@@ -3,7 +3,7 @@ import { FaQuoteLeft, FaQuoteRight } from 'react-icons/fa';
 
 const Testimonial = () => {
   return (
-    <div className="bg-gray-100 px-4 pt-6 sm:pt-8 "> 
+    <div className="bg-gray-50 px-4 pt-6 sm:pt-8 "> 
      {/* min-h-screen */}
 
       {/* Heading near top (like under navbar) */}
@@ -42,8 +42,8 @@ const Testimonial = () => {
       </div>
 
       {/* Button below the card */}
-      <div className="flex justify-center m-9">
-        <button className="bg-[#0085DC] hover:bg-[#006fb6] text-white font-medium px-12 py-3 rounded-2xl shadow-md transition duration-300">
+      <div className="flex justify-center mt-16 mb-0">
+        <button className="bg-[#0085DC] hover:bg-[#006fb6] text-white font-medium px-12 py-3 rounded-2xl shadow-md transition duration-300 mb-4">
           view Google review
         </button>
       </div>

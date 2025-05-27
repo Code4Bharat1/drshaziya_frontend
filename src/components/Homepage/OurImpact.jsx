@@ -35,7 +35,7 @@ const OurImpact = () => {
   return (
     <div className="bg-[#f8faff] py-10 px-4 text-center">
       {/* Main Heading */}
-      <h2 className="text-4xl font-bold text-blue-900 mb-10">OUR IMPACT NUMBERS</h2>
+      <h2 className="text-4xl font-bold text-[#004979] mb-10">OUR IMPACT NUMBERS</h2>
 
       {/* Impact Cards */}
       <div className="flex flex-col md:flex-row justify-center items-center gap-8 mb-12">
@@ -56,8 +56,8 @@ const OurImpact = () => {
       </div>
 
       {/* Hospital Affiliation Section */}
-      <h3 className="text-3xl font-bold text-blue-900 mb-2">Hospital Affiliations</h3>
-      <p className="text-blue-800 font-medium mb-8">
+      <h3 className="text-4xl font-bold text-[#004979] mb-2">Hospital Affiliations</h3>
+      <p className="text-[#004979] font-medium mb-8">
         Affiliated with 7+ reputed Hospitals and Clinics in Mumbai
       </p>
 

@@ -4,7 +4,7 @@ import Link from 'next/link';
 const articles = [
   { title: 'Article-1', image: 'artical1.png', path: '/allartical/lepocrasy' },
   { title: 'Article-2', image: '/artical2.png', path: '/allartical/harnia' },
-  { title: 'Article-3', image: '/artical3.png', path: '/articles/article3' },
+  { title: 'Article-3', image: '/artical3.png', path: '/allartical/abdonomial' },
   { title: 'Article-4', image: '/artical4.png', path: '/articles/article4' },
   { title: 'Article-5', image: '/artical5.png', path: '/articles/article5' },
   { title: 'Article-6', image: '/artical6.png', path: '/articles/article6' },

@@ -1,13 +1,13 @@
-import Lepocrasy from '@/components/AllSurgery/Lepocrasy'
+import Thyroid from '@/components/AllSurgery/Thyroid'
 import Contact from '@/components/Homepage/Contact'
 import React from 'react'
 
 const page = () => {
   return (
-    <>
-<Lepocrasy/>
-<Contact/>
-</>
+  <>
+  <Thyroid/>
+  <Contact/>
+  </>
   )
 }
 

@@ -11,8 +11,8 @@ const reviews = [
 
 const Review = () => {
   return (
-    <div className="py-10 bg-white">
-      <h2 className="text-3xl font-bold text-center text-blue-900 mb-8">Reviews on Google</h2>
+    <div className="py-4 bg-[#f8f8fc]">
+      <h2 className="text-3xl font-bold text-center text-blue-900 mb-6">Reviews on Google</h2>
 
       {/* Horizontal scroll only */}
       <div
@@ -60,3 +60,57 @@ const Review = () => {
 };
 
 export default Review;
+
+
+// 'use client'
+// import React, { useEffect, useState } from 'react';
+// import axios from 'axios';
+
+// const Review = () => {
+//   const [reviews, setReviews] = useState([]);
+
+//   useEffect(() => {
+//     axios.get('https://sheetdb.io/api/v1/YOUR_API_KEY')
+//       .then((res) => {
+//         setReviews(res.data);
+//       })
+//       .catch((err) => {
+//         console.error("Error fetching reviews:", err);
+//       });
+//   }, []);
+
+//   return (
+//     <div className="py-10 bg-[#f8f8fc]">
+//       <h2 className="text-3xl font-bold text-center text-blue-900 mb-8">Reviews on Google</h2>
+//       <div className="overflow-x-auto overflow-y-hidden no-scrollbar" style={{ paddingBottom: '1rem' }}>
+//         <div className="flex space-x-6 px-6 w-max">
+//           {reviews.map((review, index) => (
+//             <div key={index} className="relative w-[240px] h-[350px] shrink-0 box-border">
+//               <div className="bg-[#FFD54F] h-20 border-b border-gray-300"></div>
+//               <div className="bg-white rounded-t-[2rem] shadow-md p-4 pt-14 -mt-8 relative z-10 h-[260px] border border-gray-300 border-t-0 flex flex-col justify-between box-border">
+//                 <div>
+//                   <h3 className="font-semibold text-gray-800 text-sm">{review.name}</h3>
+//                   <p className="text-xs text-gray-700 mt-2 line-clamp-6 overflow-hidden">{review.text}</p>
+//                 </div>
+//                 <div className="flex flex-col items-end mt-4">
+//                   <div className="flex items-center space-x-2">
+//                     <img src="/fivestar.png" alt="Stars" className="w-16 h-auto" />
+//                     <img src="/bluetick.png" alt="Blue Tick" className="w-5 h-5" />
+//                   </div>
+//                   <div className="text-xs text-gray-500 mt-1">{review.date}</div>
+//                 </div>
+//               </div>
+//               <div className="absolute top-5 left-1/2 transform -translate-x-1/2 z-20">
+//                 <div className="w-12 h-12 bg-orange-500 text-white flex items-center justify-center rounded-full text-sm font-bold">
+//                   {review.initial}
+//                 </div>
+//               </div>
+//             </div>
+//           ))}
+//         </div>
+//       </div>
+//     </div>
+//   );
+// };
+
+// export default Review;

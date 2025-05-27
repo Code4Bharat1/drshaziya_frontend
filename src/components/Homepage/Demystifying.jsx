@@ -32,10 +32,10 @@ const Demystifying = () => {
 
       {/* Right Side */}
       <div className="w-full md:w-1/2 text-center md:text-left">
-        <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-blue-900 mb-4">
+        <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-[#004979] mb-4 font-inter">
           Demystifying the Surgery experience
         </h2>
-        <p className="text-gray-700 mb-6 text-base sm:text-lg leading-relaxed">
+        <p className="text-gray-700 mb-6 text-base sm:text-lg leading-relaxed font-inter">
           Surgery may be complex, but getting the right<br />diagnosis and treatment doesn’t have to be a complex process.
           Our aim is to deliver a Seamless<br />Surgical Experience to patients and to help them heal faster.
           Consult <br />with our expert surgeon, Dr. Shazia Waghoo for more than 30+ diseases.
