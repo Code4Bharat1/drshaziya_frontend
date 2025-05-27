@@ -13,7 +13,7 @@ const Awareness3 = () => {
   return (
     <div className="bg-white pt-7 pb-16 px-4 md:px-20">
       {/* Heading */}
-      <h2 className="text-xl md:text-xl font-medium text-[#004979] mb-9 text-center leading-relaxed ml-[-30rem]">
+      <h2 className="text-xl md:text-xl font-medium text-[#004979] mb-9 text-center leading-relaxed ml-[-29rem]">
         Breast illness awareness lecture at Rizvi College, Bandra West
       </h2>
 

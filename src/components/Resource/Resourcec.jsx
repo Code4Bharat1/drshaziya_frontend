@@ -34,8 +34,8 @@ const Resource = () => {
               alt={res.title}
               className="w-full h-64 object-cover mb-4"
             />
-            <h3 className="text-lg font-semibold text-black mb-1">{res.title}</h3>
-            <p className="text-gray-700 mt-4">{res.journal}</p>
+            <h3 className="text-2xl font-bold text-black mb-1">{res.title}</h3>
+            <p className="text-gray-900 mt-4 font-bold">{res.journal}</p>
           </div>
         ))}
       </div>

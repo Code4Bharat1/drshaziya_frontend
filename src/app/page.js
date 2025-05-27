@@ -1,4 +1,5 @@
 
+import BookAppointment from "@/components/About us/bookapoinment";
 import Artical from "@/components/Homepage/Artcal";
 import Consult from "@/components/Homepage/Consult";
 import Contact from "@/components/Homepage/Contact";
@@ -29,6 +30,7 @@ export default function Home() {
 <Consult/>
 <WatchVedio/>
 <Artical/>
+<BookAppointment/>
 </>
   );
 }

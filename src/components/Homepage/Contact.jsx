@@ -3,7 +3,7 @@ import React from 'react';
 
 const Contact = () => {
   return (
-  
+  <div className="bg-gray-50 py-6 px-4">
     <div className="bg-[#0085DC] text-white rounded-xl border-4 border-[#FFD54F] p-8 flex flex-col md:flex-row items-center justify-between max-w-4xl mx-auto mt-2 mb-9 ">
       
       {/* Left Side */}
@@ -54,6 +54,7 @@ const Contact = () => {
           </div>
         </form>
       </div>
+    </div>
     </div>
 
   );

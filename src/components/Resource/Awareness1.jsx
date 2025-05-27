@@ -77,7 +77,7 @@ const Awareness1 = () => {
         <div className="border-t border-[#004979] w-full mb-10"></div>
 
         {/* Subtitle 1 */}
-        <p className="text-[#004979] font-semibold text-lg sm:text-xl mb-6">
+        <p className="text-[#004979] font-bold text-lg sm:text-xl mb-6">
           Breast cancer awareness lecture at Kokan Cooperative Bank, Mumbai
         </p>
 

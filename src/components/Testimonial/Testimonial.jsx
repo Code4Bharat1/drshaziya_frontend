@@ -15,13 +15,13 @@ const Testimonial = () => {
       <div className="flex justify-center items-start mt-6">
         <div className="relative w-full max-w-md sm:max-w-lg lg:max-w-2xl">
           {/* Yellow rotated background card */}
-          <div className="absolute inset-0 top-4 bg-[#FFD54F] rounded-3xl transform rotate-[-12deg] -translate-x-6 z-0 shadow-xl"></div>
+          <div className="absolute inset-0 top-4 bg-[#FFD54F] rounded-3xl transform rotate-[-12deg] -translate-x-6 z-0 shadow-[0_3px_2px_rgba(0,0,0,0.2)]"></div>
 
           {/* White main card */}
           <div className="relative z-10 bg-white rounded-3xl shadow-xl p-6 sm:p-8 text-gray-800">
             {/* Top-left quote icon */}
             <div className="absolute -top-5 left-6 sm:left-9 bg-[#0085DC] p-3 sm:p-4 rounded-full shadow-md">
-              <FaQuoteLeft className="text-black text-lg sm:text-xl" />
+              <FaQuoteLeft className="text-white text-lg sm:text-xl" />
             </div>
 
             <p className="text-base sm:text-lg leading-relaxed">
@@ -35,7 +35,7 @@ const Testimonial = () => {
 
             {/* Bottom-right quote icon */}
             <div className="absolute -bottom-5 right-6 sm:right-9 bg-[#0085DC] p-3 sm:p-4 rounded-full shadow-md">
-              <FaQuoteRight className="text-black text-lg sm:text-xl" />
+              <FaQuoteRight className="text-white text-lg sm:text-xl" />
             </div>
           </div>
         </div>
@@ -43,8 +43,8 @@ const Testimonial = () => {
 
       {/* Button below the card */}
       <div className="flex justify-center mt-16 mb-0">
-        <button className="bg-[#0085DC] hover:bg-[#006fb6] text-white font-medium px-12 py-3 rounded-2xl shadow-md transition duration-300 mb-4">
-          view Google review
+        <button className="bg-[#0085DC] hover:bg-[#006fb6] text-white font-medium px-9 py-3 rounded-2xl shadow-md transition duration-300 mb-4">
+          VIEW GOOGLE REVIEW
         </button>
       </div>
     </div>
