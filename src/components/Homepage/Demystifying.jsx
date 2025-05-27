@@ -2,33 +2,45 @@ import React from 'react';
 
 const Demystifying = () => {
   return (
-    <div className="flex flex-col md:flex-row items-center p-8 bg-[#f9fbfd]">
+    <div className="flex flex-col md:flex-row items-center justify-between bg-gray-50 px-6 py-12 md:px-16 gap-6">
       
-      {/* Left Side: Two normal images */}
-      <div className="flex flex-col gap-4 md:w-1/2 w-full items-center">
-        <img
-          src="/images/image1.png"
-          alt="Surgery Visual"
-          className="w-64 h-auto rounded"
-        />
-        <img
-          src="/images/image2.png"
-          alt="Doctor Shazia"
-          className="w-64 h-auto rounded"
-        />
+      {/* Left Side */}
+      <div className="relative w-full md:w-1/2 flex justify-center">
+        {/* Square image */}
+     {/* Square image with white overlay */}
+<div className="relative">
+  <img
+    src="/square.png"
+    alt="Square Background"
+    className="w-72 h-72 sm:w-80 sm:h-80 md:w-[390px] md:h-[400px] object-cover rounded-lg"
+  />
+  {/* White overlay */}
+  <div className="absolute inset-0 bg-white opacity-20 rounded-lg"></div>
+</div>
+
+        {/* Circle image centered */}
+        <div className="absolute inset-0 flex items-center justify-end">
+          <div className="w-64 h-64 sm:w-72 sm:h-72 md:w-80 md:h-80 rounded-full overflow-hidden">
+            <img
+              src="/circle.png"
+              alt="Dr. Shazia Waghoo"
+              className="w-full h-full object-cover"
+            />
+          </div>
+        </div>
       </div>
 
-      {/* Right Side: Text */}
-      <div className="md:w-1/2 w-full text-center md:text-left mt-6 md:mt-0 md:pl-10">
-        <h2 className="text-2xl font-bold text-blue-700 mb-4">
+      {/* Right Side */}
+      <div className="w-full md:w-1/2 text-center md:text-left">
+        <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-blue-900 mb-4">
           Demystifying the Surgery experience
         </h2>
-        <p className="text-gray-700 mb-4">
-          Surgery may be complex, but getting the right diagnosis and treatment doesn’t have to be a complex process.
-          Our aim is to deliver a Seamless Surgical Experience to patients and to help them heal faster.
-          Consult with our expert surgeon, Dr. Shazia Waghoo for more than 30+ diseases.
+        <p className="text-gray-700 mb-6 text-base sm:text-lg leading-relaxed">
+          Surgery may be complex, but getting the right<br />diagnosis and treatment doesn’t have to be a complex process.
+          Our aim is to deliver a Seamless<br />Surgical Experience to patients and to help them heal faster.
+          Consult <br />with our expert surgeon, Dr. Shazia Waghoo for more than 30+ diseases.
         </p>
-        <button className="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 transition">
+        <button className="bg-[#0085DC] text-white font-semibold px-6 py-3 rounded-xl hover:bg-blue-700 ">
           BOOK AN APPOINTMENT
         </button>
       </div>

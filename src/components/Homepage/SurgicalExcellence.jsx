@@ -1,3 +1,4 @@
+
 import React from 'react';
 
 const SurgicalExcellence = () => {
@@ -6,8 +7,8 @@ const SurgicalExcellence = () => {
       <div className="max-w-6xl w-full grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
 
         {/* Left Side - Text */}
-        <div className="text-center md:text-left">
-          <p className="text-[#004979] font-semibold mb-9 text-2xl ">
+        <div className="text-center md:text-left ml-6">
+          <p className="text-[#004979] font-bold mb-9 text-2xl ">
             "Redefining Surgical Excellence."
           </p>
           <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-[#4C4949] leading-snug mb-6">
@@ -23,7 +24,7 @@ const SurgicalExcellence = () => {
           <img
             src="/surgicalexellencedr.png"
             alt="Doctor"
-            className="rounded-lg shadow-lg w-[510px] h-auto object-cover"
+            className="rounded-lg shadow-lg w-[450px] h-auto object-cover"
           />
 
           {/* WhatsApp & Phone Icons */}
@@ -52,3 +53,4 @@ const SurgicalExcellence = () => {
 };
 
 export default SurgicalExcellence;
+

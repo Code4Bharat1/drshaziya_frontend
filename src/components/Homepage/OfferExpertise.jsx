@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import React from 'react';
 
 const expertiseData = [
@@ -60,12 +60,14 @@ const OfferExpertise = () => {
       </h2>
 
       {/* Scrollable Row with Hidden Scrollbar */}
-      <div className="overflow-x-auto scrollbar-hide px-4">
-        <div className="flex gap-6 w-max pb-4">
+      <div className="overflow-x-auto scrollbar-hide">
+        <div className="flex gap-16 w-max pb-4">
           {expertiseData.map((item, index) => (
             <div
               key={index}
-              className="bg-white border rounded-xl shadow-md w-80 h-[340px] flex-shrink-0 flex flex-col justify-between p-6 text-center"
+              className={`bg-white shadow-[0_3px_2px_rgba(0,0,0,0.3)] border border-[#C3C3C3] rounded-xl w-80 h-[310px] flex-shrink-0 flex flex-col justify-between p-6 text-center ${
+                index === 0 ? 'ml-4' : ''
+              }`}
             >
               <div>
                 <div className="w-16 h-16 rounded-full bg-[#74C4F9] mx-auto mb-4 flex items-center justify-center">
@@ -75,15 +77,14 @@ const OfferExpertise = () => {
                     className="w-10 h-10 object-contain"
                   />
                 </div>
-                <h3 className="text-lg font-semibold text-blue-900 mb-2">
+                <h3 className="text-lg font-semibold text-[#000000] mb-2">
                   {item.title}
                 </h3>
-                <p className="text-gray-600 text-sm">{item.description}</p>
+                <p className="text-[#000000] text-sm">{item.description}</p>
               </div>
-             <button className="bg-blue-600 text-white text-xs px-3 py-1.5 rounded-md hover:bg-blue-700 mt-4 mx-auto block">
-  KNOW MORE
-</button>
-
+              <button className=" shadow-[0_3px_2px_rgba(0,0,0,0.3)] bg-[#0085DC] text-white text-xs px-6 py-3 rounded-xl hover:bg-blue-500 mt-5 mx-auto block">
+                KNOW MORE
+              </button>
             </div>
           ))}
         </div>
@@ -104,4 +105,6 @@ const OfferExpertise = () => {
 };
 
 export default OfferExpertise;
+
+
 

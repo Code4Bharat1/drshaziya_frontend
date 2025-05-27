@@ -1,3 +1,4 @@
+
 import React from 'react';
 
 const Seasoned = () => {
@@ -29,7 +30,7 @@ const Seasoned = () => {
           <p className="text-gray-800  text-xl mb-3">
             Dr. Shazia Waghoo is a skilled Laparoscopic, Hernia, and <br /> Breast Surgeon based in Mumbai with <strong>over 10 years</strong> of <br /> experience. She is known for minimally invasive <br /> techniques and a strong patient-focused approach. Dr. <br /> Waghoo actively <strong>promotes cancer and health awareness <br /> </strong> through camps and educational sessions. Her expertise, <br /> surgical care, and commitment to patient recovery <br /> make her highly recommended.
           </p>
-          <button className="bg-[#0085DC] hover:bg-blue-500 text-white px-6 py-3 rounded-md transition duration-200">
+          <button className="bg-[#0085DC] hover:bg-blue-500 text-white px-6 py-3 rounded-md transition duration-200 mt-7 mb-7">
             BOOK AN APPOINTMENT
           </button>
         </div>

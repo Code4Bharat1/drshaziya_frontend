@@ -1,0 +1,55 @@
+import React from 'react';
+import { FaQuoteLeft, FaQuoteRight } from 'react-icons/fa';
+
+const Testimonial = () => {
+  return (
+    <div className="bg-gray-100 px-4 pt-6 sm:pt-8 "> 
+     {/* min-h-screen */}
+
+      {/* Heading near top (like under navbar) */}
+      <h2 className="text-2xl sm:text-3xl font-semibold text-gray-800 text-center">
+        Testimonial
+      </h2>
+
+      {/* Card section */}
+      <div className="flex justify-center items-start mt-6">
+        <div className="relative w-full max-w-md sm:max-w-lg lg:max-w-2xl">
+          {/* Yellow rotated background card */}
+          <div className="absolute inset-0 top-4 bg-[#FFD54F] rounded-3xl transform rotate-[-12deg] -translate-x-6 z-0 shadow-xl"></div>
+
+          {/* White main card */}
+          <div className="relative z-10 bg-white rounded-3xl shadow-xl p-6 sm:p-8 text-gray-800">
+            {/* Top-left quote icon */}
+            <div className="absolute -top-5 left-6 sm:left-9 bg-[#0085DC] p-3 sm:p-4 rounded-full shadow-md">
+              <FaQuoteLeft className="text-black text-lg sm:text-xl" />
+            </div>
+
+            <p className="text-base sm:text-lg leading-relaxed">
+              “I cannot express enough gratitude for the exceptional care my mother received from Dr. Shazia Waghoo.
+              From the very first consultation to the successful operation, Dr. Shazia demonstrated unparalleled
+              professionalism and genuine compassion. Her expertise and attention to detail put me at ease, and the
+              operation was a resounding success. We felt well-informed and supported throughout the entire process.
+              Even the post op procedures were smooth as ever. I highly recommend Dr. Shazia for anyone seeking a skilled,
+              caring and a dedicated surgeon. Thank you for everything you’ve done for us!”
+            </p>
+
+            {/* Bottom-right quote icon */}
+            <div className="absolute -bottom-5 right-6 sm:right-9 bg-[#0085DC] p-3 sm:p-4 rounded-full shadow-md">
+              <FaQuoteRight className="text-black text-lg sm:text-xl" />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* Button below the card */}
+      <div className="flex justify-center m-9">
+        <button className="bg-[#0085DC] hover:bg-[#006fb6] text-white font-medium px-12 py-3 rounded-2xl shadow-md transition duration-300">
+          view Google review
+        </button>
+      </div>
+    </div>
+  );
+};
+
+export default Testimonial;
+

@@ -1,42 +1,45 @@
 
 import React from 'react';
 
+const cardData = [
+  {
+    title: 'Experienced Doctor in Minimally-Invasive Surgery',
+    description:
+      'Our brand is well-regarded in the medical community for its accurate diagnosis and precise surgical care, specializing in advanced laser and laparoscopic treatments.',
+  },
+  {
+    title: 'Approachable & Available to Consult at Multiple Locations',
+    description:
+      'We offer advanced surgical care across multiple locations with follow-up consultations. Our approach ensures optimal treatment plans and full post-op support for a fast recovery.',
+  },
+  {
+    title: 'Cashless Facilities &\nRehabilitation Services Available',
+    description:
+      'We support you through your entire surgical journey—from pre-surgery onboarding and insurance to scheduling and post-op care. Our goal is to ensure a smooth, stress-free experience and full recovery.',
+  },
+];
+
 const Consult = () => {
   return (
-    <div className="bg-white py-10 px-4 sm:px-6 lg:px-8">
-      <h2 className="text-2xl sm:text-3xl font-semibold text-center text-[#004979] mb-10">
+    <div className="bg-white py-12 px-4 sm:px-8 md:px-12 lg:px-20 xl:px-32">
+      <h2 className="text-3xl font-semibold text-center text-[#004979] mb-12">
         Why you should Consult Dr. Shazia Waghoo
       </h2>
-      <div className="flex flex-col md:flex-row justify-center gap-6">
-        {/* Card 1 */}
-        <div className="bg-white border rounded-lg shadow p-4 w-[300px] h-[200px]">
-          <h3 className="text-sm font-bold text-gray-800 mb-2">
-            Experienced Doctor in Minimally-Invasive Surgery
-          </h3>
-          <p className="text-sm text-gray-600">
-            Our brand is well-regarded in the medical community for its accurate diagnosis and precise surgical care, specializing in advanced laser and laparoscopic treatments.
-          </p>
-        </div>
 
-        {/* Card 2 */}
-        <div className="bg-white border rounded-lg shadow p-4 w-[300px] h-[200px]">
-          <h3 className="text-sm font-bold text-gray-800 mb-2">
-            Approachable & Available to Consult at Multiple Locations
-          </h3>
-          <p className="text-sm text-gray-600">
-            We offer advanced surgical care across multiple locations with follow-up consultations. Our approach ensures optimal treatment plans and full post-op support for a fast recovery.
-          </p>
-        </div>
-
-        {/* Card 3 */}
-        <div className="bg-white border rounded-lg shadow p-4 w-[300px] h-[200px]">
-          <h3 className="text-sm font-bold text-gray-800 mb-2">
-            Cashless Facilities & Rehabilitation Services Available
-          </h3>
-          <p className="text-sm text-gray-600">
-            We support you through your entire surgical journey—from pre-surgery onboarding and insurance to scheduling and post-op care. Our goal is to ensure a smooth, stress-free experience and full recovery.
-          </p>
-        </div>
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 place-items-center">
+        {cardData.map((card, index) => (
+          <div
+            key={index}
+            className="bg-white border rounded-xl shadow p-6 w-full max-w-[360px] min-h-[280px] flex flex-col"
+          >
+            <h3 className="text-lg font-semibold text-[#000000] mb-4 whitespace-pre-line">
+              {card.title}
+            </h3>
+            <p className="text-md text-[#000000] leading-relaxed flex-grow">
+              {card.description}
+            </p>
+          </div>
+        ))}
       </div>
     </div>
   );

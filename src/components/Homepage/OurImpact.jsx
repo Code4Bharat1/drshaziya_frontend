@@ -62,14 +62,14 @@ const OurImpact = () => {
       </p>
 
      {/* Scrolling Logos */}
-      <div className="overflow-hidden ">
+      <div className="overflow-hidden  ">
         <div className="flex whitespace-nowrap animate-scroll-horizontal">
           {[...logos, ...logos].map((logo, index) => (
             <img
               key={index}
               src={logo}
               alt={`Hospital logo ${index + 1}`}
-              className="w-24 h-24 object-contain rounded-full border p-2 bg-white shadow mx-4"
+              className="w-24 h-24 object-contain rounded-full border-2 p-2 bg-white shadow-[0_3px_2px_rgba(0,0,0,0.4)] mx-4 m-5 "
             />
           ))}
         </div>
@@ -95,3 +95,4 @@ const OurImpact = () => {
 };
 
 export default OurImpact;
+

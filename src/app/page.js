@@ -1,4 +1,5 @@
 
+import Artical from "@/components/Homepage/Artcal";
 import Consult from "@/components/Homepage/Consult";
 import Contact from "@/components/Homepage/Contact";
 import Demystifying from "@/components/Homepage/Demystifying";
@@ -10,6 +11,7 @@ import Review from "@/components/Homepage/Review";
 
 import Seasoned from "@/components/Homepage/Seasoned";
 import SurgicalExcellence from "@/components/Homepage/SurgicalExcellence";
+import WatchVedio from "@/components/Homepage/WatchVedio";
 import Image from "next/image";
 
 export default function Home() {
@@ -23,7 +25,10 @@ export default function Home() {
 <MissionVission/>
 <Review/>
 <Contact/>
+<Demystifying/>
 <Consult/>
+<WatchVedio/>
+<Artical/>
 </>
   );
 }

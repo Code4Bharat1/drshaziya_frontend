@@ -3,7 +3,7 @@ import React from 'react';
 
 const Contact = () => {
   return (
-    <div className="bg-[#0288D1] text-white rounded-xl border-2 border-yellow-400 p-8 flex flex-col md:flex-row items-center justify-between max-w-6xl mx-auto mt-10 shadow-lg">
+    <div className="bg-[#0085DC] text-white rounded-xl border-4 border-[#FFD54F] p-8 flex flex-col md:flex-row items-center justify-between max-w-4xl mx-auto mt-3 mb-3 shadow-lg">
       
       {/* Left Side */}
       <div className="md:w-1/2 mb-8 md:mb-0 md:pr-6">
@@ -29,17 +29,17 @@ const Contact = () => {
           <input
             type="text"
             placeholder="Your Name"
-            className="shadow-[0_3px_2px_rgba(0,0,0,0.3)] shadow-gray-200 p-3 border border-gray-300 border-1 rounded-xl  focus:outline-none focus:ring-2"
+            className="shadow-[0_3px_2px_rgba(0,0,0,0.4)] shadow-[#C3C3C3] p-3 border border-gray-300 border-1 rounded-xl  focus:outline-none focus:ring-2"
           />
           <input
             type="email"
             placeholder="Your Email"
-            className="p-3 border border-gray-300 rounded-xl shadow-[0_3px_2px_rgba(0,0,0,0.3)] shadow-gray-200 focus:outline-none focus:ring-2 "
+            className="p-3 border border-gray-300 rounded-xl  shadow-[0_3px_2px_rgba(0,0,0,0.4)] shadow-[#C3C3C3] focus:outline-none focus:ring-2 "
           />
           <input
             type="text"
             placeholder="Mobile Number"
-            className="p-3 border border-gray-300 rounded-xl shadow-[0_3px_2px_rgba(0,0,0,0.3)] shadow-gray-200 focus:outline-none focus:ring-2 focus:ring-blue-400"
+            className="p-3 border border-gray-300 rounded-xl shadow-[0_3px_2px_rgba(0,0,0,0.4)] shadow-[#C3C3C3] focus:outline-none focus:ring-2 focus:ring-blue-400"
           />
 
           {/* Left-aligned small button */}
@@ -58,3 +58,4 @@ const Contact = () => {
 };
 
 export default Contact;
+
