@@ -27,7 +27,7 @@ const Footer = () => {
             <ul className="space-y-2 lg:space-y-3 text-sm lg:text-base text-white">
               <li>
                 <a 
-                  href="#about" 
+                  href="/aboutus" 
                   className="hover:text-yellow-300 transition-colors duration-200 inline-flex items-center"
                 >
                   <span className="mr-2">•</span> 
@@ -36,7 +36,7 @@ const Footer = () => {
               </li>
               <li>
                 <a 
-                  href="#specialities" 
+                  href="/specialiest" 
                   className="hover:text-yellow-300 transition-colors duration-200 inline-flex items-center"
                 >
                   <span className="mr-2">•</span> 
@@ -45,7 +45,7 @@ const Footer = () => {
               </li>
               <li>
                 <a 
-                  href="#testimonials" 
+                  href="/testimonial" 
                   className="hover:text-yellow-300 transition-colors duration-200 inline-flex items-center"
                 >
                   <span className="mr-2">•</span> 
@@ -63,7 +63,7 @@ const Footer = () => {
             <ul className="space-y-2 lg:space-y-3 text-sm lg:text-base text-white">
               <li>
                 <a 
-                  href="#appointment" 
+                  href="/#" 
                   className="hover:text-yellow-300 transition-colors duration-200 inline-flex items-center"
                 >
                   <span className="mr-2">•</span> 
@@ -72,7 +72,7 @@ const Footer = () => {
               </li>
               <li>
                 <a 
-                  href="#articles" 
+                  href="/" 
                   className="hover:text-yellow-300 transition-colors duration-200 inline-flex items-center"
                 >
                   <span className="mr-2">•</span> 
@@ -131,7 +131,7 @@ const Footer = () => {
               <div className="bg-white rounded-full p-1.5 lg:p-2 shadow-lg hover:scale-110 transition-transform duration-200 flex-shrink-0">
                 <a href="#" target="_blank" rel="noopener noreferrer">
                   <img 
-                    src="/icon-facebook.webp" 
+                    src="/icon-facebook.png" 
                     alt="Facebook" 
                     className="w-5 h-5 lg:w-6 lg:h-6" 
                   />
@@ -168,13 +168,13 @@ const Footer = () => {
           <div className="border-t border-white/30 w-full mb-4 lg:mb-6"></div>
           
           {/* Copyright Text */}
-          <div className="text-center text-xs sm:text-bold lg:text-base text-white/200 font-medium px-2">
+          <div className="text-center text-xs sm:text-bold lg:text-base text-white/800 font-medium px-2">
            
               Copyright © {new Date().getFullYear()} drshaziawaghoosurgery.com
             
             <div className="mt-1 lg:mt-0 lg:inline">
               <span className="hidden lg:inline mx-1">|</span>
-              <span>Designed by MarketiqJunction</span>
+              <span>Designed by Code4Bharat</span>
             </div>
           </div>
         </div>
