@@ -1,59 +1,125 @@
 import React from 'react';
+import Image from 'next/image';
+
+const abdominalWallContent = [
+  {
+    section: 'Header',
+    title: 'Abdominal Wall Reconstruction Surgery',
+    image: {
+      src: '/abdominalwall.jpg',
+      alt: 'Abdominal Wall Reconstruction Surgery',
+      width: 1200,
+      height: 300,
+    },
+  },
+  {
+    section: 'Introduction',
+    heading: 'Abdominal Wall Reconstruction Surgery',
+    content: [
+      'Abdominal Wall Reconstruction Surgery is a complex procedure aimed at repairing and strengthening the abdominal wall. It involves the use of surgical techniques to reconstruct areas weakened by hernias, infections, or prior surgeries. The surgery helps restore core strength and stability.',
+      'By combining hernia surgery with cosmetic techniques, this surgery allows better closure of the abdominal site, reducing tension and improving the patient’s quality of life.',
+    ],
+  },
+  {
+    section: 'When Doctors Advise',
+    heading: 'When do Doctors Advise Abdominal Wall Reconstruction Surgery?',
+    description:
+      'Abdominal wall reconstruction is often indicated for several conditions, including:',
+    list: [
+      {
+        title: 'Recurrent Hernias',
+        detail: 'When hernias reappear after a previous surgery.',
+      },
+      {
+        title: 'Infected Mesh',
+        detail: 'In cases where mesh used in a prior repair gets infected or fails.',
+      },
+      {
+        title: 'Ventral Incisional Hernias',
+        detail: 'Weakness or bulging at the site of a surgical incision.',
+      },
+      {
+        title: 'Trauma Cases',
+        detail: 'Injury to the abdominal wall from accidents or wounds.',
+      },
+      {
+        title: 'Complex Hernias',
+        detail: 'Large, multiple, or complicated hernias that need extensive reconstruction.',
+      },
+    ],
+  },
+  {
+    section: 'Conditions Treated',
+    heading:
+      'What are some Conditions Treated with Abdominal Wall Reconstruction Surgery?',
+    description:
+      'Abdominal wall reconstruction surgery treats conditions like large or recurrent hernias as well as structural defects. It’s also beneficial in cases of:',
+    list: [
+      'Hernia mesh complications',
+      'Infection in previous surgical repairs',
+      'Weakened abdominal muscles',
+      'Chronic abdominal wall separation (diastasis recti)',
+      'Trauma from accidents or repeated surgeries',
+    ],
+  },
+];
 
 const AbdominalWall = () => {
   return (
+     <div className="mt-24">
     <div className="bg-white p-6 md:p-10 max-w-5xl mx-auto font-sans text-gray-800">
       {/* Header Image */}
       <div className="relative rounded-lg overflow-hidden shadow-md">
-        <img src="/abdominal-wall.jpg" alt="Abdominal Wall Reconstruction Surgery" className="w-full h-60 object-cover" />
-        <div className="absolute top-7 left-4 text-black text-2xl font-semibold  bg-opacity-50 px-4 py-2 rounded">
-          Abdominal Wall Reconstruction Surgery
+        <Image
+          src={abdominalWallContent[0].image.src}
+          alt={abdominalWallContent[0].image.alt}
+          width={abdominalWallContent[0].image.width}
+          height={abdominalWallContent[0].image.height}
+          className="w-full h-60 object-cover"
+        />
+        <div className="absolute top-7 left-4 text-white text-4xl font-semibold bg-opacity-50 px-4 py-2 rounded">
+          {abdominalWallContent[0].title}
         </div>
       </div>
 
-      {/* Introduction */}
-      <div className="mt-6">
-        <h2 className="text-xl md:text-2xl font-bold text-gray-900 mb-2">Abdominal Wall Reconstruction Surgery</h2>
-        <p className="text-sm md:text-base leading-relaxed">
-          Abdominal Wall Reconstruction Surgery is a complex procedure aimed at repairing and strengthening the abdominal wall. It involves the use of surgical techniques to reconstruct areas weakened by hernias, infections, or prior surgeries. The surgery helps restore core strength and stability.
-          <br />
-          By combining hernia surgery with cosmetic techniques, this surgery allows better closure of the abdominal site, reducing tension and improving the patient’s quality of life.
-        </p>
-      </div>
+      {/* Other Sections */}
+      {abdominalWallContent.slice(1).map((section, index) => (
+        <div key={index} className="mt-6">
+          <h2 className="text-xl md:text-2xl font-bold text-gray-900 mb-2">
+            {section.heading}
+          </h2>
 
-      {/* When Do Doctors Advise */}
-      <div className="mt-6">
-        <h2 className="text-xl md:text-2xl font-bold text-gray-900 mb-2">
-          When do Doctors Advise Abdominal Wall Reconstruction Surgery?
-        </h2>
-        <p className="text-sm md:text-base leading-relaxed mb-2">
-          Abdominal wall reconstruction is often indicated for several conditions, including:
-        </p>
-        <ul className="list-disc list-inside text-sm md:text-base leading-relaxed space-y-1">
-          <li><strong>Recurrent Hernias:</strong> When hernias reappear after a previous surgery.</li>
-          <li><strong>Infected Mesh:</strong> In cases where mesh used in a prior repair gets infected or fails.</li>
-          <li><strong>Ventral Incisional Hernias:</strong> Weakness or bulging at the site of a surgical incision.</li>
-          <li><strong>Trauma Cases:</strong> Injury to the abdominal wall from accidents or wounds.</li>
-          <li><strong>Complex Hernias:</strong> Large, multiple, or complicated hernias that need extensive reconstruction.</li>
-        </ul>
-      </div>
+          {section.content &&
+            section.content.map((para, idx) => (
+              <p key={idx} className="text-sm md:text-base leading-relaxed mb-2">
+                {para}
+              </p>
+            ))}
 
-      {/* Conditions Treated */}
-      <div className="mt-6">
-        <h2 className="text-xl md:text-2xl font-bold text-gray-900 mb-2">
-          What are some Conditions Treated with Abdominal Wall Reconstruction Surgery?
-        </h2>
-        <p className="text-sm md:text-base leading-relaxed">
-          Abdominal wall reconstruction surgery treats conditions like large or recurrent hernias as well as structural defects. It’s also beneficial in cases of:
-        </p>
-        <ul className="list-disc list-inside text-sm md:text-base leading-relaxed space-y-1 mt-2">
-          <li>Hernia mesh complications</li>
-          <li>Infection in previous surgical repairs</li>
-          <li>Weakened abdominal muscles</li>
-          <li>Chronic abdominal wall separation (diastasis recti)</li>
-          <li>Trauma from accidents or repeated surgeries</li>
-        </ul>
-      </div>
+          {section.description && (
+            <p className="text-sm md:text-base leading-relaxed mb-2">
+              {section.description}
+            </p>
+          )}
+
+          {section.list && Array.isArray(section.list) && typeof section.list[0] === 'object' ? (
+            <ul className="list-disc list-inside text-sm md:text-base leading-relaxed space-y-1">
+              {section.list.map((item, i) => (
+                <li key={i}>
+                  <strong>{item.title}:</strong> {item.detail}
+                </li>
+              ))}
+            </ul>
+          ) : section.list ? (
+            <ul className="list-disc list-inside text-sm md:text-base leading-relaxed space-y-1 mt-2">
+              {section.list.map((item, i) => (
+                <li key={i}>{item}</li>
+              ))}
+            </ul>
+          ) : null}
+        </div>
+      ))}
+    </div>
     </div>
   );
 };
