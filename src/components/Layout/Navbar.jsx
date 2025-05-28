@@ -6,12 +6,12 @@ const Navbar = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
   const navigationItems = [
-    { name: "HOME", href: "#home", active: true },
-    { name: "ABOUT US", href: "#about", active: false },
-    { name: "SPECIALITIES", href: "#specialities", active: false },
-    { name: "TESTIMONIALS & MEDIA", href: "#testimonials", active: false },
-    { name: "RESOURCES", href: "#resources", active: false },
-    { name: "CONTACT US", href: "#contact", active: false },
+    { name: "HOME", href: "/", active: true },
+    { name: "ABOUT US", href: "/aboutus", active: false },
+    { name: "SPECIALITIES", href: "/specialiest", active: false },
+    { name: "TESTIMONIALS & MEDIA", href: "/testimonial", active: false },
+    { name: "RESOURCES", href: "/resource", active: false },
+    { name: "CONTACT US", href: "/contactus", active: false },
   ];
 
   return (

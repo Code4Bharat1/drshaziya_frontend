@@ -10,7 +10,9 @@ const page = () => {
   return (
     <div>
       <WhatsAppButton />
+       <div className="mt-20">
       <Hernia />
+      </div>
       <Conference/>
       <Recognitions/>
 
