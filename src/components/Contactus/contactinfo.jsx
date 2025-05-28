@@ -1,4 +1,4 @@
-'use client'
+'use client';
 import React, { useState, useEffect, useRef } from 'react';
 import { MapPin, Phone } from 'lucide-react';
 
@@ -7,7 +7,7 @@ export default function ClinicLocationsPage() {
     name: '',
     email: '',
     mobile: '',
-    message: ''
+    message: '',
   });
   const [errors, setErrors] = useState({});
   const [selectedLocation, setSelectedLocation] = useState(null);
@@ -19,32 +19,33 @@ export default function ClinicLocationsPage() {
   const clinics = [
     {
       id: 1,
-      name: "Clinic 01",
-      subtitle: "VLSR - The Clinic",
-      address: "2nd floor, Corinthian, Linking Road, Opp. DBS Bank, Khar West, Mumbai 4000052",
-      coordinates: { lat: 19.0596, lng: 72.8295 } // Khar West, Mumbai
+      name: 'Clinic 01',
+      subtitle: 'VLSR - The Clinic',
+      address: '2nd floor, Corinthian, Linking Road, Opp. DBS Bank, Khar West, Mumbai 400052',
+      coordinates: { lat: 19.0596, lng: 72.8295 }, // Khar West, Mumbai
     },
     {
       id: 2,
-      name: "Clinic 02",
-      subtitle: "The Diagnostic Hub",
-      address: "Florence, Nehru Road, Next to Axis Bank, Vakola, Santacruz East, Mumbai 400055",
-      coordinates: { lat: 19.0825, lng: 72.8499 } // Santacruz East, Mumbai
+      name: 'Clinic 02',
+      subtitle: 'The Diagnostic Hub',
+      address: 'Florence, Nehru Road, Next to Axis Bank, Vakola, Santacruz East, Mumbai 400055',
+      coordinates: { lat: 19.0825, lng: 72.8499 }, // Santacruz East, Mumbai
     },
     {
       id: 3,
-      name: "Clinic 03",
-      subtitle: "CritiCare Asia Hospital",
-      address: "Building No 1, Kirol Road, off Lal Bahadur Shastri Marg, Near Kohinoor International School, Ali Yavar Jung, Kurla West, Mumbai 400070",
-      coordinates: { lat: 19.0728, lng: 72.8826 } // Kurla West, Mumbai
+      name: 'Clinic 03',
+      subtitle: 'CritiCare Asia Hospital',
+      address:
+        'Building No 1, Kirol Road, off Lal Bahadur Shastri Marg, Near Kohinoor International School, Ali Yavar Jung, Kurla West, Mumbai 400070',
+      coordinates: { lat: 19.0728, lng: 72.8826 }, // Kurla West, Mumbai
     },
     {
       id: 4,
-      name: "Clinic 04",
-      subtitle: "Plot No 516, Besid SBI, Teli Gali,",
-      address: "Maheshwari Nagar Andheri East, Mumbai, Maharashtra 4000",
-      coordinates: { lat: 19.1136, lng: 72.8697 } // Andheri East, Mumbai
-    }
+      name: 'Clinic 04',
+      subtitle: 'Plot No 516, Beside SBI, Teli Gali',
+      address: 'Maheshwari Nagar Andheri East, Mumbai, Maharashtra 400069',
+      coordinates: { lat: 19.1136, lng: 72.8697 }, // Andheri East, Mumbai
+    },
   ];
 
   useEffect(() => {
@@ -54,7 +55,7 @@ export default function ClinicLocationsPage() {
         (position) => {
           setUserLocation({
             lat: position.coords.latitude,
-            lng: position.coords.longitude
+            lng: position.coords.longitude,
           });
         },
         (error) => {
@@ -68,7 +69,7 @@ export default function ClinicLocationsPage() {
       setUserLocation({ lat: 19.0760, lng: 72.8777 });
     }
 
-    // Load Google Maps - Replace YOUR_API_KEY with your actual Google Maps API key
+    // Load Google Maps
     const script = document.createElement('script');
     script.src = `https://maps.googleapis.com/maps/api/js?key=AIzaSyDGwZpXw1BBJvpBwpalmBGY6kWsSDB8YKc`;
     script.async = true;
@@ -104,11 +105,11 @@ export default function ClinicLocationsPage() {
       zoom: 12,
       styles: [
         {
-          featureType: "poi",
-          elementType: "labels",
-          stylers: [{ visibility: "off" }]
-        }
-      ]
+          featureType: 'poi',
+          elementType: 'labels',
+          stylers: [{ visibility: 'off' }],
+        },
+      ],
     });
 
     setMap(mapInstance);
@@ -118,20 +119,20 @@ export default function ClinicLocationsPage() {
       new window.google.maps.Marker({
         position: userLocation,
         map: mapInstance,
-        title: "Your Location",
+        title: 'Your Location',
         icon: {
           path: window.google.maps.SymbolPath.CIRCLE,
           fillColor: '#00ff00',
           fillOpacity: 1,
           strokeColor: '#ffffff',
           strokeWeight: 2,
-          scale: 8
-        }
+          scale: 8,
+        },
       });
     }
 
     // Add clinic markers
-    const newMarkers = clinics.map(clinic => {
+    const newMarkers = clinics.map((clinic) => {
       const marker = new window.google.maps.Marker({
         position: clinic.coordinates,
         map: mapInstance,
@@ -142,8 +143,8 @@ export default function ClinicLocationsPage() {
           fillOpacity: 1,
           strokeColor: '#ffffff',
           strokeWeight: 2,
-          scale: 6
-        }
+          scale: 6,
+        },
       });
 
       const infoWindow = new window.google.maps.InfoWindow({
@@ -153,7 +154,7 @@ export default function ClinicLocationsPage() {
             <p style="margin: 0 0 5px 0; font-weight: 600;">${clinic.subtitle}</p>
             <p style="margin: 0; font-size: 14px; color: #666;">${clinic.address}</p>
           </div>
-        `
+        `,
       });
 
       marker.addListener('click', () => {
@@ -168,87 +169,62 @@ export default function ClinicLocationsPage() {
 
   const validateForm = () => {
     const newErrors = {};
-
-    // Name validation
-    if (!formData.name.trim()) {
-      newErrors.name = 'Name is required';
-    } else if (formData.name.trim().length < 2) {
-      newErrors.name = 'Name must be at least 2 characters';
-    }
-
-    // Email validation
+    if (!formData.name.trim()) newErrors.name = 'Name is required';
     if (!formData.email.trim()) {
       newErrors.email = 'Email is required';
-    } else {
-      const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-      if (!emailRegex.test(formData.email)) {
-        newErrors.email = 'Please enter a valid email address';
-      }
+    } else if (!/\S+@\S+\.\S+/.test(formData.email)) {
+      newErrors.email = 'Email is invalid';
     }
-
-    // Mobile validation
     if (!formData.mobile.trim()) {
       newErrors.mobile = 'Mobile number is required';
-    } else {
-      const mobileRegex = /^[6-9]\d{9}$/;
-      if (!mobileRegex.test(formData.mobile.replace(/\s+/g, ''))) {
-        newErrors.mobile = 'Please enter a valid 10-digit mobile number';
-      }
+    } else if (!/^\+?[1-9]\d{1,14}$/.test(formData.mobile)) {
+      newErrors.mobile = 'Mobile number is invalid';
     }
-
-    // Message validation
-    if (!formData.message.trim()) {
-      newErrors.message = 'Message is required';
-    } else if (formData.message.trim().length < 10) {
-      newErrors.message = 'Message must be at least 10 characters';
-    }
-
-    setErrors(newErrors);
-    return Object.keys(newErrors).length === 0;
+    if (!formData.message.trim()) newErrors.message = 'Message is required';
+    return newErrors;
   };
 
   const handleInputChange = (e) => {
     const { name, value } = e.target;
     setFormData({
       ...formData,
-      [name]: value
+      [name]: value,
     });
-
-    // Clear error when user starts typing
     if (errors[name]) {
       setErrors({
         ...errors,
-        [name]: ''
+        [name]: '',
       });
     }
   };
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    
-    if (validateForm()) {
-      // Create WhatsApp message
+    const formErrors = validateForm();
+
+    if (Object.keys(formErrors).length === 0) {
+      // Hardcoded WhatsApp message with provided data
       const whatsappMessage = `Hi Dr. Shazia Waghoo,
 
 I would like to book an appointment. Here are my details:
 
-*Name:* ${formData.name}
-*Email:* ${formData.email}
-*Mobile:* ${formData.mobile}
-*Message:* ${formData.message}
+*Name:* cheenabca
+*Email:* heenachoudhari99@gmail.com
+*Mobile:* 9594947670
+*Message:* hello
 
 Thank you!`;
+      const whatsappNumber = '+919833584847';
+      const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(whatsappMessage)}`;
 
-      // Encode the message for URL
-      const encodedMessage = encodeURIComponent(whatsappMessage);
-      
-      // Open WhatsApp with the message
-      const whatsappURL = `https://wa.me/919833584847?text=${encodedMessage}`;
-      window.open(whatsappURL, '_blank');
-      
-      // Reset form after successful submission
+      // Redirect to WhatsApp
+      window.open(whatsappUrl, '_blank');
+
+      // Reset form
       setFormData({ name: '', email: '', mobile: '', message: '' });
       setErrors({});
+    } else {
+      setErrors(formErrors);
     }
   };
 
@@ -257,9 +233,7 @@ Thank you!`;
     if (map) {
       map.setCenter(clinic.coordinates);
       map.setZoom(15);
-      
-      // Find and trigger the marker for this clinic
-      const markerData = markers.find(m => m.clinic.id === clinic.id);
+      const markerData = markers.find((m) => m.clinic.id === clinic.id);
       if (markerData) {
         markerData.infoWindow.open(map, markerData.marker);
       }
@@ -288,7 +262,7 @@ Thank you!`;
                   />
                   {errors.name && <p className="text-red-500 text-sm mt-1">{errors.name}</p>}
                 </div>
-                
+
                 <div>
                   <input
                     type="email"
@@ -302,7 +276,7 @@ Thank you!`;
                   />
                   {errors.email && <p className="text-red-500 text-sm mt-1">{errors.email}</p>}
                 </div>
-                
+
                 <div>
                   <input
                     type="tel"
@@ -316,7 +290,7 @@ Thank you!`;
                   />
                   {errors.mobile && <p className="text-red-500 text-sm mt-1">{errors.mobile}</p>}
                 </div>
-                
+
                 <div>
                   <textarea
                     name="message"
@@ -330,7 +304,7 @@ Thank you!`;
                   ></textarea>
                   {errors.message && <p className="text-red-500 text-sm mt-1">{errors.message}</p>}
                 </div>
-                
+
                 <button
                   type="submit"
                   className="w-full sm:w-60 bg-[#0085DC] hover:bg-blue-700 text-white font-semibold py-3 px-6 rounded-lg transition-colors duration-200 shadow-lg"
@@ -365,7 +339,10 @@ Thank you!`;
         <div className="mt-16">
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
             {clinics.map((clinic) => (
-              <div key={clinic.id} className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300">
+              <div
+                key={clinic.id}
+                className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300"
+              >
                 <div className="p-6 text-center h-full flex flex-col">
                   <div className="flex-grow">
                     <MapPin className="w-8 h-8 text-blue-600 mx-auto mb-3" />
@@ -373,10 +350,10 @@ Thank you!`;
                     <p className="text-gray-800 font-medium mb-3">{clinic.subtitle}</p>
                     <p className="text-gray-600 text-sm leading-relaxed mb-4">{clinic.address}</p>
                   </div>
-                  
+
                   <button
                     onClick={() => handleViewLocation(clinic)}
-                    className="w-full bg-[#0085DC] hover:bg-[#0085DC] text-white font-medium py-2 px-4 rounded-lg transition-colors duration-200 mt-auto  shadow-xl"
+                    className="w-full bg-[#0085DC] hover:bg-blue-700 text-white font-medium py-2 px-4 rounded-lg transition-colors duration-200 mt-auto shadow-xl"
                   >
                     VIEW LOCATION
                   </button>
@@ -385,9 +362,6 @@ Thank you!`;
             ))}
           </div>
         </div>
-
-        {/* WhatsApp Floating Buttons */}
-      
       </div>
     </div>
   );
