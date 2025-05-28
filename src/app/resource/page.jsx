@@ -1,4 +1,5 @@
 import Artical from '@/components/Homepage/Artcal'
+import WhatsAppButton from '@/components/Layout/whatsappbutton'
 import Awareness1 from '@/components/Resource/Awareness1'
 
 import Awareness3 from '@/components/Resource/Awareness3'
@@ -10,6 +11,7 @@ import React from 'react'
 const page = () => {
   return (
     <>
+    <WhatsAppButton/>
     <Resource/>
     <SocialWork/>
     <Awareness1/>

@@ -16,50 +16,50 @@ const expertiseData = [
     description:
       'Hernia surgery is a procedure to repair a bulge or protrusion caused by an organ pushing through a weak spot in muscle or tissue.',
     image: 'offer2.png',
-    path: '/hernia-surgery',
+    path: '/allartical/harnia',
   },
   {
     title: 'Breast Surgeries',
     description:
       'Breast surgery involves procedures for treating breast conditions; benign and malignant, or cosmetic procedures including reconstruction.',
     image: 'offer3.png',
-    path: '/breast-surgery',
+    path: '/allartical/breastcancer',
   },
   {
     title: 'Colorectal Surgeries',
     description:
       'Colorectal surgery treats disorders of the rectum, anus, and colon including polyps, tumors, and inflammatory bowel diseases.',
     image: 'offer1.png',
-    path: '/colorectal-surgery',
+    path: '/allartical/colorectal',
   },
  {
     title: 'Laser Surgeries',
   description:
   'Laser surgery uses focused light to treat or remove abnormal tissues with precision and minimal damage to surrounding areas.',
 
-    image: 'offer1.png',
-     path: '/allartical/thyroid',
+    image: 'offer4.png',
+     path: '/allartical/leasersurgary',
   },
   {
     title: 'Abdominal wall Reconstruction ',
     description:
   'Abdominal wall reconstruction is a surgical procedure to repair complex hernias and restore abdominal strength.',
-    image: 'offer1.png',
-     path: '/laparoscopic-surgery',
+    image: 'offer5.png',
+     path: '/allartical/abdonomial',
   },
   {
     title: 'Gastrointestinal Surgeries',
     description:
      'Gastrointestinal surgeries involve procedures on the digestive tract, such as operations on the stomach, and gallbladder to treat conditions like ulcers.',
-    image: 'offer1.png',
-     path: '/laparoscopic-surgery',
+    image: 'offer6.png',
+     path: '/allartical/gisurgery',
   },
    {
     title: 'Thyroid Surgeries',
     description:
            'Thyroid surgery is performed to treat thyroid nodules, cancer, or hyperthyroidism by removing part or all of the thyroid gland.',
-    image: 'offer1.png',
-     path: '/laparoscopic-surgery',
+    image: 'offer7.png',
+     path: '/allartical/thyroid',
   },
  
 ];

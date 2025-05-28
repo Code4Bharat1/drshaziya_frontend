@@ -13,11 +13,13 @@ import Review from "@/components/Homepage/Review";
 import Seasoned from "@/components/Homepage/Seasoned";
 import SurgicalExcellence from "@/components/Homepage/SurgicalExcellence";
 import WatchVedio from "@/components/Homepage/WatchVedio";
+import WhatsAppButton from "@/components/Layout/whatsappbutton";
 import Image from "next/image";
 
 export default function Home() {
   return (
 <>
+<WhatsAppButton/>
 <SurgicalExcellence/>
 <Seasoned/>
 <OurImpact/>
