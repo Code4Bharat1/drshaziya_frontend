@@ -23,7 +23,7 @@ const Resource = () => {
   ];
 
   return (
-    <div className="bg-[#f8faff] py-12 px-4 text-center">
+    <div className="bg-[#f8faff] py-12 px-4 text-center mt-12">
       <h2 className="text-4xl font-bold text-blue-900 mb-10">RESOURCES</h2>
 
       <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">

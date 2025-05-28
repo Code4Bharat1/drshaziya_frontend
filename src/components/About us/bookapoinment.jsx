@@ -1,7 +1,11 @@
+'use client'
 import React from "react";
 import Image from "next/image";
+import { useRouter } from 'next/navigation';
 
 export default function BookAppointment() {
+    const router = useRouter();
+
   return (
     <div className="relative w-full h-[400px] sm:h-[500px] md:h-[600px] lg:h-[700px] overflow-hidden">
       <Image
@@ -21,7 +25,7 @@ export default function BookAppointment() {
           <p className="text-sm sm:text-base md:text-lg lg:text-xl xl:text-2xl text-white font-semibold mt-4 sm:mt-6 md:mt-8 lg:mt-10 max-w-xs sm:max-w-sm md:max-w-md lg:max-w-xl xl:max-w-2xl leading-relaxed">
             "Your trusted partner in advanced laparoscopic surgery."
           </p>
-          <button className="bg-[#0085DC] text-white font-bold py-2 sm:py-3 md:py-3 lg:py-4 px-4 sm:px-5 md:px-6 lg:px-8 rounded text-xs sm:text-sm md:text-base lg:text-lg hover:bg-[#006bb3] transition duration-300 shadow-lg mt-4 sm:mt-6 md:mt-8 lg:mt-10 w-auto min-w-[140px] sm:min-w-[160px] md:min-w-[180px] lg:min-w-[200px]">
+          <button className="bg-[#0085DC] text-white font-bold py-2 sm:py-3 md:py-3 lg:py-4 px-4 sm:px-5 md:px-6 lg:px-8 rounded text-xs sm:text-sm md:text-base lg:text-lg hover:bg-[#006bb3] transition duration-300 shadow-lg mt-4 sm:mt-6 md:mt-8 lg:mt-10 w-auto min-w-[140px] sm:min-w-[160px] md:min-w-[180px] lg:min-w-[200px]" onClick={() => router.push('/contactus')}>
             BOOK AN APPOINTMENT
           </button>
         </div>

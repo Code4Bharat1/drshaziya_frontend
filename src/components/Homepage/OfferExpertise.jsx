@@ -29,37 +29,39 @@ const expertiseData = [
     title: 'Colorectal Surgeries',
     description:
       'Colorectal surgery treats disorders of the rectum, anus, and colon including polyps, tumors, and inflammatory bowel diseases.',
-    image: 'offer1.png',
+    image: 'offer4.png',
      path: '/allartical/colorectal',
   },
   {
-    title: 'Thyroid Surgeries',
-    description:
-      'Thyroid surgery is performed to treat thyroid nodules, cancer, or hyperthyroidism by removing part or all of the thyroid gland.',
-    image: 'offer1.png',
+    title: 'Laser Surgeries',
+  description:
+  'Laser surgery uses focused light to treat or remove abnormal tissues with precision and minimal damage to surrounding areas.',
+
+    image: 'offer5.png',
      path: '/allartical/thyroid',
   },
   {
-    title: 'Gallbladder Surgeries',
+    title: 'Abdominal wall Reconstruction ',
     description:
-      'Gallbladder removal, also called cholecystectomy, is a common surgery to treat gallstones and gallbladder inflammation.',
+  'Abdominal wall reconstruction is a surgical procedure to repair complex hernias and restore abdominal strength.',
     image: 'offer1.png',
      path: '/laparoscopic-surgery',
   },
   {
-    title: 'Appendix Surgeries',
+    title: 'Gastrointestinal Surgeries',
     description:
-      'Appendectomy is the surgical removal of the appendix, usually performed as an emergency surgery for appendicitis.',
-    image: 'offer1.png',
+     'Gastrointestinal surgeries involve procedures on the digestive tract, such as operations on the stomach, and gallbladder to treat conditions like ulcers.',
+    image: 'offer6.png',
      path: '/laparoscopic-surgery',
   },
-  {
-    title: 'Proctology Surgeries',
+     {
+    title: 'Thyroid Surgeries',
     description:
-      'Proctology surgeries involve treatments of rectum and anus disorders such as hemorrhoids, fissures, and fistulas.',
-    image: 'offer1.png',
+           'Thyroid surgery is performed to treat thyroid nodules, cancer, or hyperthyroidism by removing part or all of the thyroid gland.',
+    image: 'offer7.png',
      path: '/laparoscopic-surgery',
   },
+
 ];
 
 const OfferExpertise = () => {

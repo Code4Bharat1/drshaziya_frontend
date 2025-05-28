@@ -1,6 +1,8 @@
+'use client'
 import React from 'react';
-
+import { useRouter } from 'next/navigation';
 const Demystifying = () => {
+       const router = useRouter();
   return (
     <div className="flex flex-col md:flex-row items-center justify-between bg-gray-50 px-6 py-12 md:px-16 gap-6">
       
@@ -22,7 +24,7 @@ const Demystifying = () => {
         <div className="absolute inset-0 flex items-center justify-end">
           <div className="w-64 h-64 sm:w-72 sm:h-72 md:w-80 md:h-80 rounded-full overflow-hidden">
             <img
-              src="/circle.png"
+              src="/circle1.png"
               alt="Dr. Shazia Waghoo"
               className="w-full h-full object-cover"
             />
@@ -40,7 +42,7 @@ const Demystifying = () => {
           Our aim is to deliver a Seamless<br />Surgical Experience to patients and to help them heal faster.
           Consult <br />with our expert surgeon, Dr. Shazia Waghoo for more than 30+ diseases.
         </p>
-        <button className="bg-[#0085DC] text-white font-semibold px-6 py-3 rounded-xl hover:bg-blue-700 ">
+        <button className="bg-[#0085DC] text-white font-semibold px-6 py-3 rounded-xl hover:bg-blue-500  "   onClick={() => router.push('/contactus')}>
           BOOK AN APPOINTMENT
         </button>
       </div>

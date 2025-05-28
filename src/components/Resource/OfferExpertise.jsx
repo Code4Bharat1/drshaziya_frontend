@@ -32,34 +32,36 @@ const expertiseData = [
     image: 'offer1.png',
     path: '/colorectal-surgery',
   },
+ {
+    title: 'Laser Surgeries',
+  description:
+  'Laser surgery uses focused light to treat or remove abnormal tissues with precision and minimal damage to surrounding areas.',
+
+    image: 'offer1.png',
+     path: '/allartical/thyroid',
+  },
   {
+    title: 'Abdominal wall Reconstruction ',
+    description:
+  'Abdominal wall reconstruction is a surgical procedure to repair complex hernias and restore abdominal strength.',
+    image: 'offer1.png',
+     path: '/laparoscopic-surgery',
+  },
+  {
+    title: 'Gastrointestinal Surgeries',
+    description:
+     'Gastrointestinal surgeries involve procedures on the digestive tract, such as operations on the stomach, and gallbladder to treat conditions like ulcers.',
+    image: 'offer1.png',
+     path: '/laparoscopic-surgery',
+  },
+   {
     title: 'Thyroid Surgeries',
     description:
-      'Thyroid surgery is performed to treat thyroid nodules, cancer, or hyperthyroidism by removing part or all of the thyroid gland.',
+           'Thyroid surgery is performed to treat thyroid nodules, cancer, or hyperthyroidism by removing part or all of the thyroid gland.',
     image: 'offer1.png',
-    path: '/thyroid-surgery',
+     path: '/laparoscopic-surgery',
   },
-  {
-    title: 'Gallbladder Surgeries',
-    description:
-      'Gallbladder removal, also called cholecystectomy, is a common surgery to treat gallstones and gallbladder inflammation.',
-    image: 'offer1.png',
-    path: '/gallbladder-surgery',
-  },
-  {
-    title: 'Appendix Surgeries',
-    description:
-      'Appendectomy is the surgical removal of the appendix, usually performed as an emergency surgery for appendicitis.',
-    image: 'offer1.png',
-    path: '/appendix-surgery',
-  },
-  {
-    title: 'Proctology Surgeries',
-    description:
-      'Proctology surgeries involve treatments of rectum and anus disorders such as hemorrhoids, fissures, and fistulas.',
-    image: 'offer1.png',
-    path: '/proctology-surgery',
-  },
+ 
 ];
 
 const OfferExpertise = () => {

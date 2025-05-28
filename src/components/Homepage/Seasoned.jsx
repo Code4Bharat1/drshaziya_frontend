@@ -1,7 +1,8 @@
-
+"use client"
 import React from 'react';
-
+import { useRouter } from 'next/navigation';
 const Seasoned = () => {
+const router = useRouter();
   return (
     <div className="bg-[#f9fbfd] text-[#000] p-6">
       <div className="flex flex-col lg:flex-row items-center lg:items-start justify-start gap-9 lg:ml-24">
@@ -14,8 +15,8 @@ const Seasoned = () => {
             className="rounded-xl shadow-md w-full max-w-[400px] object-cover"
           />
           <div className="text-center mt-4">
-            <h2 className="text-lg font-bold">Dr. Shazia Waghoo</h2>
-            <p className="text-md text-[#000000]">MBBS, DNB General Surgery</p>
+            <h2 className="text-2xl font-bold">Dr. Shazia Waghoo</h2>
+            <p className="text-xl text-[#000000]">MBBS, DNB General Surgery</p>
           </div>
         </div>
 
@@ -30,7 +31,7 @@ const Seasoned = () => {
           <p className="text-gray-800  text-xl mb-3 font-jaldi">
             Dr. Shazia Waghoo is a skilled Laparoscopic, Hernia, and <br /> Breast Surgeon based in Mumbai with <strong>over 10 years</strong> of <br /> experience. She is known for minimally invasive <br /> techniques and a strong patient-focused approach. . <br /> Dr Waghoo actively <strong>promotes cancer and health awareness <br /> </strong> through camps and educational sessions. Her expertise, <br /> surgical care, and commitment to patient recovery <br /> make her highly recommended.
           </p>
-          <button className="bg-[#0085DC] hover:bg-blue-500 text-white px-6 py-3 rounded-xl transition duration-200 mt-7 mb-7">
+          <button className="bg-[#0085DC] hover:bg-blue-500 text-white px-6 py-3 rounded-xl transition duration-200 mt-7 mb-7"  onClick={() => router.push('/contactus')}>
             BOOK AN APPOINTMENT
           </button>
         </div>
