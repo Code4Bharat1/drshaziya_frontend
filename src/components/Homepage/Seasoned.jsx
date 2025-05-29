@@ -5,7 +5,7 @@ const Seasoned = () => {
 const router = useRouter();
   return (
     <div className="bg-[#f9fbfd] text-[#000] p-6">
-      <div className="flex flex-col lg:flex-row items-center lg:items-start justify-start gap-9 lg:ml-24">
+      <div className="flex flex-col lg:flex-row items-center lg:items-start justify-start gap-9 lg:ml-24 ">
         
         {/* Left Section - Image and Name */}
         <div className="flex flex-col items-center w-full lg:w-1/3">

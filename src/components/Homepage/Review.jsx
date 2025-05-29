@@ -97,8 +97,8 @@ const Review = () => {
             const colorClass = colors[index % colors.length]; // Assign color based on index
             return (
               <div key={index} className="relative w-[240px] h-[350px] shrink-0 box-border">
-                <div className="relative bg-[#FFD54F] h-20 border-b border-gray-300">
-                  <div className="absolute top-0 left-0 w-full h-2 bg-gradient-to-b from-black/30 to-transparent rounded-t-md"></div>
+                <div className="relative bg-[#FFD54F] h-20 border-b border-gray-300  overflow-hidden shadow-[inset_0_6px_8px_-4px_rgba(0,0,0,0.15),inset_4px_0_6px_-2px_rgba(0,0,0,0.15),inset_-4px_0_6px_-5px_rgba(0,0,0,0.15)]">
+                  <div className="absolute top-0 left-0 w-full h-2 bg-gradient-to-b from-black/30 to-transparent "></div>
                 </div>
 
                 <div className="bg-white rounded-t-[2rem] shadow-md p-4 pt-10 -mt-8 relative z-10 h-[310px] border border-gray-300 border-t-0 flex flex-col justify-between box-border">

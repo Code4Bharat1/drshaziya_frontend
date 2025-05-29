@@ -29,7 +29,7 @@ const PatientCare = () => {
         {careItems.map((item, index) => (
           <div key={index} className="relative w-[320px] h-[180px] mx-auto">
             {/* Blue background card - slightly bigger */}
-            <div className="absolute top-0 left-0 w-full h-[168px] bg-[#0085DC] rounded-3xl transform -translate-x-6 -translate-y-3"></div>
+            <div className="absolute top-0 left-0 w-full h-[167px] bg-[#0085DC] rounded-3xl transform -translate-x-6 -translate-y-3"></div>
 
             {/* White card - smaller and centered inside blue */}
             <div className="absolute -top-1 left-4 w-[300px] h-[160px] bg-white rounded-3xl shadow-[0_3px_2px_rgba(0,0,0,0.4)]  p-4 flex items-center z-10 border  border-1 border-[#C3C3C3]">
