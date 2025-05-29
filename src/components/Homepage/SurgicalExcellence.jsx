@@ -28,7 +28,7 @@ const SurgicalExcellence = () => {
           <img
             src="/surgicalexellencedr.png"
             alt="Doctor"
-            className="rounded-lg  w-[480px] h-auto object-cover mt-5"
+            className="rounded-lg  w-[480px] h-auto object-cover mt-10"
           />
 
 
