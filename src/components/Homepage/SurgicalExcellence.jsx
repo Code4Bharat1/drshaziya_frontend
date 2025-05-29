@@ -5,11 +5,11 @@ import { useRouter } from 'next/navigation';
 const SurgicalExcellence = () => {
       const router = useRouter();
   return (
-    <div className="bg-gray-50 min-h-screen flex items-center justify-center px-4 py-12">
+    <div className="bg-gray-50 min-h-screen  items-center justify-center px-4 py-12 flex ">
       <div className="max-w-6xl w-full grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
 
         {/* Left Side - Text */}
-        <div className="text-center md:text-left ml-6">
+        <div className="text-center md:text-left ml-6 ">
           <p className="text-[#004979] font-bold mb-9 text-2xl ">
             "Redefining Surgical Excellence."
           </p>
