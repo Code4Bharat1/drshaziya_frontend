@@ -50,40 +50,41 @@ const Navbar = () => {
                 </a>
               ))}
             </nav>
-
-            {/* Mobile Menu Button */}
-            <button
-              onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
-              className="lg:hidden absolute right-4 sm:right-6 text-white focus:outline-none p-2"
-              aria-label="Toggle mobile menu"
-            >
-              <svg
-                className={`w-6 h-6 transform transition-transform duration-300 ${
-                  isMobileMenuOpen ? "rotate-90" : ""
-                }`}
-                fill="none"
-                stroke="currentColor"
-                viewBox="0 0 24 24"
-              >
-                {isMobileMenuOpen ? (
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth={2}
-                    d="M6 18L18 6M6 6l12 12"
-                  />
-                ) : (
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth={2}
-                    d="M4 6h16M4 12h16M4 18h16"
-                  />
-                )}
-              </svg>
-            </button>
           </div>
         </div>
+
+        {/* Mobile Menu Button - Positioned outside the clipped area */}
+        <button
+          onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
+          className="lg:hidden fixed top-4 right-4 sm:right-6 text-white bg-blue-500 hover:bg-blue-600 focus:outline-none p-2 rounded-md shadow-lg z-50 transition-all duration-200  mt-2"
+          aria-label="Toggle mobile menu"
+          style={{ top: '12px' }} // Ensures it's vertically centered in the 80px navbar
+        >
+          <svg
+            className={`w-6 h-6 transform transition-transform duration-300 ${
+              isMobileMenuOpen ? "rotate-90" : ""
+            }`}
+            fill="none"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
+          >
+            {isMobileMenuOpen ? (
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth={2}
+                d="M6 18L18 6M6 6l12 12"
+              />
+            ) : (
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth={2}
+                d="M4 6h16M4 12h16M4 18h16"
+              />
+            )}
+          </svg>
+        </button>
 
         {/* Mobile Navigation Menu */}
         <div
@@ -109,6 +110,15 @@ const Navbar = () => {
             ))}
           </nav>
         </div>
+
+        {/* Overlay to close menu when clicking outside */}
+        {isMobileMenuOpen && (
+          <div
+            className="lg:hidden fixed inset-0 bg-black bg-opacity-50 z-30"
+            style={{ top: '50px' }} // Start below the navbar
+            onClick={() => setIsMobileMenuOpen(false)}
+          />
+        )}
       </div>
     </div>
   );
