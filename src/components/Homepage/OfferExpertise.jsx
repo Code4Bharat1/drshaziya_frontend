@@ -26,10 +26,10 @@ const expertiseData = [
      path: '/allartical/breastcancer',
   },
   {
-    title: 'Colorectal Surgeries',
+    title: 'Colorectal Anorectal Surgeries',
     description:
       'Colorectal surgery treats disorders of the rectum, anus, and colon including polyps, tumors, and inflammatory bowel diseases.',
-    image: 'offer4.png',
+    image: 'offer5.png',
      path: '/allartical/colorectalsurgery',
   },
   {
@@ -37,28 +37,28 @@ const expertiseData = [
   description:
   'Laser surgery uses focused light to treat or remove abnormal tissues with precision and minimal damage to surrounding areas.',
 
-    image: 'offer5.png',
+    image: 'offer6.png',
      path: '/allartical/leasersurgary',
   },
   {
     title: 'Abdominal wall Reconstruction ',
     description:
   'Abdominal wall reconstruction is a surgical procedure to repair complex hernias and restore abdominal strength.',
-    image: 'offer1.png',
+    image: 'offer7.png',
      path: '/allartical/abdonomial',
   },
   {
     title: 'Gastrointestinal Surgeries',
     description:
      'Gastrointestinal surgeries involve procedures on the digestive tract, such as operations on the stomach, and gallbladder to treat conditions like ulcers.',
-    image: 'offer6.png',
+    image: 'offer9.png',
      path: '/allartical/gisurgery',
   },
      {
     title: 'Thyroid Surgeries',
     description:
            'Thyroid surgery is performed to treat thyroid nodules, cancer, or hyperthyroidism by removing part or all of the thyroid gland.',
-    image: 'offer7.png',
+    image: 'offer8.png',
      path: '/allartical/gisurgery',
   },
 
@@ -95,7 +95,7 @@ const OfferExpertise = () => {
                 <p className="text-[#000000] text-sm font-roboto">{item.description}</p>
               </div>
               <Link href={item.path}>
-              <button className=" shadow-[0_3px_2px_rgba(0,0,0,0.3)] bg-[#0085DC] text-white text-xs px-6 py-3 rounded-xl hover:bg-blue-500 mt-5 mx-auto block">
+              <button className=" shadow-[0_3px_2px_rgba(0,0,0,0.3)] bg-[#0085DC] text-white text-xs px-6 py-3 rounded-md hover:bg-blue-500 mt-5 mx-auto block">
                 KNOW MORE
               </button>
               </Link>

@@ -16,7 +16,7 @@ const SurgicalExcellence = () => {
           <h1 className="text-76.32px sm:text-4xl md:text-5xl font-bold text-[#4C4949] leading-snug mb-6">
             Immersive Surgical Care Using <br className="hidden sm:block" /> Advanced Surgery Modalities.
           </h1>
-          <button className="bg-[#0085DC] hover:bg-blue-500 text-white px-6 py-3 rounded-xl font-semibold transition duration-300 mt-8"   
+          <button className="bg-[#0085DC] hover:bg-blue-500 text-white px-6 py-3 rounded-md font-semibold transition duration-300 mt-8"   
           onClick={() => router.push('/contactus')}>
             BOOK AN APPOINTMENT
           </button>

@@ -1,4 +1,3 @@
-
 import React from 'react';
 
 const cardData = [
@@ -30,7 +29,7 @@ const Consult = () => {
         {cardData.map((card, index) => (
           <div
             key={index}
-            className="bg-white border rounded-xl shadow p-7 w-full max-w-[350px] min-h-[280px] flex flex-col"
+            className="bg-white border rounded-xl shadow p-7 w-full max-w-[350px] min-h-[280px] flex flex-col transform transition duration-300 hover:scale-105 hover:shadow-lg"
           >
             <h3 className="text-lg font-semibold text-[#000000] mb-4 whitespace-pre-line">
               {card.title}
