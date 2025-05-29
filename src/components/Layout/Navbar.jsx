@@ -1,27 +1,29 @@
 "use client";
 import Image from "next/image";
 import React, { useState } from "react";
+import { usePathname } from "next/navigation";
 
 const Navbar = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+  const pathname = usePathname();
 
   const navigationItems = [
-    { name: "HOME", href: "/", active: true },
-    { name: "ABOUT US", href: "/aboutus", active: false },
-    { name: "SPECIALITIES", href: "/specialiest", active: false },
-    { name: "TESTIMONIALS & MEDIA", href: "/testimonial", active: false },
-    { name: "RESOURCES", href: "/resource", active: false },
-    { name: "CONTACT US", href: "/contactus", active: false },
+    { name: "HOME", href: "/" },
+    { name: "ABOUT US", href: "/aboutus" },
+    { name: "SPECIALITIES", href: "/specialiest" },
+    { name: "TESTIMONIALS & MEDIA", href: "/testimonial" },
+    { name: "RESOURCES", href: "/resource" },
+    { name: "CONTACT US", href: "/contactus" },
   ];
 
   return (
     <div className="w-full bg-white fixed top-0 left-0 z-50">
       <div className="flex relative pl-15">
         {/* Logo Section */}
-        <div className="z-30 bg-white flex items-center px-7">
+        <div className="z-30 bg-white flex items-center px-4 sm:px-7">
           <Image
             src="/logo.webp"
-            className="w-100 h-20 "
+            className="w-100 h-20"
             alt="image"
             width={100}
             height={100}
@@ -29,20 +31,20 @@ const Navbar = () => {
         </div>
 
         {/* Yellow and Blue Sections */}
-        <div className="flex bg-yellow-500 relative w-full h-20 clip-triangle-left shadow-lg ">
-          <div className="absolute top-0 left-7 bg-blue-500 w-full h-20 clip-triangle-left shadow-lg flex items-center justify-center ">
+        <div className="flex bg-yellow-500 relative w-full h-20 clip-triangle-left shadow-lg">
+          <div className="absolute top-0 left-7 bg-blue-500 w-full h-20 clip-triangle-left shadow-lg flex items-center justify-center">
             {/* Desktop Navigation Menu */}
-            <nav className="hidden lg:flex items-center space-x-20 px-16 mr-12 ">
+            <nav className="hidden lg:flex items-center space-x-20 px-16 mr-12">
               {navigationItems.map((item, index) => (
                 <a
                   key={index}
                   href={item.href}
                   className={`text-white font-bold text-sm tracking-wider hover:text-yellow-300 transition-colors duration-200 whitespace-nowrap relative ${
-                    item.active ? "text-yellow-300" : ""
+                    pathname === item.href ? "text-yellow-300" : ""
                   }`}
                 >
                   {item.name}
-                  {item.active && (
+                  {pathname === item.href && (
                     <div className="absolute -bottom-1 left-0 right-0 h-0.5 bg-yellow-300"></div>
                   )}
                 </a>
@@ -52,7 +54,7 @@ const Navbar = () => {
             {/* Mobile Menu Button */}
             <button
               onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
-              className="lg:hidden absolute right-6 text-white focus:outline-none p-2"
+              className="lg:hidden absolute right-4 sm:right-6 text-white focus:outline-none p-2"
               aria-label="Toggle mobile menu"
             >
               <svg
@@ -85,19 +87,20 @@ const Navbar = () => {
 
         {/* Mobile Navigation Menu */}
         <div
-          className={`lg:hidden absolute top-20 left-0 w-full bg-blue-500 transition-all duration-300 ease-in-out transform z-40 shadow-xl ${
+          className={`lg:hidden fixed top-20 left-0 right-0 bg-blue-500 transition-all duration-300 ease-in-out z-40 shadow-xl overflow-y-auto ${
             isMobileMenuOpen
-              ? "translate-y-0 opacity-100"
-              : "-translate-y-full opacity-0"
+              ? "max-h-screen opacity-100"
+              : "max-h-0 opacity-0 overflow-hidden"
           }`}
+          style={{ maxHeight: isMobileMenuOpen ? "500px" : "0" }}
         >
-          <nav className="px-6 py-6 space-y-2">
+          <nav className="px-4 py-4 space-y-2">
             {navigationItems.map((item, index) => (
               <a
                 key={index}
                 href={item.href}
                 className={`block text-white font-bold text-sm tracking-wider hover:text-yellow-300 hover:bg-blue-600 px-4 py-3 rounded-lg transition-all duration-200 ${
-                  item.active ? "text-yellow-300 bg-blue-600" : ""
+                  pathname === item.href ? "text-yellow-300 bg-blue-600" : ""
                 }`}
                 onClick={() => setIsMobileMenuOpen(false)}
               >
