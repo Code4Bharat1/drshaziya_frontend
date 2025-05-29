@@ -263,11 +263,11 @@ Thank you!`;
     z-index: 1 !important;
   }
 
-  /* Mobile map container fixes */
+  /* Updated Mobile map container fixes - Medium size */
   @media (max-width: 1024px) {
     .map-container {
-      height: 350px !important;
-      min-height: 350px !important;
+      height: 400px !important;
+      min-height: 400px !important;
     }
     
     .map-container .leaflet-container {
@@ -279,22 +279,23 @@ Thank you!`;
 
   @media (max-width: 768px) {
     .map-container {
-      height: 300px !important;
-      min-height: 300px !important;
-      margin: 0 -1rem; /* Extend to edges on mobile */
+      height: 350px !important;
+      min-height: 350px !important;
+      /* Remove negative margins to keep container properly sized */
+      margin: 0;
     }
     
     .map-container .leaflet-container {
       height: 100% !important;
       width: 100% !important;
-      border-radius: 0;
+      border-radius: 0.5rem; /* Keep border radius */
     }
   }
 
   @media (max-width: 640px) {
     .map-container {
-      height: 280px !important;
-      min-height: 280px !important;
+      height: 320px !important;
+      min-height: 320px !important;
     }
   }
 `}</style>
