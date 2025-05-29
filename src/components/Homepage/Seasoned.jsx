@@ -12,7 +12,7 @@ const router = useRouter();
           <img
             src="/seasoned.png"
             alt="Dr. Shazia Waghoo"
-            className="rounded-xl shadow-md w-full max-w-[400px] object-cover"
+            className="rounded-xl shadow-md w-full max-w-[410px] object-cover"
           />
           <div className="text-center mt-4">
             <h2 className="text-2xl font-bold">Dr. Shazia Waghoo</h2>
