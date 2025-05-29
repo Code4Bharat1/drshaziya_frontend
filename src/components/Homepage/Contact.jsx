@@ -162,15 +162,49 @@ const Contact = () => {
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
   const [mobile, setMobile] = useState('');
+  const [errors, setErrors] = useState({
+    name: '',
+    email: '',
+    mobile: '',
+  });
 
   const handleSendRequest = (e) => {
     e.preventDefault();
 
-    // Validate required fields
-    if (!name || !email || !mobile) {
-      alert('Please fill in all fields');
-      return;
+    const nameRegex = /^[A-Za-z ]{2,}$/;
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    const mobileRegex = /^[0-9]{10}$/;
+
+    let hasError = false;
+    const newErrors = { name: '', email: '', mobile: '' };
+
+    if (!name) {
+      newErrors.name = 'Name is required';
+      hasError = true;
+    } else if (!nameRegex.test(name)) {
+      newErrors.name = 'Please enter a valid name (letters only, min 2 chars)';
+      hasError = true;
     }
+
+    if (!email) {
+      newErrors.email = 'Email is required';
+      hasError = true;
+    } else if (!emailRegex.test(email)) {
+      newErrors.email = 'Please enter a valid email address';
+      hasError = true;
+    }
+
+    if (!mobile) {
+      newErrors.mobile = 'Mobile number is required';
+      hasError = true;
+    } else if (!mobileRegex.test(mobile)) {
+      newErrors.mobile = 'Please enter a valid 10-digit mobile number';
+      hasError = true;
+    }
+
+    setErrors(newErrors);
+
+    if (hasError) return;
 
     // Construct message for WhatsApp
     const message = `New Consultation Request:\nName: ${name}\nEmail: ${email}\nMobile: ${mobile}`;
@@ -178,28 +212,21 @@ const Contact = () => {
     // WhatsApp number in international format (without +)
     const clinicNumber = '919833584847';
 
-    // Format: This method forces WhatsApp to open the chat even if number is not saved
-    // Using wa.me with phone parameter - this is the most reliable method
+    // Using wa.me link for mobile devices
     const whatsappURL = `https://wa.me/+91${clinicNumber.substring(2)}/?text=${encodeURIComponent(message)}`;
-    
-    // Alternative method - opens WhatsApp Web/App directly to start a new chat
+
+    // Using WhatsApp Web link for desktop
     const createChatURL = `https://web.whatsapp.com/send?phone=${clinicNumber}&text=${encodeURIComponent(message)}`;
 
-    // Try mobile first (wa.me), then web version
     if (/Android|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
-      // Mobile device - use wa.me which works better on mobile
       window.open(whatsappURL, '_blank');
     } else {
-      // Desktop - use web.whatsapp.com which works reliably on desktop
       window.open(createChatURL, '_blank');
     }
-
-    // Fallback: If user reports it's not working, show manual instructions
-   
   };
 
   return (
-    <div className="bg-gray-50 py-6 px-4  flex items-center justify-center">
+    <div className="bg-gray-50 py-6 px-4 flex items-center justify-center">
       <div className="bg-[#0085DC] text-white rounded-xl border-4 border-[#FFD54F] p-8 flex flex-col md:flex-row items-center justify-between max-w-5xl mx-auto mt-2 mb-9">
         {/* Left side text */}
         <div className="md:w-1/2 mb-8 md:mb-0 md:pr-6">
@@ -217,43 +244,49 @@ const Contact = () => {
 
         {/* Right side form */}
         <div className="bg-white p-10 rounded-xl w-full md:w-[60%] shadow-md">
-          <div className="flex flex-col space-y-6">
-            <input
-              type="text"
-              placeholder="Your Name"
-              value={name}
-              onChange={(e) => setName(e.target.value)}
-              required
-              className="text-black p-3 border placeholder:text-[#4D4040] placeholder:text-[13px] border-gray-300 rounded-xl shadow-md focus:outline-none focus:ring-2 "
-            />
-            <input
-              type="email"
-              placeholder="Your Email"
-              value={email}
-              onChange={(e) => setEmail(e.target.value)}
-              required
-              className="text-black p-3 border placeholder:text-[#4D4040] placeholder:text-[13px] border-gray-300 rounded-xl shadow-md focus:outline-none focus:ring-2"
-            />
-            <input
-              type="text"
-              placeholder="Mobile Number"
-              value={mobile}
-              onChange={(e) => setMobile(e.target.value)}
-              required
-              className="text-black p-3 border placeholder:text-[#4D4040] placeholder:text-[13px] border-gray-300 rounded-xl shadow-md focus:outline-none focus:ring-2"
-            />
+          <form className="flex flex-col space-y-6" onSubmit={handleSendRequest}>
+            <div>
+              <input
+                type="text"
+                placeholder="Your Name"
+                value={name}
+                onChange={(e) => setName(e.target.value)}
+                className="text-black p-3 border placeholder:text-[#4D4040] placeholder:text-[13px] border-gray-300 rounded-xl shadow-md focus:outline-none focus:ring-2 w-full"
+              />
+              {errors.name && <p className="text-red-600 text-sm mt-1">{errors.name}</p>}
+            </div>
+
+            <div>
+              <input
+                type="email"
+                placeholder="Your Email"
+                value={email}
+                onChange={(e) => setEmail(e.target.value)}
+                className="text-black p-3 border placeholder:text-[#4D4040] placeholder:text-[13px] border-gray-300 rounded-xl shadow-md focus:outline-none focus:ring-2 w-full"
+              />
+              {errors.email && <p className="text-red-600 text-sm mt-1">{errors.email}</p>}
+            </div>
+
+            <div>
+              <input
+                type="text"
+                placeholder="Mobile Number"
+                value={mobile}
+                onChange={(e) => setMobile(e.target.value)}
+                className="text-black p-3 border placeholder:text-[#4D4040] placeholder:text-[13px] border-gray-300 rounded-xl shadow-md focus:outline-none focus:ring-2 w-full"
+              />
+              {errors.mobile && <p className="text-red-600 text-sm mt-1">{errors.mobile}</p>}
+            </div>
 
             <div className="mt-2 flex gap-3">
               <button
-                type="button"
-                onClick={handleSendRequest}
+                type="submit"
                 className="bg-[#0288D1] text-white text-sm font-semibold px-6 py-2 rounded-md shadow-md hover:bg-blue-700 transition"
               >
                 SEND REQUEST
               </button>
-            
             </div>
-          </div>
+          </form>
         </div>
       </div>
     </div>
@@ -261,6 +294,7 @@ const Contact = () => {
 };
 
 export default Contact;
+
 
 
 
