@@ -38,7 +38,7 @@ const Recognitions = () => {
   ];
 
   return (
-    <section className="bg-[#ffffff] py-12 px-4">
+    <section className="bg-[#F9F8FE] py-12 px-4">
       <h2 className="text-4xl font-bold text-center text-[#004979] mb-10">
         RECOGNITIONS
       </h2>

@@ -300,7 +300,7 @@ Thank you!`;
   }
 `}</style>
 
-      <div className="min-h-screen bg-gray-50 py-8 sm:py-12 mt-16 sm:mt-20 relative z-10">
+      <div className="min-h-screen bg-[#F9F8FE] py-8 sm:py-12 mt-16 sm:mt-20 relative z-10">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           {/* Main Content Container */}
           <div className="bg-white rounded-2xl shadow-lg overflow-hidden relative z-20">

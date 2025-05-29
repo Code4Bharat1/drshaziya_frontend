@@ -31,7 +31,7 @@ const Navbar = () => {
         </div>
 
         {/* Yellow and Blue Sections */}
-        <div className="flex bg-yellow-500 relative w-full h-20 clip-triangle-left shadow-lg">
+        <div className="flex bg-[#FFD54F] relative w-full h-20 clip-triangle-left shadow-lg">
           <div className="absolute top-0 left-7 bg-blue-500 w-full h-20 clip-triangle-left shadow-lg flex items-center justify-center">
             {/* Desktop Navigation Menu */}
             <nav className="hidden lg:flex items-center space-x-20 px-16 mr-12">
@@ -44,9 +44,7 @@ const Navbar = () => {
                   }`}
                 >
                   {item.name}
-                  {pathname === item.href && (
-                    <div className="absolute -bottom-1 left-0 right-0 h-0.5 bg-yellow-300"></div>
-                  )}
+                  {/* Underline removed for desktop view */}
                 </a>
               ))}
             </nav>
