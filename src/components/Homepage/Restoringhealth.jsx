@@ -2,7 +2,7 @@ import React from 'react';
 
 const Restoringhealth = () => {
   return (
-    <section className="px-6 md:px-12 lg:px-24 py-12 bg-white">
+    <section className="px-6 md:px-12 lg:px-24 py-12 bg-[#F8F9FE]">
       <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-between gap-10 md:gap-16">
         
         {/* Left Side - Text */}

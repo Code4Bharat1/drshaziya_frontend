@@ -23,16 +23,16 @@ const careItems = [
 
 const PatientCare = () => {
   return (
-    <div className="py-12 px-6 max-w-5xl mx-auto">
-      <h2 className="text-3xl font-bold text-center mb-12 text-blue-800">Patient Care</h2>
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
+    <div className="py-12  px-6 max-w-8xl mx-auto bg-[#F9F8FE]">
+      <h2 className="text-[56px] font-bold text-center mb-12 text-[#004979] ">Patient Care</h2>
+      <div className=" max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-10">
         {careItems.map((item, index) => (
-          <div key={index} className="relative w-[320px] h-[180px] mx-auto">
+          <div key={index} className="relative w-[336px] h-[182px] mx-auto ">
             {/* Blue background card - slightly bigger */}
-            <div className="absolute top-0 left-0 w-full h-[167px] bg-[#0085DC] rounded-3xl transform -translate-x-6 -translate-y-3"></div>
+            <div className="absolute top-0 left-0 w-full h-[185px] bg-[#0085DC] rounded-3xl transform -translate-x-6 -translate-y-3"></div>
 
             {/* White card - smaller and centered inside blue */}
-            <div className="absolute -top-1 left-4 w-[300px] h-[160px] bg-white rounded-3xl shadow-[0_3px_2px_rgba(0,0,0,0.4)]  p-4 flex items-center z-10 border  border-1 border-[#C3C3C3]">
+            <div className="absolute -top-1 left-4 w-[349px] h-[187px] bg-white rounded-3xl shadow-[0_3px_2px_rgba(0,0,0,0.4)]  p-4 flex items-center z-10 border  border-1 border-[#C3C3C3]">
               <p className="text-sm text-[#000000] leading-snug">{item.text}</p>
             </div>
           </div>

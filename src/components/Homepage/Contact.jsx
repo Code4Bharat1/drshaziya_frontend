@@ -199,8 +199,8 @@ const Contact = () => {
   };
 
   return (
-    <div className="bg-gray-50 py-6 px-4 min-h-screen flex items-center justify-center">
-      <div className="bg-[#0085DC] text-white rounded-xl border-4 border-[#FFD54F] p-8 flex flex-col md:flex-row items-center justify-between max-w-4xl mx-auto mt-2 mb-9">
+    <div className="bg-gray-50 py-6 px-4  flex items-center justify-center">
+      <div className="bg-[#0085DC] text-white rounded-xl border-4 border-[#FFD54F] p-8 flex flex-col md:flex-row items-center justify-between max-w-5xl mx-auto mt-2 mb-9">
         {/* Left side text */}
         <div className="md:w-1/2 mb-8 md:mb-0 md:pr-6">
           <h2 className="text-3xl font-bold mb-4">Book a Consultation</h2>
@@ -224,7 +224,7 @@ const Contact = () => {
               value={name}
               onChange={(e) => setName(e.target.value)}
               required
-              className="text-black p-3 border border-gray-300 rounded-xl shadow-md focus:outline-none focus:ring-2"
+              className="text-black p-3 border placeholder:text-[#4D4040] placeholder:text-[13px] border-gray-300 rounded-xl shadow-md focus:outline-none focus:ring-2 "
             />
             <input
               type="email"
@@ -232,7 +232,7 @@ const Contact = () => {
               value={email}
               onChange={(e) => setEmail(e.target.value)}
               required
-              className="text-black p-3 border border-gray-300 rounded-xl shadow-md focus:outline-none focus:ring-2"
+              className="text-black p-3 border placeholder:text-[#4D4040] placeholder:text-[13px] border-gray-300 rounded-xl shadow-md focus:outline-none focus:ring-2"
             />
             <input
               type="text"
@@ -240,7 +240,7 @@ const Contact = () => {
               value={mobile}
               onChange={(e) => setMobile(e.target.value)}
               required
-              className="text-black p-3 border border-gray-300 rounded-xl shadow-md focus:outline-none focus:ring-2"
+              className="text-black p-3 border placeholder:text-[#4D4040] placeholder:text-[13px] border-gray-300 rounded-xl shadow-md focus:outline-none focus:ring-2"
             />
 
             <div className="mt-2 flex gap-3">

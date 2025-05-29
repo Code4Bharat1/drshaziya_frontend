@@ -90,7 +90,7 @@ const Testimonial = () => {
   }, []);
 
   return (
-    <div className="bg-gray-50 px-4 pt-6 sm:pt-8">
+    <div className="bg-[#F8F9FE] px-4 pt-6 sm:pt-8">
       {/* Heading */}
       <h2 className="text-2xl sm:text-3xl font-semibold text-gray-800 text-center mt-16">
         Testimonial

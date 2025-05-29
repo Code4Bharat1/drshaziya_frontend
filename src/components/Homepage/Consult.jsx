@@ -20,8 +20,8 @@ const cardData = [
 
 const Consult = () => {
   return (
-    <div className="bg-white py-12 px-4 sm:px-8 md:px-12 lg:px-20 xl:px-32">
-      <h2 className="text-3xl font-semibold text-center text-[#004979] mb-12">
+    <div className="bg-[#F8F9FE] py-12 px-4 sm:px-8 md:px-12 lg:px-20 xl:px-32">
+      <h2 className="text-[38px] font-semibold text-center text-[#004979] mb-12">
         Why you should Consult Dr. Shazia Waghoo
       </h2>
 

@@ -64,6 +64,8 @@
 
 // export default Review;
 
+
+
 import React from 'react';
 
 const reviews = [
@@ -88,20 +90,21 @@ const colors = [
 
 const Review = () => {
   return (
-    <div className="py-4 bg-[#f8f8fc]">
-      <h2 className="text-3xl font-bold text-center text-blue-900 mb-6">Reviews on Google</h2>
+    <div className="py-4 bg-[#F8F9FE] ">
+      <h2 className="text-[44px] font-bold text-center text-[#004979] mb-6 ">Reviews on Google</h2>
 
       <div className="overflow-hidden pb-6">
-        <div className="flex w-max scroll-animation space-x-6 px-6">
+        <div className="flex w-max scroll-animation space-x-6 px-6 mt-9">
           {reviews.concat(reviews).map((review, index) => {
             const colorClass = colors[index % colors.length]; // Assign color based on index
             return (
-              <div key={index} className="relative w-[240px] h-[350px] shrink-0 box-border">
-                <div className="relative bg-[#FFD54F] h-20 border-b border-gray-300  overflow-hidden shadow-[inset_0_6px_8px_-4px_rgba(0,0,0,0.15),inset_4px_0_6px_-2px_rgba(0,0,0,0.15),inset_-4px_0_6px_-5px_rgba(0,0,0,0.15)]">
-                  <div className="absolute top-0 left-0 w-full h-2 bg-gradient-to-b from-black/30 to-transparent "></div>
+              <div key={index} className="relative w-[240px] h-[380px] shrink-0 box-border">
+                {/* YELLOW TOP CARD: slightly taller and enhanced */}
+                <div className="relative bg-[#FFD54F] h-24 border-b border-gray-300 overflow-hidden shadow-[inset_0_8px_10px_-4px_rgba(0,0,0,0.2),inset_4px_0_6px_-2px_rgba(0,0,0,0.15),inset_-4px_0_6px_-5px_rgba(0,0,0,0.15)]">
+                  <div className="absolute top-0 left-0 w-full h-3 bg-gradient-to-b from-black/30 to-transparent"></div>
                 </div>
 
-                <div className="bg-white rounded-t-[2rem] shadow-md p-4 pt-10 -mt-8 relative z-10 h-[310px] border border-gray-300 border-t-0 flex flex-col justify-between box-border">
+                <div className="bg-white rounded-t-[2rem] shadow-md p-4 pt-12 -mt-8 relative z-10 h-[310px] border border-gray-300 border-t-0 flex flex-col justify-between box-border">
                   <div>
                     <h3 className="font-semibold text-gray-800 text-center text-sm">{review.name}</h3>
                     <p className="text-xs text-gray-700 mt-2 line-clamp-11 overflow-hidden">
@@ -118,9 +121,9 @@ const Review = () => {
                   </div>
                 </div>
 
-                {/* Circular Initial with dynamic background color */}
-                <div className="absolute top-5 left-1/2 transform -translate-x-1/2 z-20">
-                  <div className={`w-12 h-12 ${colorClass} text-white flex items-center justify-center rounded-full text-sm font-bold`}>
+                {/* Circular Initial */}
+                <div className="absolute top-10 left-1/2 transform -translate-x-1/2 z-20">
+                  <div className={`w-14 h-14 ${colorClass} text-white flex items-center justify-center rounded-full text-sm font-bold`}>
                     {review.initial}
                   </div>
                 </div>

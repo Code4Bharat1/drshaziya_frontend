@@ -23,10 +23,10 @@ const Resource = () => {
   ];
 
   return (
-    <div className="bg-[#f8faff] py-12 px-4 text-center mt-12">
-      <h2 className="text-4xl font-bold text-blue-900 mb-10">RESOURCES</h2>
+    <div className="bg-[#F8F9FE] py-12 px-4 text-center mt-14">
+      <h2 className="text-4xl font-bold text-blue-900 mb-12 mt-5">RESOURCES</h2>
 
-      <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+      <div className="grid md:grid-cols-3 gap-12 max-w-7xl mx-auto">
         {resources.map((res, index) => (
           <div key={index}>
             <img

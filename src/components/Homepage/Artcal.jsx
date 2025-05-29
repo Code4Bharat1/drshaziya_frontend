@@ -12,8 +12,8 @@ const articles = [
 
 const Artical = () => {
   return (
-    <div className="py-6 bg-gray-50  flex flex-col items-center">
-      <h2 className="text-2xl font-bold text-center text-blue-900 mb-6">
+    <div className="py-6 bg-[#F8F9FE] flex flex-col items-center">
+      <h2 className="text-[39px] font-bold text-center text-blue-900 mb-6">
         Articles by Dr. Shazia
       </h2>
 

@@ -33,16 +33,16 @@ const OurImpact = () => {
   ];
 
   return (
-    <div className="bg-[#f8faff] py-10 px-4 text-center">
+    <div className="bg-[#F8F9FE] py-10 px-4 text-center">
       {/* Main Heading */}
-      <h2 className="text-4xl font-bold text-[#004979] mb-10">OUR IMPACT NUMBERS</h2>
+      <h2 className="text-5xl font-bold text-[#004979] mb-10">OUR IMPACT NUMBERS</h2>
 
       {/* Impact Cards */}
-      <div className="flex flex-col md:flex-row justify-center items-center gap-8 mb-12">
+      <div className="flex flex-col md:flex-row justify-center items-center gap-16 mb-12">
         {impactCards.map((card, index) => (
           <div
             key={index}
-            className="bg-white  shadow-[0_4px_10px_rgba(0,0,0,0.4)] rounded-xl p-6 w-72 flex flex-col items-center border-2 border-gray-300"
+            className="bg-white  shadow-[0_4px_10px_rgba(0,0,0,0.4)] rounded-xl p-6 w-80 flex flex-col items-center border-2 border-gray-300"
           >
             <img
               src={card.image}
@@ -56,24 +56,25 @@ const OurImpact = () => {
       </div>
 
       {/* Hospital Affiliation Section */}
-      <h3 className="text-4xl font-bold text-[#004979] mb-2">Hospital Affiliations</h3>
-      <p className="text-[#004979] font-medium mb-8">
+      <h3 className="text-5xl font-bold text-[#004979] mb-2">Hospital Affiliations</h3>
+      <p className="text-[#004979] font-bold text-2xl mt-5">
         Affiliated with 7+ reputed Hospitals and Clinics in Mumbai
       </p>
 
      {/* Scrolling Logos */}
-      <div className="overflow-hidden  ">
-        <div className="flex whitespace-nowrap animate-scroll-horizontal">
-          {[...logos, ...logos].map((logo, index) => (
-            <img
-              key={index}
-              src={logo}
-              alt={`Hospital logo ${index + 1}`}
-              className="w-24 h-24 object-contain rounded-full border-2 p-2 bg-white shadow-[0_3px_2px_rgba(0,0,0,0.4)] mx-4 m-5 "
-            />
-          ))}
-        </div>
-      </div>
+ <div className="overflow-hidden h-40 mt-12"> {/* Increased height */}
+  <div className="flex whitespace-nowrap animate-scroll-horizontal items-center">
+    {[...logos, ...logos].map((logo, index) => (
+      <img
+        key={index}
+        src={logo}
+        alt={`Hospital logo ${index + 1}`}
+        className="w-32 h-32 object-contain rounded-full border-2 p-3 bg-white shadow-[0_3px_2px_rgba(0,0,0,0.4)] mx-5"
+      />
+    ))}
+  </div>
+</div>
+
 
       {/* Animation CSS */}
       <style jsx>{`
