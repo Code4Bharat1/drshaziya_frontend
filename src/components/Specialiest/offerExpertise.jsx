@@ -51,7 +51,7 @@ const expertiseData = [
     title: 'Gastrointestinal Surgeries',
     description:
      'Gastrointestinal surgeries involve procedures on the digestive tract, such as operations on the stomach, and gallbladder to treat conditions like ulcers.',
-    image: 'offer9.png',
+    image: '/offer9.png',
      path: '/allartical/gisurgery',
   },
      {
@@ -67,7 +67,7 @@ const expertiseData = [
 const OfferExpertise = () => {
   return (
     <div className="bg-[#F9F8FE] py-10 mt-9">
-      <h2 className="text-center text-2xl md:text-[35px] font-bold text-[#004979] mt-16 mb-14">
+      <h2 className="text-center text-2xl md:text-[32px] font-semibold text-[#004979] mt-16 mb-14">
          Dr. Shazia Waghoo offers Expertise in the following Surgeries
       </h2>
 
@@ -95,7 +95,7 @@ const OfferExpertise = () => {
                 <p className="text-[#000000] text-sm font-roboto">{item.description}</p>
               </div>
               <Link href={item.path}>
-              <button className=" shadow-[0_3px_2px_rgba(0,0,0,0.3)] bg-[#0085DC] text-white text-xs px-6 py-3 rounded-md hover:bg-blue-500 mt-5 mx-auto block">
+              <button className=" shadow-[0_3px_2px_rgba(0,0,0,0.3)] bg-[#0085DC] text-white text-xs px-7 py-3 rounded-md hover:bg-blue-500 mt-5 mx-auto block">
                 KNOW MORE
               </button>
               </Link>

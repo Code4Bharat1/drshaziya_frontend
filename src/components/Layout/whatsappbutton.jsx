@@ -19,7 +19,7 @@ export default function WhatsAppButton() {
         onMouseEnter={() => setIsHovered(true)}
         onMouseLeave={() => setIsHovered(false)}
       >
-        {/* Phone Button that appears on hover */}
+        
         <div 
           className={`transform transition-all duration-500 ease-out ${
             isHovered 
@@ -37,7 +37,7 @@ export default function WhatsAppButton() {
           </div>
         </div>
 
-        {/* Main WhatsApp Button */}
+       
         <div
           onClick={handleWhatsAppClick}
           className="bg-green-500 hover:bg-green-600 text-white p-4 rounded-full shadow-lg transition-all duration-300 cursor-pointer transform hover:scale-110"

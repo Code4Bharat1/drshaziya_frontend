@@ -12,7 +12,7 @@ const Demystifying = () => {
      {/* Square image with white overlay */}
 <div className="relative">
   <img
-    src="/square.png"
+    src="/square1.png"
     alt="Square Background"
     className="w-72 h-72 sm:w-80 sm:h-80 md:w-[390px] md:h-[400px] object-cover "
   />

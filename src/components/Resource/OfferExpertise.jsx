@@ -66,11 +66,11 @@ const expertiseData = [
 
 const OfferExpertise = () => {
   return (
-    <div className="bg-gray-50 py-10">
+    <div className="bg-[#F8F9FE] py-10">
 
         <div className="text-center mb-9">
-         <h2 className="text-[#004979] text-3xl md:text-3xl font-bold mb-4 ">Top Surgeries</h2>
-          <p className="text-black text-xl font-bold mt-9">
+         <h2 className="text-[#004979] text-3xl md:text-4xl font-bold mb-4 ">Top Surgeries</h2>
+          <p className="text-black text-[23px] font-bold mt-9">
                  Dr. Shazia Waghoo offers Expertise in the following Surgeries
           </p>
        </div>

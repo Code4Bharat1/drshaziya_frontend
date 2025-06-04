@@ -22,14 +22,14 @@ const OurImpact = () => {
   ];
 
   const logos = [
-    '/impact1.png',
-    '/impact2.png',
-    '/impact3.png',
-    '/impact4.png',
-    '/impact5.png',
-    '/impact6.png',
-    '/impact7.png',
-    '/impact8.png',
+    '/imp1.png',
+    '/imp2.png',
+    '/imp3.png',
+    '/imp4.png',
+    '/imp5.png',
+    '/imp6.png',
+    '/imp7.png',
+    '/imp8.png',
   ];
 
   return (

@@ -26,10 +26,10 @@ export default function Home() {
 <OfferExpertise/>
 <Restoringhealth/>
 <MissionVission/>
-<Review/>
 <Contact/>
 <Demystifying/>
 <Consult/>
+<Review/>
 <WatchVedio/>
 <Artical/>
 <BookAppointment/>

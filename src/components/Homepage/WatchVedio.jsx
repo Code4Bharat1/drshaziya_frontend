@@ -8,7 +8,8 @@ const WatchVedio = () => {
 
       {/* Heading */}
       <h2 className="relative z-10 text-xl md:text-3xl font-semibold text-blue-900 mb-7 text-center leading-relaxed">
-        Watch these videos to get a better idea about latest <br /> healthcare modalities:
+       Watch these videos to get more information about 
+ <br /> Dr. Shazia Waghoo.
       </h2>
 
       {/* Video Grid */}
