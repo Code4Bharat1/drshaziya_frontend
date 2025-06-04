@@ -10,7 +10,7 @@ const Footer = () => {
           
           {/* Logo Section */}
           <div className="flex justify-center lg:justify-start">
-            <div className="w-full max-w-[200px] lg:max-w-[240px]">
+            <div className="w-full max-w-[440px] lg:max-w-[400px]">
               <img
                 src="/footer-logo.png"
                 alt="Dr. Shazia Waghoo Clinic Logo"
@@ -18,6 +18,8 @@ const Footer = () => {
               />
             </div>
           </div>
+
+          
 
           {/* Clinic Info Section */}
           <div className="text-center lg:text-left">
@@ -31,7 +33,7 @@ const Footer = () => {
                   className="hover:text-yellow-300 transition-colors duration-200 inline-flex items-center"
                 >
                   <span className="mr-2">•</span> 
-                  <span className="break-words">About Us</span>
+                  <span className="break-words font-bold text-[18px]">About Us</span>
                 </a>
               </li>
               <li>
@@ -40,7 +42,7 @@ const Footer = () => {
                   className="hover:text-yellow-300 transition-colors duration-200 inline-flex items-center"
                 >
                   <span className="mr-2">•</span> 
-                  <span className="break-words">Specialities</span>
+                  <span className="break-words font-bold text-[18px]">Specialities</span>
                 </a>
               </li>
               <li>
@@ -49,7 +51,7 @@ const Footer = () => {
                   className="hover:text-yellow-300 transition-colors duration-200 inline-flex items-center"
                 >
                   <span className="mr-2">•</span> 
-                  <span className="break-words">Patient Testimonials</span>
+                  <span className="break-words font-bold text-[18px]">Patient Testimonials</span>
                 </a>
               </li>
             </ul>
@@ -67,7 +69,7 @@ const Footer = () => {
                   className="hover:text-yellow-300 transition-colors duration-200 inline-flex items-center"
                 >
                   <span className="mr-2">•</span> 
-                  <span className="break-words">Book Appointment</span>
+                  <span className="break-words font-bold text-[18px]">Book Appointment</span>
                 </a>
               </li>
               <li>
@@ -76,7 +78,7 @@ const Footer = () => {
                   className="hover:text-yellow-300 transition-colors duration-200 inline-flex items-center"
                 >
                   <span className="mr-2">•</span> 
-                  <span className="break-words">Article by Dr. Shazia</span>
+                  <span className="break-words font-bold text-[18px]">Article by Dr. Shazia</span>
                 </a>
               </li>
             </ul>

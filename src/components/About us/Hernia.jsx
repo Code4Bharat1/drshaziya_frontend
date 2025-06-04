@@ -6,9 +6,9 @@ const Hernia = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-2 sm:gap-8 lg:gap-12 items-center">
           <div className="flex flex-col items-center lg:items-start order-1 lg:order-1">
-            <div className="w-64 h-64 sm:w-80 sm:h-80 lg:w-[33rem] lg:h-[33rem] overflow-hidden shadow-sm">
+            <div className="w-60 h-60 sm:w-80 sm:h-80 lg:w-[33rem] lg:h-[33rem] overflow-hidden shadow-sm">
               <img
-                src="/drshazia.png"
+                src="/circle1.png"
                 alt="Dr. Shazia Waghoo"
                 className="w-full h-full object-cover"
               />

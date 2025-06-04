@@ -90,10 +90,10 @@ const Testimonial = () => {
   }, []);
 
   return (
-    <div className="bg-[#F8F9FE] px-4 pt-6 sm:pt-8">
+    <div className="bg-[#F8F9FE] px-4 pt-10 sm:pt-8">
       {/* Heading */}
-      <h2 className="text-2xl sm:text-3xl font-semibold text-gray-800 text-center mt-16">
-        Testimonial
+      <h2 className="text-2xl sm:text-3xl font-semibold text-[#004979] text-center mt-24 ">
+        TESTIMONIAL
       </h2>
 
       {/* Card section */}
@@ -131,7 +131,7 @@ const Testimonial = () => {
           href="https://www.google.com/maps/place/Dr+Shazia+Waghoo+%7C+Hernia,+Breast+and+Laparoscopic+Surgeon/@19.0809349,72.8522963,3328m/data=!3m1!1e3!4m8!3m7!1s0x3be7c91cb4d42d09:0x995febb2a757d44!8m2!3d19.0809349!4d72.8522963!9m1!1b1!16s%2Fg%2F11qh1gn93v?hl=en-IN&entry=ttu"
           target="_blank"
           rel="noopener noreferrer"
-          className="bg-[#0085DC] hover:bg-[#006fb6] text-white font-medium px-9 py-3 rounded-md shadow-md transition duration-300 mb-4"
+          className="bg-[#0085DC] hover:bg-[#006fb6] text-white font-medium px-9 py-3 rounded-md  transition duration-300 mb-6 shadow-[0_3px_5px_rgba(0,0,0,0.4)]"
         >
           VIEW GOOGLE REVIEW
         </a>

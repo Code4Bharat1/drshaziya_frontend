@@ -4,17 +4,17 @@ import { useRouter } from 'next/navigation';
 const Seasoned = () => {
 const router = useRouter();
   return (
-    <div className="bg-[#F8F9FE] text-[#000] p-6">
-      <div className="flex flex-col lg:flex-row items-center lg:items-start justify-start gap-9 lg:ml-24 ">
+    <div className="bg-[#F8F9FE] text-[#000] p-6 ">
+      <div className="flex flex-col lg:flex-row items-center lg:items-start justify-start gap-9 lg:ml-24 mt-16 ">
         
         {/* Left Section - Image and Name */}
         <div className="flex flex-col items-center w-full lg:w-1/3">
           <img
-            src="/seasoned.png"
+            src="/surgicalexellencedr.png"
             alt="Dr. Shazia Waghoo"
-            className="rounded-xl w-full max-w-[410px] object-cover"
+            className="rounded-xl w-full max-w-[490px] object-cover"
           />
-          <div className="text-center mt-4">
+          <div className="text-center mt-7">
             <h2 className="text-[27px] font-bold">Dr. Shazia Waghoo</h2>
             <p className="text-xl text-[#000000]">MBBS, DNB General Surgery</p>
           </div>
