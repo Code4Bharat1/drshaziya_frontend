@@ -1,6 +1,7 @@
-
 import BreastCancer from "@/components/AllSurgery/BreastCancer";
 import Contact from "@/components/Homepage/Contact";
+import ContactMobile from "@/components/Homepage/mobilecontact";
+import WhatsAppButton from "@/components/Layout/whatsappbutton";
 import React from "react";
 
 const page = () => {
@@ -15,7 +16,7 @@ const page = () => {
         <WhatsAppButton />
 
         <BreastCancer />
-        <Contact />
+        <ContactMobile />
       </div>
     </>
   );
