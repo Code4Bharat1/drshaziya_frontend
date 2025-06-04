@@ -1,6 +1,9 @@
 
 import BookAppointment from '@/components/About us/bookapoinment'
+import BookAppointmentMobile from '@/components/About us/MobileBookapoinment'
+
 import WhatsAppButton from '@/components/Layout/whatsappbutton'
+import MobileOfferExpert from '@/components/Specialiest/Mobileofferexpert'
 import MobilePatientcare from '@/components/Specialiest/MobilePatientCare'
 import OfferExpertise from '@/components/Specialiest/offerExpertise'
 import PatientCare from '@/components/Specialiest/PatientCare'
@@ -17,8 +20,10 @@ const page = () => {
     <BookAppointment/>
     </div>
       <div className="block md:hidden">
-        
-<MobilePatientcare/>
+        <WhatsAppButton/>
+      <MobileOfferExpert/>       
+      <MobilePatientcare/>
+     <BookAppointmentMobile/>
         </div>
         </div>
 

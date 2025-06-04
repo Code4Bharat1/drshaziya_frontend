@@ -23,6 +23,7 @@ const page = () => {
     <BookAppointment />
    </div>
     <div className="block md:hidden">
+      <WhatsAppButton/>
    <MobileHernia/>
    <MobileConference/>
    <MobileRecognitions/>

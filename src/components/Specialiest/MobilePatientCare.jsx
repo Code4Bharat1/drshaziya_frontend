@@ -37,7 +37,7 @@ const MobilePatientCare = () => {
   ];
 
   return (
-    <div className="w-full mt-20 bg-white py-8 px-4">
+    <div className="w-full  bg-[#F8F9FE] py-8 px-4">
       <div className="max-w-md mx-auto">
         <h1 className="text-2xl font-bold text-[#004979] text-center mb-8">
           Patient Care

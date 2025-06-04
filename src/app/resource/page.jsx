@@ -1,4 +1,6 @@
+import BookAppointmentMobile from '@/components/About us/MobileBookapoinment'
 import Artical from '@/components/Homepage/Artcal'
+import MobileOfferExpertise from '@/components/Homepage/mobileofferexpertise'
 import WhatsAppButton from '@/components/Layout/whatsappbutton'
 import Awareness1 from '@/components/Resource/Awareness1'
 
@@ -33,6 +35,8 @@ const page = () => {
         <MobileAwareness1/>
         <MobileAwareness3/>
         <MobileArtical/>
+        <MobileOfferExpertise/>
+        <BookAppointmentMobile/>
 
     </div>
     </>

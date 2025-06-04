@@ -43,6 +43,7 @@ export default function Home() {
         <BookAppointment />
       </div>
       <div className="block md:hidden">
+        <WhatsAppButton/>
         <MobileSurgicalExcellence />
         <MobileSeasoned />
         <MobileOurImpact />
