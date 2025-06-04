@@ -15,25 +15,27 @@ const content = [
     ]
   },
   {
-    title: "What are Common Types of Hernias?",
+    title: "What are some common problems that may require seeking a specialist Hernia Surgeon?",
     text: [
-      "Inguinal Hernia: Occurs in the groin area, more common in men.",
-      "Umbilical Hernia: Occurs around the belly button, often seen in infants and obese adults.",
-      "Hiatal Hernia: Occurs when part of the stomach pushes up into the chest through the diaphragm.",
-      "Incisional Hernia: Happens through an incision or scar from a previous abdominal surgery.",
-      "Femoral Hernia: Appears just below the groin, more common in women."
+         "Doctors typically advise hernia surgery in the following situations:",
+"Persistent Pain or Discomfort in Hernia area due to irreducibility or obstruction.",
+"Bowel Obstruction :Hernias can obstruct bowel movements like inability to pass flatus or stool, nausea or vomiting, fever.",
+"Gynecological Issues :This is a life-threatening condition where the blood supply to the herniated organ or tissue is cut off. It requires emergency surgery.",
+
     ],
     isList: true
   },
   {
-    title: "Benefits of Laparoscopic Hernia Repair",
+    title: "Symptoms Interfere with Quality of Life:",
     text: [
-      "Laparoscopic hernia surgery is less invasive and usually results in faster recovery, minimal pain, smaller scars, and a quicker return to daily activities. It’s especially helpful for patients with recurrent hernias or hernias on both sides (bilateral). The procedure is done using a laparoscope — a long thin tube with a camera and light — inserted through small incisions."
+      "If the symptoms are severe and interfere with quality of life.",
+
+"Remember, not all hernias require immediate treatment, but eventually do as there is no treatment for hernia other than surgery. If left untreated, hernias can worsen over time, increasing discomfort and risk of complications."
     ]
   }
 ];
 
-const Harnia = () => {
+const MobileHarnia = () => {
   return (
     <div className= "mt-24">
     <div className="bg-white p-6 md:p-10 max-w-5xl mx-auto font-sans text-gray-800">
@@ -76,4 +78,4 @@ const Harnia = () => {
   );
 };
 
-export default Harnia;
+export default MobileHarnia;

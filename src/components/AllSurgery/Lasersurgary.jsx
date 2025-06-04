@@ -31,7 +31,7 @@ const LaserSurgery = () => {
             objectFit="cover"
             priority
           />
-          <div className="absolute top-11 left-4 text-white text-xl md:text-5xl font-semibold px-4 py-2 rounded">
+          <div className="absolute top-11 left-4 text-white text-4xl md:text-5xl font-semibold px-4 py-2 rounded">
             Laser Surgery
           </div>
         </div>
@@ -41,7 +41,7 @@ const LaserSurgery = () => {
           {laserContent.map((section, index) => (
             <div key={index}>
               <h2 className="text-3xl md:text-3xl font-bold mb-2">{section.heading}</h2>
-              <p className="text-base md:text-xl leading-relaxed whitespace-pre-line">
+              <p className="text-xl md:text-xl leading-relaxed whitespace-pre-line">
                 {section.text}
               </p>
             </div>

@@ -91,19 +91,19 @@ const AbdominalWall = () => {
 
           {section.content &&
             section.content.map((para, idx) => (
-              <p key={idx} className="text-sm md:text-base leading-relaxed mb-2">
+              <p key={idx} className="text-xl md:text-base leading-relaxed mb-2">
                 {para}
               </p>
             ))}
 
           {section.description && (
-            <p className="text-sm md:text-base leading-relaxed mb-2">
+            <p className="text-xl md:text-base leading-relaxed mb-2">
               {section.description}
             </p>
           )}
 
           {section.list && Array.isArray(section.list) && typeof section.list[0] === 'object' ? (
-            <ul className="list-disc list-inside text-sm md:text-base leading-relaxed space-y-1">
+            <ul className="list-disc list-inside text-xl md:text-base leading-relaxed space-y-1">
               {section.list.map((item, i) => (
                 <li key={i}>
                   <strong>{item.title}:</strong> {item.detail}
@@ -111,7 +111,7 @@ const AbdominalWall = () => {
               ))}
             </ul>
           ) : section.list ? (
-            <ul className="list-disc list-inside text-sm md:text-base leading-relaxed space-y-1 mt-2">
+            <ul className="list-disc list-inside text-xl md:text-base leading-relaxed space-y-1 mt-2">
               {section.list.map((item, i) => (
                 <li key={i}>{item}</li>
               ))}

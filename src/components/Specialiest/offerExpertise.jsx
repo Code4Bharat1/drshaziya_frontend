@@ -59,7 +59,7 @@ const expertiseData = [
     description:
            'Thyroid surgery is performed to treat thyroid nodules, cancer, or hyperthyroidism by removing part or all of the thyroid gland.',
     image: 'offer8.png',
-     path: '/allartical/gisurgery',
+     path: '/allartical/thyroid',
   },
 
 ];

@@ -45,9 +45,9 @@ const Thyroid = () => {
      
       {content.map(({ title, text }, idx) => (
         <div className="mt-6" key={idx}>
-          <h2 className="text-xl md:text-2xl font-bold text-gray-900 mb-2">{title}</h2>
+          <h2 className="text-2xl md:text-2xl font-bold text-gray-900 mb-2">{title}</h2>
           {text.map((para, i) => (
-            <p className="text-sm md:text-base leading-relaxed mb-2" key={i}>
+            <p className="text-xl md:text-base leading-relaxed mb-2" key={i}>
               {para}
             </p>
           ))}

@@ -62,7 +62,7 @@ const BreastCancer = () => {
             <h2 className="text-xl md:text-2xl font-bold text-gray-900 mb-2">
               {section.heading}
             </h2>
-            <p className="text-sm md:text-base leading-relaxed whitespace-pre-line">
+            <p className="text-xl md:text-base leading-relaxed whitespace-pre-line">
               {section.text}
             </p>
           </div>
@@ -73,7 +73,7 @@ const BreastCancer = () => {
           <h2 className="text-xl md:text-2xl font-bold text-gray-900 mb-2">
             What are some common problems that may require seeking a Breast Surgeon?
           </h2>
-          <ul className="list-disc list-inside text-sm md:text-base leading-relaxed space-y-1">
+          <ul className="list-disc list-inside text-xl md:text-base leading-relaxed space-y-1">
             {commonProblems.map((item, index) => (
               <li key={index}>
                 <strong>{item.title}</strong> {item.desc}

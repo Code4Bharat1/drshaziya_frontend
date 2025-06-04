@@ -76,14 +76,14 @@ const Lepocrasy = () => {
 
             
             {text.map((para, i) => (
-              <p key={i} className="text-sm md:text-base leading-relaxed mb-2">
+              <p key={i} className="text-xl md:text-base leading-relaxed mb-2">
                 {para}
               </p>
             ))}
 
            
             {list && (
-              <ul className="list-disc list-inside text-sm md:text-base leading-relaxed space-y-1">
+              <ul className="list-disc list-inside text-xl md:text-base leading-relaxed space-y-1">
                 {list.map(({ bold, description }, i) => (
                   <li key={i}>
                     <strong>{bold}</strong> {description}
@@ -94,7 +94,7 @@ const Lepocrasy = () => {
 
             
             {extraText && (
-              <p className="mt-4 text-sm md:text-base leading-relaxed">{extraText}</p>
+              <p className="mt-4 text-xl  md:text-base leading-relaxed">{extraText}</p>
             )}
           </div>
         ))}
