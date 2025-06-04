@@ -8,7 +8,7 @@ const SurgicalExcellence = () => {
       {/* Image Container */}
       <div className="relative w-full h-[90vh] md:h-[83vh]">
         <Image
-          src="/heropic.png" // Place this image in public/
+          src="/hero1.png" // Place this image in public/
           alt="Surgical Background"
           layout="fill"
           objectFit="cover"
@@ -32,21 +32,6 @@ const SurgicalExcellence = () => {
             BOOK AN APPOINTMENT
           </button>
         </div>
-<<<<<<< HEAD
-
-        {/* Right Side - Image with Icons */}
-        <div className="relative w-full max-w-md mx-auto md:max-w-full">
-          <img
-            src="/surgicalexellencedr.png"
-            alt="Doctor"
-            className="rounded-lg  w-[480px] h-auto object-cover mt-10"
-          />
-
-
-    
-        </div>
-=======
->>>>>>> 8d9635e0ec931d8d513e74fbed51eeae3feda736
       </div>
     </section>
   );
