@@ -70,7 +70,7 @@ const ContactMobile = () => {
   };
 
   return (
-    <div className="bg-[#0085DC] py-8 px-4">
+    <div className="bg-[#0085DC] py-8 px-4 mb-6">
       <div className=" text-white text-left mx-4">
         <h2 className="text-3xl font-bold mb-3  text-left">
           Book a Consultation

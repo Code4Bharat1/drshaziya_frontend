@@ -8,7 +8,7 @@ const expertiseData = [
     description:
       "Thyroid surgery is a procedure to remove part or all of the thyroid gland, to improve conditions caused often due to cancer or nodules.",
     image: "offer8.png",
-    path: "/allartical/gisurgery",
+    path: "/allartical/thyroid",
   },
 
   {
@@ -19,7 +19,7 @@ const expertiseData = [
     path: "/allartical/lepocrasy",
   },
   {
-    title: "Hernia Surgeries",
+    title: "Harnia Surgeries",
     description:
       "Hernia surgery is a procedure to repair a bulge or protrusion caused by an organ pushing through a weak spot in muscle or tissue.",
     image: "offer2.png",
