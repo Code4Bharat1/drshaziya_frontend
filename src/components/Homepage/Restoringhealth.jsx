@@ -24,7 +24,7 @@ const Restoringhealth = () => {
         <div className="flex-1 w-full flex justify-center">
           <div className="w-[465px] h-[465px]  rounded-full overflow-hidden ">
             <img
-              src="restoringhealth1.png"
+              src="restoringfinal.png"
               alt="Dr. Shazia Waghoo"
               className="w-full h-full object-cover"
             />

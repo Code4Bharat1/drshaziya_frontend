@@ -2,7 +2,7 @@ import React from "react";
 
 const Hernia = () => {
   return (
-    <div className="bg-[#F9F8FE] py-8 sm:py-12 lg:py-16 relative">
+    <div className="bg-[#F9F8FE] py-8 sm:py-12 lg:py-16 relative mt-12">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-2 sm:gap-8 lg:gap-12 items-center">
           <div className="flex flex-col items-center lg:items-start order-1 lg:order-1">

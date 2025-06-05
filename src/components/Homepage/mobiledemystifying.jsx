@@ -8,7 +8,7 @@ const DemystifyingMobile = () => {
   return (
     <div className="flex flex-col items-start bg-gray-50 px-6 py-12 md:hidden">
       {/* Heading */}
-      <h2 className="text-2xl sm:text-3xl font-bold text-[#004979] mb-4 text-left font-inter">
+      <h2 className="text-2xl sm:text-3xl font-bold text-[#004979] mb-2 text-left font-inter">
         Demystifying the Surgery experience
       </h2>
 
@@ -47,7 +47,7 @@ const DemystifyingMobile = () => {
         <div className="absolute inset-0 flex items-center justify-end">
           <div className="w-64 h-64 sm:w-72 sm:h-72 md:w-80 md:h-80 rounded-full overflow-hidden">
             <img
-              src="/circle1.png"
+              src="/circle2.png"
               alt="Dr. Shazia Waghoo"
               className="w-full h-full object-cover"
             />

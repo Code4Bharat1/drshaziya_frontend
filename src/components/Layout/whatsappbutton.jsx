@@ -87,7 +87,7 @@ export default function WhatsAppButton() {
         {/* WhatsApp Button */}
         <div
           onClick={handleWhatsAppClick}
-          className="flex items-center justify-center bg-[#00C853] hover:bg-[#00B248] w-14 h-14 rounded-full shadow-lg transition-all duration-300 cursor-pointer transform hover:scale-110"
+          className="flex items-center justify-center bg-[#00C853] hover:bg-[#00B248] w-12 h-12 rounded-full shadow-lg transition-all duration-300 cursor-pointer transform hover:scale-110"
         >
           <svg
             className="w-7 h-7"

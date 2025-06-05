@@ -24,7 +24,7 @@ const Demystifying = () => {
         <div className="absolute inset-0 flex items-center justify-end">
           <div className="w-64 h-64 sm:w-72 sm:h-72 md:w-80 md:h-80 rounded-full overflow-hidden">
             <img
-              src="/circle1.png"
+              src="/circle2.png"
               alt="Dr. Shazia Waghoo"
               className="w-full h-full object-cover"
             />
