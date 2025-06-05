@@ -4,11 +4,12 @@ const MobileWatchVideo = () => {
   return (
     <div className="relative bg-[#F8F9FE] pt-12 pb-12 px-2 overflow-hidden max-w-md ">
       {/* Heading */}
-      <h2 className="relative whitespace-nowrap z-10 text-md font-semibold text-[#004979] mb-8 text-center leading-relaxed px-2">
-        Watch these videos to get more information about
-        <br className="hidden sm:block" />
-        <span className="block sm:inline"> Dr. Shazia Waghoo.</span>
-      </h2>
+      <h2 className="relative whitespace-nowrap z-10 text-[17px] font-bold text-[#004979] mb-8 text-center leading-relaxed px-2">
+  Watch these videos to get more information about
+  <br className="hidden sm:block" />
+  <span className="block sm:inline"> Dr. Shazia Waghoo.</span>
+</h2>
+
 
       {/* Videos Container */}
       <div className="space-y-4 w-full px-10">

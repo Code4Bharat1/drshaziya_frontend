@@ -54,7 +54,7 @@ const MobileClinicCard = () => {
 
   return (
     <div className="bg-[#f4f6fb] py-10 px-4">
-      <div className="max-w-5xl mx-auto grid grid-cols-1 gap-8">
+      <div className="max-w-5xl mx-8 grid grid-cols-1 gap-8">
         {displayedClinics.map((clinic, index) => {
           const addressLines = clinic.address.split('\n');
           return (
