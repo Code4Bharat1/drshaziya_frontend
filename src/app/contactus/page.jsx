@@ -1,6 +1,7 @@
 
 
 import BookAppointment from "@/components/About us/bookapoinment";
+import BookAppointmentMobile from "@/components/About us/MobileBookapoinment";
 import ClinicCard from "@/components/Contactus/ClinicCard";
 import ContactInfo from "@/components/Contactus/contactinfo";
 import Maincontactus from "@/components/Contactus/Maincontactus";
@@ -16,11 +17,13 @@ const page = () => {
       <WhatsAppButton />
     <Maincontactus/>
     <ClinicCard/>
+    <BookAppointment/>
     </div>
     <div className="block md:hidden">
       <WhatsAppButton/>
       <Mobilemaincontatcus/>
       <MobileClinicCard/>
+      <BookAppointmentMobile/>
       
     </div>
   </>

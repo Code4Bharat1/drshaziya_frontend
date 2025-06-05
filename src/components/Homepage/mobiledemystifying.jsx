@@ -6,7 +6,7 @@ const DemystifyingMobile = () => {
   const router = useRouter();
 
   return (
-    <div className="flex flex-col items-start bg-gray-50 px-6 py-12 md:hidden">
+    <div className="flex flex-col items-start bg-gray-50 px-6  md:hidden">
       {/* Heading */}
       <h2 className="text-2xl sm:text-3xl font-bold text-[#004979] mb-2 text-left font-inter">
         Demystifying the Surgery experience

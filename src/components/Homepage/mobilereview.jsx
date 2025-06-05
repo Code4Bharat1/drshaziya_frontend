@@ -74,9 +74,9 @@ const MobileReviewsSwiper = () => {
 
   return (
     <div className="py-6 bg-[#F8F9FE] ">
-      <h2 className="text-2xl sm:text-3xl font-bold text-center text-[#004979] mb-6 px-4">
-        Reviews on Google
-      </h2>
+   <h2 className="text-[26px] sm:text-[30px] font-bold text-center text-[#004979] mb-6 px-4">
+  Reviews on Google
+</h2>
 
       {/* Mobile Swiper Container */}
       <div className="relative overflow-hidden">

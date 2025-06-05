@@ -26,7 +26,7 @@ const RestoringhealthMobile = () => {
       <div className="flex justify-center items-center ">
         <div className="w-[300px] h-[300px] flex items-center justify-center rounded-full overflow-hidden mb-6">
           <img
-            src="restoringhealth1.png"
+            src="restoringfinal.png"
             alt="Dr. Shazia Waghoo"
             className="w-full h-full object-cover"
           />
