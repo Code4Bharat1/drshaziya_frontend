@@ -65,7 +65,7 @@ const expertiseData = [
 const MobileOfferExpertise = () => {
   return (
     <div className="bg-[#F8F9FE] py-2 px-4 block md:hidden">
-      <h2 className="text-center text-xl px-5 font-bold text-[#004979] mt-2 mb-10">
+      <h2 className="text-center text-xl px-5 font-bold text-[#004979] -mt-6 mb-10">
         Dr. Shazia Waghoo offers Expertise in the following Surgeries
       </h2>
 

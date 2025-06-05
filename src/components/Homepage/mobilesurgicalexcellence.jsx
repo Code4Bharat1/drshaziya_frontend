@@ -8,11 +8,11 @@ const MobileSurgicalExcellence = () => {
       {/* Background Image */}
       <div className="relative w-full h-[85vh]">
         <Image
-          src="/heropic.png"
+          src="/ot1.png"
           alt="Surgical Background"
           layout="fill"
           objectFit="cover"
-          className="z-0"
+          className="z-0 "
           priority
         />
 
