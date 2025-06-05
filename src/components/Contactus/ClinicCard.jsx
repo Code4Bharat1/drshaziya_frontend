@@ -66,8 +66,8 @@ const ClinicCard = () => {
               {/* Top Content */}
               <div className="flex-grow flex flex-col  items-center">
                 <MapPin className="text-blue-600 mb-2" size={28} />
-                <h2 className="font-semibold text-xl">{clinic.title}</h2>
-                <p className="font-semibold mt-1 text-md">{clinic.name}</p>
+                <h2 className="font-semibold text-black text-xl">{clinic.title}</h2>
+                <p className="font-semibold text-black mt-1 text-md">{clinic.name}</p>
                 <div className="text-gray-700 mt-2 text-md">
                   {addressLines.map((line, i) => (
                     <p key={i} className={i === 1 || i === 2 ? 'underline text-black' : ''}>

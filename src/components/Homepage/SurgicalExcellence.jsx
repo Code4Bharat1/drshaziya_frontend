@@ -6,7 +6,7 @@ import { useRouter } from 'next/navigation';
 const SurgicalExcellence = () => {
     const router = useRouter();
   return (
-    <section className=" relative w-full max-w-screen overflow-hidden pt-24 md:pt-28">
+    <section className="bg-white relative w-full max-w-screen overflow-hidden pt-24 md:pt-28">
       {/* Image Container */}
       <div className="relative w-full h-[90vh] md:h-[83vh]">
         <Image

@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const Artical1 = () => {
   return (
-    <div className="mt-20">
+    <div className="mt-20 bg-white">
       <div className="bg-white p-6 md:p-10 max-w-6xl mx-auto font-sans text-gray-800 ">
 
         {/* Header Image with Label */}

@@ -49,7 +49,7 @@ const OurImpact = () => {
               alt={card.label}
               className="w-14 h-14 object-contain mb-4"
             />
-            <h3 className="text-2xl font-bold">{card.count}</h3>
+            <h3 className="text-2xl text-black font-bold">{card.count}</h3>
             <p className="text-gray-700">{card.label}</p>
           </div>
         ))}

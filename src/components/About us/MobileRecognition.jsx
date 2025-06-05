@@ -51,7 +51,7 @@ const MobileRecognitions = () => {
             style={{ boxShadow: '0 4px 6px -1px rgba(0, 0, 255, 0.4)' }}
           >
             <Image src={item.image} alt="Recognition Icon" width={40} height={40} />
-            <h3 className="font-bold text-xl">{item.title}</h3>
+            <h3 className="font-bold text-xl text-black">{item.title}</h3>
             <p className="text-gray-700 text-sm leading-relaxed">
               {item.description}
             </p>

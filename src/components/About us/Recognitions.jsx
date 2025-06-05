@@ -124,7 +124,7 @@ const Recognitions = () => {
           >
             <Image src={item.image} alt="Recognition Icon" width={40} height={40} />
 
-            <h3 className="font-bold text-2xl">{item.title}</h3>
+            <h3 className="font-bold text-2xl text-black">{item.title}</h3>
 
             <p className="text-gray-700 text-base leading-relaxed">
               {item.description}
