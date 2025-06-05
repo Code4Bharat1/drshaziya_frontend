@@ -64,7 +64,7 @@ const ClinicCard = () => {
               className="bg-white rounded-md shadow-[0_2px_4px_-1px_rgba(0,0,0,0.2)] border p-6 w-full max-w-[2800px] text-center flex flex-col justify-between h-[320px] border-gray-300"
             >
               {/* Top Content */}
-              <div className="flex-grow flex flex-col items-center">
+              <div className="flex-grow flex flex-col  items-center">
                 <MapPin className="text-blue-600 mb-2" size={28} />
                 <h2 className="font-semibold text-xl">{clinic.title}</h2>
                 <p className="font-semibold mt-1 text-md">{clinic.name}</p>

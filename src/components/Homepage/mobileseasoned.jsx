@@ -19,13 +19,13 @@ const MobileSeasoned = () => {
         </div>
 
         <div className="text-left mx-4">
-          <h2 className="text-xl font-serif text-[#004979] mb-3">
+          <h2 className="text-[20px] text-center font-serif text-[#004979] mb-3">
             A seasoned Laparoscopic, Hernia, and Breast Surgeon
           </h2>
-          <h3 className="text-lg text-[#004979] font-serif mb-3">
+          <h3 className="text-[20px] text-center text-[#004979] font-serif mb-3">
             Creating Impact across Millions of Lives
           </h3>
-          <p className="text-gray-800 text-base font-jaldi leading-relaxed">
+          <p className="text-gray-800 text-[18px] font-jaldi leading-relaxed text-center">
             Dr. Shazia Waghoo is a skilled Laparoscopic, Hernia, and Breast
             Surgeon based in Mumbai. With <strong>10+ years</strong> of
             experience, she is known for minimally invasive techniques and a
@@ -33,12 +33,15 @@ const MobileSeasoned = () => {
             <strong>promotes health awareness</strong> via camps and education
             sessions, and is highly recommended.
           </p>
-          <button
-            className="font-semibold text-sm bg-[#0085DC] hover:bg-blue-600 text-white px-5 py-3 rounded-md transition duration-200 mt-6"
-            onClick={() => router.push("/contactus")}
-          >
-            BOOK AN APPOINTMENT
-          </button>
+          <div className="flex justify-center">
+  <button
+    className="font-semibold text-sm bg-[#0085DC] hover:bg-blue-600 text-white px-5 py-3 rounded-md transition duration-200 mt-6"
+    onClick={() => router.push("/contactus")}
+  >
+    BOOK AN APPOINTMENT
+  </button>
+</div>
+
         </div>
       </div>
     </div>
