@@ -429,10 +429,10 @@ const Contact = () => {
               {errors.mobile && <p className="text-red-600 text-sm mt-1">{errors.mobile}</p>}
             </div>
 
-            <div className="mt-2 flex gap-3">
+            <div className="mt-2 flex gap-3 justify-center">
               <button
                 type="submit"
-                className="bg-[#0288D1] text-white text-sm font-semibold px-6 py-2 rounded-md shadow-md hover:bg-blue-700 transition"
+                className="bg-[#0288D1] text-white text-sm font-semibold px-6 py-2 rounded-md shadow-md hover:bg-blue-700 transition "
               >
                 SEND REQUEST
               </button>

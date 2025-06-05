@@ -8,7 +8,7 @@ const MissionVission = () => {
         {/* Vision */}
         <div className="md:w-1/2 md:pr-8 border-r md:border-r-[#000000] md:h-[350px] md:ml-[-8px]">
           <h2 className="text-4xl font-bold mb-4 text-center md:text-center">Our Vision</h2>
-          <p className="text-gray-800 text-[18px] leading-relaxed text-left font-alata font-bold">
+          <p className="text-gray-800 text-[18px] leading-relaxed text-center font-alata font-bold">
             Our vision is to deliver superior surgical outcomes and positively impact millions of lives.
             Led by Dr. Shazia Waghoo, our expanding team specializes in advanced surgical procedures using
             the latest technologies. We are committed to making high-quality, affordable healthcare accessible to all.
@@ -18,7 +18,7 @@ const MissionVission = () => {
         {/* Mission */}
         <div className="md:w-1/2 md:pl-24 md:ml-9">
           <h2 className="text-4xl font-bold mb-4 text-center md:text-center">Our Mission</h2>
-          <p className="text-gray-800 text-[18px] leading-relaxed font-alata font-bold">
+          <p className="text-gray-800 text-[18px] leading-relaxed font-alata font-bold text-center">
             Our healthcare brand is dedicated to providing high-quality, affordable care in a patient-focused setting.
             Through innovation and advanced research, we aim for medical excellence while also engaging in community
             outreach and education. We’re committed to empowering individuals to lead healthier lives, treating every

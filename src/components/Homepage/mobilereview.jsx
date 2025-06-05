@@ -94,12 +94,12 @@ const MobileReviewsSwiper = () => {
               <div key={index} className="w-full flex-shrink-0 px-6">
                 <div className="relative w-full max-w-sm mx-auto h-[420px]">
                   {/* YELLOW TOP CARD */}
-                  <div className="relative bg-[#FFD54F] h-20 border-b border-gray-300 overflow-hidden shadow-[inset_0_8px_10px_-4px_rgba(0,0,0,0.1),inset_4px_0_6px_-2px_rgba(0,0,0,0.08),inset_-4px_0_6px_-5px_rgba(0,0,0,0.08)] rounded-t-lg">
+                  <div className="relative bg-[#FFD54F] h-20 border-b border-gray-300 overflow-hidden shadow-[inset_0_8px_10px_-4px_rgba(0,0,0,0.1),inset_4px_0_6px_-2px_rgba(0,0,0,0.08),inset_-4px_0_6px_-5px_rgba(0,0,0,0.08)] rounded-t-lg mx-4">
                     <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-b from-black/10 to-transparent"></div>
                   </div>
 
                   {/* WHITE CONTENT CARD */}
-                  <div className="bg-white rounded-t-[2rem] shadow-lg p-6 pt-14 -mt-8 relative z-10 h-[380px] border border-gray-300 border-t-0 flex flex-col justify-between rounded-b-lg">
+                  <div className="bg-white rounded-t-[2rem] shadow-lg p-6 pt-14 -mt-8 relative z-10 h-[380px] border border-gray-300 border-t-0 flex flex-col justify-between rounded-b-lg mx-4  ">
                     <div className="flex-1">
                       <h3 className="font-semibold text-black text-center text-lg mb-4">
                         {review.name}

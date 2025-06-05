@@ -3,7 +3,7 @@ import React from "react";
 
 const MobileMissionVission = () => {
   return (
-    <div className="bg-[#F8F9FE] w-full text-center px-4 font-sans">
+    <div className="bg-[#F8F9FE] w-full text-center px-4 font-sans mb-4">
       <div className="max-w-xl mx-8 flex flex-col gap-10">
         {/* Vision */}
         <div>

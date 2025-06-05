@@ -1,8 +1,10 @@
 "use client";
 import React from "react";
 import Image from "next/image";
+import { useRouter } from 'next/navigation';
 
 const SurgicalExcellence = () => {
+    const router = useRouter();
   return (
     <section className=" relative w-full max-w-screen overflow-hidden pt-24 md:pt-28">
       {/* Image Container */}
@@ -28,7 +30,7 @@ const SurgicalExcellence = () => {
 </h1>
 
 
-          <button className="mt-14 bg-[#0085DC] hover:bg-blue-700 text-white font-semibold py-4 px-9 rounded-md transition duration-300">
+          <button className="mt-14 bg-[#0085DC] hover:bg-yellow-500 text-white font-semibold py-4 px-9 rounded-md transition duration-300" onClick={() => router.push('/contactus')}>
             BOOK AN APPOINTMENT
           </button>
         </div>
