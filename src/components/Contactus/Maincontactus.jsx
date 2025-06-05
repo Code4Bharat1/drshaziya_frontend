@@ -1,34 +1,221 @@
+// 'use client';
+// import React from 'react';
+
+// const Maincontactus = () => {
+//   return (
+//     <section className="w-full px-4 py-10 bg-gray-100 flex justify-center items-center mt-16">
+//       <div className="bg-white rounded-lg shadow-md p-6 md:p-10 flex flex-col md:flex-row gap-8 max-w-5xl w-full border border-gray-300">
+        
+//         {/* Contact Form */}
+//         <div className="flex-1">
+//           <form className="space-y-4">
+//             <input
+//               type="text"
+//               placeholder="Your Name"
+//               className="w-full px-4 py-2 border border-gray-300 rounded-md  focus:outline-none focus:ring-2 focus:ring-blue-400 text-black placeholder:text-[#4D4040] placeholder:text-[13px] shadow-[0_2px_4px_-1px_rgba(0,0,0,0.4)]"
+//             />
+//             <input
+//               type="email"
+//               placeholder="Your Email"
+//               className=" placeholder:text-[#4D4040] placeholder:text-[13px] w-full px-4 py-2 border border-gray-300 rounded-md  focus:outline-none focus:ring-2 focus:ring-blue-400  shadow-[0_2px_4px_-1px_rgba(0,0,0,0.2)]"
+//             />
+//             <input
+//               type="text"
+//               placeholder="Mobile Number"
+//               className="w-full placeholder:text-[#4D4040] placeholder:text-[13px] px-4 py-2 border border-gray-300 rounded-md  focus:outline-none focus:ring-2 focus:ring-blue-400  shadow-[0_2px_4px_-1px_rgba(0,0,0,0.2)]"
+//             />
+//             <textarea
+//               rows="4"
+//               placeholder="Your Message"
+//               className="w-full px-4 py-2 border placeholder:text-[#4D4040] placeholder:text-[13px] border-gray-300 rounded-md  focus:outline-none focus:ring-2 focus:ring-blue-400  shadow-[0_2px_4px_-1px_rgba(0,0,0,0.2)]"
+//             ></textarea>
+//             <button
+//               type="submit"
+//               className="bg-[#0085DC] hover:bg-blue-500 text-white px-6 py-2 rounded-md shadow-md transition duration-200"
+//             >
+//               SEND REQUEST
+//             </button>
+//           </form>
+//         </div>
+
+//         {/* Google Map Iframe */}
+//         <div className="flex-1 border border-black">
+//           <iframe
+//             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3362.942730627135!2d-95.2996938!3d32.3435303!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8649cea587c41e71%3A0xc2a12fe1c54eeddc!2s117%20E%20Houston%20St%2C%20Tyler%2C%20TX%2075702%2C%20USA!5e0!3m2!1sen!2sin!4v1717486713784!5m2!1sen!2sin"
+//             width="100%"
+//             height="300"
+//             allowFullScreen=""
+//             loading="lazy"
+//             className="w-full h-full min-h-[300px] border "
+//             referrerPolicy="no-referrer-when-downgrade"
+//           />
+//         </div>
+//       </div>
+//     </section>
+//   );
+// };
+
+// export default Maincontactus;
+
 'use client';
-import React from 'react';
+import React, { useState } from 'react';
 
 const Maincontactus = () => {
+  const [formData, setFormData] = useState({
+    name: '',
+    email: '',
+    mobile: '',
+    message: ''
+  });
+  const [errors, setErrors] = useState({
+    name: '',
+    email: '',
+    mobile: '',
+    message: ''
+  });
+
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    setFormData(prev => ({
+      ...prev,
+      [name]: value
+    }));
+  };
+
+  const handleSubmit = async (event) => {
+    event.preventDefault();
+
+    // Validation
+    const nameRegex = /^[A-Za-z ]{2,}$/;
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    const mobileRegex = /^[0-9]{10}$/;
+
+    let hasError = false;
+    const newErrors = { name: '', email: '', mobile: '', message: '' };
+
+    if (!formData.name) {
+      newErrors.name = 'Name is required';
+      hasError = true;
+    } else if (!nameRegex.test(formData.name)) {
+      newErrors.name = 'Enter a valid name';
+      hasError = true;
+    }
+
+    if (!formData.email) {
+      newErrors.email = 'Email is required';
+      hasError = true;
+    } else if (!emailRegex.test(formData.email)) {
+      newErrors.email = 'Enter a valid email';
+      hasError = true;
+    }
+
+    if (!formData.mobile) {
+      newErrors.mobile = 'Mobile is required';
+      hasError = true;
+    } else if (!mobileRegex.test(formData.mobile)) {
+      newErrors.mobile = 'Enter a valid 10-digit number';
+      hasError = true;
+    }
+
+    if (!formData.message) {
+      newErrors.message = 'Message is required';
+      hasError = true;
+    }
+
+    setErrors(newErrors);
+    if (hasError) return;
+
+    // Prepare form data for Web3Forms
+    const submissionData = new FormData();
+    submissionData.append("name", formData.name);
+    submissionData.append("email", formData.email);
+    submissionData.append("mobile", formData.mobile);
+    submissionData.append("message", formData.message);
+    submissionData.append("access_key", "8ff9217d-bc6d-4349-8af8-85d2368e097b");
+
+    const object = Object.fromEntries(submissionData);
+    const json = JSON.stringify(object);
+
+    try {
+      const response = await fetch("https://api.web3forms.com/submit", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+          Accept: "application/json"
+        },
+        body: json
+      });
+
+      const result = await response.json();
+      if (result.success) {
+        alert('Your message has been sent successfully!');
+        setFormData({
+          name: '',
+          email: '',
+          mobile: '',
+          message: ''
+        });
+      } else {
+        console.error('Submission failed:', result);
+        alert('Failed to send message. Please try again.');
+      }
+    } catch (error) {
+      console.error('Error submitting form:', error);
+      alert('Something went wrong. Please try again later.');
+    }
+  };
+
   return (
     <section className="w-full px-4 py-10 bg-gray-100 flex justify-center items-center mt-16">
       <div className="bg-white rounded-lg shadow-md p-6 md:p-10 flex flex-col md:flex-row gap-8 max-w-5xl w-full border border-gray-300">
         
         {/* Contact Form */}
         <div className="flex-1">
-          <form className="space-y-4">
-            <input
-              type="text"
-              placeholder="Your Name"
-              className="w-full px-4 py-2 border border-gray-300 rounded-md  focus:outline-none focus:ring-2 focus:ring-blue-400 text-black placeholder:text-[#4D4040] placeholder:text-[13px] shadow-[0_2px_4px_-1px_rgba(0,0,0,0.4)]"
-            />
-            <input
-              type="email"
-              placeholder="Your Email"
-              className=" placeholder:text-[#4D4040] placeholder:text-[13px] w-full px-4 py-2 border border-gray-300 rounded-md  focus:outline-none focus:ring-2 focus:ring-blue-400  shadow-[0_2px_4px_-1px_rgba(0,0,0,0.2)]"
-            />
-            <input
-              type="text"
-              placeholder="Mobile Number"
-              className="w-full placeholder:text-[#4D4040] placeholder:text-[13px] px-4 py-2 border border-gray-300 rounded-md  focus:outline-none focus:ring-2 focus:ring-blue-400  shadow-[0_2px_4px_-1px_rgba(0,0,0,0.2)]"
-            />
-            <textarea
-              rows="4"
-              placeholder="Your Message"
-              className="w-full px-4 py-2 border placeholder:text-[#4D4040] placeholder:text-[13px] border-gray-300 rounded-md  focus:outline-none focus:ring-2 focus:ring-blue-400  shadow-[0_2px_4px_-1px_rgba(0,0,0,0.2)]"
-            ></textarea>
+          <form className="space-y-4" onSubmit={handleSubmit}>
+            <div>
+              <input
+                type="text"
+                name="name"
+                placeholder="Your Name"
+                value={formData.name}
+                onChange={handleChange}
+                className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-400 text-black placeholder:text-[#4D4040] placeholder:text-[13px] shadow-[0_2px_4px_-1px_rgba(0,0,0,0.4)]"
+              />
+              {errors.name && <p className="text-red-500 text-xs mt-1">{errors.name}</p>}
+            </div>
+            <div>
+              <input
+                type="email"
+                name="email"
+                placeholder="Your Email"
+                value={formData.email}
+                onChange={handleChange}
+                className="placeholder:text-[#4D4040] placeholder:text-[13px] w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-400 shadow-[0_2px_4px_-1px_rgba(0,0,0,0.2)]"
+              />
+              {errors.email && <p className="text-red-500 text-xs mt-1">{errors.email}</p>}
+            </div>
+            <div>
+              <input
+                type="text"
+                name="mobile"
+                placeholder="Mobile Number"
+                value={formData.mobile}
+                onChange={handleChange}
+                className="w-full placeholder:text-[#4D4040] placeholder:text-[13px] px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-400 shadow-[0_2px_4px_-1px_rgba(0,0,0,0.2)]"
+              />
+              {errors.mobile && <p className="text-red-500 text-xs mt-1">{errors.mobile}</p>}
+            </div>
+            <div>
+              <textarea
+                rows="4"
+                name="message"
+                placeholder="Your Message"
+                value={formData.message}
+                onChange={handleChange}
+                className="w-full px-4 py-2 border placeholder:text-[#4D4040] placeholder:text-[13px] border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-400 shadow-[0_2px_4px_-1px_rgba(0,0,0,0.2)]"
+              ></textarea>
+              {errors.message && <p className="text-red-500 text-xs mt-1">{errors.message}</p>}
+            </div>
             <button
               type="submit"
               className="bg-[#0085DC] hover:bg-blue-500 text-white px-6 py-2 rounded-md shadow-md transition duration-200"
@@ -46,7 +233,7 @@ const Maincontactus = () => {
             height="300"
             allowFullScreen=""
             loading="lazy"
-            className="w-full h-full min-h-[300px] border "
+            className="w-full h-full min-h-[300px] border"
             referrerPolicy="no-referrer-when-downgrade"
           />
         </div>

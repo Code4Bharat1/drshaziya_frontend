@@ -2,7 +2,7 @@ import React from "react";
 
 const RestoringhealthMobile = () => {
   return (
-    <section className="px-4 py-8 bg-white block md:hidden">
+    <section className="px-4  bg-white block md:hidden">
       <div className="flex flex-col items-center text-left">
         {/* Image First in Mobile */}
 

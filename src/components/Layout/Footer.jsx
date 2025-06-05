@@ -199,103 +199,86 @@ const Footer = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         
         {/* Mobile Layout */}
-        <div className="block lg:hidden">
-          {/* Mobile Logo - Centered */}
-          <div className="flex justify-center mb-3">
-            <div className="w-full max-w-[260px]">
-              <img
-                src="/footerlogo.png" // Mobile-specific logo
-                alt="Dr. Shazia Mobile Logo"
-                className="w-full h-auto object-contain"
-              />
-            </div>
-          </div>
+    {/* Mobile Layout */}
+<div className="block lg:hidden">
+  {/* Mobile Logo - Centered */}
+  <div className="flex justify-center mb-3">
+    <div className="w-full max-w-[260px]">
+      <img
+        src="/footerlogo.png"
+        alt="Dr. Shazia Mobile Logo"
+        className="w-full h-auto object-contain"
+      />
+    </div>
+  </div>
 
-          {/* Mobile Navigation - 4 Points in Column */}
-          <div className="text-center mb-6 ">
-            <ul className="space-y-3 text-base text-white ">
-              {[
-                { text: "Clinic Info", href: "/aboutus" },
-                { text: "About Us", href: "/aboutus" },
-                { text: "Specialties", href: "/specialiest" },
-                { text: "Patient Testimonials", href: "/testimonial" },
-                { text: "Book Appointment", href: "/#" },
-              ].map((item, idx) => (
-                <li key={idx}>
-                  <a
-                    href={item.href}
-                    className="hover:text-yellow-300 transition-colors duration-200 font-bold text-[16px] block"
-                  >
-                    {item.text}
-                  </a>
-                </li>
-              ))}
-            </ul>
-          </div>
+  {/* Mobile Navigation - 4 Points in Column */}
+  <div className="text-center mb-6">
+    <ul className="space-y-3 text-md text-white">
+      {[
+        { text: "About Us", href: "/aboutus" },
+        { text: "Specialties", href: "/specialiest" },
+        { text: "Patient Testimonials", href: "/testimonial" },
+        { text: "Book Appointment", href: "/#" },
+      ].map((item, idx) => (
+        <li key={idx}>
+          <a
+            href={item.href}
+            className="hover:text-yellow-300 transition-colors duration-200 font-bold text-[16px] block"
+          >
+            {item.text}
+          </a>
+        </li>
+      ))}
+    </ul>
+  </div>
 
-          {/* Mobile Contact & Social - Side by Side */}
-          <div className="flex justify-between items-start mb-6">
-            {/* Left Side - Contact Us & Phone Numbers */}
-            <div className="text-left flex-1">
-              <h3 className="font-bold text-base mb-3 uppercase tracking-wide text-white">
-                Contact Us
-              </h3>
-              <div className="text-white text-sm font-medium">
-                <div className="mb-1">9833584847</div>
-                <div>9892933421</div>
-              </div>
-            </div>
-
-            {/* Right Side - Social Media */}
-            <div className="text-right flex-1">
-              <div className="flex justify-end flex-wrap gap-2">
-                {[
-                  { href: "#", src: "/icons-youtube.png", alt: "YouTube" },
-                  {
-                    href: "https://www.instagram.com/drshazia_waghoo",
-                    src: "/icon-insta.png",
-                    alt: "Instagram",
-                  },
-                  {
-                    href: "https://drshaziawaghoo.com/",
-                    src: "/icon-google.png",
-                    alt: "Google",
-                  },
-                  { href: "#", src: "/icon-facebook.png", alt: "Facebook" },
-                  {
-                    href: "https://wa.me/919833584847",
-                    src: "/icons-whatsapp.png",
-                    alt: "WhatsApp",
-                  },
-                ].map((icon, idx) => (
-                  <div
-                    key={idx}
-                    className="bg-white rounded-full p-1.5 shadow-lg hover:scale-110 transition-transform duration-200"
-                  >
-                    <a href={icon.href} target="_blank" rel="noopener noreferrer">
-                      <img
-                        src={icon.src}
-                        alt={icon.alt}
-                        className="w-5 h-5"
-                      />
-                    </a>
-                  </div>
-                ))}
-              </div>
-            </div>
-          </div>
-
-          {/* Mobile Horizontal Line */}
-          <div className="border-t border-white/30 w-full mb-4"></div>
-          
-          {/* Mobile Copyright */}
-          <div className="text-center text-xs font-medium text-white">
-            © {new Date().getFullYear()} drshaziawaghoosurgery.com
-            <div className="mt-1">
-              <span>Designed by Code4Bharat</span>
-            </div>
-          </div>
+  {/* Social Media Icons Only */}
+  <div className="flex justify-center mb-6">
+    <div className="flex flex-wrap gap-2">
+      {[
+        { href: "#", src: "/icons-youtube.png", alt: "YouTube" },
+        {
+          href: "https://www.instagram.com/drshazia_waghoo",
+          src: "/icon-insta.png",
+          alt: "Instagram",
+        },
+        {
+          href: "https://drshaziawaghoo.com/",
+          src: "/icon-google.png",
+          alt: "Google",
+        },
+        { href: "#", src: "/icon-facebook.png", alt: "Facebook" },
+        {
+          href: "https://wa.me/919833584847",
+          src: "/icons-whatsapp.png",
+          alt: "WhatsApp",
+        },
+      ].map((icon, idx) => (
+        <div
+          key={idx}
+          className="bg-white rounded-full p-1.5 shadow-lg hover:scale-110 transition-transform duration-200"
+        >
+          <a href={icon.href} target="_blank" rel="noopener noreferrer">
+            <img src={icon.src} alt={icon.alt} className="w-5 h-5" />
+          </a>
         </div>
+      ))}
+    </div>
+  </div>
+
+  {/* Horizontal Line */}
+  <div className="border-t border-white/30 w-full mb-4"></div>
+
+  {/* Copyright */}
+  <div className="text-center text-xs font-medium text-white">
+    © {new Date().getFullYear()} drshaziawaghoosurgery.com
+    <div className="mt-1">
+      <span>Designed by Code4Bharat</span>
+    </div>
+  </div>
+</div>
+
 
         {/* Desktop Layout */}
         <div className="hidden lg:block">

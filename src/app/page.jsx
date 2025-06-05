@@ -4,6 +4,7 @@ import Consult from "@/components/Homepage/Consult";
 import Contact from "@/components/Homepage/Contact";
 import Demystifying from "@/components/Homepage/Demystifying";
 import MissionVission from "@/components/Homepage/MissionVission";
+import MobileConsult from "@/components/Homepage/MobileConsult";
 import ContactMobile from "@/components/Homepage/mobilecontact";
 import DemystifyingMobile from "@/components/Homepage/mobiledemystifying";
 import MobileMissionVission from "@/components/Homepage/mobilemissionvission";
@@ -52,7 +53,7 @@ export default function Home() {
         <MobileMissionVission />
         <ContactMobile />
         <DemystifyingMobile />
-        <Consult />
+       <MobileConsult/>
         <MobileReviewsSwiper />
         <MobileWatchVideo />
       </div>

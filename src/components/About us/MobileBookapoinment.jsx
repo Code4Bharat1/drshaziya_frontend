@@ -17,6 +17,9 @@ export default function BookAppointmentMobile() {
         priority
       />
       <div className="absolute inset-0 bg-[linear-gradient(to_right,#0085dc70)]"></div>
+      
+ {/* White gradient from bottom */}
+      <div className="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-white/50 to-transparent z-20"></div>
 
       <div className="relative z-10 flex flex-col items-center justify-center h-full px-4 sm:px-6 py-6 text-center">
         <div className="max-w-xs">

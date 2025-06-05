@@ -57,7 +57,7 @@ const Awareness3 = () => {
     <div className="bg-white pt-7 pb-16 px-4 md:px-20">
       {/* Lecture Section */}
       <h2 className="text-xl md:text-xl font-bold text-[#004979] mb-9 text-center leading-relaxed ml-[-27rem]">
-        Breast illness awareness lecture at Rizvi College, Bandra West
+        Breast cancer awareness lecture at Rizvi College, Bandra West
       </h2>
 
       {/* Lecture Images Grid */}

@@ -6,22 +6,28 @@ const Hernia = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-2 sm:gap-8 lg:gap-12 items-center">
           <div className="flex flex-col items-center lg:items-start order-1 lg:order-1">
-            <div className="w-60 h-60 sm:w-80 sm:h-80 lg:w-[33rem] lg:h-[33rem] overflow-hidden shadow-sm">
-              <img
-                src="/circle1.png"
-                alt="Dr. Shazia Waghoo"
-                className="w-full h-full object-cover"
-              />
-            </div>
+            <div className="flex flex-col items-center text-center">
+  {/* Image */}
+  <div className="w-60 h-60 md:w-52 md:h-52 lg:w-[31rem] lg:h-[30rem] overflow-hidden shadow-sm">
+    <img
+      src="/circle1.png"
+      alt="Dr. Shazia Waghoo"
+      className="w-full h-full object-cover"
+    />
+  </div>
 
-            <div className="w-full flex items-center justify-center flex-col mt-5 ">
-              <h2 className="text-4xl sm:text-3xl lg:text-3xl font-bold text-gray-800">
-                Dr. Shazia Waghoo
-              </h2>
-              <p className="text-2xl text-gray-600 font-medium">
-                MBBS, DNB General Surgery
-              </p>
-            </div>
+  {/* Name and Qualification */}
+  <div className="mt-5">
+    <h2 className="text-3xl sm:text-3xl lg:text-3xl font-bold text-gray-800">
+      Dr. Shazia Waghoo
+    </h2>
+    <p className="text-xl text-gray-600 font-medium">
+      MBBS, DNB General Surgery
+    </p>
+  </div>
+</div>
+
+
           </div>
 
           <div className="space-y-4 sm:space-y-6 order-2 lg:order-2 mb-11">

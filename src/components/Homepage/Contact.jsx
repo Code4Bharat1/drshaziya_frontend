@@ -302,7 +302,6 @@
 
 'use client';
 import React, { useState } from 'react';
-import emailjs from '@emailjs/browser';
 
 const Contact = () => {
   const [name, setName] = useState('');
@@ -314,8 +313,8 @@ const Contact = () => {
     mobile: '',
   });
 
-  const handleSendRequest = (e) => {
-    e.preventDefault();
+  const handleSubmit = async (event) => {
+    event.preventDefault();
 
     // Validation
     const nameRegex = /^[A-Za-z ]{2,}$/;
@@ -352,29 +351,39 @@ const Contact = () => {
     setErrors(newErrors);
     if (hasError) return;
 
-    // EmailJS parameters
-    const templateParams = {
-      from_name: name,
-      from_email: email,
-      mobile: mobile,
-    };
+    const formData = new FormData();
+    formData.append("name", name);
+    formData.append("email", email);
+    formData.append("mobile", mobile);
+    formData.append("access_key", "8ff9217d-bc6d-4349-8af8-85d2368e097b"); //change this
 
-    emailjs.send(
-      'service_smnpiin',        // ✅ Your Service ID
-      'template_adraiig',       // ✅ Your Template ID
-      templateParams,
-      '87HJM06ooM2QWLPal'       // ✅ Your Public Key
-    )
-    .then(() => {
-      alert('Your consultation request has been sent successfully!');
-      setName('');
-      setEmail('');
-      setMobile('');
-    })
-    .catch((error) => {
-      console.error('Email send failed:', error);
+    const object = Object.fromEntries(formData);
+    const json = JSON.stringify(object);
+
+    try {
+      const response = await fetch("https://api.web3forms.com/submit", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+          Accept: "application/json"
+        },
+        body: json
+      });
+      
+      const result = await response.json();
+      if (result.success) {
+        alert('Your consultation request has been sent successfully!');
+        setName('');
+        setEmail('');
+        setMobile('');
+      } else {
+        console.error('Form submission failed:', result);
+        alert('Something went wrong. Please try again later.');
+      }
+    } catch (error) {
+      console.error('Error submitting form:', error);
       alert('Something went wrong. Please try again later.');
-    });
+    }
   };
 
   return (
@@ -395,7 +404,7 @@ const Contact = () => {
 
         {/* Form */}
         <div className="bg-white p-10 rounded-xl w-full md:w-[60%] shadow-md">
-          <form className="flex flex-col space-y-6" onSubmit={handleSendRequest}>
+          <form className="flex flex-col space-y-6" onSubmit={handleSubmit}>
             <div>
               <input
                 type="text"
