@@ -1315,7 +1315,7 @@ export default function ContactInfo() {
                           onChange={handleInputChange}
                           rows="4"
                           maxLength="500"
-                          className={`w-full px-3 sm:px-4 py-2 sm:py-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent resize-none shadow-lg text-sm sm:text-base ${
+                          className={`placeholder:text-black w-full px-3 sm:px-4 py-2 sm:py-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent resize-none shadow-lg text-sm sm:text-base ${
                             errors.message ? "border-red-500" : "border-[#C3C3C3]"
                           }`}
                         ></textarea>

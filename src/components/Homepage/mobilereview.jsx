@@ -92,7 +92,7 @@ const MobileReviewsSwiper = () => {
             const colorClass = colors[index % colors.length];
             return (
               <div key={index} className="w-full flex-shrink-0 px-6">
-                <div className="relative w-full max-w-sm mx-auto h-[420px]">
+                <div className="relative w-full max-w-sm mx-auto h-[420px] m-9">
                   {/* YELLOW TOP CARD */}
                   <div className="relative bg-[#FFD54F] h-20 border-b border-gray-300 overflow-hidden shadow-[inset_0_8px_10px_-4px_rgba(0,0,0,0.1),inset_4px_0_6px_-2px_rgba(0,0,0,0.08),inset_-4px_0_6px_-5px_rgba(0,0,0,0.08)] rounded-t-lg mx-4">
                     <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-b from-black/10 to-transparent"></div>
@@ -109,7 +109,7 @@ const MobileReviewsSwiper = () => {
                       </p>
                     </div>
 
-                    <div className="flex flex-col items-end mt-6">
+                    <div className="flex flex-col items-end mt-3">
                       <div className="flex items-center space-x-2 mb-2">
                         {/* Star Rating - using text as fallback for images */}
                         <div className="flex text-yellow-400 text-lg">
@@ -119,7 +119,7 @@ const MobileReviewsSwiper = () => {
                           <span className="text-white text-xs">✓</span>
                         </div>
                       </div>
-                      <div className="text-xs text-gray-500">{review.date}</div>
+                      <div className="text-xs text-gray-500 mb-7">{review.date}</div>
                     </div>
                   </div>
 

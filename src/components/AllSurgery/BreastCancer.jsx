@@ -40,9 +40,9 @@ const commonProblems = [
 const BreastCancer = () => {
   return (
     <div className="mt-14 bg-white">
-    <div className="bg-white p-6 md:p-10 max-w-5xl mx-auto font-sans text-gray-800">
+    <div className="bg-white p-6 md:p-10 max-w-6xl mx-auto font-sans text-gray-800">
      
-      <div className="relative rounded-lg overflow-hidden shadow-md h-60">
+      <div className="relative  overflow-hidden shadow-md h-60">
         <Image
           src="/lasersurgary.jpg" 
           alt="Breast Surgery"

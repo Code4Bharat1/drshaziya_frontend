@@ -90,7 +90,7 @@ const MobileOurImpact = () => {
         }
 
         .animate-scroll-horizontal {
-          animation: scroll-horizontal 20s linear infinite;
+          animation: scroll-horizontal 7s linear infinite;
         }
       `}</style>
     </div>

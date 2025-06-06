@@ -15,14 +15,14 @@ import React from "react";
 const page = () => {
   return (
      <div>
-     <div className="hidden md:block">
+     <div className="hidden md:block ">
       <WhatsAppButton />
       <Hernia />
       <Conference/>
       <Recognitions/>
     <BookAppointment />
    </div>
-    <div className="block md:hidden">
+    <div className="block md:hidden ">
       <WhatsAppButton/>
    <MobileHernia/>
    <MobileConference/>

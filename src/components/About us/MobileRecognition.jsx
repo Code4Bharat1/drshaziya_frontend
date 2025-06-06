@@ -48,7 +48,8 @@ const MobileRecognitions = () => {
           <div
             key={index}
             className="w-full max-w-[280px] h-auto min-h-[200px] bg-white rounded-xl p-4 flex flex-col items-center text-center space-y-2"
-            style={{ boxShadow: '0 4px 6px -1px rgba(0, 0, 255, 0.4)' }}
+           style={{ boxShadow: '0 4px 6px -1px rgba(0, 0, 0, 0.4)' }}
+
           >
             <Image src={item.image} alt="Recognition Icon" width={40} height={40} />
             <h3 className="font-bold text-xl text-black">{item.title}</h3>

@@ -7,7 +7,7 @@ export default function BookAppointmentMobile() {
     const router = useRouter();
 
   return (
-    <div className="relative w-full h-[300px] sm:h-[350px] overflow-hidden md:hidden mb-6 mt-6">
+    <div className=" bg-white relative w-full h-[300px] sm:h-[350px] overflow-hidden md:hidden mb-6 mt-6">
       <Image
         src="/book-apoinment.jpg"
         width={1920}

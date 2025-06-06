@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 const content = [
   {
-    title: "Colorectal Surgery",
+    title: "Thyroid Surgery",
     text: [
       `Thyroid surgery, or thyroidectomy, involves removing all or part of the thyroid gland to treat conditions like nodules, goitre, hyperthyroidism, or thyroid cancer. Depending on the condition, either a total or partial thyroidectomy is performed. The surgery can be done through a traditional large incision or using minimally invasive and laser techniques. These advanced methods help ensure precision and quicker recovery.`,
     ],
@@ -28,9 +28,9 @@ const content = [
 const Thyroid = () => {
   return (
      <div className="mt-14 bg-white">
-    <div className="bg-white p-6 md:p-10 max-w-5xl mx-auto font-sans text-gray-800">
+    <div className="bg-white p-6 md:p-10 max-w-6xl mx-auto font-sans text-gray-800">
       
-     <div className="relative rounded-lg overflow-hidden shadow-md h-60">
+     <div className="relative  overflow-hidden shadow-md h-60">
                     <Image
                       src="/thyroidsurgary.jpg" 
                       alt=" Thyroid Surgery"

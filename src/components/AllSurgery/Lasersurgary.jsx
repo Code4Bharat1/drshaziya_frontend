@@ -23,7 +23,7 @@ const LaserSurgery = () => {
       <div className="bg-white p-6 md:p-10 max-w-6xl mx-auto font-sans text-gray-800">
 
         
-        <div className="relative rounded-lg overflow-hidden shadow-md h-60 md:h-72">
+        <div className="relative  overflow-hidden shadow-md h-60 md:h-72">
           <Image
             src="/lasersurgary.jpg" 
             alt="Laser Surgery"
