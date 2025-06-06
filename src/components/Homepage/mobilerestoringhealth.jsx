@@ -7,7 +7,7 @@ const RestoringhealthMobile = () => {
         {/* Image First in Mobile */}
 
         {/* Text Content */}
-        <h2 className="text-[28px] font-bold text-[#004979] mb-4 leading-tight">
+        <h2 className="text-[26px] font-bold text-[#004979] mb-4 leading-tight">
           <span>Restoring Health and Hope,</span>
           <br />
           <span>One Surgery At A Time</span>

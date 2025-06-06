@@ -31,29 +31,13 @@ const DemystifyingMobile = () => {
 
 
       {/* Images Section */}
-       <div className="relative w-full md:w-1/2 flex justify-center">
-        {/* Square image */}
-     {/* Square image with white overlay */}
-<div className="relative">
-  <img
-    src="/square1.png"
-    alt="Square Background"
-    className="w-72 h-72 sm:w-80 sm:h-80 md:w-[390px] md:h-[400px] object-cover "
-  />
-  {/* White overlay */}
-  <div className="absolute inset-0 bg-white opacity-20 rounded-lg"></div>
-</div>
-
-        {/* Circle image centered */}
-        <div className="absolute inset-0 flex items-center justify-end">
-          <div className="w-64 h-64 sm:w-72 sm:h-72 md:w-80 md:h-80 rounded-full overflow-hidden">
-            <img
-              src="/circle3.png"
-              alt="Dr. Shazia Waghoo"
-              className="w-full h-full object-cover"
-            />
-          </div>
-        </div>
+      {/* Single Combined Image */}
+      <div className="w-full flex justify-center mb-10">
+        <img
+          src="/squarecircle.png" // 🔁 replace this with your actual image file name
+          alt="Dr. Shazia Waghoo"
+          className="w-82 h-72 sm:w-80 sm:h-80 object-cover "
+        />
       </div>
 </div>
   );

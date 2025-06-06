@@ -69,12 +69,14 @@ const MobileOfferExpert = () => {
         Dr. Shazia Waghoo offers Expertise in the following Surgeries
       </h2>
 
-      <div className="grid grid-cols-1 gap-6 mx-10 mb-10">
+      {/* <div className="grid grid-cols-1 gap-6 mx-10 mb-10"> */}
+       <div className="grid grid-cols-1 gap-6 px-2 mb-10">
+        
         {expertiseData.map((item, index) => (
-          <div
-            key={index}
-            className="bg-white shadow-[0_3px_4px_-1px_rgba(0,0,0,0.5)] border border-[#C3C3C3] rounded-xl p-6"
-          >
+       <div
+  key={index}
+  className="bg-white w-full max-w-[95%] mx-auto shadow-[0_3px_4px_-1px_rgba(0,0,0,0.5)] border border-[#C3C3C3] rounded-xl p-6"
+>
             <div className="w-16 h-16 rounded-full bg-[#74C4F9] mx-auto mb-4 flex items-center justify-center">
               <img
                 src={item.image}
