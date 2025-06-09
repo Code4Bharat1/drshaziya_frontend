@@ -99,7 +99,7 @@ const MobileReviewsSwiper = () => {
                   </div>
 
                   {/* WHITE CONTENT CARD */}
-                  <div className="bg-white rounded-t-[2rem] shadow-lg p-6 pt-14 -mt-8 relative z-10 h-[400px] border border-gray-300 border-t-0 flex flex-col justify-between rounded-b-lg mx-4  ">
+                  <div className="bg-white rounded-t-[2rem] shadow-lg p-6 pt-14 -mt-8 relative z-10 h-[423px] border border-gray-300 border-t-0 flex flex-col justify-between rounded-b-lg mx-4  ">
                     <div className="flex-1">
                       <h3 className="font-semibold text-black text-center text-lg mb-4">
                         {review.name}
