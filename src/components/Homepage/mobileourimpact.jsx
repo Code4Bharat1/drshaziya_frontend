@@ -65,7 +65,7 @@ const MobileOurImpact = () => {
       </p>
 
       {/* Logo Scroll */}
-      <div className="overflow-hidden h-32 mt-10">
+      {/* <div className="overflow-hidden h-32 mt-10">
         <div className="flex whitespace-nowrap animate-scroll-horizontal items-center">
           {[...logos, ...logos].map((logo, index) => (
             <img
@@ -76,10 +76,10 @@ const MobileOurImpact = () => {
             />
           ))}
         </div>
-      </div>
+      </div> */}
 
       {/* Animation CSS */}
-      <style jsx>{`
+      {/* <style jsx>{`
         @keyframes scroll-horizontal {
           0% {
             transform: translateX(0%);
@@ -92,7 +92,42 @@ const MobileOurImpact = () => {
         .animate-scroll-horizontal {
           animation: scroll-horizontal 7s linear infinite;
         }
-      `}</style>
+      `}</style> */}
+
+
+
+      {/* Logo Scroll */}
+<div className="overflow-hidden w-full mt-10">
+  <div className="scroll-wrapper">
+    {[...logos, ...logos].map((logo, index) => (
+      <img
+        key={index}
+        src={logo}
+        alt={`Hospital logo ${index + 1}`}
+        className="w-20 h-20 object-contain rounded-full border p-2 bg-white shadow mx-4 inline-block"
+      />
+    ))}
+  </div>
+
+  {/* Animation CSS */}
+  <style jsx>{`
+    .scroll-wrapper {
+      display: inline-block;
+      white-space: nowrap;
+      animation: scroll-horizontal 20s linear infinite;
+    }
+
+    @keyframes scroll-horizontal {
+      0% {
+        transform: translateX(0%);
+      }
+      100% {
+        transform: translateX(-100%);
+      }
+    }
+  `}</style>
+</div>
+
     </div>
   );
 };

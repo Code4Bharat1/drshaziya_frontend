@@ -42,7 +42,7 @@ const Demystifying = () => {
           Our aim is to deliver a Seamless<br />Surgical Experience to patients and to help them heal faster.
           Consult <br />with our expert surgeon, Dr. Shazia Waghoo for more than 30+ diseases.
         </p>
-        <button className="bg-[#0085DC] text-white font-semibold px-6 py-3 rounded-md hover:bg-blue-500  "   onClick={() => router.push('/contactus')}>
+        <button className="bg-[#0085DC] text-white font-semibold px-6 py-3 rounded-md hover:bg-blue-900  "   onClick={() => router.push('/contactus')}>
           BOOK AN APPOINTMENT
         </button>
       </div>
