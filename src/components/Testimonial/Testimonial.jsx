@@ -104,10 +104,10 @@ const Testimonial = () => {
           onMouseLeave={startRotation}
         >
           {/* Yellow rotated background card */}
-          <div className="absolute inset-0 top-4 bg-[#FFD54F] rounded-3xl transform rotate-[-12deg] -translate-x-6 z-0 shadow-[0_3px_2px_rgba(0,0,0,0.2)]"></div>
+          <div className="absolute inset-0 top-4 bg-[#FFD54F] rounded-3xl transform rotate-[-12deg] -translate-x-6 z-0 shadow-[0_3px_2px_rgba(0,0,0,0.2)] "></div>
 
           {/* White main card with fixed height */}
-          <div className="relative z-10 bg-white rounded-3xl p-8 sm:p-8 text-gray-800 min-h-[335px] transition duration-500 ease-in-out">
+          <div className="shadow-[0_3px_2px_rgba(0,0,0,0.2)] relative z-10 bg-white rounded-[30px] p-8 sm:p-8 text-gray-800 min-h-[335px] transition duration-500 ease-in-out">
             {/* Top-left quote icon */}
             <div className="absolute -top-5 left-6 sm:left-9 bg-[#0085DC] p-3 sm:p-4 rounded-full shadow-md">
               <FaQuoteLeft className="text-white text-lg sm:text-xl" />
