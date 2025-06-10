@@ -299,13 +299,14 @@ const ContactMobile = () => {
                 <p className="text-red-500 text-xs mt-1">{errors.mobile}</p>
               )}
             </div>
-
+          <div className="flex justify-center">
             <button
               type="submit"
-              className="w-50 px-4 bg-[#0288D1] text-white text-xs font-semibold py-2 rounded-md shadow hover:bg-blue-700"
+              className=" w-50 px-4 bg-[#0288D1] text-white text-xs font-semibold py-2 rounded-md shadow hover:bg-blue-700 "
             >
               SEND REQUEST
             </button>
+          </div>
           </form>
         </div>
       </div>

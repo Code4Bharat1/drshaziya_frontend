@@ -75,11 +75,11 @@ const Consult = () => {
         Why you should Consult Dr. Shazia Waghoo
       </h2>
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 place-items-center">
+      <div className=" grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 place-items-center">
         {cardData.map((card, index) => (
           <div
             key={index}
-            className="bg-white border rounded-xl shadow-[0_3px_4px_-1px_rgba(0,0,0,0.5)] md:shadow p-4 w-full max-w-[320px] min-h-[320px] sm:max-w-[280px] md:max-w-[350px] md:min-h-[280px] flex flex-col transform transition duration-300 hover:scale-105 hover:shadow-lg"
+            className="bg-white border text-center rounded-xl shadow-[0_3px_4px_-1px_rgba(0,0,0,0.5)] md:shadow p-4 w-full max-w-[320px] min-h-[320px] sm:max-w-[280px] md:max-w-[350px] md:min-h-[280px] flex flex-col transform transition duration-300 hover:scale-105 hover:shadow-lg"
           >
            <h3 className="text-[18px] px-3 md:text-lg font-semibold text-[#000000] mb-1 whitespace-pre-wrap">
             {card.title}

@@ -7,9 +7,9 @@ const MobileHernia = () => {
         <div className="flex flex-col lg:grid lg:grid-cols-2 gap-8 items-center">
           {/* Content section - First on mobile, second on desktop */}
           <div className="order-1 lg:order-2 space-y-4 sm:space-y-6">
-         <h1 className="text-xl mt-20 sm:text-2xl lg:text-4xl font-bold text-[#004979] leading-snug sm:leading-tight">
+         <h1 className=" text-center text-[18px] mt-20 sm:text-2xl lg:text-4xl font-bold text-[#004979] leading-snug sm:leading-tight">
   <span className="block pl-4 sm:pl-6 lg:pl-8">A Seasoned Laparoscopic, Hernia,</span>
-  <span className="block text-center">and Breast Surgeon</span>
+  <span className="block ">and Breast Surgeon</span>
 </h1>
            <div className="text-gray-700 mx-4 text-base sm:text-lg lg:text-xl leading-relaxed text-left">
   <p>

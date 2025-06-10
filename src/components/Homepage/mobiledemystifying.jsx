@@ -36,7 +36,7 @@ const DemystifyingMobile = () => {
         <img
           src="/squarecircle.png" // 🔁 replace this with your actual image file name
           alt="Dr. Shazia Waghoo"
-          className="w-82 h-72 sm:w-80 sm:h-80 object-cover "
+          className="w-70 h-72 sm:w-80 sm:h-80 object-cover "
         />
       </div>
 </div>

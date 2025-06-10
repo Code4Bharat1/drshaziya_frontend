@@ -58,7 +58,7 @@ const expertiseData = [
     description:
       "Gastrointestinal surgery treats digestive tract conditions using open or minimally invasive techniques, improving outcomes with less recovery time.",
     image: "offer9.png",
-    path: "/allartical/gisurgery",
+    path: "/allartical/thyroid",
   },
 ];
 
