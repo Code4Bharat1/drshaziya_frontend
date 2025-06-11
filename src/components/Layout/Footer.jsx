@@ -248,7 +248,7 @@ const Footer = () => {
           src: "/icon-google.png",
           alt: "Google",
         },
-        { href: "#", src: "/icon-Facebook.png", alt: "Facebook" },
+        { href: "#", src: "/icon-Facebook.jpg", alt: "Facebook" },
         {
           href: "https://wa.me/919833584847",
           src: "/icons-whatsapp.png",
