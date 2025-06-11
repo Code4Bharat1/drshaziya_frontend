@@ -166,9 +166,14 @@ const Maincontactus = () => {
   };
 
   return (
+    
     <section className="w-full px-4 py-10 bg-gray-100 flex justify-center items-center mt-16">
-      <div className="bg-white rounded-lg shadow-md p-6 md:p-10 flex flex-col md:flex-row gap-8 max-w-5xl w-full border border-gray-300">
-        
+  <div className="bg-white rounded-lg shadow-md p-6 md:p-10 flex flex-col md:flex-row gap-8 max-w-5xl w-full border border-gray-300">
+         
+
+
+
+  
         {/* Contact Form */}
         <div className="flex-1">
           <form className="space-y-4" onSubmit={handleSubmit}>
@@ -216,12 +221,14 @@ const Maincontactus = () => {
               ></textarea>
               {errors.message && <p className="text-red-500 text-xs mt-1">{errors.message}</p>}
             </div>
+            <div className='flex justify-center'>
             <button
               type="submit"
               className="bg-[#0085DC] hover:bg-blue-500 text-white px-6 py-2 rounded-md shadow-md transition duration-200"
             >
               SEND REQUEST
             </button>
+            </div>
           </form>
         </div>
 

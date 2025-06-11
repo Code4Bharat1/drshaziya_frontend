@@ -32,12 +32,14 @@ const DemystifyingMobile = () => {
 
       {/* Images Section */}
       {/* Single Combined Image */}
-      <div className="w-full flex justify-center mb-10">
+      <div className="w-full flex justify-center mb-10 ">
+         <div className="w-50 h-50 ">
         <img
           src="/squarecircle.png" // 🔁 replace this with your actual image file name
           alt="Dr. Shazia Waghoo"
-          className="w-70 h-72 sm:w-80 sm:h-80 object-cover "
+          className="w-full h-full object-cover "
         />
+        </div>
       </div>
 </div>
   );
