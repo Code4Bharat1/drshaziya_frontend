@@ -70,6 +70,7 @@
 
 'use client';
 import React, { useState } from 'react';
+import toast, { Toaster } from 'react-hot-toast';
 
 const Mobilemaincontatcus = () => {
   const [formData, setFormData] = useState({
@@ -183,6 +184,8 @@ const Mobilemaincontatcus = () => {
   };
 
   return (
+    <>
+    <Toaster position="top-center" reverseOrder={false} /> {/* ⬅️ Toaster added here */}
     <section className="w-full px-4 py-10 bg-white flex justify-center items-center mt-16">
       <div className="w-full max-w-5xl flex flex-col md:flex-row gap-8">
 
@@ -276,6 +279,7 @@ const Mobilemaincontatcus = () => {
         </div>
       </div>
     </section>
+    </>
   );
 };
 

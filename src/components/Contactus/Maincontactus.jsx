@@ -59,6 +59,7 @@
 
 'use client';
 import React, { useState } from 'react';
+import toast, { Toaster } from 'react-hot-toast';
 
 const Maincontactus = () => {
   const [formData, setFormData] = useState({
@@ -148,7 +149,7 @@ const Maincontactus = () => {
 
       const result = await response.json();
       if (result.success) {
-        alert('Your message has been sent successfully!');
+        toast.success('Your message has been sent successfully!');
         setFormData({
           name: '',
           email: '',
@@ -157,16 +158,17 @@ const Maincontactus = () => {
         });
       } else {
         console.error('Submission failed:', result);
-        alert('Failed to send message. Please try again.');
+        toast.error('Failed to send message. Please try again.');
       }
     } catch (error) {
       console.error('Error submitting form:', error);
-      alert('Something went wrong. Please try again later.');
+      toast.error('Something went wrong. Please try again later.');
     }
   };
 
   return (
     <>
+     <Toaster position="top-center" reverseOrder={false} /> {/* ⬅️ Toaster added here */}
     <section className="w-full px-4 py-10 bg-gray-100 flex  justify-center items-center mt-16">
   <div className= " bg-white  rounded-lg shadow-md p-6 md:p-10 flex flex-col md:flex-row gap-8 max-w-5xl w-full border border-gray-300">     
         {/* Contact Form */}

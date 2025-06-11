@@ -302,6 +302,7 @@
 
 'use client';
 import React, { useState } from 'react';
+import toast, { Toaster } from 'react-hot-toast';
 
 const Contact = () => {
   const [name, setName] = useState('');
@@ -372,21 +373,24 @@ const Contact = () => {
       
       const result = await response.json();
       if (result.success) {
-        alert('Your consultation request has been sent successfully!');
+       toast.success ('Your consultation request has been sent successfully!');
         setName('');
         setEmail('');
         setMobile('');
       } else {
         console.error('Form submission failed:', result);
-        alert('Something went wrong. Please try again later.');
+        toast.error('Something went wrong. Please try again later.');
       }
     } catch (error) {
       console.error('Error submitting form:', error);
-      alert('Something went wrong. Please try again later.');
+      toast.error('Something went wrong. Please try again later.');
     }
   };
 
   return (
+    <>
+    <Toaster position="top-center" reverseOrder={false} /> {/* ⬅️ Toaster added here */}
+   
     <div className="bg-gray-50 py-6 px-4 flex items-center justify-center">
       <div className="bg-[#0085DC] text-white rounded-xl border-4 border-[#FFD54F] p-8 flex flex-col md:flex-row items-center justify-between max-w-5xl mx-auto mt-2 mb-9 shadow-[0_4px_2px_rgba(0,0,0,0.2)]">
         
@@ -450,6 +454,7 @@ const Contact = () => {
         </div>
       </div>
     </div>
+     </>
   );
 };
 
