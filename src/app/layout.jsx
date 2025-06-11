@@ -17,7 +17,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "dr_shazia",
+  title: "Dr Shazia Waghoo",
   icons: {
     icon: "/logo.ico", 
   },

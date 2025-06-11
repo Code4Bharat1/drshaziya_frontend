@@ -59,8 +59,7 @@
 
 'use client';
 import React, { useState } from 'react';
-import toast, { Toaster } from 'react-hot-toast';
-
+import { ToastContainer, toast } from 'react-toastify';
 const Maincontactus = () => {
   const [formData, setFormData] = useState({
     name: '',
@@ -166,18 +165,20 @@ const Maincontactus = () => {
     }
   };
 
-  return (
-    <>
-     <Toaster position="top-center" reverseOrder={false} /> {/* ⬅️ Toaster added here */}
-    <section className="w-full px-4 py-10 bg-gray-100 flex  justify-center items-center mt-16">
-  <div className= " bg-white  rounded-lg shadow-md p-6 md:p-10 flex flex-col md:flex-row gap-8 max-w-5xl w-full border border-gray-300">     
+ return (
+  <>
+    {/* Toast container should be here */}
+    <ToastContainer />
+
+    <section className="w-full px-4 py-10 bg-gray-100 flex justify-center items-center mt-16">
+      <div className="bg-white rounded-lg shadow-md p-6 md:p-10 flex flex-col md:flex-row gap-8 max-w-5xl w-full border border-gray-300">
         {/* Contact Form */}
-        <div className="flex-1 ">
+        <div className="flex-1">
           <form className="space-y-4" onSubmit={handleSubmit}>
             <div>
-                <h2 className="text-xl font-semibold text-center text-[#0085DC] mb-4 ">
-            Book Your Appointment
-          </h2>
+              <h2 className="text-xl font-semibold text-center text-[#0085DC] mb-4">
+                Book Your Appointment
+              </h2>
               <input
                 type="text"
                 name="name"
@@ -217,17 +218,17 @@ const Maincontactus = () => {
                 placeholder="Your Message"
                 value={formData.message}
                 onChange={handleChange}
-                className=" text-black w-full px-4 py-2 border placeholder:text-[#4D4040] placeholder:text-[13px] border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-400 shadow-[0_2px_4px_-1px_rgba(0,0,0,0.2)]"
+                className="text-black w-full px-4 py-2 border placeholder:text-[#4D4040] placeholder:text-[13px] border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-400 shadow-[0_2px_4px_-1px_rgba(0,0,0,0.2)]"
               ></textarea>
               {errors.message && <p className="text-red-500 text-xs mt-1">{errors.message}</p>}
             </div>
             <div className='flex justify-center'>
-            <button
-              type="submit"
-              className="bg-[#0085DC] hover:bg-blue-500 text-white px-6 py-2 rounded-md shadow-md transition duration-200"
-            >
-              SEND REQUEST
-            </button>
+              <button
+                type="submit"
+                className="bg-[#0085DC] hover:bg-blue-500 text-white px-6 py-2 rounded-md shadow-md transition duration-200"
+              >
+                SEND REQUEST
+              </button>
             </div>
           </form>
         </div>
@@ -246,8 +247,7 @@ const Maincontactus = () => {
         </div>
       </div>
     </section>
-    </>
-  );
-};
-
+  </>
+);
+}
 export default Maincontactus;

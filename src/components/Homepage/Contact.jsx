@@ -302,7 +302,7 @@
 
 'use client';
 import React, { useState } from 'react';
-import toast, { Toaster } from 'react-hot-toast';
+import { ToastContainer,toast } from 'react-toastify';
 
 const Contact = () => {
   const [name, setName] = useState('');
@@ -373,7 +373,7 @@ const Contact = () => {
       
       const result = await response.json();
       if (result.success) {
-       toast.success ('Your consultation request has been sent successfully!');
+       toast.success('Your consultation request has been sent successfully!');
         setName('');
         setEmail('');
         setMobile('');
@@ -389,8 +389,8 @@ const Contact = () => {
 
   return (
     <>
-    <Toaster position="top-center" reverseOrder={false} /> {/* ⬅️ Toaster added here */}
-   
+    <ToastContainer />
+
     <div className="bg-gray-50 py-6 px-4 flex items-center justify-center">
       <div className="bg-[#0085DC] text-white rounded-xl border-4 border-[#FFD54F] p-8 flex flex-col md:flex-row items-center justify-between max-w-5xl mx-auto mt-2 mb-9 shadow-[0_4px_2px_rgba(0,0,0,0.2)]">
         
