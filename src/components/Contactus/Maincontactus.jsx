@@ -166,18 +166,16 @@ const Maincontactus = () => {
   };
 
   return (
-    
-    <section className="w-full px-4 py-10 bg-gray-100 flex justify-center items-center mt-16">
-  <div className="bg-white rounded-lg shadow-md p-6 md:p-10 flex flex-col md:flex-row gap-8 max-w-5xl w-full border border-gray-300">
-         
-
-
-
-  
+    <>
+    <section className="w-full px-4 py-10 bg-gray-100 flex  justify-center items-center mt-16">
+  <div className= " bg-white  rounded-lg shadow-md p-6 md:p-10 flex flex-col md:flex-row gap-8 max-w-5xl w-full border border-gray-300">     
         {/* Contact Form */}
-        <div className="flex-1">
+        <div className="flex-1 ">
           <form className="space-y-4" onSubmit={handleSubmit}>
             <div>
+                <h2 className="text-xl font-semibold text-center text-[#0085DC] mb-4 ">
+            Book Your Appointment
+          </h2>
               <input
                 type="text"
                 name="name"
@@ -246,6 +244,7 @@ const Maincontactus = () => {
         </div>
       </div>
     </section>
+    </>
   );
 };
 
