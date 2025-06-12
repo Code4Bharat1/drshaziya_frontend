@@ -3,13 +3,7 @@ import React from "react";
 import Link from "next/link";
 
 const expertiseData = [
-  {
-    title: "Thyroid Surgeries",
-    description:
-      "Thyroid surgery is a procedure to remove part or all of the thyroid gland, to improve conditions caused often due to cancer or nodules.",
-    image: "offer8.png",
-    path: "/allartical/thyroid",
-  },
+
 
   {
     title: "Laparoscopic Surgeries",
@@ -19,7 +13,7 @@ const expertiseData = [
     path: "/allartical/lepocrasy",
   },
   {
-    title: "Harnia Surgeries",
+    title: "Hernia Surgeries",
     description:
       "Hernia surgery is a procedure to repair a bulge or protrusion caused by an organ pushing through a weak spot in muscle or tissue.",
     image: "offer2.png",
@@ -31,6 +25,13 @@ const expertiseData = [
       "Breast surgery involves procedures for treating breast conditions: benign and malignant, or cosmetic procedures including reconstruction.",
     image: "offer3.png",
     path: "/allartical/breastcancer",
+  },
+    {
+    title: "Thyroid Surgeries",
+    description:
+      "Thyroid surgery is a procedure to remove part or all of the thyroid gland, to improve conditions caused often due to cancer or nodules.",
+    image: "offer8.png",
+    path: "/allartical/thyroid",
   },
   {
     title: "Colorectal Anorectal Surgeries",

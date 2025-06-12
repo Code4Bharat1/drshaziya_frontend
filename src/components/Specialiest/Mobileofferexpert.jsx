@@ -3,13 +3,7 @@ import React from "react";
 import Link from "next/link";
 
 const expertiseData = [
-  {
-    title: "Thyroid Surgeries",
-    description:
-      "Thyroid surgery is a procedure to remove part or all of the thyroid gland, to improve conditions caused often due to cancer or nodules.",
-    image: "offer8.png",
-    path: "/allartical/gisurgery",
-  },
+
 
   {
     title: "Laparoscopic Surgeries",
@@ -32,20 +26,8 @@ const expertiseData = [
     image: "offer3.png",
     path: "/allartical/breastcancer",
   },
-  {
-    title: "Colorectal Anorectal Surgeries",
-    description:
-      "Breast surgery involves procedures for treating breast conditions: benign and malignant, or cosmetic procedures including reconstruction.",
-    image: "offer5.png",
-    path: "/allartical/colorectalsurgery",
-  },
-  {
-    title: "Laser Surgeries",
-    description:
-      "Laser surgery uses focused light to treat or remove tissue, used to treat anorectal diseases, varicose veins and benign thyroid nodules",
-    image: "offer6.png",
-    path: "/allartical/leasersurgary",
-  },
+  
+  
   {
     title: "Abdominal wall Reconstruction ",
     description:
@@ -53,13 +35,38 @@ const expertiseData = [
     image: "offer7.png",
     path: "/allartical/abdonomial",
   },
+
   {
+    title: "Colorectal Anorectal Surgeries",
+    description:
+      "Breast surgery involves procedures for treating breast conditions: benign and malignant, or cosmetic procedures including reconstruction.",
+    image: "offer5.png",
+    path: "/allartical/colorectalsurgery",
+  },
+
+  
+  {
+    title: "Laser Surgeries",
+    description:
+      "Laser surgery uses focused light to treat or remove tissue, used to treat anorectal diseases, varicose veins and benign thyroid nodules",
+    image: "offer6.png",
+    path: "/allartical/leasersurgary",
+  },
+    {
     title: "Gastrointestinal Surgeries",
     description:
       "Gastrointestinal surgery treats digestive tract conditions using open or minimally invasive techniques, improving outcomes with less recovery time.",
     image: "offer9.png",
     path: "/allartical/gisurgery",
   },
+    {
+    title: "Thyroid Surgeries",
+    description:
+      "Thyroid surgery is a procedure to remove part or all of the thyroid gland, to improve conditions caused often due to cancer or nodules.",
+    image: "offer8.png",
+    path: "/allartical/gisurgery",
+  },
+
 ];
 
 const MobileOfferExpert = () => {

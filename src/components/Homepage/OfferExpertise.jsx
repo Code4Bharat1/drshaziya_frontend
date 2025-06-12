@@ -25,6 +25,13 @@ const expertiseData = [
     image: 'offer3.png',
      path: '/allartical/breastcancer',
   },
+      {
+    title: 'Thyroid Surgeries',
+    description:
+           'Thyroid surgery is performed to treat thyroid nodules, cancer, or hyperthyroidism by removing part or all of the thyroid gland.',
+    image: 'offer8.png',
+     path: '/allartical/thyroid',
+  },
   {
     title: 'Colorectal Anorectal Surgeries',
     description:
@@ -54,13 +61,7 @@ const expertiseData = [
     image: 'offer9.png',
      path: '/allartical/gisurgery',
   },
-     {
-    title: 'Thyroid Surgeries',
-    description:
-           'Thyroid surgery is performed to treat thyroid nodules, cancer, or hyperthyroidism by removing part or all of the thyroid gland.',
-    image: 'offer8.png',
-     path: '/allartical/thyroid',
-  },
+   
 
 ];
 

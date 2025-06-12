@@ -32,13 +32,14 @@ export default function Home() {
         <SurgicalExcellence />
         <Seasoned />
         <OurImpact />
+        <Review />
         <OfferExpertise />
         <Restoringhealth />
         <MissionVission />
         <Contact />
         <Demystifying />
         <Consult />
-        <Review />
+        
         <WatchVedio />
         <Artical />
         <BookAppointment />
