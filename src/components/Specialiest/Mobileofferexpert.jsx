@@ -4,7 +4,6 @@ import Link from "next/link";
 
 const expertiseData = [
 
-
   {
     title: "Laparoscopic Surgeries",
     description:
