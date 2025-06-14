@@ -26,15 +26,6 @@ const expertiseData = [
     path: "/allartical/breastcancer",
   },
   
-  
-  {
-    title: "Abdominal wall Reconstruction ",
-    description:
-      "Laser surgery uses focused light to treat or remove tissue, used to treat anorectal diseases, varicose veins and benign thyroid nodules",
-    image: "offer7.png",
-    path: "/allartical/abdonomial",
-  },
-
   {
     title: "Colorectal Anorectal Surgeries",
     description:
@@ -43,7 +34,6 @@ const expertiseData = [
     path: "/allartical/colorectalsurgery",
   },
 
-  
   {
     title: "Laser Surgeries",
     description:
@@ -63,7 +53,14 @@ const expertiseData = [
     description:
       "Thyroid surgery is a procedure to remove part or all of the thyroid gland, to improve conditions caused often due to cancer or nodules.",
     image: "offer8.png",
-    path: "/allartical/gisurgery",
+    path: "/allartical/thyroid",
+  },
+   {
+    title: "Abdominal wall Reconstruction ",
+    description:
+      "Laser surgery uses focused light to treat or remove tissue, used to treat anorectal diseases, varicose veins and benign thyroid nodules",
+    image: "offer7.png",
+    path: "/allartical/abdonomial",
   },
 
 ];

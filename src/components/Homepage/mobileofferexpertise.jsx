@@ -26,13 +26,7 @@ const expertiseData = [
     image: "offer3.png",
     path: "/allartical/breastcancer",
   },
-    {
-    title: "Thyroid Surgeries",
-    description:
-      "Thyroid surgery is a procedure to remove part or all of the thyroid gland, to improve conditions caused often due to cancer or nodules.",
-    image: "offer8.png",
-    path: "/allartical/thyroid",
-  },
+  
   {
     title: "Colorectal Anorectal Surgeries",
     description:
@@ -47,6 +41,21 @@ const expertiseData = [
     image: "offer6.png",
     path: "/allartical/leasersurgary",
   },
+    {
+    title: "Gastrointestinal Surgeries",
+    description:
+      "Gastrointestinal surgery treats digestive tract conditions using open or minimally invasive techniques, improving outcomes with less recovery time.",
+    image: "offer9.png",
+    path: "/allartical/gisurgery'",
+  },
+
+    {
+    title: "Thyroid Surgeries",
+    description:
+      "Thyroid surgery is a procedure to remove part or all of the thyroid gland, to improve conditions caused often due to cancer or nodules.",
+    image: "offer8.png",
+    path: "/allartical/thyroid",
+  },
   {
     title: "Abdominal wall Reconstruction ",
     description:
@@ -54,13 +63,7 @@ const expertiseData = [
     image: "offer7.png",
     path: "/allartical/abdonomial",
   },
-  {
-    title: "Gastrointestinal Surgeries",
-    description:
-      "Gastrointestinal surgery treats digestive tract conditions using open or minimally invasive techniques, improving outcomes with less recovery time.",
-    image: "offer9.png",
-    path: "/allartical/thyroid",
-  },
+
 ];
 
 const MobileOfferExpertise = () => {

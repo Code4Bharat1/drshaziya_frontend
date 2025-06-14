@@ -28,7 +28,7 @@ const router = useRouter();
           <h3 className="text-2xl text-[#004979] font-serif mb-4">
             Creating Impact across Millions of Lives
           </h3>
-          <p className="text-gray-800  text-xl mb-3 font-jaldi">
+          <p className="text-gray-800  text-xl mb-3 ">
             Dr. Shazia Waghoo is a skilled Laparoscopic, Hernia, and <br /> Breast Surgeon based in Mumbai with <strong>over 10 years</strong> of <br /> experience. She is known for minimally invasive <br /> techniques and a strong patient-focused approach. . <br /> Dr Waghoo actively <strong>promotes cancer and health awareness <br /> </strong> through camps and educational sessions. Her expertise, <br /> surgical care, and commitment to patient recovery <br /> make her highly recommended.
           </p>
           <button className=" font-semibold text-md bg-[#0085DC] hover:bg-yellow-500 text-white px-6 py-3 rounded-md transition duration-200 mt-7 mb-7"  onClick={() => router.push('/contactus')}>

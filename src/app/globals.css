@@ -59,3 +59,8 @@ body {
 .font-alata {
   font-family: 'Alata', sans-serif;
 }
+
+/* full page font change */
+body {
+  font-family: 'Times New Roman', Times, serif;
+}

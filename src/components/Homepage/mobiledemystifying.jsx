@@ -35,7 +35,7 @@ const DemystifyingMobile = () => {
       <div className="w-full flex justify-center mb-10 ">
          <div className="w-50 h-50 ">
         <img
-          src="/squarecircle.png" // 🔁 replace this with your actual image file name
+          src="/squarecircle1.png" // 🔁 replace this with your actual image file name
           alt="Dr. Shazia Waghoo"
           className="w-full h-full object-cover "
         />

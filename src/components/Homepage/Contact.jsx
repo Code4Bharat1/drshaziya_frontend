@@ -397,12 +397,12 @@ const Contact = () => {
         <div className="md:w-1/2 mb-8 md:mb-0 md:pr-6">
           <h2 className="text-3xl font-bold mb-4">Book a Consultation</h2>
           <p className="text-base mb-6 leading-relaxed font-inter">
-            Dr. Shazia utilizes cutting-edge technologies for precision and effectiveness of her specialty surgeries.
+            Dr. Shazia utilizes cutting-edge technologies for precision and effectiveness of her specialty surgeries.nsuring optimal patient outcomes and facilitating faster healing for those undergoing treatment.
           </p>
           <div className="mt-6">
             <p className="font-semibold mb-1">Need an Appointment?</p>
-            <p className="text-sm">Call or WhatsApp us:</p>
-            <p className="text-sm font-bold mt-1">9833584847 | 9892933421</p>
+            <p className="text-md">Call or WhatsApp us:</p>
+            <p className="text-md font-bold mt-1">9833584847 | 9892933421</p>
           </div>
         </div>
 

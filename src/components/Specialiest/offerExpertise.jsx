@@ -25,36 +25,15 @@ const expertiseData = [
     image: 'offer3.png',
      path: '/allartical/breastcancer',
   },
-    {
-    title: 'Abdominal wall Reconstruction ',
-    description:
-  'Abdominal wall reconstruction is a surgical procedure to repair complex hernias and restore abdominal strength.',
-    image: 'offer7.png',
-     path: '/allartical/abdonomial',
-  },
-
+ 
   {
-    title: 'Gastrointestinal Surgeries',
-    description:
-     'Gastrointestinal surgeries involve procedures on the digestive tract, such as operations on the stomach, and gallbladder to treat conditions like ulcers.',
-    image: '/offer9.png',
-     path: '/allartical/gisurgery',
-  },
-
-  {
-    title: 'Colorectal Anorectal Surgeries',
+    title: 'Colorectal / Anorectal Surgeries',
     description:
       'Colorectal surgery treats disorders of the rectum, anus, and colon including polyps, tumors, and inflammatory bowel diseases.',
     image: 'offer5.png',
      path: '/allartical/colorectalsurgery',
   },
-      {
-    title: 'Thyroid Surgeries',
-    description:
-           'Thyroid surgery is performed to treat thyroid nodules, cancer, or hyperthyroidism by removing part or all of the thyroid gland.',
-    image: 'offer8.png',
-     path: '/allartical/thyroid',
-  },
+
   {
     title: 'Laser Surgeries',
   description:
@@ -63,7 +42,27 @@ const expertiseData = [
     image: 'offer6.png',
      path: '/allartical/leasersurgary',
   },
-
+    {
+    title: 'Gastrointestinal Surgeries',
+    description:
+     'Gastrointestinal surgeries involve procedures on the digestive tract, such as operations on the stomach, and gallbladder to treat conditions like ulcers.',
+    image: '/offer9.png',
+     path: '/allartical/gisurgery',
+  },
+        {
+    title: 'Thyroid Surgeries',
+    description:
+           'Thyroid surgery is performed to treat thyroid nodules, cancer, or hyperthyroidism by removing part or all of the thyroid gland.',
+    image: 'offer8.png',
+     path: '/allartical/thyroid',
+  },
+   {
+    title: 'Abdominal wall Reconstruction ',
+    description:
+  'Abdominal wall reconstruction is a surgical procedure to repair complex hernias and restore abdominal strength.',
+    image: 'offer7.png',
+     path: '/allartical/abdonomial',
+  },
   
  
 
@@ -100,7 +99,7 @@ const OfferExpertise = () => {
                 <p className="text-[#000000] text-sm font-roboto">{item.description}</p>
               </div>
               <Link href={item.path}>
-              <button className=" shadow-[0_3px_2px_rgba(0,0,0,0.3)] bg-[#0085DC] text-white text-xs px-7 py-3 rounded-md hover:bg-blue-500 mt-5 mx-auto block">
+              <button className="  shadow-[0_3px_2px_rgba(0,0,0,0.3)] bg-[#0085DC] text-white text-xs px-7 py-3 rounded-md hover:bg-blue-500 mt-5 mx-auto block ">
                 KNOW MORE
               </button>
               </Link>

@@ -48,18 +48,20 @@
 "use client";
 import React from "react";
 import Image from "next/image";
+import { useRouter } from 'next/navigation';
 
 const MobileSurgicalExcellence = () => {
+  const router = useRouter();
   return (
-    <section className="relative w-full overflow-hidden pt-8 sm:pt-20 md:hidden">
+    <section className="relative w-full overflow-hidden pt-8 sm:pt-20 md:hidden ">
       {/* Background Image */}
-      <div className="relative w-full h-[85vh]">
+      <div className="relative w-full h-fit ">
         <Image
-          src="/ot1.png"
+          src="/hero4.png"
           alt="Surgical Background"
-          layout="fill"
-          objectFit="cover"
-          className="z-0"
+          width={1200}
+          height={1800}
+          className="z-0 h-full"
           priority
         />
 
@@ -68,7 +70,7 @@ const MobileSurgicalExcellence = () => {
 
         {/* Text Content */}
         <div className="absolute inset-0 z-20 flex flex-col justify-center items-center text-center px-6">
-          <h1 className="text-white mx-18 md-mx-0 text-4xl sm:text-3xl font-semibold leading-snug font-inter">
+          <h1 className="text-white mx-18 md-mx-0 text-2xl sm:text-3xl font-semibold leading-snug font-inter">
             <span className="block">Immersive </span>
             <span className="block mt-1">Surgical Care</span>
             <span className="block mt-1">Using</span>
@@ -77,7 +79,7 @@ const MobileSurgicalExcellence = () => {
             <span className="block mt-1">Modalities.</span>
           </h1>
 
-          <button className="mt-10 bg-[#0085DC] hover:bg-blue-700 text-white font-medium text-sm py-2 px-3 rounded-md transition duration-300">
+          <button className="mt-7 bg-[#0085DC] hover:bg-blue-700 text-white font-medium text-sm py-2 px-3 rounded-md transition duration-300" onClick={() => router.push('/contactus')}>
             BOOK AN APPOINTMENT
           </button>
         </div>

@@ -6,20 +6,20 @@ import { useRouter } from 'next/navigation';
 const SurgicalExcellence = () => {
     const router = useRouter();
   return (
-    <section className="bg-white relative w-full max-w-screen overflow-hidden pt-24 md:pt-28">
+    <section className="bg-white min-h-screen relative w-full max-w-screen overflow-hidden pt-24 md:pt-28">
       {/* Image Container */}
-      <div className="relative w-full h-[90vh] md:h-[83vh]">
+      <div className="relative w-full h-[87vh] md:min-h-screen">
         <Image
-          src="/hero1.png" // Place this image in public/
+          src="/hero4.png" // Place this image in public/
           alt="Surgical Background"
           layout="fill"
           objectFit="cover"
-          className="z-0 "
+          className="md:block z-0 "
           priority
         />
+  {/* overlay */}
+<div className="absolute inset-0 bg-black bg-opacity-50 z-10"></div>
 
-        {/* Overlay */}
-        <div className="absolute inset-0  bg-opacity-10 z-10"></div>
 
         {/* Text Content */}
         <div className="absolute inset-0 z-20 flex flex-col justify-center items-center text-center px-4">
@@ -40,3 +40,5 @@ const SurgicalExcellence = () => {
 };
 
 export default SurgicalExcellence;
+
+
