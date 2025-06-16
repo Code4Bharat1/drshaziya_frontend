@@ -55,7 +55,7 @@ const MobileSurgicalExcellence = () => {
   return (
     <section className="relative w-full overflow-hidden pt-8 sm:pt-20 md:hidden ">
       {/* Background Image */}
-      <div className="relative w-full h-fit ">
+      <div className="relative w-full h-[349px]">
         <Image
           src="/hero4.png"
           alt="Surgical Background"
@@ -70,7 +70,7 @@ const MobileSurgicalExcellence = () => {
 
         {/* Text Content */}
         <div className="absolute inset-0 z-20 flex flex-col justify-center items-center text-center px-6">
-          <h1 className="text-white mx-18 md-mx-0 text-2xl sm:text-3xl font-semibold leading-snug font-inter">
+          <h1 className="text-white mx-18 md-mx-0 text-2xl sm:text-3xl font-semibold leading-snug font-inter mt-9">
             <span className="block">Immersive </span>
             <span className="block mt-1">Surgical Care</span>
             <span className="block mt-1">Using</span>
