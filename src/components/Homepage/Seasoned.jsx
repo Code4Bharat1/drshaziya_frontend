@@ -1,9 +1,84 @@
 "use client"
 import React from 'react';
 import { useRouter } from 'next/navigation';
+import Head from 'next/head';
+
 const Seasoned = () => {
 const router = useRouter();
   return (
+    <>
+      {/* ✅ SEO Meta Tags */}
+      <Head>
+        <title>Dr. Shazia Waghoo – Expert Laparoscopic, Hernia & Breast Surgeon</title>
+        <meta
+          name="description"
+          content="Meet Dr. Shazia Waghoo, a Mumbai-based surgeon with 10+ years of experience in laparoscopic, hernia, and breast surgeries. Book an appointment today."
+        />
+        <meta
+          name="keywords"
+          content="Dr Shazia Waghoo, Laparoscopic Surgeon Mumbai, Hernia Specialist, Breast Surgery Doctor, Female Surgeon in Mumbai, Best Surgeon for Women, General Surgery Expert, Cancer Awareness Surgeon, Minimally Invasive Surgery, Top Doctor Mumbai, Book Appointment Dr Waghoo"
+        />
+        <meta name="author" content="Dr. Shazia Waghoo" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="canonical" href="https://drshaziawaghoosurgery.com/about" />
+
+        {/* ✅ Open Graph (Facebook, LinkedIn, etc.) */}
+        <meta property="og:title" content="Dr. Shazia Waghoo – Expert Laparoscopic, Hernia & Breast Surgeon" />
+        <meta
+          property="og:description"
+          content="Over 10 years of surgical excellence in Mumbai. Expert in minimally invasive hernia and breast surgeries. Trusted and compassionate care."
+        />
+        <meta property="og:url" content="https://drshaziawaghoosurgery.com/about" />
+        <meta property="og:image" content="https://drshaziawaghoosurgery.com/surgicalexellencedr.png" />
+        <meta property="og:type" content="profile" />
+        <meta property="og:locale" content="en_IN" />
+
+        {/* ✅ Twitter Card */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Dr. Shazia Waghoo | Laparoscopic & Hernia Surgeon in Mumbai" />
+        <meta
+          name="twitter:description"
+          content="Learn more about Dr. Shazia Waghoo’s 10+ years of experience in minimally invasive surgeries and patient-centered surgical care."
+        />
+        <meta name="twitter:image" content="https://drshaziawaghoosurgery.com/surgicalexellencedr.png" />
+
+        {/* ✅ Structured Data (Schema.org) */}
+        <script type="application/ld+json">
+          {`
+            {
+              "@context": "https://schema.org",
+              "@type": "Physician",
+              "name": "Dr. Shazia Waghoo",
+              "url": "https://drshaziawaghoosurgery.com",
+              "image": "https://drshaziawaghoosurgery.com/surgicalexellencedr.png",
+              "description": "Laparoscopic, Hernia, and Breast Surgeon in Mumbai with over 10 years of experience.",
+              "medicalSpecialty": [
+                "Laparoscopic Surgery",
+                "Hernia Surgery",
+                "Breast Surgery"
+              ],
+              "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "Clinic Address Here",
+                "addressLocality": "Mumbai",
+                "addressRegion": "MH",
+                "postalCode": "400001",
+                "addressCountry": "IN"
+              },
+              "telephone": "+91 9876543210",
+              "email": "drshazia@example.com",
+              "sameAs": [
+                "https://www.linkedin.com/in/drshaziawaghoo",
+                "https://www.instagram.com/drshaziawaghoo"
+              ]
+            }
+          `}
+        </script>
+      </Head>
+
+
+
+    {/* main code from here */}
     <div className="bg-[#F8F9FE] text-[#000] p-6 ">
       <div className="flex flex-col lg:flex-row items-center lg:items-start justify-start gap-9 lg:ml-24 mt-16 ">
         
@@ -37,6 +112,7 @@ const router = useRouter();
         </div>
       </div>
     </div>
+    </>
   );
 };
 

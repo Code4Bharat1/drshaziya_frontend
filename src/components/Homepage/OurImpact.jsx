@@ -1,6 +1,7 @@
 'use client'
 
 import React from 'react';
+import Head from 'next/head';
 
 const OurImpact = () => {
   const impactCards = [
@@ -33,6 +34,83 @@ const OurImpact = () => {
   ];
 
   return (
+    <>
+    {/* SEO start from here */}
+    <Head>
+        {/* ✅ Meta Title and Description */}
+        <title>Our Impact – Happy Patients, Surgical Success & Hospital Affiliations | Dr. Shazia Waghoo</title>
+        <meta
+          name="description"
+          content="Discover Dr. Shazia Waghoo’s healthcare impact with over 2,000 happy patients, 1,000+ successful surgeries, and affiliations with top Mumbai hospitals."
+        />
+        <meta
+          name="keywords"
+          content="Dr. Shazia Waghoo, hospital affiliations, surgical success, happy patients, Mumbai surgeon, laparoscopic surgery, patient care impact, experienced female surgeon, hernia surgery, breast surgeon, Mumbai hospitals"
+        />
+        <meta name="author" content="Dr. Shazia Waghoo" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="canonical" href="https://drshaziawaghoosurgery.com/our-impact" />
+
+        {/* ✅ Open Graph Tags (for Facebook/LinkedIn/etc.) */}
+        <meta property="og:title" content="Our Impact | Dr. Shazia Waghoo – Transforming Surgical Outcomes" />
+        <meta
+          property="og:description"
+          content="Over 10 years of experience with more than 2,000 happy patients and 1,000+ successful surgeries. Affiliated with leading hospitals in Mumbai."
+        />
+        <meta property="og:image" content="https://drshaziawaghoosurgery.com/heart.png" />
+        <meta property="og:url" content="https://drshaziawaghoosurgery.com/our-impact" />
+        <meta property="og:type" content="website" />
+        <meta property="og:locale" content="en_IN" />
+
+        {/* ✅ Twitter Card Tags */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Our Impact – 2,000+ Happy Patients | Dr. Shazia Waghoo" />
+        <meta
+          name="twitter:description"
+          content="Dr. Shazia Waghoo’s expert surgical care has improved thousands of lives. Explore her impact across patients, surgeries, and hospitals."
+        />
+        <meta name="twitter:image" content="https://drshaziawaghoosurgery.com/heart.png" />
+
+        {/* ✅ Structured Data (Organization + Medical Specialty) */}
+        <script type="application/ld+json">
+          {`
+            {
+              "@context": "https://schema.org",
+              "@type": "MedicalOrganization",
+              "name": "Dr. Shazia Waghoo",
+              "url": "https://drshaziawaghoosurgery.com",
+              "logo": "https://drshaziawaghoosurgery.com/heart.png",
+              "image": "https://drshaziawaghoosurgery.com/heart.png",
+              "description": "Experienced Laparoscopic, Hernia and Breast Surgeon with over 2,000 happy patients and affiliations with top hospitals in Mumbai.",
+              "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "Yogiraj Apartment, Shop No. 4, Kisan Nagar 3, Wagle Estate",
+                "addressLocality": "Thane West",
+                "addressRegion": "MH",
+                "postalCode": "400604",
+                "addressCountry": "IN"
+              },
+              "contactPoint": {
+                "@type": "ContactPoint",
+                "telephone": "+91 7208131213",
+                "contactType": "customer service",
+                "areaServed": "IN",
+                "availableLanguage": ["English", "Hindi"]
+              },
+              "medicalSpecialty": [
+                "Laparoscopic Surgery",
+                "Breast Surgery",
+                "Hernia Repair",
+                "General Surgery"
+              ]
+            }
+          `}
+        </script>
+      </Head>
+
+
+
+    {/* code start from here */}
     <div className="bg-[#F8F9FE] py-10 px-4 text-center">
       {/* Main Heading */}
       <h2 className="text-5xl font-bold text-[#004979] mb-10">OUR IMPACT NUMBERS</h2>
@@ -92,6 +170,7 @@ const OurImpact = () => {
         }
       `}</style>
     </div>
+    </>
   );
 };
 

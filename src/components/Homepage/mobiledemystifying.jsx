@@ -1,11 +1,75 @@
 "use client";
 import React from "react";
 import { useRouter } from "next/navigation";
+import Head from "next/head";
+
 
 const DemystifyingMobile = () => {
   const router = useRouter();
 
   return (
+    <>
+    {/* SEO start from here */}
+    <Head>
+  {/* ✅ Basic SEO Tags */}
+  <title>Demystifying Surgery – Consult Dr. Shazia Waghoo</title>
+  <meta
+    name="description"
+    content="Dr. Shazia Waghoo simplifies the surgical experience by offering expert consultation for 30+ diseases. Get seamless care and faster healing today."
+  />
+  <meta
+    name="keywords"
+    content="Dr. Shazia Waghoo, seamless surgery, surgical consultation, faster healing, diagnosis and treatment, surgery Mumbai, expert surgeon"
+  />
+  <meta name="author" content="Dr. Shazia Waghoo" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="canonical" href="https://drshaziawaghoosurgery.com/demystifying-surgery" />
+
+  {/* ✅ Open Graph (OG) for social sharing */}
+  <meta property="og:title" content="Demystifying Surgery – Consult Dr. Shazia Waghoo" />
+  <meta
+    property="og:description"
+    content="Surgery doesn't need to be complicated. Dr. Shazia Waghoo offers seamless diagnosis and treatment. Book your appointment today."
+  />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://drshaziawaghoosurgery.com/demystifying-surgery" />
+  <meta property="og:image" content="https://drshaziawaghoosurgery.com/images/squarecircle1.png" />
+  <meta property="og:locale" content="en_IN" />
+
+  {/* ✅ Twitter Card */}
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Demystifying Surgery – Consult Dr. Shazia Waghoo" />
+  <meta
+    name="twitter:description"
+    content="Book an appointment with Dr. Shazia Waghoo for expert surgical diagnosis and care. Over 30+ conditions treated with compassion."
+  />
+  <meta name="twitter:image" content="https://drshaziawaghoosurgery.com/images/squarecircle1.png" />
+
+  {/* ✅ Structured Data for Search Engines */}
+  <script type="application/ld+json">
+    {`
+    {
+      "@context": "https://schema.org",
+      "@type": "MedicalOrganization",
+      "name": "Dr. Shazia Waghoo Surgery",
+      "url": "https://drshaziawaghoosurgery.com/demystifying-surgery",
+      "logo": "https://drshaziawaghoosurgery.com/images/squarecircle1.png",
+      "description": "Expert surgical care made simple. Book a consultation with Dr. Shazia Waghoo to understand your diagnosis and treatment options.",
+      "founder": {
+        "@type": "Person",
+        "name": "Dr. Shazia Waghoo"
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Mumbai",
+        "addressCountry": "IN"
+      }
+    }
+    `}
+  </script>
+</Head>
+
+    {/* code start from here */}
     <div className="flex flex-col items-start bg-gray-50 px-6  md:hidden ">
       {/* Heading */}
       <h2 className="text-[29px] text-center  font-bold text-[#004979] mb-2  font-inter mt-4">
@@ -42,6 +106,7 @@ const DemystifyingMobile = () => {
         </div>
       </div>
 </div>
+</>
   );
 };
 

@@ -195,7 +195,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer className="bg-[#0085DC] text-white py-8 lg:py-12 w-full overflow-hidden">
+    <footer className="bg-[#2973a4] text-white py-8 lg:py-12 w-full overflow-hidden">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         
         {/* Mobile Layout */}

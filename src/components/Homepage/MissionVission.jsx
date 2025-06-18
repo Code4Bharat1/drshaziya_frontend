@@ -1,7 +1,76 @@
 import React from 'react';
+import Head from "next/head";
+
 
 const MissionVission = () => {
   return (
+    <>
+    <Head>
+  {/* ✅ Basic Meta Tags */}
+  <title>Our Vision & Mission – Dr. Shazia Waghoo’s Surgical Excellence</title>
+  <meta
+    name="description"
+    content="Learn about our mission to deliver affordable, high-quality surgical care and our vision to improve millions of lives through cutting-edge techniques led by Dr. Shazia Waghoo."
+  />
+  <meta
+    name="keywords"
+    content="Dr. Shazia Waghoo, vision mission, surgical care, healthcare mission, advanced surgery, laparoscopic surgery, affordable treatment, India surgeon"
+  />
+  <meta name="author" content="Dr. Shazia Waghoo" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="canonical" href="https://drshaziawaghoosurgery.com/mission-vision" />
+
+  {/* ✅ Open Graph / Facebook */}
+  <meta property="og:title" content="Our Vision & Mission – Dr. Shazia Waghoo’s Surgical Excellence" />
+  <meta
+    property="og:description"
+    content="Explore how Dr. Shazia Waghoo and her team are transforming surgical care with a patient-focused approach and modern technologies."
+  />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://drshaziawaghoosurgery.com/mission-vision" />
+  <meta property="og:image" content="https://drshaziawaghoosurgery.com/images/drshazia-profile.jpg" />
+  <meta property="og:locale" content="en_IN" />
+
+  {/* ✅ Twitter Card */}
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Our Vision & Mission – Dr. Shazia Waghoo" />
+  <meta
+    name="twitter:description"
+    content="Committed to patient-centered, affordable, and advanced surgical care for a healthier future. Learn more about our mission and vision."
+  />
+  <meta name="twitter:image" content="https://drshaziawaghoosurgery.com/images/drshazia-profile.jpg" />
+
+  {/* ✅ Schema Markup */}
+  <script type="application/ld+json">
+    {`
+    {
+      "@context": "https://schema.org",
+      "@type": "MedicalOrganization",
+      "name": "Dr. Shazia Waghoo Surgical Care",
+      "description": "We provide advanced, affordable surgical treatments with a focus on patient dignity and high outcomes.",
+      "url": "https://drshaziawaghoosurgery.com/mission-vision",
+      "logo": "https://drshaziawaghoosurgery.com/images/logo.png",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Mumbai",
+        "addressCountry": "IN"
+      },
+      "founder": {
+        "@type": "Person",
+        "name": "Dr. Shazia Waghoo"
+      },
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+91-9833584847",
+        "contactType": "Customer Support"
+      }
+    }
+    `}
+  </script>
+</Head>
+
+
+    {/* main code Start from here  */}
     <div className="bg-[#F8F9FE] w-full px-4 py-10 font-sans">
       <div className="max-w-5xl mx-auto flex flex-col md:flex-row justify-between items-start py-10 gap-10 md:gap-0">
         
@@ -28,6 +97,7 @@ const MissionVission = () => {
         
       </div>
     </div>
+    </>
   );
 };
 

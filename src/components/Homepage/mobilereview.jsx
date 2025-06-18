@@ -1,5 +1,7 @@
 "use client";
 import React, { useState, useRef, useEffect } from "react";
+import Head from "next/head";
+
 
 const reviews = [
   {
@@ -73,6 +75,75 @@ const MobileReviewsSwiper = () => {
   };
 
   return (
+    <>
+    {/* SEO start from here */}
+    <Head>
+  <title>Patient Testimonials – Reviews for Dr. Shazia Waghoo</title>
+  <meta
+    name="description"
+    content="Read real patient reviews about Dr. Shazia Waghoo, a compassionate and skilled Laparoscopic, Hernia & Breast Surgeon in Mumbai. Trusted for over 10 years."
+  />
+  <meta
+    name="keywords"
+    content="Dr. Shazia Waghoo reviews, Patient testimonials, Laparoscopic Surgeon Mumbai, Hernia Specialist, Breast Surgeon Mumbai"
+  />
+  <meta name="author" content="Dr. Shazia Waghoo" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="canonical" href="https://drshaziawaghoosurgery.com/reviews" />
+
+  {/* ✅ Open Graph for Facebook, LinkedIn */}
+  <meta property="og:title" content="Real Patient Reviews - Dr. Shazia Waghoo" />
+  <meta
+    property="og:description"
+    content="See what patients are saying about Dr. Shazia Waghoo. Honest reviews about her experience, empathy, and surgical care."
+  />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://drshaziawaghoosurgery.com/reviews" />
+  <meta property="og:image" content="https://drshaziawaghoosurgery.com/surgicalexellencedr.png" />
+  <meta property="og:locale" content="en_IN" />
+
+  {/* ✅ Twitter Card */}
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Patient Reviews - Dr. Shazia Waghoo" />
+  <meta
+    name="twitter:description"
+    content="Discover what real patients say about their treatment experience with Dr. Shazia Waghoo in Mumbai."
+  />
+  <meta name="twitter:image" content="https://drshaziawaghoosurgery.com/surgicalexellencedr.png" />
+
+  {/* ✅ Structured Data (JSON-LD Schema for Reviews Page) */}
+  <script type="application/ld+json">
+    {`
+      {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "name": "Patient Reviews - Dr. Shazia Waghoo",
+        "url": "https://drshaziawaghoosurgery.com/reviews",
+        "description": "Explore authentic testimonials from patients who were treated by Dr. Shazia Waghoo, a reputed Laparoscopic, Hernia & Breast Surgeon in Mumbai.",
+        "mainEntity": {
+          "@type": "Person",
+          "name": "Dr. Shazia Waghoo",
+          "jobTitle": "Laparoscopic, Hernia & Breast Surgeon",
+          "image": "https://drshaziawaghoosurgery.com/surgicalexellencedr.png",
+          "url": "https://drshaziawaghoosurgery.com",
+          "worksFor": {
+            "@type": "MedicalOrganization",
+            "name": "Dr. Shazia Waghoo Surgery Clinic"
+          },
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Mumbai",
+            "addressCountry": "IN"
+          }
+        }
+      }
+    `}
+  </script>
+</Head>
+
+
+
+    {/* final main code start from */}
     <div className="py-6 bg-[#F8F9FE] ">
    <h2 className="text-[26px] sm:text-[30px] font-bold text-center text-[#004979] mb-6 px-4">
   Reviews on Google
@@ -185,6 +256,7 @@ const MobileReviewsSwiper = () => {
 
  
     </div>
+    </>
   );
 };
 

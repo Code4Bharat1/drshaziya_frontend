@@ -1,10 +1,78 @@
 "use client";
 import React from "react";
 import { useRouter } from "next/navigation";
-
+import Head from "next/head";
 const MobileSeasoned = () => {
   const router = useRouter();
   return (
+    <>
+    {/* SEO Start from here */}
+     <Head>
+        {/* ✅ Page Title and Description */}
+        <title>Dr. Shazia Waghoo - Expert Laparoscopic, Hernia & Breast Surgeon</title>
+        <meta
+          name="description"
+          content="Meet Dr. Shazia Waghoo, a seasoned Laparoscopic, Hernia, and Breast Surgeon based in Mumbai with 10+ years of expertise in minimally invasive techniques and patient-focused care."
+        />
+        <meta
+          name="keywords"
+          content="Dr. Shazia Waghoo, Laparoscopic Surgeon Mumbai, Hernia Specialist, Breast Surgeon, Women Surgeon Mumbai, Minimally Invasive Surgery, Female Surgeon"
+        />
+        <meta name="author" content="Dr. Shazia Waghoo" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="canonical" href="https://drshaziawaghoosurgery.com/mobile-seasoned" />
+
+        {/* ✅ Open Graph for Social Sharing */}
+        <meta property="og:title" content="Dr. Shazia Waghoo - Trusted Surgical Expertise in Mumbai" />
+        <meta
+          property="og:description"
+          content="10+ years of experience in Laparoscopic, Hernia, and Breast Surgeries. Book your consultation with Dr. Shazia Waghoo today."
+        />
+        <meta property="og:type" content="profile" />
+        <meta property="og:url" content="https://drshaziawaghoosurgery.com/mobile-seasoned" />
+        <meta property="og:image" content="https://drshaziawaghoosurgery.com/surgicalexellencedr.png" />
+        <meta property="og:locale" content="en_IN" />
+
+        {/* ✅ Twitter Card */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Dr. Shazia Waghoo - Expert Surgeon in Mumbai" />
+        <meta
+          name="twitter:description"
+          content="Dr. Shazia Waghoo is a trusted name in Laparoscopic, Hernia, and Breast Surgery. Learn more about her patient-first care approach."
+        />
+        <meta name="twitter:image" content="https://drshaziawaghoosurgery.com/surgicalexellencedr.png" />
+
+        {/* ✅ Structured Data (JSON-LD Schema) */}
+        <script type="application/ld+json">
+          {`
+          {
+            "@context": "https://schema.org",
+            "@type": "Person",
+            "name": "Dr. Shazia Waghoo",
+            "url": "https://drshaziawaghoosurgery.com/mobile-seasoned",
+            "image": "https://drshaziawaghoosurgery.com/surgicalexellencedr.png",
+            "jobTitle": "Laparoscopic, Hernia & Breast Surgeon",
+            "worksFor": {
+              "@type": "MedicalOrganization",
+              "name": "Dr. Shazia Waghoo Surgery Clinic"
+            },
+            "address": {
+              "@type": "PostalAddress",
+              "addressLocality": "Mumbai",
+              "addressCountry": "IN"
+            },
+            "description": "Dr. Shazia Waghoo is a highly experienced surgeon with a decade of expertise in advanced minimally invasive procedures and compassionate care.",
+            "sameAs": [
+              "https://www.linkedin.com/in/drshaziawaghoo",
+              "https://www.youtube.com/@DrShaziaWaghoo"
+            ]
+          }
+          `}
+        </script>
+      </Head>
+
+
+    {/* main cod estart from here */}
     <div className="bg-[#F8F9FE] text-[#000] px-4 py-10 ">
       <div className="flex flex-col items-center gap-8">
         <img
@@ -45,6 +113,7 @@ const MobileSeasoned = () => {
         </div>
       </div>
     </div>
+    </>
   );
 };
 

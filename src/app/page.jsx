@@ -23,6 +23,7 @@ import Seasoned from "@/components/Homepage/Seasoned";
 import SurgicalExcellence from "@/components/Homepage/SurgicalExcellence";
 import WatchVedio from "@/components/Homepage/WatchVedio";
 import WhatsAppButton from "@/components/Layout/whatsappbutton";
+import MobileArtical from "@/components/Resource/MobileArtical";
 
 export default function Home() {
   return (
@@ -56,6 +57,7 @@ export default function Home() {
         <DemystifyingMobile />
        <MobileConsult/>
         <MobileReviewsSwiper />
+      <MobileArtical/>
         <MobileWatchVideo />
       </div>
     </>

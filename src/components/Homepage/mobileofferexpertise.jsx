@@ -1,6 +1,8 @@
 "use client";
 import React from "react";
 import Link from "next/link";
+import Head from "next/head";
+
 
 const expertiseData = [
 
@@ -68,6 +70,83 @@ const expertiseData = [
 
 const MobileOfferExpertise = () => {
   return (
+    <>
+    <Head>
+  {/* ✅ Basic Meta Tags */}
+  <title>Dr. Shazia Waghoo – Surgical Expertise in Mumbai</title>
+  <meta
+    name="description"
+    content="Explore the wide range of surgeries offered by Dr. Shazia Waghoo – from laparoscopic and hernia surgeries to breast, laser, thyroid, and gastrointestinal procedures."
+  />
+  <meta
+    name="keywords"
+    content="Dr. Shazia Waghoo, laparoscopic surgeries, hernia repair, breast cancer surgery, thyroid surgery, laser surgery, GI surgery, abdominal wall reconstruction, colorectal surgery, Mumbai surgeon"
+  />
+  <meta name="author" content="Dr. Shazia Waghoo" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="canonical" href="https://drshaziawaghoosurgery.com/surgical-expertise" />
+
+  {/* ✅ Open Graph (for Facebook, LinkedIn, etc.) */}
+  <meta property="og:title" content="Dr. Shazia Waghoo – Surgical Expertise in Mumbai" />
+  <meta
+    property="og:description"
+    content="Offering a full range of surgeries including laparoscopic, hernia, breast, thyroid, and gastrointestinal procedures across Mumbai's top hospitals."
+  />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://drshaziawaghoosurgery.com/surgical-expertise" />
+  <meta property="og:image" content="https://drshaziawaghoosurgery.com/offer1.png" />
+  <meta property="og:locale" content="en_IN" />
+
+  {/* ✅ Twitter Card */}
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Dr. Shazia Waghoo – Expert Surgical Care in Mumbai" />
+  <meta
+    name="twitter:description"
+    content="Discover Dr. Shazia Waghoo’s surgical excellence with expertise in laparoscopic, breast, thyroid, hernia, GI, and laser surgeries."
+  />
+  <meta name="twitter:image" content="https://drshaziawaghoosurgery.com/offer1.png" />
+
+  {/* ✅ JSON-LD Structured Data */}
+  <script type="application/ld+json">
+    {`
+    {
+      "@context": "https://schema.org",
+      "@type": "MedicalOrganization",
+      "name": "Dr. Shazia Waghoo Surgery Clinic",
+      "url": "https://drshaziawaghoosurgery.com/surgical-expertise",
+      "logo": "https://drshaziawaghoosurgery.com/offer1.png",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Mumbai",
+        "addressCountry": "IN"
+      },
+      "department": {
+        "@type": "MedicalSpecialty",
+        "name": "General Surgery",
+        "medicalSpecialty": [
+          "Laparoscopic Surgery",
+          "Hernia Repair",
+          "Breast Surgery",
+          "Thyroid Surgery",
+          "Laser Surgery",
+          "Gastrointestinal Surgery",
+          "Abdominal Wall Reconstruction",
+          "Colorectal Surgery"
+        ]
+      },
+      "founder": {
+        "@type": "Person",
+        "name": "Dr. Shazia Waghoo",
+        "jobTitle": "General & Laparoscopic Surgeon",
+        "url": "https://drshaziawaghoosurgery.com"
+      }
+    }
+    `}
+  </script>
+</Head>
+
+
+    {/* code start from here */}
     <div className="bg-[#F8F9FE] py-2 px-4 block md:hidden">
       <h2 className="text-center text-xl px-5 font-bold text-[#004979] -mt-6 mb-10">
         Dr. Shazia Waghoo offers Expertise in the following Surgeries
@@ -108,6 +187,7 @@ const MobileOfferExpertise = () => {
         ))}
       </div>
     </div>
+    </>
   );
 };
 

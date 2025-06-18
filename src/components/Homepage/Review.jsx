@@ -71,6 +71,7 @@
 
 
 import React from 'react';
+import Head from 'next/head';
 
 const reviews = [
   { name: 'Priyanka Rathod', initial: 'P', text: 'Dr. Shazia has been treating my mother for the past 1 year and she has been exceptionally supportive and patient in guiding the direction for my mother’s diagnosis. She is extremely knowledgeable and has explained everything empathetically which is very appreciated. Will not be judgmental and I will continue to consult with her for future treatments!', date: '10/01/2025' },
@@ -86,6 +87,101 @@ const colors = [
 
 const Review = () => {
   return (
+    <>
+    {/* SEO from here */}
+    <Head>
+        {/* ✅ Basic SEO */}
+        <title>Patient Reviews | Dr. Shazia Waghoo – Verified Google Testimonials</title>
+        <meta
+          name="description"
+          content="Read verified patient reviews and testimonials for Dr. Shazia Waghoo, Mumbai-based Laparoscopic, Hernia, and Breast Surgeon. Trusted by many for compassionate care and expert surgery."
+        />
+        <meta
+          name="keywords"
+          content="Dr. Shazia Waghoo reviews, Google testimonials, patient feedback, best surgeon Mumbai, compassionate doctor, laparoscopic surgeon reviews, hernia surgeon ratings, breast surgeon testimonials, verified patient reviews, trusted Mumbai doctor"
+        />
+        <meta name="author" content="Dr. Shazia Waghoo" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="canonical" href="https://drshaziawaghoosurgery.com/reviews" />
+
+        {/* ✅ Open Graph */}
+        <meta property="og:title" content="Patient Reviews for Dr. Shazia Waghoo" />
+        <meta
+          property="og:description"
+          content="What patients say about Dr. Shazia Waghoo – Read their real experiences and recommendations on Google."
+        />
+        <meta property="og:image" content="https://drshaziawaghoosurgery.com/fivestar.png" />
+        <meta property="og:url" content="https://drshaziawaghoosurgery.com/reviews" />
+        <meta property="og:type" content="website" />
+        <meta property="og:locale" content="en_IN" />
+
+        {/* ✅ Twitter Card */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Verified Patient Testimonials | Dr. Shazia Waghoo" />
+        <meta
+          name="twitter:description"
+          content="Explore honest reviews and feedback from patients treated by Dr. Shazia Waghoo – Expert Laparoscopic and Hernia Surgeon in Mumbai."
+        />
+        <meta name="twitter:image" content="https://drshaziawaghoosurgery.com/fivestar.png" />
+
+        {/* ✅ Structured Data – Review Page */}
+        <script type="application/ld+json">
+          {`
+            {
+              "@context": "https://schema.org",
+              "@type": "healthrealated",
+              "name": " DrShazia Waghoo",
+              "itemListElement": [
+                {
+                  "@type": "Review",
+                  "author": {
+                    "@type": "Person",
+                    "name": "Priyanka Rathod"
+                  },
+                  "reviewRating": {
+                    "@type": "Rating",
+                    "ratingValue": "5",
+                    "bestRating": "5"
+                  },
+                  "reviewBody": "Dr. Shazia has been treating my mother... extremely knowledgeable and empathetic.",
+                  "datePublished": "2025-01-10"
+                },
+                {
+                  "@type": "Review",
+                  "author": {
+                    "@type": "Person",
+                    "name": "Asma Khan"
+                  },
+                  "reviewRating": {
+                    "@type": "Rating",
+                    "ratingValue": "5",
+                    "bestRating": "5"
+                  },
+                  "reviewBody": "I had a wonderful experience with Dr. Shazia... compassionate and attentive.",
+                  "datePublished": "2025-01-03"
+                },
+                {
+                  "@type": "Review",
+                  "author": {
+                    "@type": "Person",
+                    "name": "Deepak Bhai"
+                  },
+                  "reviewRating": {
+                    "@type": "Rating",
+                    "ratingValue": "5",
+                    "bestRating": "5"
+                  },
+                  "reviewBody": "Dr. Shazia is an exceptional surgeon... supported throughout the process.",
+                  "datePublished": "2025-01-03"
+                }
+              ]
+            }
+          `}
+        </script>
+      </Head>
+
+
+    {/* main code start from herre */}
     <div className="py-4 bg-[#F8F9FE] ">
       <h2 className="text-[44px] font-bold text-center text-[#004979] mb-2 ">Reviews on Google</h2>
 
@@ -130,6 +226,7 @@ const Review = () => {
         </div>
       </div>
     </div>
+    </>
   );
 };
 

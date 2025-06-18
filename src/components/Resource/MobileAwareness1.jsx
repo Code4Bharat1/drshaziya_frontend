@@ -9,13 +9,13 @@ const MobileAwareness1 = () => {
   ];
 
   const secondImages = [
-    '/aware3.png',
+    '/aware6.png',
     '/aware4.png',
   ];
 
   const thirdImages = [
     '/aware5.png',
-    '/aware6.png',
+    '/aware7.png',
   ];
 
   return (

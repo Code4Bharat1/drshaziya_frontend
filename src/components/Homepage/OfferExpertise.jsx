@@ -1,7 +1,7 @@
 "use client";
 import React from 'react';
 import Link from 'next/link';
-
+import Head from 'next/head';
 
 const expertiseData = [
   {
@@ -70,6 +70,84 @@ const expertiseData = [
 
 const OfferExpertise = () => {
   return (
+    <>
+
+{/* SEO Start from here */}
+  <Head>
+        {/* ✅ Basic SEO */}
+        <title>Expert Surgical Specialties | Dr. Shazia Waghoo</title>
+        <meta
+          name="description"
+          content="Explore surgical expertise by Dr. Shazia Waghoo, including laparoscopic, hernia, breast, colorectal, thyroid, GI, and laser surgeries in Mumbai."
+        />
+        <meta
+          name="keywords"
+          content="Dr. Shazia Waghoo, Surgical Expertise, Laparoscopic Surgery, Hernia Surgery, Breast Surgery, Colorectal Surgery, Thyroid Surgery, GI Surgery, Laser Surgery, Mumbai Surgeon, Abdominal Wall Reconstruction"
+        />
+        <meta name="author" content="Dr. Shazia Waghoo" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="canonical" href="https://drshaziawaghoosurgery.com/offer-expertise" />
+
+        {/* ✅ Open Graph (Facebook / LinkedIn) */}
+        <meta property="og:title" content="Expert Surgeries by Dr. Shazia Waghoo" />
+        <meta
+          property="og:description"
+          content="Discover advanced surgical procedures offered by Dr. Shazia Waghoo, including minimally invasive and laser treatments across specialties."
+        />
+        <meta property="og:url" content="https://drshaziawaghoosurgery.com/offer-expertise" />
+        <meta property="og:type" content="website" />
+        <meta property="og:image" content="https://drshaziawaghoosurgery.com/offer1.png" />
+        <meta property="og:locale" content="en_IN" />
+
+        {/* ✅ Twitter Card */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Expert Surgical Specialties | Dr. Shazia Waghoo" />
+        <meta
+          name="twitter:description"
+          content="Explore the range of surgical specialties by Dr. Shazia Waghoo in Mumbai, including laparoscopic, GI, and cosmetic procedures."
+        />
+        <meta name="twitter:image" content="https://drshaziawaghoosurgery.com/offer1.png" />
+
+        {/* ✅ Structured Data (Schema.org) */}
+        <script type="application/ld+json">
+          {`
+            {
+              "@context": "https://schema.org",
+              "@type": "MedicalOrganization",
+              "name": "Dr. Shazia Waghoo",
+              "url": "https://drshaziawaghoosurgery.com",
+              "logo": "https://drshaziawaghoosurgery.com/offer1.png",
+              "description": "Dr. Shazia Waghoo offers specialized surgeries including laparoscopic, breast, hernia, laser, GI, thyroid, and abdominal wall reconstruction.",
+              "medicalSpecialty": [
+                "Laparoscopic Surgery",
+                "Breast Surgery",
+                "Hernia Repair",
+                "Laser Surgery",
+                "Thyroid Surgery",
+                "Gastrointestinal Surgery",
+                "Colorectal Surgery",
+                "Abdominal Wall Reconstruction"
+              ],
+              "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "Yogiraj Apartment, Shop No. 4, Kisan Nagar 3, Wagle Estate",
+                "addressLocality": "Thane West",
+                "addressRegion": "MH",
+                "postalCode": "400604",
+                "addressCountry": "IN"
+              },
+              "contactPoint": {
+                "@type": "ContactPoint",
+                "telephone": "+91 7208131213",
+                "contactType": "Customer Service",
+                "availableLanguage": ["English", "Hindi"]
+              }
+            }
+          `}
+        </script>
+      </Head>
+
+    {/* // main code start from here */}
     <div className="bg-[#F8F9FE] py-10 ">
       <h2 className="text-center text-2xl md:text-[36px] font-bold text-[#004979] mt-2 mb-11">
          Dr. Shazia Waghoo offers Expertise in the following Surgeries
@@ -119,6 +197,7 @@ const OfferExpertise = () => {
         }
       `}</style>
     </div>
+    </>
   );
 };
 

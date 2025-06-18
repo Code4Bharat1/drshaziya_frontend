@@ -32,7 +32,7 @@ const Navbar = () => {
 
         {/* Yellow and Blue Sections */}
         <div className="flex bg-[#FFD54F] relative w-full h-20 clip-triangle-left shadow-lg">
-          <div className="absolute top-0 left-7 bg-blue-500 w-full h-20 clip-triangle-left shadow-lg flex items-center justify-center">
+          <div className="absolute top-0 left-7 bg-blue-400 w-full h-20 clip-triangle-left shadow-lg flex items-center justify-center">
             {/* Desktop Navigation Menu */}
             <nav className="hidden lg:flex items-center space-x-20 px-16 mr-12">
               {navigationItems.map((item, index) => (
@@ -54,7 +54,8 @@ const Navbar = () => {
         {/* Mobile Menu Button - Positioned outside the clipped area */}
         <button
           onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
-          className="lg:hidden fixed top-4 right-4 sm:right-6 text-white bg-blue-500 hover:bg-blue-600 focus:outline-none p-2 rounded-md shadow-lg z-50 transition-all duration-200  mt-2"
+          className="lg:hidden fixed top-4 right-4 sm:right-6 text-white bg-blue-400 hover:bg-blue-400 focus:outline-none p-2 rounded-md shadow-lg z-50 transition-all duration-200  mt-2 "
+         
           aria-label="Toggle mobile menu"
           style={{ top: '12px' }} // Ensures it's vertically centered in the 80px navbar
         >
@@ -86,7 +87,7 @@ const Navbar = () => {
 
         {/* Mobile Navigation Menu */}
         <div
-          className={`lg:hidden fixed top-20 left-0 right-0 bg-blue-500 transition-all duration-300 ease-in-out z-40 shadow-xl overflow-y-auto ${
+          className={`lg:hidden fixed top-20 left-0 right-0 bg-white text-black transition-all duration-300 ease-in-out z-40 shadow-xl overflow-y-auto ${
             isMobileMenuOpen
               ? "max-h-screen opacity-100"
               : "max-h-0 opacity-0 overflow-hidden"
@@ -98,8 +99,8 @@ const Navbar = () => {
               <a
                 key={index}
                 href={item.href}
-                className={`block text-white font-bold text-sm tracking-wider hover:text-yellow-300 hover:bg-blue-600 px-4 py-3 rounded-lg transition-all duration-200 ${
-                  pathname === item.href ? "text-yellow-300 bg-blue-600" : ""
+                className={`block text-black font-bold text-sm tracking-wider hover:text-yellow-300 hover:bg-blue-600 px-4 py-3 rounded-lg transition-all duration-200 ${
+                  pathname === item.href ? "text-white bg-blue-400" : ""
                 }`}
                 onClick={() => setIsMobileMenuOpen(false)}
               >
@@ -112,7 +113,7 @@ const Navbar = () => {
         {/* Overlay to close menu when clicking outside */}
         {isMobileMenuOpen && (
           <div
-            className="lg:hidden fixed inset-0 bg-black bg-opacity-50 z-30"
+            className="lg:hidden fixed inset-0  z-30"
             style={{ top: '50px' }} // Start below the navbar
             onClick={() => setIsMobileMenuOpen(false)}
           />

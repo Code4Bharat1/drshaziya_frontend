@@ -1,5 +1,7 @@
 "use client";
 import React from "react";
+import Head from "next/head";
+
 
 const MobileOurImpact = () => {
   const impactCards = [
@@ -32,6 +34,75 @@ const MobileOurImpact = () => {
   ];
 
   return (
+    <>
+    {/* SEO start from here */}
+    <Head>
+  {/* ✅ Basic SEO */}
+  <title>Our Impact – Dr. Shazia Waghoo’s Surgical Excellence in Mumbai</title>
+  <meta
+    name="description"
+    content="Discover the impact of Dr. Shazia Waghoo’s surgical journey – 2,000+ happy patients, 1,000+ successful surgeries, and 10+ years of experience across top hospitals in Mumbai."
+  />
+  <meta
+    name="keywords"
+    content="Dr. Shazia Waghoo, surgical impact, happy patients, successful surgeries, hospital affiliations, Mumbai healthcare, laparoscopic surgery stats"
+  />
+  <meta name="author" content="Dr. Shazia Waghoo" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="canonical" href="https://drshaziawaghoosurgery.com/our-impact" />
+
+  {/* ✅ Open Graph Meta Tags */}
+  <meta property="og:title" content="Our Impact – Dr. Shazia Waghoo’s Legacy in Mumbai" />
+  <meta
+    property="og:description"
+    content="Trusted by thousands, Dr. Shazia Waghoo has made a lasting impact with over 1,000 surgeries and affiliations with Mumbai’s leading hospitals."
+  />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://drshaziawaghoosurgery.com/our-impact" />
+  <meta property="og:image" content="https://drshaziawaghoosurgery.com/heart.png" />
+  <meta property="og:locale" content="en_IN" />
+
+  {/* ✅ Twitter Card */}
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Our Impact – Dr. Shazia Waghoo’s Surgical Journey" />
+  <meta
+    name="twitter:description"
+    content="Explore how Dr. Shazia Waghoo has transformed lives with 2,000+ happy patients and 1,000+ surgeries in Mumbai."
+  />
+  <meta name="twitter:image" content="https://drshaziawaghoosurgery.com/heart.png" />
+
+  {/* ✅ Structured Data (JSON-LD Schema) */}
+  <script type="application/ld+json">
+    {`
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Our Impact - Dr. Shazia Waghoo",
+      "url": "https://drshaziawaghoosurgery.com/our-impact",
+      "description": "2000+ happy patients, 1000+ surgeries, 10+ years of experience. Discover Dr. Shazia Waghoo’s surgical achievements and trusted hospital affiliations in Mumbai.",
+      "mainEntity": {
+        "@type": "Person",
+        "name": "Dr. Shazia Waghoo",
+        "jobTitle": "Laparoscopic, Hernia & Breast Surgeon",
+        "url": "https://drshaziawaghoosurgery.com",
+        "worksFor": {
+          "@type": "MedicalOrganization",
+          "name": "Dr. Shazia Waghoo Surgery Clinic"
+        },
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Mumbai",
+          "addressCountry": "IN"
+        },
+        "image": "https://drshaziawaghoosurgery.com/heart.png"
+      }
+    }
+    `}
+  </script>
+</Head>
+
+
+    {/* main code start from here */}
     <div className="bg-[#F8F9FE] py-6 px-4 text-center block md:hidden">
       {/* Heading */}
       <h2 className="text-2xl font-bold text-[#004979] mx-2 mb-8">
@@ -129,6 +200,7 @@ const MobileOurImpact = () => {
 </div>
 
     </div>
+    </>
   );
 };
 

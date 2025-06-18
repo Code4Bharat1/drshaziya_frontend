@@ -1,9 +1,76 @@
 'use client'
 import React from 'react';
 import { useRouter } from 'next/navigation';
+import Head from "next/head";
+
 const Demystifying = () => {
        const router = useRouter();
   return (
+    <>
+    {/* SEO start from here */}
+    <Head>
+  {/* ✅ Basic SEO */}
+  <title>Demystifying Surgery with Dr. Shazia Waghoo – Safe & Seamless Surgical Experience</title>
+  <meta
+    name="description"
+    content="Get expert diagnosis and advanced surgical care with Dr. Shazia Waghoo. We simplify the surgical experience and help patients heal faster with personalized treatment."
+  />
+  <meta
+    name="keywords"
+    content="Dr. Shazia Waghoo, surgery consultation, laparoscopic surgeon, laser surgery, surgical diagnosis, book appointment, advanced treatment"
+  />
+  <meta name="author" content="Dr. Shazia Waghoo" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="canonical" href="https://drshaziawaghoosurgery.com/demystifying-surgery" />
+
+  {/* ✅ Open Graph / Facebook */}
+  <meta property="og:title" content="Demystifying Surgery with Dr. Shazia Waghoo" />
+  <meta
+    property="og:description"
+    content="Surgery doesn't have to be stressful. Learn how Dr. Shazia Waghoo delivers expert, compassionate care for over 30+ conditions with cutting-edge technologies."
+  />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://drshaziawaghoosurgery.com/demystifying-surgery" />
+  <meta property="og:image" content="https://drshaziawaghoosurgery.com/images/drshazia-profile.jpg" />
+  <meta property="og:locale" content="en_IN" />
+
+  {/* ✅ Twitter Card */}
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Demystifying Surgery with Dr. Shazia Waghoo" />
+  <meta
+    name="twitter:description"
+    content="Book a consultation with Dr. Shazia Waghoo for hassle-free surgical care and faster recovery. Personalized treatment across multiple diseases."
+  />
+  <meta name="twitter:image" content="https://drshaziawaghoosurgery.com/images/drshazia-profile.jpg" />
+
+  {/* ✅ Schema Markup for Doctor */}
+  <script type="application/ld+json">
+    {`
+    {
+      "@context": "https://schema.org",
+      "@type": "Physician",
+      "name": "Dr. Shazia Waghoo",
+      "description": "Delivering precise and compassionate surgical care with expertise in laparoscopic and laser surgery.",
+      "medicalSpecialty": "Surgery",
+      "url": "https://drshaziawaghoosurgery.com/demystifying-surgery",
+      "image": "https://drshaziawaghoosurgery.com/images/drshazia-profile.jpg",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Mumbai",
+        "addressCountry": "IN"
+      },
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+91-9833584847",
+        "contactType": "Appointment Booking"
+      }
+    }
+    `}
+  </script>
+</Head>
+
+
+    {/* main code start from here */}
     <div className="flex flex-col md:flex-row items-center justify-between bg-gray-50 px-6 py-12 md:px-16 gap-6">
       
       {/* Left Side */}
@@ -47,6 +114,7 @@ const Demystifying = () => {
         </button>
       </div>
     </div>
+    </>
   );
 };
 
