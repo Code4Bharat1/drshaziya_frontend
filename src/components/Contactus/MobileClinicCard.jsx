@@ -4,43 +4,43 @@ import { MapPin } from 'lucide-react';
 
 const clinics = [
   {
-    title: 'Clinic 01',
+    
     name: 'VLSR – The Clinic',
     address: `2nd floor, Corinthian, Linking Road,\nOpp. DBS Bank, Khar West,\nMumbai 400052`,
     locationUrl: 'https://maps.app.goo.gl/GYtbkfdc1cVYi3zR7?g_st=aw',
   },
   {
-    title: 'Clinic 02',
+   
     name: 'The Diagnostic Hub',
     address: `Florence, Nehru Road, Next to Axis Bank,\nVakola, Santacruz East,\nMumbai 400055`,
     locationUrl: 'https://maps.app.goo.gl/zT1GPjM5zAae4FGa7?g_st=aw',
   },
   {
-    title: 'Clinic 03',
+    
     name: 'CritiCare Asia Hospital',
     address: `Building No 1, Kirol Road, off Lal Bahadur Shastri Marg,\nnear Kohinoor International School,\nAli Yavar Jung, Kurla West\nMumbai 400070`,
     locationUrl: 'https://maps.app.goo.gl/cZcxSMhRq5GfAJkK8?g_st=aw',
   },
   {
-    title: 'Clinic 04',
-    name: 'Business Point',
+   
+    name: 'Chembur clinic (Dr.sheth clinic)',
     address: `8-28/B, DK Sandu Marg, Chembur Gaothan,\nChembur, Mumbai,\nMaharashtra 400071`,
     locationUrl: 'https://maps.app.goo.gl/RXbJbeJMTn8nix728?g_st=aw',
   },
   {
-    title: 'Clinic 05',
+    
     name: 'CritiCare Asia Hospital',
     address: `Plot No 516, Besides SBI, Teli Gali,\nMaheshwari Nagar, Andheri East,\nMumbai, Maharashtra 400069`,
     locationUrl: 'https://maps.app.goo.gl/5Ao6jnGeB3DP1k2eA?g_st=aw',
   },
   {
-    title: 'Clinic 06',
-    name: 'Mahavir Center',
+
+    name: 'Precision super speciality',
     address: `Vashi-Turbhe Rd, Sector 17,\nVashi, Navi Mumbai,\nMaharashtra 400705`,
     locationUrl: 'https://maps.app.goo.gl/M3uiBh3fyG5Jy2YeA?g_st=aw',
   },
   {
-    title: 'Clinic 07',
+   
     name: 'NM Aesthetics',
     address: `Shop no. 1, Kaku Kunj CHS\nOpposite Mazgaon Garden\nSardar Balwant Singh Dodhi Marg\nMazgaon, Mumbai - 10`,
     locationUrl: 'https://maps.app.goo.gl/CZn3wx7NM1bTkoB96?g_st=aw',
@@ -65,8 +65,8 @@ const MobileClinicCard = () => {
               {/* Top Content */}
               <div className="flex-grow flex flex-col items-center">
                 <MapPin className="text-blue-600 mb-2" size={28} />
-                <h2 className=" text-black font-semibold text-xl">{clinic.title}</h2>
-                <p className="font-semibold mt-1 text-md text-black">{clinic.name}</p>
+                
+                <p className="font-semibold mt-1 text-[19px] text-black">{clinic.name}</p>
                 <div className="text-gray-700 mt-2 text-md">
                   {addressLines.map((line, i) => (
                     <p key={i} className={i === 1 || i === 2 ? 'underline text-black' : ''}>
