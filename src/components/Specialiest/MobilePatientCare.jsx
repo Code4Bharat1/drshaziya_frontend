@@ -1,5 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
+import Head from 'next/head';
+
 
 
 const MobilePatientCare = () => {
@@ -37,6 +39,65 @@ const MobilePatientCare = () => {
   ];
 
   return (
+    <>
+    <Head>
+  {/* ✅ Basic SEO */}
+  <title>Comprehensive Patient Care – Dr. Shazia Waghoo</title>
+  <meta
+    name="description"
+    content="Explore our complete patient care services – from pre-operative assessments to post-op recovery, diet, physiotherapy, and follow-up care by Dr. Shazia Waghoo's dedicated team."
+  />
+  <meta
+    name="keywords"
+    content="patient care, Dr. Shazia Waghoo, pre-operative care, post-operative care, follow-up care, physiotherapy, laparoscopic surgery, diet and lifestyle, Mumbai surgeon"
+  />
+  <meta name="author" content="Dr. Shazia Waghoo" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="canonical" href="https://drshaziawaghoosurgery.com/patient-care" />
+
+  {/* ✅ Open Graph for social sharing */}
+  <meta property="og:title" content="Comprehensive Patient Care – Dr. Shazia Waghoo" />
+  <meta
+    property="og:description"
+    content="We provide end-to-end patient care – from pre-operative assessment, physiotherapy, to post-op and follow-up care – tailored to individual patient needs."
+  />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://drshaziawaghoosurgery.com/patient-care" />
+  <meta property="og:image" content="https://drshaziawaghoosurgery.com/images/patient-care-og.jpg" />
+
+  {/* ✅ Twitter Card */}
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Comprehensive Patient Care – Dr. Shazia Waghoo" />
+  <meta
+    name="twitter:description"
+    content="Detailed patient care approach by Dr. Shazia Waghoo from surgery planning to full recovery. Your health is our priority."
+  />
+  <meta name="twitter:image" content="https://drshaziawaghoosurgery.com/images/patient-care-og.jpg" />
+
+  {/* ✅ Schema.org Structured Data for Patient Care */}
+  <script type="application/ld+json">
+    {`
+      {
+        "@context": "https://schema.org",
+        "@type": "MedicalOrganization",
+        "name": "Dr. Shazia Waghoo Clinic",
+        "url": "https://drshaziawaghoosurgery.com/patient-care",
+        "description": "Comprehensive surgical and patient care by Dr. Shazia Waghoo, including pre-operative assessment, physiotherapy, post-operative and follow-up care.",
+        "medicalSpecialty": "Surgery",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Mumbai",
+          "addressRegion": "MH",
+          "postalCode": "400016",
+          "addressCountry": "IN"
+        },
+        "image": "https://drshaziawaghoosurgery.com/images/patient-care-og.jpg"
+      }
+    `}
+  </script>
+</Head>
+
+{/* main code start from here */}
     <div className="w-full  bg-[#F8F9FE] py-8 px-4">
       <div className="max-w-md mx-auto">
         <h1 className="text-2xl font-bold text-[#004979] text-center mb-8">
@@ -70,6 +131,7 @@ const MobilePatientCare = () => {
         </div>
       </div>
     </div>
+    </>
   );
 };
 

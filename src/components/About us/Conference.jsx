@@ -1,4 +1,5 @@
 import React from 'react';
+import Head from 'next/head';
 
 const Conference = () => {
   const presentations = [
@@ -26,6 +27,83 @@ const Conference = () => {
   ];
 
   return (
+    <>
+    {/* SEO start from here */}
+    <Head>
+  {/* ✅ Basic SEO */}
+  <title>Conference Presentations – Dr. Shazia Waghoo | Advanced Surgical Expertise</title>
+  <meta
+    name="description"
+    content="Explore Dr. Shazia Waghoo’s international conference presentations on laparoscopic and oncological surgery, including ASICON and PSOGI 2018 Paris."
+  />
+  <meta
+    name="keywords"
+    content="Dr. Shazia Waghoo, conference presentations, laparoscopic surgery, ASICON 2020, PSOGI 2018, HIPEC, CRS, COVID-19 surgery, medical conferences"
+  />
+  <meta name="author" content="Dr. Shazia Waghoo" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="canonical" href="https://drshaziawaghoosurgery.com/conference" />
+
+  {/* ✅ Open Graph (Facebook, LinkedIn) */}
+  <meta property="og:title" content="Conference Presentations – Dr. Shazia Waghoo" />
+  <meta
+    property="og:description"
+    content="Highlights of Dr. Shazia Waghoo’s contributions to global surgical conferences including CRS+HIPEC and ovarian cancer research."
+  />
+  <meta property="og:url" content="https://drshaziawaghoosurgery.com/conference" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://drshaziawaghoosurgery.com/images/conference-og.jpg" />
+
+  {/* ✅ Twitter Card */}
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Conference Presentations – Dr. Shazia Waghoo" />
+  <meta
+    name="twitter:description"
+    content="Explore global conference presentations on advanced surgical techniques by Dr. Shazia Waghoo."
+  />
+  <meta name="twitter:image" content="https://drshaziawaghoosurgery.com/images/conference-og.jpg" />
+
+  {/* ✅ Optional Schema Markup */}
+  <script type="application/ld+json">
+    {`
+    {
+      "@context": "https://schema.org",
+      "@type": "MedicalOrganization",
+      "name": "Dr. Shazia Waghoo's Surgery Clinic",
+      "url": "https://drshaziawaghoosurgery.com",
+      "logo": "https://drshaziawaghoosurgery.com/logo.png",
+      "sameAs": [
+        "https://www.facebook.com/DrShaziaWaghoo",
+        "https://www.linkedin.com/in/drshaziawaghoo"
+      ],
+      "description": "Explore conference presentations by Dr. Shazia Waghoo, showcasing her expertise in laparoscopic and oncological surgery.",
+      "event": [
+        {
+          "@type": "MedicalConference",
+          "name": "ASI Virtual ASICON 2020",
+          "startDate": "2020-12-15",
+          "location": {
+            "@type": "VirtualLocation",
+            "url": "https://asi2020.virtualconf.com"
+          }
+        },
+        {
+          "@type": "MedicalConference",
+          "name": "PSOGI 2018 Paris",
+          "startDate": "2018-09-10",
+          "location": {
+            "@type": "Place",
+            "name": "Paris, France"
+          }
+        }
+      ]
+    }
+    `}
+  </script>
+</Head>
+
+
+    {/* main code start from here */}
     <div className="w-full bg-[#F9F8FE]">
     <div className="max-w-6xl mx-auto p-6 ">
       <h1 className="text-4xl font-bold text-[#004979] text-center mb-10">
@@ -133,6 +211,7 @@ const Conference = () => {
       </div>
     </div>
     </div>
+    </>
   );
 };
 

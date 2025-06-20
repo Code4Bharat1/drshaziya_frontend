@@ -5,6 +5,7 @@
 'use client'
 import React, { useEffect, useRef, useState } from 'react';
 import { FaQuoteLeft, FaQuoteRight } from 'react-icons/fa';
+import Head from 'next/head';
 
 const testimonials = [
   `“I cannot express enough gratitude for the exceptional care my mother received from Dr. Shazia Waghoo. From the very first consultation to the successful operation, Dr. Shazia demonstrated unparalleled professionalism and genuine compassion. Her expertise and attention to detail put me at ease, and the operation was a resounding success. We felt well-informed and supported throughout the entire process. Even the post op procedures were smooth as ever. I highly recommend Dr. Shazia for anyone seeking a skilled, caring and a dedicated surgeon. Thank you for everything you’ve done for us!”`,
@@ -36,6 +37,66 @@ const MobileTestimonial = () => {
   }, []);
 
   return (
+    <>
+    {/* SEO start from here */}
+    <Head>
+  {/* ✅ Basic SEO */}
+  <title>Patient Testimonials – Dr. Shazia Waghoo</title>
+  <meta
+    name="description"
+    content="Read heartfelt reviews and testimonials from patients who received exceptional care from Dr. Shazia Waghoo, a leading hernia and laparoscopic surgeon."
+  />
+  <meta
+    name="keywords"
+    content="Dr. Shazia Waghoo reviews, patient testimonials, hernia surgery, laparoscopic surgeon, Google reviews, Mumbai surgeon, best surgeon"
+  />
+  <meta name="author" content="Dr. Shazia Waghoo" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="canonical" href="https://drshaziawaghoosurgery.com/testimonials" />
+
+  {/* ✅ Open Graph for Facebook & LinkedIn */}
+  <meta property="og:title" content="Patient Testimonials – Dr. Shazia Waghoo" />
+  <meta
+    property="og:description"
+    content="Discover what patients are saying about their experience with Dr. Shazia Waghoo – from successful surgeries to compassionate care."
+  />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://drshaziawaghoosurgery.com/testimonials" />
+  <meta property="og:image" content="https://drshaziawaghoosurgery.com/images/testimonials-og.jpg" />
+
+  {/* ✅ Twitter Card */}
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Patient Testimonials – Dr. Shazia Waghoo" />
+  <meta
+    name="twitter:description"
+    content="Read reviews from real patients who received expert surgical care from Dr. Shazia Waghoo in Mumbai."
+  />
+  <meta name="twitter:image" content="https://drshaziawaghoosurgery.com/images/testimonials-og.jpg" />
+
+  {/* ✅ Schema.org Structured Data for Testimonials Page */}
+  <script type="application/ld+json">
+    {`
+      {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "name": "Patient Testimonials – Dr. Shazia Waghoo",
+        "description": "Patient reviews and feedback on Dr. Shazia Waghoo’s surgical expertise and care.",
+        "url": "https://drshaziawaghoosurgery.com/testimonials",
+        "publisher": {
+          "@type": "Organization",
+          "name": "Dr. Shazia Waghoo Clinic",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://drshaziawaghoosurgery.com/logo.png"
+          }
+        }
+      }
+    `}
+  </script>
+</Head>
+
+
+{/* main code start from here */}
     <div className="bg-[#F8F9FE] px-4 pt-10 sm:pt-8">
       {/* Heading */}
       <h2 className="text-3xl  font-semibold text-[#004979] text-center mt-20 ">
@@ -83,6 +144,7 @@ const MobileTestimonial = () => {
         </a>
       </div>
     </div>
+    </>
   );
 };
 

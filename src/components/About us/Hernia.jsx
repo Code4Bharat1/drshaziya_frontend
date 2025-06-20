@@ -1,7 +1,84 @@
 import React from "react";
+import Head from "next/head";
+
 
 const Hernia = () => {
   return (
+    <>
+    {/* SEo from here */}
+    <Head>
+  {/* ✅ Basic SEO */}
+  <title>Dr. Shazia Waghoo – Expert Laparoscopic, Hernia & Breast Surgeon in Mumbai</title>
+  <meta
+    name="description"
+    content="Meet Dr. Shazia Waghoo, a highly skilled surgeon specializing in laparoscopic, hernia, and breast surgeries in Mumbai. Over 10 years of experience with patient-focused care."
+  />
+  <meta
+    name="keywords"
+    content="Dr. Shazia Waghoo, hernia surgeon Mumbai, laparoscopic surgery Mumbai, breast cancer surgery, women’s health, general surgeon"
+  />
+  <meta name="author" content="Dr. Shazia Waghoo" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="canonical" href="https://drshaziawaghoosurgery.com/hernia" />
+
+  {/* ✅ Open Graph for Social Media Sharing */}
+  <meta property="og:title" content="Dr. Shazia Waghoo – Laparoscopic & Hernia Surgeon in Mumbai" />
+  <meta
+    property="og:description"
+    content="Learn about Dr. Shazia Waghoo’s experience and her commitment to laparoscopic, hernia, and breast surgeries. Book a consultation today."
+  />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://drshaziawaghoosurgery.com/hernia" />
+  <meta property="og:image" content="https://drshaziawaghoosurgery.com/images/drshazia-cover.jpg" />
+
+  {/* ✅ Twitter Card */}
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Dr. Shazia Waghoo – Hernia & Breast Surgeon in Mumbai" />
+  <meta
+    name="twitter:description"
+    content="Specialist in laparoscopic, hernia, and breast surgeries. 10+ years of experience, patient-first approach, and multi-hospital affiliation."
+  />
+  <meta name="twitter:image" content="https://drshaziawaghoosurgery.com/images/drshazia-cover.jpg" />
+
+  {/* ✅ Structured Data for Doctor Schema */}
+  <script type="application/ld+json">
+    {`
+      {
+        "@context": "https://schema.org",
+        "@type": "Physician",
+        "name": "Dr. Shazia Waghoo",
+        "image": "https://drshaziawaghoosurgery.com/images/drshazia-cover.jpg",
+        "description": "Experienced Laparoscopic, Hernia & Breast Surgeon in Mumbai with over 10 years of surgical excellence.",
+        "medicalSpecialty": ["Laparoscopic Surgery", "Hernia Surgery", "Breast Surgery"],
+        "url": "https://drshaziawaghoosurgery.com/hernia",
+        "alumniOf": [
+          {
+            "@type": "EducationalOrganization",
+            "name": "RCSM Government Medical College, Kolhapur"
+          },
+          {
+            "@type": "EducationalOrganization",
+            "name": "Saifee Hospital, Mumbai"
+          }
+        ],
+        "memberOf": {
+          "@type": "MedicalOrganization",
+          "name": "Criticare Asia, Surya, RG Stone, Apollo Spectra, Sushrut & SRV Hospitals"
+        },
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Mumbai",
+          "addressCountry": "India"
+        },
+        "telephone": "+91-9833584847"
+      }
+    `}
+  </script>
+</Head>
+
+
+
+    {/* main code start from here */}
     <div className="bg-[#F9F8FE] py-8 sm:py-12 lg:py-16 relative mt-12">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-2 sm:gap-8 lg:gap-12 items-center">
@@ -102,6 +179,7 @@ const Hernia = () => {
       </div>
      
     </div>
+    </>
   );
 };
 

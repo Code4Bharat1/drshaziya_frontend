@@ -1,6 +1,8 @@
 "use client";
 import React from "react";
 import Link from "next/link";
+import Head from 'next/head';
+
 
 const expertiseData = [
 
@@ -67,6 +69,65 @@ const expertiseData = [
 
 const MobileOfferExpert = () => {
   return (
+    <>
+    <Head>
+  {/* ✅ Page Title and Description */}
+  <title>Expert Surgical Procedures by Dr. Shazia Waghoo</title>
+  <meta
+    name="description"
+    content="Explore the wide range of surgical expertise offered by Dr. Shazia Waghoo, including laparoscopic, hernia, breast, thyroid, colorectal, and gastrointestinal surgeries in Mumbai."
+  />
+  <meta
+    name="keywords"
+    content="Dr. Shazia Waghoo, surgeon Mumbai, laparoscopic surgery, hernia surgery, breast surgery, thyroid surgery, gastrointestinal surgery, colorectal surgery, laser surgery, abdominal wall reconstruction"
+  />
+  <meta name="author" content="Dr. Shazia Waghoo" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="canonical" href="https://drshaziawaghoosurgery.com/expertise" />
+
+  {/* ✅ Open Graph for Social Sharing */}
+  <meta property="og:title" content="Expert Surgical Procedures by Dr. Shazia Waghoo" />
+  <meta
+    property="og:description"
+    content="Discover surgical excellence with Dr. Shazia Waghoo – Laparoscopic, Hernia, Breast, Colorectal, GI, Laser, Thyroid and Abdominal wall reconstruction surgeries."
+  />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://drshaziawaghoosurgery.com/expertise" />
+  <meta property="og:image" content="https://drshaziawaghoosurgery.com/images/surgery-expertise-og.jpg" />
+
+  {/* ✅ Twitter Card */}
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Expert Surgical Procedures by Dr. Shazia Waghoo" />
+  <meta
+    name="twitter:description"
+    content="Laparoscopic, Hernia, Breast, and GI surgeries – Get advanced surgical care with compassion by Dr. Shazia Waghoo."
+  />
+  <meta name="twitter:image" content="https://drshaziawaghoosurgery.com/images/surgery-expertise-og.jpg" />
+
+  {/* ✅ Structured Data with Schema.org */}
+  <script type="application/ld+json">
+    {`
+      {
+        "@context": "https://schema.org",
+        "@type": "MedicalClinic",
+        "name": "Dr. Shazia Waghoo Surgical Clinic",
+        "url": "https://drshaziawaghoosurgery.com/expertise",
+        "description": "Offering expert surgical services including laparoscopic, breast, thyroid, gastrointestinal, hernia and laser surgeries in Mumbai.",
+        "medicalSpecialty": "Surgical",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Hospital Address Here",
+          "addressLocality": "Mumbai",
+          "addressRegion": "MH",
+          "postalCode": "400016",
+          "addressCountry": "IN"
+        },
+        "image": "https://drshaziawaghoosurgery.com/images/surgery-expertise-og.jpg"
+      }
+    `}
+  </script>
+</Head>
+
     <div className="bg-[#F8F9FE]   py-2 px-4 block md:hidden">
       <h2 className="text-center text-xl px-5 font-bold text-[#004979] mt-24 mb-6">
         Dr. Shazia Waghoo offers Expertise in the following Surgeries
@@ -106,6 +167,7 @@ const MobileOfferExpert = () => {
         ))}
       </div>
     </div>
+    </>
   );
 };
 

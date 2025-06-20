@@ -2,11 +2,76 @@
 import React from "react";
 import Image from "next/image";
 import { useRouter } from 'next/navigation';
+import Head from 'next/head';
+
 
 export default function BookAppointmentMobile() {
     const router = useRouter();
 
   return (
+    <>
+    {/* SEO start from here */}
+    <Head>
+  {/* ✅ Basic SEO */}
+  <title>Book Appointment – Dr. Shazia Waghoo | Advanced Laparoscopic Surgery</title>
+  <meta
+    name="description"
+    content="Book an appointment with Dr. Shazia Waghoo, a trusted laparoscopic and hernia surgeon. Personalized surgical care with over a decade of expertise."
+  />
+  <meta
+    name="keywords"
+    content="Book appointment, Dr. Shazia Waghoo, laparoscopic surgeon Mumbai, hernia surgery, minimally invasive surgery, surgery clinic"
+  />
+  <meta name="author" content="Dr. Shazia Waghoo" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="canonical" href="https://drshaziawaghoosurgery.com/book-appointment" />
+
+  {/* ✅ Open Graph Tags */}
+  <meta property="og:title" content="Book Appointment – Dr. Shazia Waghoo" />
+  <meta
+    property="og:description"
+    content="Schedule a consultation with Dr. Shazia Waghoo, Mumbai's experienced laparoscopic surgeon. Expert care, patient-focused service."
+  />
+  <meta property="og:url" content="https://drshaziawaghoosurgery.com/book-appointment" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://drshaziawaghoosurgery.com/images/book-appointment-cover.jpg" />
+
+  {/* ✅ Twitter Card */}
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Book Appointment – Dr. Shazia Waghoo" />
+  <meta
+    name="twitter:description"
+    content="Book an appointment for advanced laparoscopic and hernia surgery with Dr. Shazia Waghoo."
+  />
+  <meta name="twitter:image" content="https://drshaziawaghoosurgery.com/images/book-appointment-cover.jpg" />
+
+  {/* ✅ Optional Schema Markup */}
+  <script type="application/ld+json">
+    {`
+    {
+      "@context": "https://schema.org",
+      "@type": "MedicalClinic",
+      "name": "Dr. Shazia Waghoo's Surgery Clinic",
+      "url": "https://drshaziawaghoosurgery.com",
+      "image": "https://drshaziawaghoosurgery.com/images/book-appointment-cover.jpg",
+      "description": "Trusted clinic for laparoscopic, hernia, and breast surgery led by Dr. Shazia Waghoo.",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Mumbai",
+        "addressCountry": "IN"
+      },
+      "medicalSpecialty": "Laparoscopic Surgery",
+      "availableService": {
+        "@type": "MedicalProcedure",
+        "name": "Laparoscopic and Hernia Surgery"
+      }
+    }
+    `}
+  </script>
+</Head>
+
+
+    {/* main code start from here */}
     <div className=" bg-white relative w-full h-[300px] sm:h-[350px] overflow-hidden md:hidden mb-6 mt-6">
       <Image
         src="/book-apoinment.jpg"
@@ -40,5 +105,6 @@ export default function BookAppointmentMobile() {
         </div>
       </div>
     </div>
+    </>
   );
 }

@@ -1,9 +1,74 @@
 "use client";
 
 import Image from "next/image";
+import Head from 'next/head';
+
 
 const Artical1 = () => {
   return (
+    <>
+    <Head>
+  {/* ✅ Basic SEO */}
+  <title>Article 1: Training & Development in Healthcare – Dr. Shazia Waghoo</title>
+  <meta
+    name="description"
+    content="Explore a scoping review highlighting key factors influencing the quality of training and development (T&D) for non-physician healthcare professionals."
+  />
+  <meta
+    name="keywords"
+    content="Healthcare Training, Non-physician Professionals, Dr. Shazia Waghoo, T&D in Healthcare, Medical Education, Health Workforce Development"
+  />
+  <meta name="author" content="Dr. Shazia Waghoo" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="canonical" href="https://drshaziawaghoosurgery.com/articles/article-1" />
+
+  {/* ✅ Open Graph (Facebook, LinkedIn) */}
+  <meta property="og:title" content="Article 1: Training & Development in Healthcare – Dr. Shazia Waghoo" />
+  <meta
+    property="og:description"
+    content="Read this in-depth article on the key elements affecting the quality of training provided to non-physician healthcare professionals."
+  />
+  <meta property="og:url" content="https://drshaziawaghoosurgery.com/articles/article-1" />
+  <meta property="og:type" content="article" />
+  <meta property="og:image" content="https://drshaziawaghoosurgery.com/images/lasersurgary-og.jpg" />
+
+  {/* ✅ Twitter Card */}
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Article 1: Training & Development in Healthcare – Dr. Shazia Waghoo" />
+  <meta
+    name="twitter:description"
+    content="Scoping review insights on T&D process, system, environment, and healthcare professional factors."
+  />
+  <meta name="twitter:image" content="https://drshaziawaghoosurgery.com/images/lasersurgary-og.jpg" />
+
+  {/* ✅ Schema.org Article Markup */}
+  <script type="application/ld+json">
+    {`
+    {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "headline": "Training & Development in Healthcare",
+      "description": "A comprehensive review of the quality factors affecting training and development for non-physician healthcare professionals.",
+      "image": "https://drshaziawaghoosurgery.com/images/lasersurgary-og.jpg",
+      "author": {
+        "@type": "Person",
+        "name": "Dr. Shazia Waghoo"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Dr. Shazia Waghoo's Surgery Clinic",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://drshaziawaghoosurgery.com/logo.png"
+        }
+      },
+      "datePublished": "2025-06-18"
+    }
+    `}
+  </script>
+</Head>
+
+    {/* main code start from here */}
     <div className="mt-20 bg-white">
       <div className="bg-white p-6 md:p-10 max-w-6xl mx-auto font-sans text-gray-800 ">
 
@@ -56,6 +121,7 @@ const Artical1 = () => {
         </div>
       </div>
     </div>
+    </>
   );
 };
 
