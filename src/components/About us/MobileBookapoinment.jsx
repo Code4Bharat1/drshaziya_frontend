@@ -88,12 +88,12 @@ export default function BookAppointmentMobile() {
 
       <div className="relative z-10 flex flex-col items-center justify-center h-full px-4 sm:px-6 py-6 text-center">
         <div className="max-w-xs">
-          <h1 className="text-xl sm:text-2xl font-bold whitespace-nowrap text-white mb-2 sm:mb-3 leading-tight">
+          <h1 className="text-lg text-center font-bold text-white mb-2 sm:mb-3 leading-tight">
             Dr. Shazia Waghoo's Surgery Clinic
           </h1>
           <p className="text-2xl sm:text-3xl text-white font-semibold mt-4 sm:mt-6 leading-relaxed">
-  "Your trusted partner in advanced laparoscopic surgery."
-</p>
+            "Your trusted partner in advanced laparoscopic surgery."
+          </p>
           <div className="flex justify-center mt-8 sm:mt-6">
             <button 
               className="bg-[#0085DC] text-white font-bold py-2 sm:py-3 px-4 sm:px-5 rounded text-xs sm:text-sm hover:bg-[#006bb3] transition duration-300 shadow-lg min-w-[140px] sm:min-w-[160px]"

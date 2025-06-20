@@ -305,8 +305,8 @@ const ContactMobile = () => {
 
 {/* main code start from here */}
     <div className="bg-[#0085DC] py-8 px-4 ">
-      <div className=" text-white text-left mx-4">
-        <h2 className="text-3xl font-bold mb-3  text-left">
+      <div className=" text-white text-center mx-4">
+        <h2 className="text-[28px] font-bold mb-3  text-left">
           Book a Consultation
         </h2>
         <p className="text-xl text-normal mb-4 font-inter">

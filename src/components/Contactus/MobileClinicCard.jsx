@@ -60,7 +60,7 @@ const MobileClinicCard = () => {
           return (
             <div
               key={index}
-              className="bg-white rounded-md shadow-[0_2px_4px_-1px_rgba(0,0,0,0.2)] p-6 w-full text-center flex flex-col justify-between h-[340px]"
+              className="bg-white rounded-md shadow-[0_2px_4px_-1px_rgba(0,0,0,0.2)] p-6 w-full text-center flex flex-col justify-between h-auto"
             >
               {/* Top Content */}
               <div className="flex-grow flex flex-col items-center">

@@ -74,11 +74,11 @@ const RestoringhealthMobile = () => {
 
     {/* main code start from here */}
     <section className="px-4  bg-white block md:hidden">
-      <div className="flex flex-col items-center text-left">
+      <div className="flex flex-col items-center text-center">
         {/* Image First in Mobile */}
 
         {/* Text Content */}
-        <h2 className="text-[26px] font-bold text-[#004979] mb-4 leading-tight">
+        <h2 className="text-[23px] font-bold text-[#004979] mb-4 leading-tight">
           <span>Restoring Health and Hope,</span>
           <br />
           <span>One Surgery At A Time</span>
@@ -89,7 +89,7 @@ const RestoringhealthMobile = () => {
           over 10 years of experience, her team is committed to making quality
           surgeries accessible to all.
         </p>
-        <ul className="text-[#004979] text-xl mb-6 list-disc pl-5 text-left space-y-3 font-semibold">
+        <ul className="text-[#004979] text-xl mb-6 list-none pl-5 text-center space-y-3 font-semibold">
           <li>Deep Expertise in Laparoscopic Surgeries</li>
           <li>Affiliated to Major Hospitals in Mumbai</li>
         </ul>
