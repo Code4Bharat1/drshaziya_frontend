@@ -268,7 +268,7 @@ const Mobilemaincontatcus = () => {
         {/* Right: Google Map */}
         <div className="flex-1 px-4 md:px-0 border border-black">
           <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3362.942730627135!2d-95.2996938!3d32.3435303!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8649cea587c41e71%3A0xc2a12fe1c54eeddc!2s117%20E%20Houston%20St%2C%20Tyler%2C%20TX%2075702%2C%20USA!5e0!3m2!1sen!2sin!4v1717486713784!5m2!1sen!2sin"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3769.1128079301635!2d72.83125667519897!3d19.07099305297588!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c904b608afbb%3A0x5aea1d449dd7592b!2sVLSR%20-%20The%20Clinic!5e0!3m2!1sen!2sin!4v1718952936574!5m2!1sen!2sin"
             width="100%"
             height="300"
             allowFullScreen=""
