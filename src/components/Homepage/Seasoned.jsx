@@ -16,7 +16,7 @@ const router = useRouter();
         />
         <meta
           name="keywords"
-          content="Dr Shazia Waghoo, Laparoscopic Surgeon Mumbai, Hernia Specialist, Dr Shazia Waghoo Santacruz Dr Shazia Waghoo Andheri Best laparoscopic surgeon in Santacruz"
+          content="Dr. Shazia Waghoo, Dr Shazia Waghoo Santacruz ,Dr Shazia Waghoo Andheri,Best laparoscopic surgeon in Santacruz  expert surgeon Mumbai, hope through surgery, quality surgical care"
         />
         <meta name="author" content="Dr. Shazia Waghoo" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />

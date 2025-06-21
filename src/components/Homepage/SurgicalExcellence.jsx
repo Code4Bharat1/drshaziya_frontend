@@ -13,7 +13,7 @@ const SurgicalExcellence = () => {
   <title>Dr. Shazia Waghoo Laparoscopic Surgeon in Andheri and Santacruz</title>
   <meta
     name="description"
-    content="Get in touch with Dr. Shazia Waghoo – a trusted expert in hernia, breast, and laparoscopic surgery. Book appointments, ask queries, or visit her clinic for quality surgical care."
+    content="Dr Shazia Waghoo surgeon Dr Shazia Waghoo Santacruz  Dr Shazia Waghoo Andheri Dr Shazia laparoscopic surgeon Best laparoscopic surgeon in Santacruz"
   />
   <meta
     name="keywords"
@@ -24,12 +24,12 @@ const SurgicalExcellence = () => {
   <link rel="canonical" href="https://drshaziawaghoo.com/" />
 
   {/* ✅ Open Graph (for social media sharing) */}
-  <meta property="og:title" content="Contact Dr. Shazia Waghoo | Surgical Expert in Andheri and santacruz" />
+  <meta property="og:title" content=" Dr. Shazia Waghoo in Andheri and santacruz" />
   <meta
     property="og:description"
-    content="Reach out to Dr. Shazia Waghoo for expert consultation in laparoscopic, hernia, and breast surgeries. Schedule your appointment today."
+    content=" Dr. Shazia Waghoo for expert consultation in laparoscopic, hernia, and breast surgeries. Schedule your appointment today."
   />
-  <meta property="og:image" content="https://drshaziawaghoosurgery.com/og-image.jpg" />
+  <meta property="og:image" content="https://drshaziawaghoosurgery.com/hero4.png" />
   <meta property="og:url" content="https://drshaziawaghoo.com/" />
   <meta property="og:type" content="website" />
   <meta property="og:locale" content="en_IN" />
@@ -51,7 +51,7 @@ const SurgicalExcellence = () => {
         "@type": "Physician",
         "name": "Dr. Shazia Waghoo",
         "url": "https://drshaziawaghoosurgery.com",
-        "image": "https://drshaziawaghoosurgery.com/og-image.jpg",
+        "image": "https://drshaziawaghoosurgery.com/hero4.png",
         "address": {
           "@type": "PostalAddress",
           "streetAddress": "dr shazia Andheri ",
