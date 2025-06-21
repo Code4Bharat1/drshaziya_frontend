@@ -73,13 +73,13 @@ const MobileOfferExpertise = () => {
         />
         <meta
           name="keywords"
-          content="Dr. Shazia Waghoo, laparoscopic surgeries, hernia repair, breast cancer surgery, thyroid surgery, laser surgery, GI surgery, abdominal wall reconstruction, colorectal surgery, Mumbai surgeon"
+          content="Dr. Shazia Waghoo, Dr Shazia Waghoo Santacruz ,Dr Shazia Waghoo Andheri,Best laparoscopic surgeon in Santacruz  expert surgeon Mumbai, hope through surgery, quality surgical care"
         />
         <meta name="author" content="Dr. Shazia Waghoo" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link
           rel="canonical"
-          href="https://drshaziawaghoosurgery.com/surgical-expertise"
+          href="https://drshaziawaghoo.com/"
         />
         <meta
           property="og:title"
@@ -92,7 +92,7 @@ const MobileOfferExpertise = () => {
         <meta property="og:type" content="website" />
         <meta
           property="og:url"
-          content="https://drshaziawaghoosurgery.com/surgical-expertise"
+          content="https://drshaziawaghoo.com/"
         />
         <meta
           property="og:image"
@@ -118,7 +118,7 @@ const MobileOfferExpertise = () => {
             "@context": "https://schema.org",
             "@type": "MedicalOrganization",
             "name": "Dr. Shazia Waghoo Surgery Clinic",
-            "url": "https://drshaziawaghoosurgery.com/surgical-expertise",
+            "url": "https://drshaziawaghoo.com/",
             "logo": "https://drshaziawaghoosurgery.com/offer1.png",
             "address": {
               "@type": "PostalAddress",
@@ -143,7 +143,7 @@ const MobileOfferExpertise = () => {
               "@type": "Person",
               "name": "Dr. Shazia Waghoo",
               "jobTitle": "General & Laparoscopic Surgeon",
-              "url": "https://drshaziawaghoosurgery.com"
+              "url": "https://drshaziawaghoo.com/"
             }
           }
         `}

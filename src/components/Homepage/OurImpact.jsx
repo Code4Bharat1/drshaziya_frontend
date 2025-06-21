@@ -45,11 +45,11 @@ const OurImpact = () => {
         />
         <meta
           name="keywords"
-          content="Dr. Shazia Waghoo, hospital affiliations, surgical success, happy patients, Mumbai surgeon, laparoscopic surgery, patient care impact, experienced female surgeon, hernia surgery, breast surgeon, Mumbai hospitals"
+          content="Dr. Shazia Waghoo, Dr Shazia Waghoo Santacruz Dr Shazia Waghoo Andheri ,Best laparoscopic surgeon in Santacruz, hernia surgery, breast surgeon, Mumbai hospitals"
         />
         <meta name="author" content="Dr. Shazia Waghoo" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="canonical" href="https://drshaziawaghoosurgery.com/our-impact" />
+        <link rel="canonical" href="https://drshaziawaghoo.com/" />
 
         {/* ✅ Open Graph Tags (for Facebook/LinkedIn/etc.) */}
         <meta property="og:title" content="Our Impact | Dr. Shazia Waghoo – Transforming Surgical Outcomes" />
@@ -78,21 +78,21 @@ const OurImpact = () => {
               "@context": "https://schema.org",
               "@type": "MedicalOrganization",
               "name": "Dr. Shazia Waghoo",
-              "url": "https://drshaziawaghoosurgery.com",
+              "url": "https://drshaziawaghoo.com/",
               "logo": "https://drshaziawaghoosurgery.com/heart.png",
               "image": "https://drshaziawaghoosurgery.com/heart.png",
               "description": "Experienced Laparoscopic, Hernia and Breast Surgeon with over 2,000 happy patients and affiliations with top hospitals in Mumbai.",
               "address": {
                 "@type": "PostalAddress",
                 "streetAddress": "Yogiraj Apartment, Shop No. 4, Kisan Nagar 3, Wagle Estate",
-                "addressLocality": "Thane West",
-                "addressRegion": "MH",
-                "postalCode": "400604",
+                "addressLocality": "Andheri | Santacruz",
+                "addressRegion": "Andheri | Santacruz",
+                "postalCode": "400074",
                 "addressCountry": "IN"
               },
               "contactPoint": {
                 "@type": "ContactPoint",
-                "telephone": "+91 7208131213",
+                "telephone": "+91 9833584847",
                 "contactType": "customer service",
                 "areaServed": "IN",
                 "availableLanguage": ["English", "Hindi"]

@@ -82,11 +82,11 @@ const OfferExpertise = () => {
   />
   <meta
     name="keywords"
-    content="Dr. Shazia Waghoo, surgeon Mumbai, laparoscopic surgery, hernia surgery, breast surgery, thyroid surgery, gastrointestinal surgery, colorectal surgery, laser surgery, abdominal wall reconstruction"
+    content="Dr. Shazia Waghoo, Dr Shazia Waghoo Santacruz ,Dr Shazia Waghoo Andheri,Best laparoscopic surgeon in Santacruz  expert surgeon Mumbai, hope through surgery, quality surgical care"
   />
   <meta name="author" content="Dr. Shazia Waghoo" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <link rel="canonical" href="https://drshaziawaghoosurgery.com/expertise" />
+  <link rel="canonical" href="https://drshaziawaghoo.com/" />
 
   {/* ✅ Open Graph for Social Sharing */}
   <meta property="og:title" content="Expert Surgical Procedures by Dr. Shazia Waghoo" />
@@ -95,7 +95,7 @@ const OfferExpertise = () => {
     content="Discover surgical excellence with Dr. Shazia Waghoo – Laparoscopic, Hernia, Breast, Colorectal, GI, Laser, Thyroid and Abdominal wall reconstruction surgeries."
   />
   <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://drshaziawaghoosurgery.com/expertise" />
+  <meta property="og:url" content="https://drshaziawaghoo.com/" />
   <meta property="og:image" content="https://drshaziawaghoosurgery.com/images/surgery-expertise-og.jpg" />
 
   {/* ✅ Twitter Card */}
@@ -114,7 +114,7 @@ const OfferExpertise = () => {
         "@context": "https://schema.org",
         "@type": "MedicalClinic",
         "name": "Dr. Shazia Waghoo Surgical Clinic",
-        "url": "https://drshaziawaghoosurgery.com/expertise",
+        "url": "https://drshaziawaghoo.com/",
         "description": "Offering expert surgical services including laparoscopic, breast, thyroid, gastrointestinal, hernia and laser surgeries in Mumbai.",
         "medicalSpecialty": "Surgical",
         "address": {

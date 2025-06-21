@@ -96,11 +96,11 @@ const PatientCare = () => {
   />
   <meta
     name="keywords"
-    content="patient care, Dr. Shazia Waghoo, pre-operative care, post-operative care, follow-up care, physiotherapy, laparoscopic surgery, diet and lifestyle, Mumbai surgeon"
+    content="Dr. Shazia Waghoo, Dr Shazia Waghoo Santacruz ,Dr Shazia Waghoo Andheri,Best laparoscopic surgeon in Santacruz  expert surgeon Mumbai, hope through surgery, quality surgical care"
   />
   <meta name="author" content="Dr. Shazia Waghoo" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <link rel="canonical" href="https://drshaziawaghoosurgery.com/patient-care" />
+  <link rel="canonical" href="https://drshaziawaghoo.com/" />
 
   {/* ✅ Open Graph for social sharing */}
   <meta property="og:title" content="Comprehensive Patient Care – Dr. Shazia Waghoo" />
@@ -109,7 +109,7 @@ const PatientCare = () => {
     content="We provide end-to-end patient care – from pre-operative assessment, physiotherapy, to post-op and follow-up care – tailored to individual patient needs."
   />
   <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://drshaziawaghoosurgery.com/patient-care" />
+  <meta property="og:url" content="https://drshaziawaghoo.com/" />
   <meta property="og:image" content="https://drshaziawaghoosurgery.com/images/patient-care-og.jpg" />
 
   {/* ✅ Twitter Card */}
@@ -128,7 +128,7 @@ const PatientCare = () => {
         "@context": "https://schema.org",
         "@type": "MedicalOrganization",
         "name": "Dr. Shazia Waghoo Clinic",
-        "url": "https://drshaziawaghoosurgery.com/patient-care",
+        "url": "https://drshaziawaghoo.com/",
         "description": "Comprehensive surgical and patient care by Dr. Shazia Waghoo, including pre-operative assessment, physiotherapy, post-operative and follow-up care.",
         "medicalSpecialty": "Surgery",
         "address": {

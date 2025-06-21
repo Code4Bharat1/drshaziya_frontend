@@ -14,11 +14,11 @@ const MobileWatchVideo = () => {
         />
         <meta
           name="keywords"
-          content="Dr. Shazia Waghoo, Surgeon in Mumbai, Surgical Videos, Healthcare Videos, Hernia, Laparoscopy, Breast Surgery, Surgical Experience"
+          content="Dr. Shazia Waghoo,Dr Shazia Waghoo Santacruz, Dr Shazia Waghoo Andheri, Best laparoscopic surgeon in Santacruz,Hernia surgery doctor in Andheri, Hernia, Laparoscopy, Breast Surgery, Surgical Experience"
         />
         <meta name="author" content="Dr. Shazia Waghoo" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="canonical" href="https://drshaziawaghoosurgery.com/watch-video" />
+        <link rel="canonical" href="https://drshaziawaghoo.com/" />
 
         {/* ✅ Open Graph (Facebook, LinkedIn) */}
         <meta property="og:title" content="Watch Videos | Dr. Shazia Waghoo’s Surgical Journey" />
@@ -26,7 +26,7 @@ const MobileWatchVideo = () => {
           property="og:description"
           content="Get insights into surgeries, patient care, and expertise by watching videos of Dr. Shazia Waghoo’s clinical work and patient education."
         />
-        <meta property="og:url" content="https://drshaziawaghoosurgery.com/watch-video" />
+        <meta property="og:url" content="https://drshaziawaghoo.com/" />
         <meta property="og:type" content="video.other" />
         <meta property="og:image" content="https://drshaziawaghoosurgery.com/cover-video.jpg" />
         <meta property="og:video" content="https://drshaziawaghoosurgery.com/vedio1.mp4" />

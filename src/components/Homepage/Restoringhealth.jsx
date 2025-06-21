@@ -12,11 +12,11 @@ const Restoringhealth = () => {
         />
         <meta
           name="keywords"
-          content="Dr. Shazia Waghoo, laparoscopic surgeon Mumbai, expert surgery, minimally invasive surgery, faster recovery, Mumbai hospitals, advanced surgical care, restoring health and hope, hernia surgery, breast surgery, general surgeon"
+          content="Dr. Shazia Waghoo, laparoscopic surgeon Mumbai, Dr Shazia Waghoo Santacruz, Dr Shazia Waghoo Andheri Best laparoscopic surgeon in Santacruz Top hernia specialist Santacruz"
         />
         <meta name="author" content="Dr. Shazia Waghoo" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="canonical" href="https://drshaziawaghoosurgery.com/restoring-health" />
+        <link rel="canonical" href="https://drshaziawaghoo.com/" />
 
         {/* ✅ Open Graph Tags */}
         <meta property="og:title" content="Restoring Health and Hope | One Surgery at a Time" />
@@ -25,7 +25,7 @@ const Restoringhealth = () => {
           content="Dr. Shazia Waghoo delivers advanced surgical care focused on fast recovery and minimal hospital stay. Trusted by patients across Mumbai."
         />
         <meta property="og:image" content="https://drshaziawaghoosurgery.com/restoringfinal.png" />
-        <meta property="og:url" content="https://drshaziawaghoosurgery.com/restoring-health" />
+        <meta property="og:url" content="https://drshaziawaghoo.com/" />
         <meta property="og:type" content="website" />
         <meta property="og:locale" content="en_IN" />
 
@@ -46,18 +46,18 @@ const Restoringhealth = () => {
               "@type": "MedicalOrganization",
               "name": "Dr. Shazia Waghoo",
               "image": "https://drshaziawaghoosurgery.com/restoringfinal.png",
-              "url": "https://drshaziawaghoosurgery.com",
+              "url": "https://drshaziawaghoo.com/",
               "address": {
                 "@type": "PostalAddress",
                 "streetAddress": "Yogiraj Apartment, Shop No. 4, Kisan Nagar 3, Wagle Estate",
-                "addressLocality": "Thane West",
-                "addressRegion": "MH",
-                "postalCode": "400604",
+                "addressLocality": "Andheri | Santacruz",
+                "addressRegion": "Andheri | Santacruz",
+                "postalCode": "400047",
                 "addressCountry": "IN"
               },
               "contactPoint": {
                 "@type": "ContactPoint",
-                "telephone": "+91 7208131213",
+                "telephone": "+91 9833584847",
                 "contactType": "Appointment Booking",
                 "areaServed": "IN",
                 "availableLanguage": ["English", "Hindi"]

@@ -33,11 +33,11 @@ const MobileConsult = () => {
   />
   <meta
     name="keywords"
-    content="Dr. Shazia Waghoo, laparoscopic surgeon, laser surgery, surgical consultation, minimally invasive surgery, best surgeon Mumbai, cashless medical"
+    content="Dr. Shazia Waghoo, Dr Shazia Waghoo Santacruz ,Dr Shazia Waghoo Andheri,Best laparoscopic surgeon in Santacruz  expert surgeon Mumbai, hope through surgery, quality surgical care"
   />
   <meta name="author" content="Dr. Shazia Waghoo" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <link rel="canonical" href="https://drshaziawaghoosurgery.com/consult" />
+  <link rel="canonical" href="https://drshaziawaghoo.com/" />
 
   {/* ✅ Open Graph / Facebook */}
   <meta property="og:title" content="Why Choose Dr. Shazia Waghoo – Expert Surgeon" />
@@ -46,7 +46,7 @@ const MobileConsult = () => {
     content="Minimally-invasive expert Dr. Shazia Waghoo offers precise surgical care, multiple consultation locations, and cashless facilities with complete support."
   />
   <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://drshaziawaghoosurgery.com/consult" />
+  <meta property="og:url" content="https://drshaziawaghoo.com/" />
   <meta property="og:image" content="https://drshaziawaghoosurgery.com/images/drshazia-profile.jpg" />
   <meta property="og:locale" content="en_IN" />
 
@@ -74,7 +74,7 @@ const MobileConsult = () => {
         "addressLocality": "Mumbai",
         "addressCountry": "IN"
       },
-      "url": "https://drshaziawaghoosurgery.com/consult",
+      "url": "https://drshaziawaghoo.com/",
       "contactPoint": {
         "@type": "ContactPoint",
         "telephone": "+91-9833584847",

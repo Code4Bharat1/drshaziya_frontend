@@ -10,38 +10,38 @@ const SurgicalExcellence = () => {
     <>
 {/* ✅ SEO Meta Tags */}
 <Head>
-  <title>Contact Dr. Shazia Waghoo | Expert Laparoscopic Surgeon</title>
+  <title>Dr. Shazia Waghoo Laparoscopic Surgeon in Andheri and Santacruz</title>
   <meta
     name="description"
     content="Get in touch with Dr. Shazia Waghoo – a trusted expert in hernia, breast, and laparoscopic surgery. Book appointments, ask queries, or visit her clinic for quality surgical care."
   />
   <meta
     name="keywords"
-    content="Dr Shazia Waghoo, contact surgeon, laparoscopic surgery contact, hernia specialist India, female surgeon consultation, surgical care India, appointment Dr Waghoo, best surgeon contact, breast surgery doctor, surgical excellence contact"
+    content="Dr Shazia Waghoo surgeon Dr Shazia Waghoo Santacruz  Dr Shazia Waghoo Andheri Dr Shazia laparoscopic surgeon Best laparoscopic surgeon in Santacruz"
   />
   <meta name="author" content="Dr. Shazia Waghoo" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <link rel="canonical" href="https://drshaziawaghoosurgery.com/contact" />
+  <link rel="canonical" href="https://drshaziawaghoo.com/" />
 
   {/* ✅ Open Graph (for social media sharing) */}
-  <meta property="og:title" content="Contact Dr. Shazia Waghoo | Surgical Expert in India" />
+  <meta property="og:title" content="Contact Dr. Shazia Waghoo | Surgical Expert in Andheri and santacruz" />
   <meta
     property="og:description"
     content="Reach out to Dr. Shazia Waghoo for expert consultation in laparoscopic, hernia, and breast surgeries. Schedule your appointment today."
   />
   <meta property="og:image" content="https://drshaziawaghoosurgery.com/og-image.jpg" />
-  <meta property="og:url" content="https://drshaziawaghoosurgery.com/contact" />
+  <meta property="og:url" content="https://drshaziawaghoo.com/" />
   <meta property="og:type" content="website" />
   <meta property="og:locale" content="en_IN" />
 
   {/* ✅ Twitter Card */}
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="Contact Dr. Shazia Waghoo | Surgery Specialist India" />
+  <meta name="twitter:title" content="Contact Dr. Shazia Waghoo Andheri |santacruz" />
   <meta
     name="twitter:description"
     content="Consult with Dr. Shazia Waghoo for laparoscopic, hernia, or breast surgery. Book an appointment or send your queries online."
   />
-  <meta name="twitter:image" content="https://drshaziawaghoosurgery.com/og-image.jpg" />
+  <meta name="twitter:image" content="https://drshaziawaghoosurgery.com/hero4.png" />
 
   {/* ✅ Structured Data (Local Business Schema) */}
   <script type="application/ld+json">
@@ -54,14 +54,14 @@ const SurgicalExcellence = () => {
         "image": "https://drshaziawaghoosurgery.com/og-image.jpg",
         "address": {
           "@type": "PostalAddress",
-          "streetAddress": "Clinic Address Here",
-          "addressLocality": "City Name",
-          "addressRegion": "MH",
-          "postalCode": "400000",
+          "streetAddress": "dr shazia Andheri ",
+          "addressLocality": "Andheri | Santacruz",
+          "addressRegion": "Mumbai",
+          "postalCode": "400047",
           "addressCountry": "IN"
         },
-        "email": "drshazia@example.com",
-        "telephone": "+91 9876543210",
+        "email": "drshaziawaghoosurgery@gmail.com",
+        "telephone": "+91 9833584847",
         "medicalSpecialty": [
           "Laparoscopic Surgery",
           "Hernia Surgery",
@@ -74,7 +74,7 @@ const SurgicalExcellence = () => {
         "contactPoint": {
           "@type": "ContactPoint",
           "contactType": "Appointment Booking",
-          "telephone": "+91 9876543210",
+          "telephone": "+91 9833584847",
           "areaServed": "IN",
           "availableLanguage": ["English", "Hindi"]
         }

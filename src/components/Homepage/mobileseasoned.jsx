@@ -16,7 +16,7 @@ const MobileSeasoned = () => {
         />
         <meta
           name="keywords"
-          content="Dr. Shazia Waghoo, Laparoscopic Surgeon Mumbai, Hernia Specialist, Breast Surgeon, Women Surgeon Mumbai, Minimally Invasive Surgery, Female Surgeon"
+          content="Dr. Shazia Waghoo,Dr Shazia Waghoo Santacruz,Dr Shazia Waghoo Andheri,Top hernia specialist Santacruz,Hernia surgery doctor in Andher Laparoscopic Surgeon Mumbai, Hernia Specialist, Breast Surgeon, Women Surgeon Mumbai, Minimally Invasive Surgery, Female Surgeon"
         />
         <meta name="author" content="Dr. Shazia Waghoo" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -29,7 +29,7 @@ const MobileSeasoned = () => {
           content="10+ years of experience in Laparoscopic, Hernia, and Breast Surgeries. Book your consultation with Dr. Shazia Waghoo today."
         />
         <meta property="og:type" content="profile" />
-        <meta property="og:url" content="https://drshaziawaghoosurgery.com/mobile-seasoned" />
+        <meta property="og:url" content="https://drshaziawaghoo.com/" />
         <meta property="og:image" content="https://drshaziawaghoosurgery.com/surgicalexellencedr.png" />
         <meta property="og:locale" content="en_IN" />
 
@@ -49,7 +49,7 @@ const MobileSeasoned = () => {
             "@context": "https://schema.org",
             "@type": "Person",
             "name": "Dr. Shazia Waghoo",
-            "url": "https://drshaziawaghoosurgery.com/mobile-seasoned",
+            "url": "https://drshaziawaghoo.com/",
             "image": "https://drshaziawaghoosurgery.com/surgicalexellencedr.png",
             "jobTitle": "Laparoscopic, Hernia & Breast Surgeon",
             "worksFor": {

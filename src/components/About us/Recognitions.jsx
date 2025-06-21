@@ -123,11 +123,11 @@ const Recognitions = () => {
   />
   <meta
     name="keywords"
-    content="Dr. Shazia Waghoo, recognitions, memberships, surgeon association, Asia-Pacific Hernia Society, Minimal Access Surgeons of India, professional doctor associations"
+    content="Dr. Shazia Waghoo, Dr Shazia Waghoo Santacruz ,Dr Shazia Waghoo Andheri,Best laparoscopic surgeon in Santacruz  expert surgeon Mumbai, hope through surgery, quality surgical care"
   />
   <meta name="author" content="Dr. Shazia Waghoo" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <link rel="canonical" href="https://drshaziawaghoosurgery.com/recognitions" />
+  <link rel="canonical" href="https://drshaziawaghoo.com/" />
 
   {/* ✅ Open Graph Tags */}
   <meta property="og:title" content="Recognitions – Dr. Shazia Waghoo's Medical Memberships" />
@@ -136,8 +136,8 @@ const Recognitions = () => {
     content="Dr. Shazia Waghoo is a member of several reputed surgical and hernia societies across India and Asia-Pacific."
   />
   <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://drshaziawaghoosurgery.com/recognitions" />
-  <meta property="og:image" content="https://drshaziawaghoosurgery.com/images/drshazia-cover.jpg" />
+  <meta property="og:url" content="https://drshaziawaghoo.com/" />
+  <meta property="og:image" content="https://drshaziawaghoosurgery.com/images/membership-logo.png" />
 
   {/* ✅ Twitter Tags */}
   <meta name="twitter:card" content="summary_large_image" />
@@ -177,7 +177,7 @@ const Recognitions = () => {
             "name": "Minimal Access Surgeons of India"
           }
         ],
-        "url": "https://drshaziawaghoosurgery.com/recognitions"
+        "url": "https://drshaziawaghoo.com/"
       }
     `}
   </script>

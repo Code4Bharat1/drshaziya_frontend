@@ -75,18 +75,18 @@ const MobileReviewsSwiper = () => {
         />
         <meta
           name="keywords"
-          content="Dr. Shazia Waghoo reviews, Patient testimonials, Laparoscopic Surgeon Mumbai, Hernia Specialist, Breast Surgeon Mumbai"
+          content="Dr. Shazia Waghoo reviews,Dr Shazia Waghoo Santacruz,Dr Shazia Waghoo Andheri,Best laparoscopic surgeon in Santacruz Laparoscopic Surgeon Mumbai, Hernia Specialist, Breast Surgeon Mumbai"
         />
         <meta name="author" content="Dr. Shazia Waghoo" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="canonical" href="https://drshaziawaghoosurgery.com/reviews" />
+        <link rel="canonical" href="https://drshaziawaghoo.com/" />
         <meta property="og:title" content="Real Patient Reviews - Dr. Shazia Waghoo" />
         <meta
           property="og:description"
           content="See what patients are saying about Dr. Shazia Waghoo. Honest reviews about her experience, empathy, and surgical care."
         />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://drshaziawaghoosurgery.com/reviews" />
+        <meta property="og:url" content="https://drshaziawaghoo.com/" />
         <meta
           property="og:image"
           content="https://drshaziawaghoosurgery.com/surgicalexellencedr.png"
@@ -108,14 +108,14 @@ const MobileReviewsSwiper = () => {
               "@context": "https://schema.org",
               "@type": "WebPage",
               "name": "Patient Reviews - Dr. Shazia Waghoo",
-              "url": "https://drshaziawaghoosurgery.com/reviews",
+              "url": "https://drshaziawaghoo.com/",
               "description": "Explore authentic testimonials from patients who were treated by Dr. Shazia Waghoo, a reputed Laparoscopic, Hernia & Breast Surgeon in Mumbai.",
               "mainEntity": {
                 "@type": "Person",
                 "name": "Dr. Shazia Waghoo",
                 "jobTitle": "Laparoscopic, Hernia & Breast Surgeon",
                 "image": "https://drshaziawaghoosurgery.com/surgicalexellencedr.png",
-                "url": "https://drshaziawaghoosurgery.com",
+                "url": "https://drshaziawaghoo.com/",
                 "worksFor": {
                   "@type": "MedicalOrganization",
                   "name": "Dr. Shazia Waghoo Surgery Clinic"

@@ -1,5 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
+import Head from 'next/head';
+
 
 const content = [
   {
@@ -27,6 +29,75 @@ const content = [
 
 const Thyroid = () => {
   return (
+    <>
+<Head>
+  {/* ✅ Basic Meta Tags */}
+  <title>Thyroid Surgery in Mumbai – Dr. Shazia Waghoo</title>
+  <meta
+    name="description"
+    content="Learn about thyroid surgery performed by Dr. Shazia Waghoo in Mumbai. Treatment for thyroid nodules, goitre, hyperthyroidism, and thyroid cancer with advanced techniques."
+  />
+  <meta
+    name="keywords"
+    content="Thyroid surgery Mumbai, thyroidectomy, goitre treatment, thyroid cancer, hyperthyroidism surgery, Dr. Shazia Waghoo, best thyroid surgeon in Mumbai"
+  />
+  <meta name="author" content="Dr. Shazia Waghoo" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="canonical" href="https://drshaziawaghoosurgery.com/allartical/thyroid" />
+
+  {/* ✅ Open Graph (OG) for Social Sharing */}
+  <meta property="og:title" content="Thyroid Surgery in Mumbai – Dr. Shazia Waghoo" />
+  <meta
+    property="og:description"
+    content="Understand when thyroid surgery is advised, conditions treated, and advanced methods used by Dr. Shazia Waghoo for treating thyroid disorders in Mumbai."
+  />
+  <meta property="og:type" content="article" />
+  <meta property="og:url" content="https://drshaziawaghoosurgery.com/allartical/thyroid" />
+  <meta property="og:image" content="https://drshaziawaghoosurgery.com/images/thyroid-surgery-og.jpg" />
+
+  {/* ✅ Twitter Card */}
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Thyroid Surgery in Mumbai – Dr. Shazia Waghoo" />
+  <meta
+    name="twitter:description"
+    content="Explore how Dr. Shazia Waghoo treats thyroid nodules, goitre, and cancer using minimally invasive techniques. Book consultation in Mumbai."
+  />
+  <meta name="twitter:image" content="https://drshaziawaghoosurgery.com/images/thyroid-surgery-og.jpg" />
+
+  {/* ✅ Structured Data */}
+  <script type="application/ld+json">
+    {`
+      {
+        "@context": "https://schema.org",
+        "@type": "MedicalWebPage",
+        "name": "Thyroid Surgery",
+        "url": "https://drshaziawaghoosurgery.com/allartical/thyroid",
+        "description": "Thyroidectomy for nodules, goitre, and thyroid cancer by Dr. Shazia Waghoo, expert in minimally invasive and laser thyroid surgery in Mumbai.",
+        "author": {
+          "@type": "Person",
+          "name": "Dr. Shazia Waghoo"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "Dr. Shazia Waghoo Surgical Clinic",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://drshaziawaghoosurgery.com/images/logo.png"
+          }
+        },
+        "mainEntity": {
+          "@type": "MedicalProcedure",
+          "name": "Thyroidectomy",
+          "howPerformed": "Performed via traditional incision, minimally invasive, or laser techniques",
+          "bodyLocation": "Thyroid gland",
+          "procedureType": "Surgical"
+        }
+      }
+    `}
+  </script>
+</Head>
+
+{/* Main code start from here */}
      <div className="md:mt-14 mt-24 bg-white">
     <div className="bg-white p-6 md:p-10 max-w-6xl mx-auto font-sans text-gray-800">
       
@@ -55,6 +126,8 @@ const Thyroid = () => {
       ))}
     </div>
     </div>
+      
+    </>
   );
 };
 

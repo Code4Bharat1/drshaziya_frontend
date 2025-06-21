@@ -20,11 +20,11 @@ export default function BookAppointmentMobile() {
   />
   <meta
     name="keywords"
-    content="Book appointment, Dr. Shazia Waghoo, laparoscopic surgeon Mumbai, hernia surgery, minimally invasive surgery, surgery clinic"
+    content="Dr. Shazia Waghoo, Dr Shazia Waghoo Santacruz ,Dr Shazia Waghoo Andheri,Best laparoscopic surgeon in Santacruz  expert surgeon Mumbai, hope through surgery, quality surgical care"
   />
   <meta name="author" content="Dr. Shazia Waghoo" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <link rel="canonical" href="https://drshaziawaghoosurgery.com/book-appointment" />
+  <link rel="canonical" href="https://drshaziawaghoo.com/" />
 
   {/* ✅ Open Graph Tags */}
   <meta property="og:title" content="Book Appointment – Dr. Shazia Waghoo" />
@@ -32,7 +32,7 @@ export default function BookAppointmentMobile() {
     property="og:description"
     content="Schedule a consultation with Dr. Shazia Waghoo, Mumbai's experienced laparoscopic surgeon. Expert care, patient-focused service."
   />
-  <meta property="og:url" content="https://drshaziawaghoosurgery.com/book-appointment" />
+  <meta property="og:url" content="https://drshaziawaghoo.com/" />
   <meta property="og:type" content="website" />
   <meta property="og:image" content="https://drshaziawaghoosurgery.com/images/book-appointment-cover.jpg" />
 
@@ -52,12 +52,12 @@ export default function BookAppointmentMobile() {
       "@context": "https://schema.org",
       "@type": "MedicalClinic",
       "name": "Dr. Shazia Waghoo's Surgery Clinic",
-      "url": "https://drshaziawaghoosurgery.com",
+      "url": "https://drshaziawaghoo.com/",
       "image": "https://drshaziawaghoosurgery.com/images/book-appointment-cover.jpg",
       "description": "Trusted clinic for laparoscopic, hernia, and breast surgery led by Dr. Shazia Waghoo.",
       "address": {
         "@type": "PostalAddress",
-        "addressLocality": "Mumbai",
+        "addressLocality": "Andheri | Santacruz",
         "addressCountry": "IN"
       },
       "medicalSpecialty": "Laparoscopic Surgery",

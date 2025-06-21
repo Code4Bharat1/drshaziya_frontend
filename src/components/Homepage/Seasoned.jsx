@@ -9,26 +9,26 @@ const router = useRouter();
     <>
       {/* ✅ SEO Meta Tags */}
       <Head>
-        <title>Dr. Shazia Waghoo – Expert Laparoscopic, Hernia & Breast Surgeon</title>
+        <title>Dr. Shazia Waghoo – Expert Laparoscopic, Hernia & Breast Surgeon in Andheri and Santacruz</title>
         <meta
           name="description"
           content="Meet Dr. Shazia Waghoo, a Mumbai-based surgeon with 10+ years of experience in laparoscopic, hernia, and breast surgeries. Book an appointment today."
         />
         <meta
           name="keywords"
-          content="Dr Shazia Waghoo, Laparoscopic Surgeon Mumbai, Hernia Specialist, Breast Surgery Doctor, Female Surgeon in Mumbai, Best Surgeon for Women, General Surgery Expert, Cancer Awareness Surgeon, Minimally Invasive Surgery, Top Doctor Mumbai, Book Appointment Dr Waghoo"
+          content="Dr Shazia Waghoo, Laparoscopic Surgeon Mumbai, Hernia Specialist, Dr Shazia Waghoo Santacruz Dr Shazia Waghoo Andheri Best laparoscopic surgeon in Santacruz"
         />
         <meta name="author" content="Dr. Shazia Waghoo" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="canonical" href="https://drshaziawaghoosurgery.com/about" />
+        <link rel="canonical" href="https://drshaziawaghoo.com/" />
 
         {/* ✅ Open Graph (Facebook, LinkedIn, etc.) */}
-        <meta property="og:title" content="Dr. Shazia Waghoo – Expert Laparoscopic, Hernia & Breast Surgeon" />
+        <meta property="og:title" content="Dr. Shazia Waghoo Laparoscopic, Hernia & Breast Surgeon in Andheri and santacruz" />
         <meta
           property="og:description"
           content="Over 10 years of surgical excellence in Mumbai. Expert in minimally invasive hernia and breast surgeries. Trusted and compassionate care."
         />
-        <meta property="og:url" content="https://drshaziawaghoosurgery.com/about" />
+        <meta property="og:url" content="https://drshaziawaghoo.com/" />
         <meta property="og:image" content="https://drshaziawaghoosurgery.com/surgicalexellencedr.png" />
         <meta property="og:type" content="profile" />
         <meta property="og:locale" content="en_IN" />
@@ -49,9 +49,9 @@ const router = useRouter();
               "@context": "https://schema.org",
               "@type": "Physician",
               "name": "Dr. Shazia Waghoo",
-              "url": "https://drshaziawaghoosurgery.com",
+              "url": "https://drshaziawaghoo.com/",
               "image": "https://drshaziawaghoosurgery.com/surgicalexellencedr.png",
-              "description": "Laparoscopic, Hernia, and Breast Surgeon in Mumbai with over 10 years of experience.",
+              "description": "Laparoscopic, Hernia, and Breast Surgeon in Andheri | Santacruz with over 10 years of experience.",
               "medicalSpecialty": [
                 "Laparoscopic Surgery",
                 "Hernia Surgery",
@@ -59,14 +59,14 @@ const router = useRouter();
               ],
               "address": {
                 "@type": "PostalAddress",
-                "streetAddress": "Clinic Address Here",
-                "addressLocality": "Mumbai",
-                "addressRegion": "MH",
-                "postalCode": "400001",
+                "streetAddress": "Andheri | Santacruz",
+                "addressLocality": "Andheri Santacruz",
+                "addressRegion": "Andheri Santacruz",
+                "postalCode": "400047",
                 "addressCountry": "IN"
               },
               "telephone": "+91 9876543210",
-              "email": "drshazia@example.com",
+              "email": "drshaziawaghoosurgery@gmail.com",
               "sameAs": [
                 "https://www.linkedin.com/in/drshaziawaghoo",
                 "https://www.instagram.com/drshaziawaghoo"

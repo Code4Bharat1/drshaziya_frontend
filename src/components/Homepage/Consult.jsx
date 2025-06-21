@@ -83,11 +83,11 @@ const Consult = () => {
   />
   <meta
     name="keywords"
-    content="Dr. Shazia Waghoo, consult surgeon Mumbai, laser surgeon, laparoscopic specialist, hernia surgery, multiple locations, cashless surgery, rehabilitation"
+    content="Dr. Shazia Waghoo, Dr Shazia Waghoo Santacruz ,Dr Shazia Waghoo Andheri,Best laparoscopic surgeon in Santacruz  expert surgeon Mumbai, hope through surgery, quality surgical care"
   />
   <meta name="author" content="Dr. Shazia Waghoo" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <link rel="canonical" href="https://drshaziawaghoosurgery.com/consult" />
+  <link rel="canonical" href="https://drshaziawaghoo.com/" />
 
   {/* ✅ Open Graph for Facebook */}
   <meta property="og:title" content="Why Consult Dr. Shazia Waghoo – Surgical Expertise & Care" />
@@ -96,7 +96,7 @@ const Consult = () => {
     content="Consult Dr. Shazia Waghoo for advanced, minimally-invasive surgical care. Locations across Mumbai. Compassionate follow-up and rehabilitation support available."
   />
   <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://drshaziawaghoosurgery.com/consult" />
+  <meta property="og:url" content="https://drshaziawaghoo.com/" />
   <meta property="og:image" content="https://drshaziawaghoosurgery.com/images/drshazia-cover.jpg" />
 
   {/* ✅ Twitter Card */}
@@ -115,7 +115,7 @@ const Consult = () => {
       "@context": "https://schema.org",
       "@type": "MedicalOrganization",
       "name": "Dr. Shazia Waghoo Surgical Services",
-      "url": "https://drshaziawaghoosurgery.com/consult",
+      "url": "https://drshaziawaghoo.com/",
       "logo": "https://drshaziawaghoosurgery.com/images/logo.png",
       "description": "Minimally-invasive surgeries, laser treatments, and post-operative rehabilitation by Dr. Shazia Waghoo in Mumbai.",
       "founder": "Dr. Shazia Waghoo",

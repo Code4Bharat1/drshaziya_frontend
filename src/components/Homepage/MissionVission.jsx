@@ -14,11 +14,11 @@ const MissionVission = () => {
   />
   <meta
     name="keywords"
-    content="Dr. Shazia Waghoo, vision mission, surgical care, healthcare mission, advanced surgery, laparoscopic surgery, affordable treatment, India surgeon"
+    content="Dr. Shazia Waghoo, Dr Shazia Waghoo Santacruz ,Dr Shazia Waghoo Andheri,Best laparoscopic surgeon in Santacruz  expert surgeon Mumbai, hope through surgery, quality surgical care"
   />
   <meta name="author" content="Dr. Shazia Waghoo" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <link rel="canonical" href="https://drshaziawaghoosurgery.com/mission-vision" />
+  <link rel="canonical" href="https://drshaziawaghoo.com/" />
 
   {/* ✅ Open Graph / Facebook */}
   <meta property="og:title" content="Our Vision & Mission – Dr. Shazia Waghoo’s Surgical Excellence" />
@@ -27,7 +27,7 @@ const MissionVission = () => {
     content="Explore how Dr. Shazia Waghoo and her team are transforming surgical care with a patient-focused approach and modern technologies."
   />
   <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://drshaziawaghoosurgery.com/mission-vision" />
+  <meta property="og:url" content="https://drshaziawaghoo.com/" />
   <meta property="og:image" content="https://drshaziawaghoosurgery.com/images/drshazia-profile.jpg" />
   <meta property="og:locale" content="en_IN" />
 
@@ -48,11 +48,11 @@ const MissionVission = () => {
       "@type": "MedicalOrganization",
       "name": "Dr. Shazia Waghoo Surgical Care",
       "description": "We provide advanced, affordable surgical treatments with a focus on patient dignity and high outcomes.",
-      "url": "https://drshaziawaghoosurgery.com/mission-vision",
+      "url": "https://drshaziawaghoo.com/",
       "logo": "https://drshaziawaghoosurgery.com/images/logo.png",
       "address": {
         "@type": "PostalAddress",
-        "addressLocality": "Mumbai",
+        "addressLocality": "Andheri | Santacruz ",
         "addressCountry": "IN"
       },
       "founder": {

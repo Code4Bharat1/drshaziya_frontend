@@ -156,7 +156,8 @@
 
 "use client";
 import React, { useState } from "react";
-import Head from "next/head";
+
+import { ToastContainer,toast } from 'react-toastify';
 
 
 const ContactMobile = () => {
@@ -222,87 +223,24 @@ const ContactMobile = () => {
       
       const result = await response.json();
       if (result.success) {
-        alert("Consultation request sent!");
+        toast.success("Consultation request sent!");
         setName("");
         setEmail("");
         setMobile("");
       } else {
         console.error('Form submission failed:', result);
-        alert("Failed to send. Please try again.");
+        toast.error("Failed to send. Please try again.");
       }
     } catch (error) {
       console.error('Error submitting form:', error);
-      alert("Failed to send. Please try again.");
+      toast.error("Failed to send. Please try again.");
     }
   };
 
   return (
     <>
-    {/* SEO start from here */}
-    <Head>
-  {/* ✅ Primary Meta Tags */}
-  <title>Book a Consultation – Dr. Shazia Waghoo | Expert Surgeon</title>
-  <meta
-    name="description"
-    content="Book a consultation with Dr. Shazia Waghoo, an expert in laparoscopic and specialty surgeries. Call or WhatsApp us now to schedule your appointment."
-  />
-  <meta
-    name="keywords"
-    content="Dr. Shazia Waghoo, book consultation, surgeon appointment, laparoscopic surgeon Mumbai, contact doctor, surgery expert"
-  />
-  <meta name="author" content="Dr. Shazia Waghoo" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <link rel="canonical" href="https://drshaziawaghoosurgery.com/contact" />
-
-  {/* ✅ Open Graph / Facebook */}
-  <meta property="og:title" content="Book a Consultation – Dr. Shazia Waghoo" />
-  <meta
-    property="og:description"
-    content="Schedule a consultation with Dr. Shazia Waghoo. Call or WhatsApp 9833584847 | 9892933421. Advanced surgical care with faster recovery."
-  />
-  <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://drshaziawaghoosurgery.com/contact" />
-  <meta property="og:image" content="https://drshaziawaghoosurgery.com/images/consult-cover.png" />
-  <meta property="og:locale" content="en_IN" />
-
-  {/* ✅ Twitter Card */}
-  <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="Book a Consultation – Dr. Shazia Waghoo" />
-  <meta
-    name="twitter:description"
-    content="Expert consultation with Dr. Shazia Waghoo for laparoscopic, breast, and gastrointestinal surgeries. Book now via form or call."
-  />
-  <meta name="twitter:image" content="https://drshaziawaghoosurgery.com/images/consult-cover.png" />
-
-  {/* ✅ Structured Data (Schema.org) */}
-  <script type="application/ld+json">
-    {`
-    {
-      "@context": "https://schema.org",
-      "@type": "MedicalClinic",
-      "name": "Dr. Shazia Waghoo Surgical Clinic",
-      "url": "https://drshaziawaghoosurgery.com/contact",
-      "image": "https://drshaziawaghoosurgery.com/images/consult-cover.png",
-      "description": "Book a surgical consultation with Dr. Shazia Waghoo, expert in laparoscopic and specialty surgeries.",
-      "address": {
-        "@type": "PostalAddress",
-        "addressLocality": "Mumbai",
-        "addressCountry": "IN"
-      },
-      "contactPoint": {
-        "@type": "ContactPoint",
-        "telephone": "+91-9833584847",
-        "contactType": "Customer Support"
-      },
-      "founder": {
-        "@type": "Person",
-        "name": "Dr. Shazia Waghoo"
-      }
-    }
-    `}
-  </script>
-</Head>
-
+ 
+ <ToastContainer />
 {/* main code start from here */}
     <div className="bg-[#0085DC] py-8 px-4 ">
       <div className=" text-white text-center mx-4">

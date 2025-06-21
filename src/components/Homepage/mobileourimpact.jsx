@@ -45,11 +45,11 @@ const MobileOurImpact = () => {
   />
   <meta
     name="keywords"
-    content="Dr. Shazia Waghoo, surgical impact, happy patients, successful surgeries, hospital affiliations, Mumbai healthcare, laparoscopic surgery stats"
+    content="Dr. Shazia Waghoo, Dr Shazia Waghoo Santacruz ,Dr Shazia Waghoo Andheri,Best laparoscopic surgeon in Santacruz  expert surgeon Mumbai, hope through surgery, quality surgical care"
   />
   <meta name="author" content="Dr. Shazia Waghoo" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <link rel="canonical" href="https://drshaziawaghoosurgery.com/our-impact" />
+  <link rel="canonical" href="https://drshaziawaghoo.com/" />
 
   {/* ✅ Open Graph Meta Tags */}
   <meta property="og:title" content="Our Impact – Dr. Shazia Waghoo’s Legacy in Mumbai" />
@@ -58,7 +58,7 @@ const MobileOurImpact = () => {
     content="Trusted by thousands, Dr. Shazia Waghoo has made a lasting impact with over 1,000 surgeries and affiliations with Mumbai’s leading hospitals."
   />
   <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://drshaziawaghoosurgery.com/our-impact" />
+  <meta property="og:url" content="https://drshaziawaghoo.com/" />
   <meta property="og:image" content="https://drshaziawaghoosurgery.com/heart.png" />
   <meta property="og:locale" content="en_IN" />
 
@@ -78,13 +78,13 @@ const MobileOurImpact = () => {
       "@context": "https://schema.org",
       "@type": "WebPage",
       "name": "Our Impact - Dr. Shazia Waghoo",
-      "url": "https://drshaziawaghoosurgery.com/our-impact",
+      "url": "https://drshaziawaghoo.com/",
       "description": "2000+ happy patients, 1000+ surgeries, 10+ years of experience. Discover Dr. Shazia Waghoo’s surgical achievements and trusted hospital affiliations in Mumbai.",
       "mainEntity": {
         "@type": "Person",
         "name": "Dr. Shazia Waghoo",
         "jobTitle": "Laparoscopic, Hernia & Breast Surgeon",
-        "url": "https://drshaziawaghoosurgery.com",
+        "url": "https://drshaziawaghoo.com/",
         "worksFor": {
           "@type": "MedicalOrganization",
           "name": "Dr. Shazia Waghoo Surgery Clinic"

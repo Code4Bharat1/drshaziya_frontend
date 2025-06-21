@@ -38,7 +38,7 @@ const Conference = () => {
   />
   <meta
     name="keywords"
-    content="Dr. Shazia Waghoo, conference presentations, laparoscopic surgery, ASICON 2020, PSOGI 2018, HIPEC, CRS, COVID-19 surgery, medical conferences"
+    content="Dr. Shazia Waghoo, Dr Shazia Waghoo Santacruz ,Dr Shazia Waghoo Andheri,Best laparoscopic surgeon in Santacruz  expert surgeon Mumbai, hope through surgery, quality surgical care"
   />
   <meta name="author" content="Dr. Shazia Waghoo" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -50,7 +50,7 @@ const Conference = () => {
     property="og:description"
     content="Highlights of Dr. Shazia Waghoo’s contributions to global surgical conferences including CRS+HIPEC and ovarian cancer research."
   />
-  <meta property="og:url" content="https://drshaziawaghoosurgery.com/conference" />
+  <meta property="og:url" content="https://drshaziawaghoo.com/" />
   <meta property="og:type" content="website" />
   <meta property="og:image" content="https://drshaziawaghoosurgery.com/images/conference-og.jpg" />
 
@@ -70,7 +70,7 @@ const Conference = () => {
       "@context": "https://schema.org",
       "@type": "MedicalOrganization",
       "name": "Dr. Shazia Waghoo's Surgery Clinic",
-      "url": "https://drshaziawaghoosurgery.com",
+      "url": "https://drshaziawaghoo.com/",
       "logo": "https://drshaziawaghoosurgery.com/logo.png",
       "sameAs": [
         "https://www.facebook.com/DrShaziaWaghoo",
@@ -84,7 +84,7 @@ const Conference = () => {
           "startDate": "2020-12-15",
           "location": {
             "@type": "VirtualLocation",
-            "url": "https://asi2020.virtualconf.com"
+            "url": "https://drshaziawaghoo.com/"
           }
         },
         {
@@ -93,7 +93,7 @@ const Conference = () => {
           "startDate": "2018-09-10",
           "location": {
             "@type": "Place",
-            "name": "Paris, France"
+            "name": "Andheri, Santacruz"
           }
         }
       ]

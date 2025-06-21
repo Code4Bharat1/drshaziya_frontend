@@ -15,7 +15,7 @@ const Hernia = () => {
   />
   <meta
     name="keywords"
-    content="Dr. Shazia Waghoo, hernia surgeon Mumbai, laparoscopic surgery Mumbai, breast cancer surgery, women’s health, general surgeon"
+    content="Dr. Shazia Waghoo, Dr Shazia Waghoo Santacruz ,Dr Shazia Waghoo Andheri,Best laparoscopic surgeon in Santacruz  expert surgeon Mumbai, hope through surgery, quality surgical care"
   />
   <meta name="author" content="Dr. Shazia Waghoo" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -28,7 +28,7 @@ const Hernia = () => {
     content="Learn about Dr. Shazia Waghoo’s experience and her commitment to laparoscopic, hernia, and breast surgeries. Book a consultation today."
   />
   <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://drshaziawaghoosurgery.com/hernia" />
+  <meta property="og:url" content="https://drshaziawaghoo.com/" />
   <meta property="og:image" content="https://drshaziawaghoosurgery.com/images/drshazia-cover.jpg" />
 
   {/* ✅ Twitter Card */}
@@ -50,7 +50,7 @@ const Hernia = () => {
         "image": "https://drshaziawaghoosurgery.com/images/drshazia-cover.jpg",
         "description": "Experienced Laparoscopic, Hernia & Breast Surgeon in Mumbai with over 10 years of surgical excellence.",
         "medicalSpecialty": ["Laparoscopic Surgery", "Hernia Surgery", "Breast Surgery"],
-        "url": "https://drshaziawaghoosurgery.com/hernia",
+        "url": "https://drshaziawaghoo.com/",
         "alumniOf": [
           {
             "@type": "EducationalOrganization",

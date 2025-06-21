@@ -19,7 +19,7 @@ const DemystifyingMobile = () => {
   />
   <meta
     name="keywords"
-    content="Dr. Shazia Waghoo, seamless surgery, surgical consultation, faster healing, diagnosis and treatment, surgery Mumbai, expert surgeon"
+    content="Dr. Shazia Waghoo, Dr Shazia Waghoo Santacruz ,Dr Shazia Waghoo Andheri,Best laparoscopic surgeon in Santacruz  expert surgeon Mumbai, hope through surgery, quality surgical care"
   />
   <meta name="author" content="Dr. Shazia Waghoo" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -32,7 +32,7 @@ const DemystifyingMobile = () => {
     content="Surgery doesn't need to be complicated. Dr. Shazia Waghoo offers seamless diagnosis and treatment. Book your appointment today."
   />
   <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://drshaziawaghoosurgery.com/demystifying-surgery" />
+  <meta property="og:url" content="https://drshaziawaghoo.com/" />
   <meta property="og:image" content="https://drshaziawaghoosurgery.com/images/squarecircle1.png" />
   <meta property="og:locale" content="en_IN" />
 
@@ -52,7 +52,7 @@ const DemystifyingMobile = () => {
       "@context": "https://schema.org",
       "@type": "MedicalOrganization",
       "name": "Dr. Shazia Waghoo Surgery",
-      "url": "https://drshaziawaghoosurgery.com/demystifying-surgery",
+      "url": "https://drshaziawaghoo.com/",
       "logo": "https://drshaziawaghoosurgery.com/images/squarecircle1.png",
       "description": "Expert surgical care made simple. Book a consultation with Dr. Shazia Waghoo to understand your diagnosis and treatment options.",
       "founder": {
@@ -61,7 +61,7 @@ const DemystifyingMobile = () => {
       },
       "address": {
         "@type": "PostalAddress",
-        "addressLocality": "Mumbai",
+        "addressLocality": "Andheri | Santacruz",
         "addressCountry": "IN"
       }
     }

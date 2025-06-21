@@ -98,20 +98,20 @@ const Review = () => {
         />
         <meta
           name="keywords"
-          content="Dr. Shazia Waghoo reviews, Google testimonials, patient feedback, best surgeon Mumbai, compassionate doctor, laparoscopic surgeon reviews, hernia surgeon ratings, breast surgeon testimonials, verified patient reviews, trusted Mumbai doctor"
+          content="Dr. Shazia Waghoo Dr Shazia Waghoo Santacruz Dr Shazia Waghoo Andheri Dr Shazia laparoscopic hernia breast  surgeon "
         />
-        <meta name="author" content="Dr. Shazia Waghoo" />
+        <meta name="author" content="Dr.Shazia Waghoo" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="canonical" href="https://drshaziawaghoosurgery.com/reviews" />
+        <link rel="canonical" href="https://drshaziawaghoo.com/" />
 
         {/* ✅ Open Graph */}
         <meta property="og:title" content="Patient Reviews for Dr. Shazia Waghoo" />
         <meta
           property="og:description"
-          content="What patients say about Dr. Shazia Waghoo – Read their real experiences and recommendations on Google."
+          content=" Dr. Shazia Waghoo – Read their real experiences and recommendations on Google."
         />
         <meta property="og:image" content="https://drshaziawaghoosurgery.com/fivestar.png" />
-        <meta property="og:url" content="https://drshaziawaghoosurgery.com/reviews" />
+        <meta property="og:url" content="https://drshaziawaghoo.com/" />
         <meta property="og:type" content="website" />
         <meta property="og:locale" content="en_IN" />
 

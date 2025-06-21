@@ -231,6 +231,7 @@
 'use client';
 import React, { useState } from 'react';
 import { MapPin } from 'lucide-react';
+import Head from 'next/head';
 
 const clinics = [
   {
@@ -281,6 +282,78 @@ const ClinicCard = () => {
   const displayedClinics = showAll ? [...clinics] : clinics.slice(0, 6);
 
   return (
+    <>
+    {/* SEO start from here */}
+    <Head>
+  {/* ✅ Page Title and Description */}
+  <title>Clinic Locations – Dr. Shazia Waghoo | Multispecialty Surgery Clinics in Mumbai</title>
+  <meta
+    name="description"
+    content="Find all clinic locations of Dr. Shazia Waghoo in Mumbai including Khar West, Santacruz East, Kurla West, Chembur, Andheri East, Navi Mumbai, and Mazgaon."
+  />
+  <meta
+    name="keywords"
+    content="Dr. Shazia Waghoo, clinic locations Mumbai, surgery clinics Mumbai, laparoscopic surgery clinics, multispecialty surgical clinics, Andheri, Chembur, Khar, Santacruz, Kurla"
+  />
+  <meta name="author" content="Dr. Shazia Waghoo" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="canonical" href="https://drshaziawaghoosurgery.com/clinics" />
+
+  {/* ✅ Open Graph Meta for Facebook/LinkedIn */}
+  <meta property="og:title" content="Clinic Locations – Dr. Shazia Waghoo | Multispecialty Surgery Clinics in Mumbai" />
+  <meta
+    property="og:description"
+    content="Explore all clinic locations of Dr. Shazia Waghoo for expert laparoscopic and surgical consultations across Mumbai."
+  />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://drshaziawaghoosurgery.com/clinics" />
+  <meta property="og:image" content="https://drshaziawaghoosurgery.com/images/clinic-locations-og.jpg" />
+
+  {/* ✅ Twitter Card Meta */}
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Clinic Locations – Dr. Shazia Waghoo | Surgical Clinics in Mumbai" />
+  <meta
+    name="twitter:description"
+    content="Locate the nearest clinic of Dr. Shazia Waghoo in Mumbai including Khar, Santacruz, Kurla, Chembur, Andheri and Navi Mumbai."
+  />
+  <meta name="twitter:image" content="https://drshaziawaghoosurgery.com/images/clinic-locations-og.jpg" />
+
+  {/* ✅ Structured Data with Schema.org */}
+  <script type="application/ld+json">
+    {`
+      {
+        "@context": "https://schema.org",
+        "@type": "MedicalClinic",
+        "name": "Dr. Shazia Waghoo Surgical Clinics",
+        "url": "https://drshaziawaghoosurgery.com/clinics",
+        "description": "List of clinic locations of Dr. Shazia Waghoo in Mumbai for surgical consultations including laparoscopic, hernia, breast, and GI treatments.",
+        "medicalSpecialty": "Surgical",
+        "address": [
+          {
+            "@type": "PostalAddress",
+            "streetAddress": "2nd floor, Corinthian, Linking Road, Khar West",
+            "addressLocality": "Mumbai",
+            "addressRegion": "MH",
+            "postalCode": "400052",
+            "addressCountry": "IN"
+          },
+          {
+            "@type": "PostalAddress",
+            "streetAddress": "Florence, Nehru Road, Vakola, Santacruz East",
+            "addressLocality": "Mumbai",
+            "addressRegion": "MH",
+            "postalCode": "400055",
+            "addressCountry": "IN"
+          }
+        ],
+        "image": "https://drshaziawaghoosurgery.com/images/clinic-locations-og.jpg"
+      }
+    `}
+  </script>
+</Head>
+
+
+    {/* main code start from here */}
     <div className="bg-[#f4f6fb] py-10 px-4">
       <div className={`max-w-5xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 ${showAll ? 'place-items-center' : ''}`}>
         {displayedClinics.map((clinic, index) => {
@@ -339,6 +412,7 @@ const ClinicCard = () => {
         </div>
       )}
     </div>
+    </>
   );
 };
 

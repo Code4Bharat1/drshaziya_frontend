@@ -16,11 +16,11 @@ const MobileMissionVission = () => {
   />
   <meta
     name="keywords"
-    content="Dr. Shazia Waghoo, mission and vision, surgical care, affordable healthcare, Mumbai surgeon, patient-focused care, medical innovation"
+    content="Dr. Shazia Waghoo, Dr Shazia Waghoo Santacruz ,Dr Shazia Waghoo Andheri,Best laparoscopic surgeon in Santacruz  expert surgeon Mumbai, hope through surgery, quality surgical care"
   />
   <meta name="author" content="Dr. Shazia Waghoo" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <link rel="canonical" href="https://drshaziawaghoosurgery.com/mission-vision" />
+  <link rel="canonical" href="https://drshaziawaghoo.com/" />
 
   {/* ✅ Open Graph */}
   <meta property="og:title" content="Our Mission & Vision – Dr. Shazia Waghoo" />
@@ -29,7 +29,7 @@ const MobileMissionVission = () => {
     content="We aim to deliver superior surgical outcomes through innovation, compassion, and commitment to making healthcare accessible to all."
   />
   <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://drshaziawaghoosurgery.com/mission-vision" />
+  <meta property="og:url" content="https://drshaziawaghoo.com/" />
   <meta property="og:image" content="https://drshaziawaghoosurgery.com/cover-mission.png" />
   <meta property="og:locale" content="en_IN" />
 
@@ -49,7 +49,7 @@ const MobileMissionVission = () => {
       "@context": "https://schema.org",
       "@type": "MedicalOrganization",
       "name": "Dr. Shazia Waghoo Surgery",
-      "url": "https://drshaziawaghoosurgery.com/mission-vision",
+      "url": "https://drshaziawaghoo.com/",
       "logo": "https://drshaziawaghoosurgery.com/cover-mission.png",
       "description": "Delivering accessible, high-quality surgical care with dignity, innovation, and patient-first values.",
       "founder": {

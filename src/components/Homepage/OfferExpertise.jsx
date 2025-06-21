@@ -82,11 +82,11 @@ const OfferExpertise = () => {
         />
         <meta
           name="keywords"
-          content="Dr. Shazia Waghoo, Surgical Expertise, Laparoscopic Surgery, Hernia Surgery, Breast Surgery, Colorectal Surgery, Thyroid Surgery, GI Surgery, Laser Surgery, Mumbai Surgeon, Abdominal Wall Reconstruction"
+          content="Dr. Shazia Waghoo,Dr Shazia Waghoo Santacruz,Dr Shazia Waghoo Andheri,Best laparoscopic surgeon in Santacruz  , Laparoscopic Surgery, Hernia Surgery, Breast Surgery, Colorectal Surgery, Thyroid Surgery, GI Surgery, Laser Surgery, Mumbai Surgeon, Abdominal Wall Reconstruction"
         />
         <meta name="author" content="Dr. Shazia Waghoo" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="canonical" href="https://drshaziawaghoosurgery.com/offer-expertise" />
+        <link rel="canonical" href="https://drshaziawaghoo.com/" />
 
         {/* ✅ Open Graph (Facebook / LinkedIn) */}
         <meta property="og:title" content="Expert Surgeries by Dr. Shazia Waghoo" />
@@ -94,7 +94,7 @@ const OfferExpertise = () => {
           property="og:description"
           content="Discover advanced surgical procedures offered by Dr. Shazia Waghoo, including minimally invasive and laser treatments across specialties."
         />
-        <meta property="og:url" content="https://drshaziawaghoosurgery.com/offer-expertise" />
+        <meta property="og:url" content="https://drshaziawaghoo.com/" />
         <meta property="og:type" content="website" />
         <meta property="og:image" content="https://drshaziawaghoosurgery.com/offer1.png" />
         <meta property="og:locale" content="en_IN" />
@@ -115,7 +115,7 @@ const OfferExpertise = () => {
               "@context": "https://schema.org",
               "@type": "MedicalOrganization",
               "name": "Dr. Shazia Waghoo",
-              "url": "https://drshaziawaghoosurgery.com",
+              "url": "https://drshaziawaghoo.com/",
               "logo": "https://drshaziawaghoosurgery.com/offer1.png",
               "description": "Dr. Shazia Waghoo offers specialized surgeries including laparoscopic, breast, hernia, laser, GI, thyroid, and abdominal wall reconstruction.",
               "medicalSpecialty": [
@@ -138,7 +138,7 @@ const OfferExpertise = () => {
               },
               "contactPoint": {
                 "@type": "ContactPoint",
-                "telephone": "+91 7208131213",
+                "telephone": "+91 9833584847",
                 "contactType": "Customer Service",
                 "availableLanguage": ["English", "Hindi"]
               }

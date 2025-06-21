@@ -39,11 +39,11 @@ const MobileConference = () => {
   />
   <meta
     name="keywords"
-    content="Dr. Shazia Waghoo, conference presentations, ASICON 2020, PSOGI 2018, CRS HIPEC, general surgery research, ovarian cancer study, surgical publications"
+    content="Dr. Shazia Waghoo, Dr Shazia Waghoo Santacruz ,Dr Shazia Waghoo Andheri,Best laparoscopic surgeon in Santacruz  expert surgeon Mumbai, hope through surgery, quality surgical care"
   />
   <meta name="author" content="Dr. Shazia Waghoo" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <link rel="canonical" href="https://drshaziawaghoosurgery.com/conferences" />
+  <link rel="canonical" href="https://drshaziawaghoo.com/" />
 
   {/* ✅ Open Graph */}
   <meta property="og:title" content="Conference Presentations – Dr. Shazia Waghoo" />
@@ -52,7 +52,7 @@ const MobileConference = () => {
     content="See Dr. Shazia Waghoo's international conference presentations, including research on surgery training, ovarian cancer, and CRS+HIPEC."
   />
   <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://drshaziawaghoosurgery.com/conferences" />
+  <meta property="og:url" content="https://drshaziawaghoo.com/" />
   <meta property="og:image" content="https://drshaziawaghoosurgery.com/images/drshazia-cover.jpg" />
 
   {/* ✅ Twitter Card */}
@@ -74,14 +74,14 @@ const MobileConference = () => {
       "description": "General, Hernia, and Laparoscopic Surgeon with several conference presentations on CRS+HIPEC, ovarian cancer, and general surgery education.",
       "mainEntityOfPage": {
         "@type": "WebPage",
-        "@id": "https://drshaziawaghoosurgery.com/conferences"
+        "@id": "https://drshaziawaghoo.com/"
       },
       "worksFor": {
         "@type": "Hospital",
         "name": "Criticare Asia, Surya, Apollo Spectra"
       },
       "knowsAbout": ["CRS+HIPEC", "Ovarian Cancer", "General Surgery", "Surgical Education"],
-      "url": "https://drshaziawaghoosurgery.com"
+      "url": "https://drshaziawaghoo.com/"
     }
     `}
   </script>

@@ -17,11 +17,11 @@ const Demystifying = () => {
   />
   <meta
     name="keywords"
-    content="Dr. Shazia Waghoo, surgery consultation, laparoscopic surgeon, laser surgery, surgical diagnosis, book appointment, advanced treatment"
+    content="Dr. Shazia Waghoo, Dr Shazia Waghoo Santacruz ,Dr Shazia Waghoo Andheri,Best laparoscopic surgeon in Santacruz  expert surgeon Mumbai, hope through surgery, quality surgical care"
   />
   <meta name="author" content="Dr. Shazia Waghoo" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <link rel="canonical" href="https://drshaziawaghoosurgery.com/demystifying-surgery" />
+  <link rel="canonical" href="https://drshaziawaghoo.com/" />
 
   {/* ✅ Open Graph / Facebook */}
   <meta property="og:title" content="Demystifying Surgery with Dr. Shazia Waghoo" />
@@ -30,7 +30,7 @@ const Demystifying = () => {
     content="Surgery doesn't have to be stressful. Learn how Dr. Shazia Waghoo delivers expert, compassionate care for over 30+ conditions with cutting-edge technologies."
   />
   <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://drshaziawaghoosurgery.com/demystifying-surgery" />
+  <meta property="og:url" content="https://drshaziawaghoo.com/" />
   <meta property="og:image" content="https://drshaziawaghoosurgery.com/images/drshazia-profile.jpg" />
   <meta property="og:locale" content="en_IN" />
 
@@ -52,11 +52,11 @@ const Demystifying = () => {
       "name": "Dr. Shazia Waghoo",
       "description": "Delivering precise and compassionate surgical care with expertise in laparoscopic and laser surgery.",
       "medicalSpecialty": "Surgery",
-      "url": "https://drshaziawaghoosurgery.com/demystifying-surgery",
+      "url": "https://drshaziawaghoo.com/",
       "image": "https://drshaziawaghoosurgery.com/images/drshazia-profile.jpg",
       "address": {
         "@type": "PostalAddress",
-        "addressLocality": "Mumbai",
+        "addressLocality": "Andheri | Santacruz",
         "addressCountry": "IN"
       },
       "contactPoint": {

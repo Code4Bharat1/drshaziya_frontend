@@ -15,11 +15,11 @@ const RestoringhealthMobile = () => {
   />
   <meta
     name="keywords"
-    content="Dr. Shazia Waghoo, laparoscopic surgery Mumbai, minimal hospital stay, expert surgeon Mumbai, hope through surgery, quality surgical care"
+    content="Dr. Shazia Waghoo, Dr Shazia Waghoo Santacruz ,Dr Shazia Waghoo Andheri,Best laparoscopic surgeon in Santacruz  expert surgeon Mumbai, hope through surgery, quality surgical care"
   />
   <meta name="author" content="Dr. Shazia Waghoo" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <link rel="canonical" href="https://drshaziawaghoosurgery.com/restoring-health" />
+  <link rel="canonical" href="https://drshaziawaghoo.com/" />
 
   {/* ✅ Open Graph for Social Sharing */}
   <meta property="og:title" content="Restoring Health & Hope – Dr. Shazia Waghoo" />
@@ -28,7 +28,7 @@ const RestoringhealthMobile = () => {
     content="With 10+ years of experience, Dr. Shazia Waghoo provides accessible and advanced surgical care in Mumbai, focusing on quicker recovery and compassionate treatment."
   />
   <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://drshaziawaghoosurgery.com/restoring-health" />
+  <meta property="og:url" content="https://drshaziawaghoo.com/" />
   <meta property="og:image" content="https://drshaziawaghoosurgery.com/restoringfinal.png" />
   <meta property="og:locale" content="en_IN" />
 
@@ -48,14 +48,14 @@ const RestoringhealthMobile = () => {
         "@context": "https://schema.org",
         "@type": "WebPage",
         "name": "Restoring Health and Hope - Dr. Shazia Waghoo",
-        "url": "https://drshaziawaghoosurgery.com/restoring-health",
+        "url": "https://drshaziawaghoo.com/",
         "description": "Focused on healing and recovery, Dr. Shazia Waghoo provides minimally invasive surgery with a personalized care approach.",
         "mainEntity": {
           "@type": "Person",
           "name": "Dr. Shazia Waghoo",
           "jobTitle": "Laparoscopic, Hernia & Breast Surgeon",
           "image": "https://drshaziawaghoosurgery.com/restoringfinal.png",
-          "url": "https://drshaziawaghoosurgery.com",
+          "url": "https://drshaziawaghoo.com/",
           "worksFor": {
             "@type": "MedicalOrganization",
             "name": "Dr. Shazia Waghoo Surgery Clinic"

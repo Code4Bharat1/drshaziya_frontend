@@ -65,20 +65,20 @@ const MobileSurgicalExcellence = () => {
         />
         <meta
           name="keywords"
-          content="Dr. Shazia Waghoo, Surgical Care Mumbai, Mobile Surgery View, Advanced Surgical Modalities, Laparoscopy, Hernia, Patient Surgery Booking"
+          content="Dr. Shazia Waghoo, Dr Shazia Waghoo Santacruz Dr Shazia Waghoo Andheri Best laparoscopic surgeon in Santacruz Top hernia specialist Santacruz"
         />
         <meta name="author" content="Dr. Shazia Waghoo" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="canonical" href="https://drshaziawaghoosurgery.com/mobile-surgical-excellence" />
+        <link rel="canonical" href="https://drshaziawaghoo.com/" />
 
         {/* ✅ Open Graph Meta Tags */}
-        <meta property="og:title" content="Immersive Mobile Surgical Care | Dr. Shazia Waghoo" />
+        <meta property="og:title" content=" Dr. Shazia Waghoo" />
         <meta
           property="og:description"
           content="Book an appointment and experience personalized surgical excellence through advanced techniques by Dr. Shazia Waghoo."
         />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://drshaziawaghoosurgery.com/mobile-surgical-excellence" />
+        <meta property="og:url" content="https://drshaziawaghoo.com/" />
         <meta property="og:image" content="https://drshaziawaghoosurgery.com/hero4.png" />
         <meta property="og:locale" content="en_IN" />
 
@@ -99,7 +99,7 @@ const MobileSurgicalExcellence = () => {
             "@type": "MedicalClinic",
             "name": "Dr. Shazia Waghoo Surgical Care",
             "image": "https://drshaziawaghoosurgery.com/hero4.png",
-            "url": "https://drshaziawaghoosurgery.com/mobile-surgical-excellence",
+            "url": "https://drshaziawaghoo.com/",
             "description": "Mobile-optimized page offering immersive surgical care with modern modalities by Dr. Shazia Waghoo in Mumbai.",
             "address": {
               "@type": "PostalAddress",
