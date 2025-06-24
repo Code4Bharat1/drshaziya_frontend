@@ -8,14 +8,14 @@ const RestoringhealthMobile = () => {
      {/* SEO start from here */}
 <Head>
   {/* ✅ Title and Description */}
-  <title>Restoring Health & Hope with Dr. Shazia Waghoo – Expert Surgeon in Mumbai</title>
+  <title>Dr. Shazia Waghoo Laparoscopic Surgeon in Andheri and Santacruz</title>
   <meta
     name="description"
     content="Dr. Shazia Waghoo’s surgical practice focuses on restoring health and hope through advanced laparoscopic procedures, faster recovery, and minimal hospital stay."
   />
   <meta
     name="keywords"
-    content="Dr. Shazia Waghoo, Dr Shazia Waghoo Santacruz ,Dr Shazia Waghoo Andheri,Best laparoscopic surgeon in Santacruz  expert surgeon Mumbai, hope through surgery, quality surgical care"
+    content=" Hernia specialist in Andheri Laparoscopic surgeon in Santacruz Breast surgery doctor in Andheri Dr Shazia Waghoo, Dr Shazia Waghoo Santacruz ,Dr Shazia Waghoo Andheri,Best laparoscopic surgeon in Santacruz  expert surgeon Mumbai, hope through surgery, quality surgical care"
   />
   <meta name="author" content="Dr. Shazia Waghoo" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />

@@ -9,14 +9,14 @@ const MobileMissionVission = () => {
     {/* SEo start from here */}
     <Head>
   {/* ✅ Basic Meta Tags */}
-  <title>Our Mission & Vision – Dr. Shazia Waghoo’s Surgical Care</title>
+  <title>Dr. Shazia Waghoo Laparoscopic Surgeon in Andheri and Santacruz</title>
   <meta
     name="description"
     content="Discover the mission and vision of Dr. Shazia Waghoo's healthcare brand – committed to affordable, high-quality surgical care, innovation, and patient dignity."
   />
   <meta
     name="keywords"
-    content="Dr. Shazia Waghoo, Dr Shazia Waghoo Santacruz ,Dr Shazia Waghoo Andheri,Best laparoscopic surgeon in Santacruz  expert surgeon Mumbai, hope through surgery, quality surgical care"
+    content=" Hernia specialist in Andheri Laparoscopic surgeon in Santacruz Breast surgery doctor in Andheri Dr Shazia Waghoo, Dr Shazia Waghoo Santacruz ,Dr Shazia Waghoo Andheri,Best laparoscopic surgeon in Santacruz  expert surgeon Mumbai, hope through surgery, quality surgical care"
   />
   <meta name="author" content="Dr. Shazia Waghoo" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />

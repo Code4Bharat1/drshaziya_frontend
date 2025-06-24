@@ -75,14 +75,14 @@ const OfferExpertise = () => {
 {/* SEO Start from here */}
   <Head>
         {/* ✅ Basic SEO */}
-        <title>Expert Surgical Specialties | Dr. Shazia Waghoo</title>
+        <title>Dr. Shazia Waghoo Laparoscopic Surgeon in Andheri and Santacruz</title>
         <meta
           name="description"
           content="Explore surgical expertise by Dr. Shazia Waghoo, including laparoscopic, hernia, breast, colorectal, thyroid, GI, and laser surgeries in Mumbai."
         />
         <meta
           name="keywords"
-          content="Dr. Shazia Waghoo,Dr Shazia Waghoo Santacruz,Dr Shazia Waghoo Andheri,Best laparoscopic surgeon in Santacruz  , Laparoscopic Surgery, Hernia Surgery, Breast Surgery, Colorectal Surgery, Thyroid Surgery, GI Surgery, Laser Surgery, Mumbai Surgeon, Abdominal Wall Reconstruction"
+          content=" Hernia specialist in Andheri Laparoscopic surgeon in Santacruz Breast surgery doctor in Andheri Dr Shazia Waghoo,Dr Shazia Waghoo Santacruz,Dr Shazia Waghoo Andheri,Best laparoscopic surgeon in Santacruz  , Laparoscopic Surgery, Hernia Surgery, Breast Surgery, Colorectal Surgery, Thyroid Surgery, GI Surgery, Laser Surgery, Mumbai Surgeon, Abdominal Wall Reconstruction"
         />
         <meta name="author" content="Dr. Shazia Waghoo" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />

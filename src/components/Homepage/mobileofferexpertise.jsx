@@ -66,14 +66,14 @@ const MobileOfferExpertise = () => {
   return (
     <>
       <Head>
-        <title>Dr. Shazia Waghoo – Surgical Expertise in Mumbai</title>
+        <title>Dr. Shazia Waghoo Laparoscopic Surgeon in Andheri and Santacruz</title>
         <meta
           name="description"
           content="Explore the wide range of surgeries offered by Dr. Shazia Waghoo – from laparoscopic and hernia surgeries to breast, laser, thyroid, and gastrointestinal procedures."
         />
         <meta
           name="keywords"
-          content="Dr. Shazia Waghoo, Dr Shazia Waghoo Santacruz ,Dr Shazia Waghoo Andheri,Best laparoscopic surgeon in Santacruz  expert surgeon Mumbai, hope through surgery, quality surgical care"
+          content=" Hernia specialist in Andheri Laparoscopic surgeon in Santacruz Breast surgery doctor in Andheri Dr Shazia Waghoo, Dr Shazia Waghoo Santacruz ,Dr Shazia Waghoo Andheri,Best laparoscopic surgeon in Santacruz  expert surgeon Mumbai, hope through surgery, quality surgical care"
         />
         <meta name="author" content="Dr. Shazia Waghoo" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />

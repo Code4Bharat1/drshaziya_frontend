@@ -12,7 +12,7 @@ const DemystifyingMobile = () => {
     {/* SEO start from here */}
     <Head>
   {/* ✅ Basic SEO Tags */}
-  <title>Demystifying Surgery – Consult Dr. Shazia Waghoo</title>
+  <title>Dr. Shazia Waghoo Laparoscopic Surgeon in Andheri and Santacruz</title>
   <meta
     name="description"
     content="Dr. Shazia Waghoo simplifies the surgical experience by offering expert consultation for 30+ diseases. Get seamless care and faster healing today."

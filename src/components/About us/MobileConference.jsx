@@ -71,7 +71,7 @@ const MobileConference = () => {
       "@context": "https://schema.org",
       "@type": "Person",
       "name": "Dr. Shazia Waghoo",
-      "description": "General, Hernia, and Laparoscopic Surgeon with several conference presentations on CRS+HIPEC, ovarian cancer, and general surgery education.",
+      "description": " Hernia, and Laparoscopic Surgeon with several conference presentations on CRS+HIPEC, ovarian cancer, and general surgery education.",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://drshaziawaghoo.com/"

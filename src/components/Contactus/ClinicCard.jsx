@@ -293,11 +293,11 @@ const ClinicCard = () => {
   />
   <meta
     name="keywords"
-    content="Dr. Shazia Waghoo, clinic locations Mumbai, surgery clinics Mumbai, laparoscopic surgery clinics, multispecialty surgical clinics, Andheri, Chembur, Khar, Santacruz, Kurla"
+    content=" Hernia specialist in Andheri Laparoscopic surgeon in Santacruz Breast surgery doctor in Andheri Dr Shazia Waghoo, clinic locations Mumbai, surgery clinics Mumbai, laparoscopic surgery clinics, multispecialty surgical clinics, Andheri, Chembur, Khar, Santacruz, Kurla"
   />
   <meta name="author" content="Dr. Shazia Waghoo" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <link rel="canonical" href="https://drshaziawaghoosurgery.com/clinics" />
+  <link rel="canonical" href="https://drshaziawaghoosurgery.com" />
 
   {/* ✅ Open Graph Meta for Facebook/LinkedIn */}
   <meta property="og:title" content="Clinic Locations – Dr. Shazia Waghoo | Multispecialty Surgery Clinics in Mumbai" />
@@ -306,7 +306,7 @@ const ClinicCard = () => {
     content="Explore all clinic locations of Dr. Shazia Waghoo for expert laparoscopic and surgical consultations across Mumbai."
   />
   <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://drshaziawaghoosurgery.com/clinics" />
+  <meta property="og:url" content="https://drshaziawaghoosurgery.com/" />
   <meta property="og:image" content="https://drshaziawaghoosurgery.com/images/clinic-locations-og.jpg" />
 
   {/* ✅ Twitter Card Meta */}

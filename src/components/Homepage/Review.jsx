@@ -91,14 +91,14 @@ const Review = () => {
     {/* SEO from here */}
     <Head>
         {/* ✅ Basic SEO */}
-        <title>Patient Reviews | Dr. Shazia Waghoo – Verified Google Testimonials</title>
+        <title>Dr. Shazia Waghoo Laparoscopic Surgeon in Andheri and Santacruz</title>
         <meta
           name="description"
           content="Read verified patient reviews and testimonials for Dr. Shazia Waghoo, Mumbai-based Laparoscopic, Hernia, and Breast Surgeon. Trusted by many for compassionate care and expert surgery."
         />
         <meta
           name="keywords"
-          content="Dr. Shazia Waghoo Dr Shazia Waghoo Santacruz Dr Shazia Waghoo Andheri Dr Shazia laparoscopic hernia breast  surgeon "
+          content="Hernia specialist in Andheri Laparoscopic surgeon in Santacruz Breast surgery doctor in Andheri Dr. Shazia Waghoo Dr Shazia Waghoo Santacruz Dr Shazia Waghoo Andheri Dr Shazia laparoscopic hernia breast  surgeon "
         />
         <meta name="author" content="Dr.Shazia Waghoo" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />

@@ -38,11 +38,11 @@ const Conference = () => {
   />
   <meta
     name="keywords"
-    content="Dr. Shazia Waghoo, Dr Shazia Waghoo Santacruz ,Dr Shazia Waghoo Andheri,Best laparoscopic surgeon in Santacruz  expert surgeon Mumbai, hope through surgery, quality surgical care"
+    content=" Hernia specialist in Andheri Laparoscopic surgeon in Santacruz Breast surgery doctor in Andheri Dr Shazia Waghoo, Dr Shazia Waghoo Santacruz ,Dr Shazia Waghoo Andheri,Best laparoscopic surgeon in Santacruz  expert surgeon Mumbai, hope through surgery, quality surgical care"
   />
   <meta name="author" content="Dr. Shazia Waghoo" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <link rel="canonical" href="https://drshaziawaghoosurgery.com/conference" />
+  <link rel="canonical" href="https://drshaziawaghoosurgery.com" />
 
   {/* ✅ Open Graph (Facebook, LinkedIn) */}
   <meta property="og:title" content="Conference Presentations – Dr. Shazia Waghoo" />
@@ -50,7 +50,7 @@ const Conference = () => {
     property="og:description"
     content="Highlights of Dr. Shazia Waghoo’s contributions to global surgical conferences including CRS+HIPEC and ovarian cancer research."
   />
-  <meta property="og:url" content="https://drshaziawaghoo.com/" />
+  <meta property="og:url" content="https://drshaziawaghoo.com" />
   <meta property="og:type" content="website" />
   <meta property="og:image" content="https://drshaziawaghoosurgery.com/images/conference-og.jpg" />
 

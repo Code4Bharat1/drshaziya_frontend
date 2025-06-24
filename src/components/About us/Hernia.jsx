@@ -15,11 +15,11 @@ const Hernia = () => {
   />
   <meta
     name="keywords"
-    content="Dr. Shazia Waghoo, Dr Shazia Waghoo Santacruz ,Dr Shazia Waghoo Andheri,Best laparoscopic surgeon in Santacruz  expert surgeon Mumbai, hope through surgery, quality surgical care"
+    content="Dr Shazia Waghoo, Dr Shazia Waghoo Santacruz ,Dr Shazia Waghoo Andheri,Best laparoscopic surgeon in Santacruz  expert surgeon Mumbai, hope through surgery, quality surgical care"
   />
   <meta name="author" content="Dr. Shazia Waghoo" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <link rel="canonical" href="https://drshaziawaghoosurgery.com/hernia" />
+  <link rel="canonical" href="https://drshaziawaghoosurgery.com" />
 
   {/* ✅ Open Graph for Social Media Sharing */}
   <meta property="og:title" content="Dr. Shazia Waghoo – Laparoscopic & Hernia Surgeon in Mumbai" />
@@ -50,7 +50,7 @@ const Hernia = () => {
         "image": "https://drshaziawaghoosurgery.com/images/drshazia-cover.jpg",
         "description": "Experienced Laparoscopic, Hernia & Breast Surgeon in Mumbai with over 10 years of surgical excellence.",
         "medicalSpecialty": ["Laparoscopic Surgery", "Hernia Surgery", "Breast Surgery"],
-        "url": "https://drshaziawaghoo.com/",
+        "url": "https://drshaziawaghoo.com",
         "alumniOf": [
           {
             "@type": "EducationalOrganization",

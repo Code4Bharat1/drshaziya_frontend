@@ -38,14 +38,14 @@ const OurImpact = () => {
     {/* SEO start from here */}
     <Head>
         {/* ✅ Meta Title and Description */}
-        <title>Our Impact – Happy Patients, Surgical Success & Hospital Affiliations | Dr. Shazia Waghoo</title>
+        <title>Dr. Shazia Waghoo Laparoscopic Surgeon in Andheri and Santacruz</title>
         <meta
           name="description"
-          content="Discover Dr. Shazia Waghoo’s healthcare impact with over 2,000 happy patients, 1,000+ successful surgeries, and affiliations with top Mumbai hospitals."
+          content="Dr. Shazia Waghoo, Dr Shazia Waghoo Santacruz ,Dr Shazia Waghoo Andheri,Best laparoscopic surgeon in Santacruz  expert surgeon Mumbai, hope through surgery, quality surgical care"
         />
         <meta
           name="keywords"
-          content="Dr. Shazia Waghoo, Dr Shazia Waghoo Santacruz Dr Shazia Waghoo Andheri ,Best laparoscopic surgeon in Santacruz, hernia surgery, breast surgeon, Mumbai hospitals"
+          content=" Hernia specialist in Andheri Laparoscopic surgeon in Santacruz Breast surgery doctor in Andheri Dr Shazia Waghoo, Dr Shazia Waghoo Santacruz Dr Shazia Waghoo Andheri ,Best laparoscopic surgeon in Santacruz, hernia surgery, breast surgeon, Mumbai hospitals"
         />
         <meta name="author" content="Dr. Shazia Waghoo" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />

@@ -58,14 +58,14 @@ const MobileSurgicalExcellence = () => {
     {/* SEO start from here */}
       <Head>
         {/* ✅ Basic SEO */}
-        <title>Advanced Surgical Care by Dr. Shazia Waghoo | Mobile Friendly</title>
+        <title>Dr. Shazia Waghoo Laparoscopic Surgeon in Andheri and Santacruz</title>
         <meta
           name="description"
           content="Explore mobile-optimized, immersive surgical care with Dr. Shazia Waghoo, featuring modern modalities and compassionate expertise."
         />
         <meta
           name="keywords"
-          content="Dr. Shazia Waghoo, Dr Shazia Waghoo Santacruz Dr Shazia Waghoo Andheri Best laparoscopic surgeon in Santacruz Top hernia specialist Santacruz"
+          content=" Hernia specialist in Andheri Laparoscopic surgeon in Santacruz Breast surgery doctor in Andheri Dr. Shazia Waghoo, Dr Shazia Waghoo Santacruz Dr Shazia Waghoo Andheri Best laparoscopic surgeon in Santacruz Top hernia specialist Santacruz"
         />
         <meta name="author" content="Dr. Shazia Waghoo" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />

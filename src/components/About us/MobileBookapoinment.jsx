@@ -52,7 +52,7 @@ export default function BookAppointmentMobile() {
       "@context": "https://schema.org",
       "@type": "MedicalClinic",
       "name": "Dr. Shazia Waghoo's Surgery Clinic",
-      "url": "https://drshaziawaghoo.com/",
+      "url": "https://drshaziawaghoo.com",
       "image": "https://drshaziawaghoosurgery.com/images/book-appointment-cover.jpg",
       "description": "Trusted clinic for laparoscopic, hernia, and breast surgery led by Dr. Shazia Waghoo.",
       "address": {

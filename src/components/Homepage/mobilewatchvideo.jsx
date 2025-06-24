@@ -7,14 +7,14 @@ const MobileWatchVideo = () => {
     {/* SEO Start from here */}
      <Head>
         {/* ✅ Basic SEO */}
-        <title>Watch Dr. Shazia Waghoo | Patient-Centered Surgical Care</title>
+        <title>Dr. Shazia Waghoo Laparoscopic Surgeon in Andheri and Santacruz</title>
         <meta
           name="description"
           content="Watch informative videos to learn more about Dr. Shazia Waghoo’s surgical expertise, patient approach, and healthcare services in Mumbai."
         />
         <meta
           name="keywords"
-          content="Dr. Shazia Waghoo,Dr Shazia Waghoo Santacruz, Dr Shazia Waghoo Andheri, Best laparoscopic surgeon in Santacruz,Hernia surgery doctor in Andheri, Hernia, Laparoscopy, Breast Surgery, Surgical Experience"
+          content=" Hernia specialist in Andheri Laparoscopic surgeon in Santacruz Breast surgery doctor in Andheri Dr Shazia Waghoo,Dr Shazia Waghoo Santacruz, Dr Shazia Waghoo Andheri, Best laparoscopic surgeon in Santacruz,Hernia surgery doctor in Andheri, Hernia, Laparoscopy, Breast Surgery, Surgical Experience"
         />
         <meta name="author" content="Dr. Shazia Waghoo" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
