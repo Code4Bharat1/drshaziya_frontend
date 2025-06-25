@@ -61,11 +61,11 @@ const Awareness3 = () => {
   <title>Breast Cancer Awareness Drives – Dr. Shazia Waghoo</title>
   <meta
     name="description"
-    content="Breast cancer awareness events by Dr. Shazia Waghoo at Kokan Cooperative Bank and Asian Paints Pvt Ltd, Mumbai. Promoting early detection and women's health."
+    content="Hernia specialist in Andheri Laparoscopic surgeon in Santacruz Breast surgery doctor in Andheri Dr Shazia Waghoo surgeon Dr Shazia Waghoo Santacruz  Dr Shazia Waghoo Andheri Dr Shazia laparoscopic surgeon Best laparoscopic surgeon in Santacruz"
   />
   <meta
     name="keywords"
-    content="Dr. Shazia Waghoo, breast cancer awareness, cancer awareness Mumbai, health awareness drives, Kokan Bank event, Asian Paints health session, women's health, early detection cancer"
+    content="Hernia specialist in Andheri Laparoscopic surgeon in Santacruz Breast surgery doctor in Andheri Dr Shazia Waghoo surgeon Dr Shazia Waghoo Santacruz  Dr Shazia Waghoo Andheri Dr Shazia laparoscopic surgeon Best laparoscopic surgeon in Santacruz"
   />
   <meta name="author" content="Dr. Shazia Waghoo" />
   <link rel="canonical" href="https://drshaziawaghoo.com/" />

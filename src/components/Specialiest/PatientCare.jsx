@@ -88,22 +88,22 @@ const PatientCare = () => {
   return (
     <>
     <Head>
-  {/* ✅ Basic SEO */}
+
   <title>Comprehensive Patient Care – Dr. Shazia Waghoo</title>
   <meta
     name="description"
-    content="Explore our complete patient care services – from pre-operative assessments to post-op recovery, diet, physiotherapy, and follow-up care by Dr. Shazia Waghoo's dedicated team."
+    content="Hernia specialist in Andheri Laparoscopic surgeon in Santacruz Breast surgery doctor in Andheri Dr Shazia Waghoo surgeon Dr Shazia Waghoo Santacruz  Dr Shazia Waghoo Andheri Dr Shazia laparoscopic surgeon Best laparoscopic surgeon in Santacruz"
   />
   <meta
     name="keywords"
-    content="Dr. Shazia Waghoo, Dr Shazia Waghoo Santacruz ,Dr Shazia Waghoo Andheri,Best laparoscopic surgeon in Santacruz  expert surgeon Mumbai, hope through surgery, quality surgical care"
+    content="Hernia specialist in Andheri Laparoscopic surgeon in Santacruz Breast surgery doctor in Andheri Dr Shazia Waghoo surgeon Dr Shazia Waghoo Santacruz  Dr Shazia Waghoo Andheri Dr Shazia laparoscopic surgeon Best laparoscopic surgeon in Santacruz"
   />
   <meta name="author" content="Dr. Shazia Waghoo" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link rel="canonical" href="https://drshaziawaghoo.com/" />
 
   {/* ✅ Open Graph for social sharing */}
-  <meta property="og:title" content="Comprehensive Patient Care – Dr. Shazia Waghoo" />
+  <meta property="og:title" content="Hernia specialist in Andheri Laparoscopic surgeon in Santacruz Breast surgery doctor in Andheri Dr Shazia Waghoo surgeon Dr Shazia Waghoo Santacruz  Dr Shazia Waghoo Andheri Dr Shazia laparoscopic surgeon Best laparoscopic surgeon in Santacruz" />
   <meta
     property="og:description"
     content="We provide end-to-end patient care – from pre-operative assessment, physiotherapy, to post-op and follow-up care – tailored to individual patient needs."

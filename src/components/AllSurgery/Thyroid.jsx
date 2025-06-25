@@ -39,7 +39,7 @@ const Thyroid = () => {
   />
   <meta
     name="keywords"
-    content="Thyroid surgery Mumbai, thyroidectomy, goitre treatment, thyroid cancer, hyperthyroidism surgery, Dr. Shazia Waghoo, best thyroid surgeon in Mumbai"
+    content="Hernia specialist in Andheri Laparoscopic surgeon in Santacruz Breast surgery doctor in Andheri Dr Shazia Waghoo surgeon Dr Shazia Waghoo Santacruz  Dr Shazia Waghoo Andheri Dr Shazia laparoscopic surgeon Best laparoscopic surgeon in Santacruz"
   />
   <meta name="author" content="Dr. Shazia Waghoo" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />

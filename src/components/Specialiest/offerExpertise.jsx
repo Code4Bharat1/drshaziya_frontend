@@ -78,18 +78,18 @@ const OfferExpertise = () => {
   <title>Expert Surgical Procedures by Dr. Shazia Waghoo</title>
   <meta
     name="description"
-    content="Explore the wide range of surgical expertise offered by Dr. Shazia Waghoo, including laparoscopic, hernia, breast, thyroid, colorectal, and gastrointestinal surgeries in Mumbai."
+    content="Hernia specialist in Andheri Laparoscopic surgeon in Santacruz Breast surgery doctor in Andheri Dr Shazia Waghoo surgeon Dr Shazia Waghoo Santacruz  Dr Shazia Waghoo Andheri Dr Shazia laparoscopic surgeon Best laparoscopic surgeon in Santacruz"
   />
   <meta
     name="keywords"
-    content="Dr. Shazia Waghoo, Dr Shazia Waghoo Santacruz ,Dr Shazia Waghoo Andheri,Best laparoscopic surgeon in Santacruz  expert surgeon Mumbai, hope through surgery, quality surgical care"
+    content="Hernia specialist in Andheri Laparoscopic surgeon in Santacruz Breast surgery doctor in Andheri Dr Shazia Waghoo surgeon Dr Shazia Waghoo Santacruz  Dr Shazia Waghoo Andheri Dr Shazia laparoscopic surgeon Best laparoscopic surgeon in Santacruz"
   />
   <meta name="author" content="Dr. Shazia Waghoo" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link rel="canonical" href="https://drshaziawaghoo.com/" />
 
   {/* ✅ Open Graph for Social Sharing */}
-  <meta property="og:title" content="Expert Surgical Procedures by Dr. Shazia Waghoo" />
+  <meta property="og:title" content="Hernia specialist in Andheri Laparoscopic surgeon in Santacruz Breast surgery doctor in Andheri Dr Shazia Waghoo surgeon Dr Shazia Waghoo Santacruz  Dr Shazia Waghoo Andheri Dr Shazia laparoscopic surgeon Best laparoscopic surgeon in Santacruz" />
   <meta
     property="og:description"
     content="Discover surgical excellence with Dr. Shazia Waghoo – Laparoscopic, Hernia, Breast, Colorectal, GI, Laser, Thyroid and Abdominal wall reconstruction surgeries."

@@ -98,11 +98,11 @@ const Testimonial = () => {
   <title>Patient Testimonials – Dr. Shazia Waghoo</title>
   <meta
     name="description"
-    content="Read heartfelt reviews and testimonials from patients who received exceptional care from Dr. Shazia Waghoo, a leading hernia and laparoscopic surgeon."
+    content=" Hernia specialist in Andheri Laparoscopic surgeon in Santacruz Breast surgery doctor in Andheri Read heartfelt reviews and testimonials from patients who received exceptional care from Dr. Shazia Waghoo, a leading hernia and laparoscopic surgeon."
   />
   <meta
     name="keywords"
-    content="Dr. Shazia Waghoo, Dr Shazia Waghoo Santacruz ,Dr Shazia Waghoo Andheri,Best laparoscopic surgeon in Santacruz  expert surgeon Mumbai, hope through surgery, quality surgical care"
+    content=" Hernia specialist in Andheri Laparoscopic surgeon in Santacruz Breast surgery doctor in Andheri Dr Shazia Waghoo, Dr Shazia Waghoo Santacruz ,Dr Shazia Waghoo Andheri,Best laparoscopic surgeon in Santacruz  expert surgeon Mumbai, hope through surgery, quality surgical care"
   />
   <meta name="author" content="Dr. Shazia Waghoo" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />

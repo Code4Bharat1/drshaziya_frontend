@@ -49,7 +49,7 @@ const MobilePatientCare = () => {
   />
   <meta
     name="keywords"
-    content="patient care, Dr. Shazia Waghoo, pre-operative care, post-operative care, follow-up care, physiotherapy, laparoscopic surgery, diet and lifestyle, Mumbai surgeon"
+    content="Hernia specialist in Andheri Laparoscopic surgeon in Santacruz Breast surgery doctor in Andheri Dr Shazia Waghoo surgeon Dr Shazia Waghoo Santacruz  Dr Shazia Waghoo Andheri Dr Shazia laparoscopic surgeon Best laparoscopic surgeon in Santacruz"
   />
   <meta name="author" content="Dr. Shazia Waghoo" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
