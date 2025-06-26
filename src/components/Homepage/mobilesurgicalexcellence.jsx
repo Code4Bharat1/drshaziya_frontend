@@ -65,7 +65,8 @@ const MobileSurgicalExcellence = () => {
         />
         <meta
           name="keywords"
-          content=" Hernia specialist in Andheri Laparoscopic surgeon in Santacruz Breast surgery doctor in Andheri Dr. Shazia Waghoo, Dr Shazia Waghoo Santacruz Dr Shazia Waghoo Andheri Best laparoscopic surgeon in Santacruz Top hernia specialist Santacruz"
+          content="Laparoscopic Surgeon in Santacruz Piles Specialist Santacruz Mumbai Fissure and Fistula Doctor in Santacruz Best Female Surgeon in Santacruz General Surgeon near Santacruz West Hernia Operation in Santacruz Gallbladder Removal Surgeon Santacruz Female Proctologist Santacruz
+ Hernia specialist in Andheri Laparoscopic surgeon in Santacruz Breast surgery doctor in Andheri Dr. Shazia Waghoo, Dr Shazia Waghoo Santacruz Dr Shazia Waghoo Andheri Best laparoscopic surgeon in Santacruz Top hernia specialist Santacruz"
         />
         <meta name="author" content="Dr. Shazia Waghoo" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />

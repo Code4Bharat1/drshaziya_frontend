@@ -11,7 +11,7 @@ const content = [
     ],
   },
   {
-    title: "When do Doctors Advise Thyroid surgery?",
+    title: "When do Doctors Advise Thyroid surgery  ",
     text: [
       `Doctors recommend thyroid surgery for various reasons, with suspicious nodules being a common indication due to potential cancer risk. It is also performed to treat confirmed thyroid cancer and prevent its spread. Large goiters causing breathing or swallowing issues may need removal. Surgery is considered for hyperthyroidism when medications fail or aren’t suitable. The decision depends on individual patient needs and medical evaluation.`,
     ],

@@ -16,11 +16,11 @@ const Artical1 = () => {
   />
   <meta
     name="keywords"
-    content="Hernia specialist in Andheri Laparoscopic surgeon in Santacruz Breast surgery doctor in Andheri Dr Shazia Waghoo surgeon Dr Shazia Waghoo Santacruz  Dr Shazia Waghoo Andheri Dr Shazia laparoscopic surgeon Best laparoscopic surgeon in Santacruz"
+    content="Minimally invasive surgery in Vashi/Santacruz/Khar Best laparoscopic gallbladder surgeon near me Laser surgery for piles in Mumbai suburbs Female gastrointestinal surgeon in Mumbai"
   />
   <meta name="author" content="Dr. Shazia Waghoo" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <link rel="canonical" href="https://drshaziawaghoosurgery.com/articles/article-1" />
+  <link rel="canonical" href="https://drshaziawaghoosurgery.com" />
 
   {/* ✅ Open Graph (Facebook, LinkedIn) */}
   <meta property="og:title" content="Article 1: Training & Development in Healthcare – Dr. Shazia Waghoo" />

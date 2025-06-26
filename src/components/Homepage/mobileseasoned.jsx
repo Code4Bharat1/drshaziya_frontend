@@ -16,7 +16,7 @@ const MobileSeasoned = () => {
         />
         <meta
           name="keywords"
-          content=" Hernia specialist in Andheri Laparoscopic surgeon in Santacruz Breast surgery doctor in Andheri Dr Shazia Waghoo,Dr Shazia Waghoo Santacruz,Dr Shazia Waghoo Andheri,Top hernia specialist Santacruz,Hernia surgery doctor in Andher Laparoscopic Surgeon Mumbai, Hernia Specialist, Breast Surgeon, Women Surgeon Mumbai, Minimally Invasive Surgery, Female Surgeon"
+          content=" Minimally invasive surgery in Vashi/Santacruz/Khar Best laparoscopic gallbladder surgeon near me Laser surgery for piles in Mumbai suburbs Female gastrointestinal surgeon in Mumbai Hernia specialist in Andheri Laparoscopic surgeon in Santacruz Breast surgery doctor in Andheri Dr Shazia Waghoo,Dr Shazia Waghoo Santacruz,Dr Shazia Waghoo Andheri,Top hernia specialist Santacruz,Hernia surgery doctor in Andher Laparoscopic Surgeon Mumbai, Hernia Specialist, Breast Surgeon, Women Surgeon Mumbai, Minimally Invasive Surgery, Female Surgeon"
         />
         <meta name="author" content="Dr. Shazia Waghoo" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
