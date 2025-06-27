@@ -7,7 +7,7 @@ const MissionVission = () => {
     <>
     <Head>
   {/* ✅ Basic Meta Tags */}
-  <title>Our Vision & Mission – Dr. Shazia Waghoo’s Surgical Excellence</title>
+  <title>Our Vision – Dr. Shazia Waghoo’s Commitment to Excellence</title>
   <meta
     name="description"
     content="Learn about our mission to deliver affordable, high-quality surgical care and our vision to improve millions of lives through cutting-edge techniques led by Dr. Shazia Waghoo."

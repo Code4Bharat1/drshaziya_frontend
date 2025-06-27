@@ -75,14 +75,15 @@ const OfferExpertise = () => {
 {/* SEO Start from here */}
   <Head>
         {/* ✅ Basic SEO */}
-        <title>Dr. Shazia Waghoo Laparoscopic Surgeon in Andheri and Santacruz</title>
+        <title>Dr. Shazia – Laparoscopic & Breast Surgeon Andheri, Santacruz</title>
         <meta
           name="description"
           content="Explore surgical expertise by Dr. Shazia Waghoo, including laparoscopic, hernia, breast, colorectal, thyroid, GI, and laser surgeries in Mumbai."
         />
         <meta
           name="keywords"
-          content=" Minimally invasive surgery in Vashi/Santacruz/Khar Best laparoscopic gallbladder surgeon near me Laser surgery for piles in Mumbai suburbs Female gastrointestinal surgeon in Mumbai  Hernia specialist in Andheri Laparoscopic surgeon in Santacruz Breast surgery doctor in Andheri Dr Shazia Waghoo,Dr Shazia Waghoo Santacruz,Dr Shazia Waghoo Andheri,Best laparoscopic surgeon in Santacruz  , Laparoscopic Surgery, Hernia Surgery, Breast Surgery, Colorectal Surgery, Thyroid Surgery, GI Surgery, Laser Surgery, Mumbai Surgeon, Abdominal Wall Reconstruction"
+          content="Laparoscopic Surgeon in Vashi Piles Doctor in Vashi Fissure Treatment in Vashi Fistula Specialist in Vashi Female Surgeon in Vashi Best General Surgeon in Vashi Hernia Surgery in Vashi Gallbladder Surgeon Vashi Proctologist in Vashi Women Surgeon near Vashi Navi Mumbai
+ Minimally invasive surgery in Vashi/Santacruz/Khar Best laparoscopic gallbladder surgeon near me Laser surgery for piles in Mumbai suburbs Female gastrointestinal surgeon in Mumbai  Hernia specialist in Andheri Laparoscopic surgeon in Santacruz Breast surgery doctor in Andheri Dr Shazia Waghoo,Dr Shazia Waghoo Santacruz,Dr Shazia Waghoo Andheri,Best laparoscopic surgeon in Santacruz  , Laparoscopic Surgery, Hernia Surgery, Breast Surgery, Colorectal Surgery, Thyroid Surgery, GI Surgery, Laser Surgery, Mumbai Surgeon, Abdominal Wall Reconstruction"
         />
         <meta name="author" content="Dr. Shazia Waghoo" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />

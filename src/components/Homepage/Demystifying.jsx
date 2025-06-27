@@ -10,7 +10,7 @@ const Demystifying = () => {
     {/* SEO start from here */}
     <Head>
   {/* ✅ Basic SEO */}
-  <title>Demystifying Surgery with Dr. Shazia Waghoo – Safe & Seamless Surgical Experience</title>
+  <title>Dr. Shazia Waghoo – Safe & Seamless Surgical Experience</title>
   <meta
     name="description"
     content="Get expert diagnosis and advanced surgical care with Dr. Shazia Waghoo. We simplify the surgical experience and help patients heal faster with personalized treatment."

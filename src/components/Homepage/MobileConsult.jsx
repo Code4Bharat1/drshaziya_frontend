@@ -26,7 +26,7 @@ const MobileConsult = () => {
     {/* SEO start from here */}
     <Head>
   {/* ✅ Primary Meta Tags */}
-  <title>Why Choose Dr. Shazia Waghoo – Expert in Minimally-Invasive Surgery</title>
+  <title>Why Choose Dr. Shazia Waghoo – Minimally-Invasive Surgery</title>
   <meta
     name="description"
     content="Discover why Dr. Shazia Waghoo is trusted for advanced laparoscopic and laser surgeries. Consult across multiple locations with cashless and rehab support."

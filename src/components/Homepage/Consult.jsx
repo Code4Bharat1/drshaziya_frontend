@@ -76,7 +76,7 @@ const Consult = () => {
     {/* SEO start from here */}
     <Head>
   {/* ✅ Basic SEO */}
-  <title>Why Consult Dr. Shazia Waghoo – Surgical Expertise & Compassionate Care</title>
+  <title>Why Choose Dr. Shazia Waghoo – Expert Surgical Care & Trust</title>
   <meta
     name="description"
     content="Discover why patients trust Dr. Shazia Waghoo for minimally-invasive, laser, and laparoscopic surgeries. Multiple consultation locations and post-op care available."

@@ -12,7 +12,8 @@ const Restoringhealth = () => {
         />
         <meta
           name="keywords"
-          content=" Minimally invasive surgery in Vashi/Santacruz/Khar Best laparoscopic gallbladder surgeon near me Laser surgery for piles in Mumbai suburbs Female gastrointestinal surgeon in Mumbai Laparoscopic Surgeon in Santacruz Piles Specialist Santacruz Mumbai Fissure and Fistula Doctor in Santacruz Best Female Surgeon in Santacruz General Surgeon near Santacruz West Hernia Operation in Santacruz Gallbladder Removal Surgeon Santacruz Female Proctologist Santacruz
+          content="Laparoscopic Surgeon in Vashi Piles Doctor in Vashi Fissure Treatment in Vashi Fistula Specialist in Vashi Female Surgeon in Vashi Best General Surgeon in Vashi Hernia Surgery in Vashi Gallbladder Surgeon Vashi Proctologist in Vashi Women Surgeon near Vashi Navi Mumbai
+ Minimally invasive surgery in Vashi/Santacruz/Khar Best laparoscopic gallbladder surgeon near me Laser surgery for piles in Mumbai suburbs Female gastrointestinal surgeon in Mumbai Laparoscopic Surgeon in Santacruz Piles Specialist Santacruz Mumbai Fissure and Fistula Doctor in Santacruz Best Female Surgeon in Santacruz General Surgeon near Santacruz West Hernia Operation in Santacruz Gallbladder Removal Surgeon Santacruz Female Proctologist Santacruz
  Hernia specialist in Andheri Laparoscopic surgeon in Santacruz Breast surgery doctor in Andheri Dr Shazia Waghoo, laparoscopic surgeon Mumbai, Dr Shazia Waghoo Santacruz, Dr Shazia Waghoo Andheri Best laparoscopic surgeon in Santacruz Top hernia specialist Santacruz"
         />
         <meta name="author" content="Dr. Shazia Waghoo" />
