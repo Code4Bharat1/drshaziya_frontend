@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import Head from 'next/head';
+import Head from "next/head";
 
 
 const Artical1 = () => {

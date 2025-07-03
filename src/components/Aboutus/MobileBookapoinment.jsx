@@ -2,7 +2,7 @@
 import React from "react";
 import Image from "next/image";
 import { useRouter } from 'next/navigation';
-import Head from 'next/head';
+import Head from "next/head";
 
 
 export default function BookAppointmentMobile() {
