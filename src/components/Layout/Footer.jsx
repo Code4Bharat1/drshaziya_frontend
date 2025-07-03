@@ -34,7 +34,7 @@
 //                   className="hover:text-yellow-300 transition-colors duration-200 inline-flex items-center"
 //                 >
 //                   <span className="mr-2">•</span> 
-//                   <span className="break-words font-bold text-[18px]">About Us</span>
+//                   <span className="break-words font-bold text-[18px]">Aboutus</span>
 //                 </a>
 //               </li>
 //               <li>
@@ -216,7 +216,7 @@ const Footer = () => {
   <div className="text-center mb-6">
     <ul className="space-y-3 text-md text-white">
       {[
-        { text: "About Us", href: "/aboutus" },
+        { text: "Aboutus", href: "/aboutus" },
         { text: "Specialties", href: "/specialiest" },
         { text: "Patient Testimonials", href: "/testimonial" },
         { text: "Book Appointment", href: "/#" },
@@ -302,7 +302,7 @@ const Footer = () => {
               </h3>
               <ul className="space-y-2 lg:space-y-3 text-sm lg:text-base text-white">
                 {[
-                  { text: "About Us", href: "/aboutus" },
+                  { text: "Aboutus", href: "/aboutus" },
                   { text: "Specialities", href: "/specialiest" },
                   { text: "Patient Testimonials", href: "/testimonial" },
                 ].map((item, idx) => (

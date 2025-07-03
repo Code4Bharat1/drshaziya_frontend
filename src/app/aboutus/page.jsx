@@ -1,13 +1,13 @@
 
-import BookAppointment from "@/components/About us/bookapoinment";
-import Conference from "@/components/About us/Conference";
-import Hernia from "@/components/About us/Hernia";
-import MobileBookAppointment from "@/components/About us/MobileBookapoinment";
-import MobileConference from "@/components/About us/MobileConference";
-import MobileHernia from "@/components/About us/MobileHernia";
-import MobileRecognitions from "@/components/About us/MobileRecognition";
+import BookAppointment from "@/components/Aboutus/bookapoinment";
+import Conference from "@/components/Aboutus/Conference";
+import Hernia from "@/components/Aboutus/Hernia";
+import MobileBookAppointment from "@/components/Aboutus/MobileBookapoinment";
+import MobileConference from "@/components/Aboutus/MobileConference";
+import MobileHernia from "@/components/Aboutus/MobileHernia";
+import MobileRecognitions from "@/components/Aboutus/MobileRecognition";
 
-import Recognitions from "@/components/About us/Recognitions";
+import Recognitions from "@/components/Aboutus/Recognitions";
 import Footer from "@/components/Layout/Footer";
 import WhatsAppButton from "@/components/Layout/whatsappbutton";
 import React from "react";

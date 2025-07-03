@@ -82,9 +82,10 @@ const Consult = () => {
     content="Discover why patients trust Dr. Shazia Waghoo for minimally-invasive, laser, and laparoscopic surgeries. Multiple consultation locations and post-op care available."
   />
   <meta
-    name="keywords"
-    content=" Minimally invasive surgery in Vashi/Santacruz/Khar Best laparoscopic gallbladder surgeon near me Laser surgery for piles in Mumbai suburbs Female gastrointestinal surgeon in Mumbai General Surgeon in Khar Laparoscopic Surgery in Khar Mumbai Best Female Surgeon in Khar Piles and Fissure Doctor Khar Fistula Treatment Khar Gallbladder Surgery Doctor Khar Hernia Specialist in Khar Mumbai Surgeon near Khar West Hernia specialist in Andheri Laparoscopic surgeon in Santacruz Breast surgery doctor in Andheri Dr Shazia Waghoo, Dr Shazia Waghoo Santacruz ,Dr Shazia Waghoo Andheri,Best laparoscopic surgeon in Santacruz  expert surgeon Mumbai, hope through surgery, quality surgical care"
-  />
+  name="keywords"
+  content="Minimally invasive surgery in Vashi/Santacruz/Khar, Best laparoscopic gallbladder surgeon near me, Laser surgery for piles in Mumbai suburbs, Female gastrointestinal surgeon in Mumbai, General Surgeon in Khar, Laparoscopic Surgery in Khar Mumbai, Best Female Surgeon in Khar, Piles and Fissure Doctor Khar, Fistula Treatment Khar, Gallbladder Surgery Doctor Khar, Hernia Specialist in Khar Mumbai, Surgeon near Khar West, Hernia specialist in Andheri, Laparoscopic surgeon in Santacruz, Breast surgery doctor in Andheri, Dr Shazia Waghoo, Dr Shazia Waghoo Santacruz, Dr Shazia Waghoo Andheri, Best laparoscopic surgeon in Santacruz, expert surgeon Mumbai, hope through surgery, quality surgical care, Lady surgeon in Santacruz, Best general surgeon in Santacruz Mumbai, Laparoscopic surgeon Santacruz, Breast lump surgery in Santacruz, Hernia specialist Santacruz, Piles treatment in Santacruz Mumbai, Gallbladder stone surgery Santacruz, Fissure treatment Santacruz, Fistula specialist in Santacruz, Laser piles surgery Santacruz Mumbai, Appendix surgery in Santacruz, Daycare surgery in Santacruz, Female doctor for surgery in Santacruz, Proctologist in Santacruz, Best laparoscopic surgeon near Santacruz"
+/>
+
   <meta name="author" content="Dr. Shazia Waghoo" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link rel="canonical" href="https://drshaziawaghoo.com/" />

@@ -1,7 +1,22 @@
 import React from 'react';
-
+import Head from 'next/head';
 const WatchVedio = () => {
   return (
+     
+    <>
+      {/* SEO Meta Tags */}
+      <Head>
+        <title>Watch Videos - Dr. Shazia Waghoo</title>
+        <meta name="description" content="Watch informative videos featuring Dr. Shazia Waghoo to learn more about her expertise and contributions." />
+        <meta name="keywords" content="Dr. Shazia Waghoo, health expert, video, wellness, medical guidance, educational video ,Best surgeon in Santacruz, Lady surgeon Santacruz Mumbai, Laparoscopic surgeon Santacruz, General surgeon Santacruz West, Piles treatment Santacruz, Gallbladder stone surgery Santacruz, Hernia specialist in Santacruz, Fissure doctor Santacruz, Fistula specialist Santacruz, Laser piles surgery Mumbai, Breast lump surgery in Santacruz, Appendix surgery in Mumbai, Female surgeon for daycare surgery Santacruz, Dr Shazia Waghoo surgeon Mumbai, Expert laparoscopic surgeon Santacruz, Proctologist near Santacruz" />
+        <meta name="author" content="Dr. Shazia Waghoo" />
+        <meta property="og:title" content="Watch Videos - Dr. Shazia Waghoo" />
+        <meta property="og:description" content="Discover insightful videos about Dr. Shazia Waghoo's work and expertise." />
+        <meta property="og:type" content="website" />
+        <meta property="og:image" content="/shazia-thumbnail.jpg" /> {/* Replace with actual image if available */}
+        <meta property="og:url" content="https://yourwebsite.com/watch-vedio" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+      </Head>
     <div className="relative bg-[#F8F9FE] pt-16 pb-16 px-4 md:px-20 overflow-hidden">
       {/* Half Circle Background - curved at top */}
       <div className="absolute top-0 left-1/2 transform -translate-x-1/2 -translate-y-3/4 w-[2100px] h-[2200px] bg-sky-100 rounded-full z-0"></div>
@@ -42,7 +57,7 @@ const WatchVedio = () => {
           ></iframe>
         </div>
       </div>
-    </div>
+    </div></>
   );
 };
 

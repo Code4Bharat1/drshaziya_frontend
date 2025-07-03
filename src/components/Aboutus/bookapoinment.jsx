@@ -1,12 +1,32 @@
 'use client'
 import React from "react";
 import Image from "next/image";
+import Head from "next/head";
 import { useRouter } from 'next/navigation';
 
 export default function BookAppointment() {
     const router = useRouter();
 
   return (
+    <>
+     <Head>
+        <title>Book Appointment | Dr. Shazia Waghoo's Surgery Clinic</title>
+        <meta
+          name="description"
+          content="Book an appointment with Dr. Shazia Waghoo, a leading laparoscopic surgeon in Santacruz and Andheri. Trusted specialist for hernia, gallbladder, breast surgery, and more."
+        />
+        <meta
+          name="keywords"
+          content="Laparoscopic Surgeon Santacruz, Hernia Specialist Andheri, Gallbladder Surgery Mumbai, Dr Shazia Waghoo, Book Surgery Appointment, Best Surgeon in Mumbai, Piles Fissure Surgeon, Lady Surgeon Santacruz"
+        />
+        <meta name="robots" content="index, follow" />
+        <meta name="author" content="Dr. Shazia Waghoo" />
+        <meta property="og:title" content="Dr. Shazia Waghoo's Surgery Clinic" />
+        <meta property="og:description" content="Expert laparoscopic surgery services by Dr. Shazia Waghoo in Santacruz and Andheri. Book your appointment today!" />
+        <meta property="og:image" content="/book-apoinment.jpg" />
+        <meta property="og:url" content="https://drshaziawaghoosurgery.com/contactus" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+      </Head>
     <div className="relative w-full h-[400px] sm:h-[500px] md:h-[600px] lg:h-[700px] overflow-hidden">
       <Image
         src="/book-apoinment.jpg"
@@ -30,6 +50,6 @@ export default function BookAppointment() {
           </button>
         </div>
       </div>
-    </div>
+    </div></>
   );
 }

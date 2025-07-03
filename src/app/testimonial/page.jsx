@@ -1,4 +1,4 @@
-import BookAppointmentMobile from '@/components/About us/MobileBookapoinment'
+import BookAppointmentMobile from '@/components/Aboutus/MobileBookapoinment'
 import Contact from '@/components/Homepage/Contact'
 import ContactMobile from '@/components/Homepage/mobilecontact'
 import MobileWatchVideo from '@/components/Homepage/mobilewatchvideo'

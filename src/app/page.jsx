@@ -1,4 +1,4 @@
-import BookAppointment from "@/components/About us/bookapoinment";
+import BookAppointment from "@/components/Aboutus/bookapoinment";
 import Artical from "@/components/Homepage/Artcal";
 import Consult from "@/components/Homepage/Consult";
 import Contact from "@/components/Homepage/Contact";

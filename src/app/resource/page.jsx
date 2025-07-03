@@ -1,4 +1,4 @@
-import BookAppointmentMobile from '@/components/About us/MobileBookapoinment'
+import BookAppointmentMobile from '@/components/Aboutus/MobileBookapoinment'
 import Artical from '@/components/Homepage/Artcal'
 import MobileOfferExpertise from '@/components/Homepage/mobileofferexpertise'
 import WhatsAppButton from '@/components/Layout/whatsappbutton'

@@ -9,7 +9,7 @@ const Navbar = () => {
 
   const navigationItems = [
     { name: "HOME", href: "/" },
-    { name: "ABOUT US", href: "/aboutus" },
+    { name: "Aboutus", href: "/aboutus" },
     { name: "SPECIALITIES", href: "/specialiest" },
     { name: "TESTIMONIALS & MEDIA", href: "/testimonial" },
     { name: "RESOURCES", href: "/resource" },

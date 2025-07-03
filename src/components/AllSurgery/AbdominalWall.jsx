@@ -66,6 +66,27 @@ const abdominalWallContent = [
 
 const AbdominalWall = () => {
   return (
+    <> <Head>
+        <title>Abdominal Wall Reconstruction Surgery | VLSR Clinic Mumbai</title>
+        <meta
+          name="description"
+          content="Learn about Abdominal Wall Reconstruction Surgery: treatment for complex hernias, abdominal trauma, infected mesh, and more. Performed by specialists in Mumbai at VLSR Clinic."
+        />
+        <meta
+          name="keywords"
+          content="Abdominal Wall Reconstruction, Hernia repair Mumbai, Recurrent hernia surgery, Abdominal trauma treatment, Infected mesh removal, VLSR clinic Mumbai, Complex hernia surgery"
+        />
+        <meta name="robots" content="index, follow" />
+        <meta name="author" content="VLSR Clinic" />
+        <meta property="og:title" content="Abdominal Wall Reconstruction Surgery in Mumbai | VLSR" />
+        <meta
+          property="og:description"
+          content="Expert abdominal wall reconstruction surgery in Mumbai. Treat hernia mesh failure, trauma, and recurrent hernias with advanced care at VLSR."
+        />
+        <meta property="og:image" content="/abdominalwall.jpg" />
+        <meta property="og:url" content="https://drshaziawaghoosurgery.com/abdominal-wall-reconstruction" />
+        <link rel="canonical" href="https://drshaziawaghoosurgery.com/abdominal-wall-reconstruction" />
+      </Head>
      <div className=" md:mt-14 mt-24 bg-white">
     <div className="bg-white p-6 md:p-10 max-w-6xl mx-auto font-sans text-gray-800">
       {/* Header Image */}
@@ -120,7 +141,7 @@ const AbdominalWall = () => {
         </div>
       ))}
     </div>
-    </div>
+    </div></>
   );
 };
 

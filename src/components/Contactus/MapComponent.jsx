@@ -1,6 +1,6 @@
 import React, { useEffect, useRef, useState } from 'react';
+import Head from 'next/head'; // SEO import
 
-// Dynamic import for Leaflet to avoid SSR issues
 const MapComponent = ({ userLocation, clinics, selectedLocation }) => {
   const mapRef = useRef(null);
   const [map, setMap] = useState(null);
@@ -9,20 +9,18 @@ const MapComponent = ({ userLocation, clinics, selectedLocation }) => {
   const [isMapInitialized, setIsMapInitialized] = useState(false);
 
   useEffect(() => {
-    // Dynamically import Leaflet only on client side
     const loadLeaflet = async () => {
       try {
         const leaflet = await import('leaflet');
         await import('leaflet/dist/leaflet.css');
-        
-        // Fix for default marker icons in Leaflet
+
         delete leaflet.default.Icon.Default.prototype._getIconUrl;
         leaflet.default.Icon.Default.mergeOptions({
           iconRetinaUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/images/marker-icon-2x.png',
           iconUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/images/marker-icon.png',
           shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/images/marker-shadow.png',
         });
-        
+
         setL(leaflet.default);
       } catch (error) {
         console.error('Error loading Leaflet:', error);
@@ -42,7 +40,6 @@ const MapComponent = ({ userLocation, clinics, selectedLocation }) => {
 
   useEffect(() => {
     if (map && selectedLocation && markers.length > 0) {
-      // Find the selected marker and open its popup
       const markerData = markers.find((m) => m.clinic.id === selectedLocation.id);
       if (markerData) {
         map.setView([selectedLocation.coordinates.lat, selectedLocation.coordinates.lng], 15);
@@ -57,13 +54,11 @@ const MapComponent = ({ userLocation, clinics, selectedLocation }) => {
     if (!L || !mapRef.current || !userLocation) return;
 
     try {
-      // Clear any existing map
       if (map) {
         map.off();
         map.remove();
       }
 
-      // Create new map instance
       const mapInstance = L.map(mapRef.current, {
         center: [userLocation.lat, userLocation.lng],
         zoom: 12,
@@ -75,16 +70,14 @@ const MapComponent = ({ userLocation, clinics, selectedLocation }) => {
         doubleClickZoom: true,
       });
 
-      // Add OpenStreetMap tiles
       L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-        attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+        attribution: '&copy; OpenStreetMap contributors',
         maxZoom: 19,
       }).addTo(mapInstance);
 
       setMap(mapInstance);
       setIsMapInitialized(true);
 
-      // Add user location marker
       const userIcon = L.divIcon({
         html: `<div style="
           background-color: #00ff00; 
@@ -104,7 +97,6 @@ const MapComponent = ({ userLocation, clinics, selectedLocation }) => {
         title: "Your Location"
       }).addTo(mapInstance).bindPopup("Your Location");
 
-      // Add clinic markers
       const newMarkers = clinics.map((clinic) => {
         const clinicIcon = L.divIcon({
           html: `<div style="
@@ -143,20 +135,17 @@ const MapComponent = ({ userLocation, clinics, selectedLocation }) => {
 
       setMarkers(newMarkers);
 
-      // Fit map to show all markers
       const group = L.featureGroup([
         ...newMarkers.map(m => m.marker),
         L.marker([userLocation.lat, userLocation.lng])
       ]);
-      
-      mapInstance.fitBounds(group.getBounds().pad(0.1));
 
+      mapInstance.fitBounds(group.getBounds().pad(0.1));
     } catch (error) {
       console.error('Error initializing map:', error);
     }
   };
 
-  // Cleanup on unmount
   useEffect(() => {
     return () => {
       if (map) {
@@ -166,7 +155,6 @@ const MapComponent = ({ userLocation, clinics, selectedLocation }) => {
     };
   }, []);
 
-  // Handle window resize
   useEffect(() => {
     const handleResize = () => {
       if (map) {
@@ -184,16 +172,30 @@ const MapComponent = ({ userLocation, clinics, selectedLocation }) => {
 
   return (
     <>
+      <Head>
+        <title>Nearby Clinic Locator | Interactive Map</title>
+        <meta name="description" content="Explore nearby clinics and your current location using our interactive Leaflet map. Easily find directions and clinic details." />
+        <meta name="keywords" content="clinic locator, map, nearby clinic, leaflet map, healthcare locations, medical map, find clinic, location map Best surgeon in Santacruz, Lady surgeon Santacruz Mumbai, Laparoscopic surgeon Santacruz, General surgeon Santacruz West, Piles treatment Santacruz, Gallbladder stone surgery Santacruz, Hernia specialist in Santacruz, Fissure doctor Santacruz, Fistula specialist Santacruz, Laser piles surgery Mumbai, Breast lump surgery in Santacruz, Appendix surgery in Mumbai, Female surgeon for daycare surgery Santacruz, Dr Shazia Waghoo surgeon Mumbai, Expert laparoscopic surgeon Santacruz, Proctologist near Santacruz" />
+        <meta name="robots" content="index, follow" />
+        <meta property="og:title" content="Clinic Locator Map" />
+        <meta property="og:description" content="Find clinics and healthcare locations near you using our interactive Leaflet map." />
+        <meta property="og:type" content="website" />
+        <meta property="og:image" content="/clinic-map-preview.jpg" />
+        <meta property="og:url" content="https://drshaziawaghoosurgery.com/clinic-map" />
+        <link rel="canonical" href="https://drshaziawaghoosurgery.com/clinic-map" />
+      </Head>
+
       <style jsx>{`
         .custom-popup .leaflet-popup-content-wrapper {
           border-radius: 8px;
           box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
         }
-        
+
         .custom-popup .leaflet-popup-tip {
           background: white;
         }
       `}</style>
+
       <div
         ref={mapRef}
         className="w-full h-full rounded-lg shadow-lg bg-gray-100"

@@ -1,6 +1,6 @@
 
-import BookAppointment from '@/components/About us/bookapoinment'
-import BookAppointmentMobile from '@/components/About us/MobileBookapoinment'
+import BookAppointment from '@/components/Aboutus/bookapoinment'
+import BookAppointmentMobile from '@/components/Aboutus/MobileBookapoinment'
 
 import WhatsAppButton from '@/components/Layout/whatsappbutton'
 import MobileOfferExpert from '@/components/Specialiest/Mobileofferexpert'
