@@ -9,21 +9,21 @@ const expertiseData = [
     description:
       "Laparoscopic surgery is a minimally invasive procedure using small incisions, specialized Laparoscopic instruments and a camera to operate inside the body.",
     image: "offer1.png",
-    path: "/allartical/lepocrasy",
+    path: "/allartical/laparoscopy",
   },
   {
     title: "Hernia Surgeries",
     description:
       "Hernia surgery is a procedure to repair a bulge or protrusion caused by an organ pushing through a weak spot in muscle or tissue.",
     image: "offer2.png",
-    path: "/allartical/harnia",
+    path: "/allartical/harniasurgery",
   },
   {
     title: "Breast Surgeries",
     description:
       "Breast surgery involves procedures for treating breast conditions: benign and malignant, or cosmetic procedures including reconstruction.",
     image: "offer3.png",
-    path: "/allartical/breastcancer",
+    path: "/allartical/surgery",
   },
   {
     title: "Colorectal Anorectal Surgeries",
@@ -37,7 +37,7 @@ const expertiseData = [
     description:
       "Laser surgery uses focused light to treat or remove tissue, used to treat anorectal diseases, varicose veins and benign thyroid nodules",
     image: "offer6.png",
-    path: "/allartical/leasersurgary",
+    path: "/allartical/lasersurgary",
   },
   {
     title: "Gastrointestinal Surgeries",
@@ -51,14 +51,14 @@ const expertiseData = [
     description:
       "Thyroid surgery is a procedure to remove part or all of the thyroid gland, to improve conditions caused often due to cancer or nodules.",
     image: "offer8.png",
-    path: "/allartical/thyroid",
+    path: "/allartical/thyroidsurgery",
   },
   {
     title: "Abdominal wall Reconstruction ",
     description:
       "Laser surgery uses focused light to treat or remove tissue, used to treat anorectal diseases, varicose veins and benign thyroid nodules",
     image: "offer7.png",
-    path: "/allartical/abdonomial",
+    path: "/allartical/abdominalsurgery",
   },
 ];
 

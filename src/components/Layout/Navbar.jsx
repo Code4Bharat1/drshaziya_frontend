@@ -2,6 +2,7 @@
 import Image from "next/image";
 import React, { useState } from "react";
 import { usePathname } from "next/navigation";
+import Link from "next/link";
 
 const Navbar = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -9,7 +10,7 @@ const Navbar = () => {
 
   const navigationItems = [
     { name: "HOME", href: "/" },
-    { name: "Aboutus", href: "/aboutus" },
+    { name: "ABOUT US", href: "/aboutus" },
     { name: "SPECIALITIES", href: "/specialiest" },
     { name: "TESTIMONIALS & MEDIA", href: "/testimonial" },
     { name: "RESOURCES", href: "/resource" },
@@ -21,13 +22,15 @@ const Navbar = () => {
       <div className="flex relative pl-15">
         {/* Logo Section */}
         <div className="z-30 bg-white flex items-center px-4 sm:px-7">
-          <Image
-            src="/logo.webp"
-            className="w-100 h-20"
-            alt="image"
-            width={100}
-            height={100}
-          />
+          <Link href="/" passHref>
+            <Image
+              src="/logo.webp"
+              className="w-100 h-20 cursor-pointer"
+              alt="image"
+              width={100}
+              height={100}
+            />
+          </Link>
         </div>
 
         {/* Yellow and Blue Sections */}
@@ -55,9 +58,8 @@ const Navbar = () => {
         <button
           onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
           className="lg:hidden fixed top-4 right-4 sm:right-6 text-white bg-blue-400 hover:bg-blue-400 focus:outline-none p-2 rounded-md shadow-lg z-50 transition-all duration-200  mt-2 "
-         
           aria-label="Toggle mobile menu"
-          style={{ top: '12px' }} // Ensures it's vertically centered in the 80px navbar
+          style={{ top: "12px" }} // Ensures it's vertically centered in the 80px navbar
         >
           <svg
             className={`w-6 h-6 transform transition-transform duration-300 ${
@@ -114,7 +116,7 @@ const Navbar = () => {
         {isMobileMenuOpen && (
           <div
             className="lg:hidden fixed inset-0  z-30"
-            style={{ top: '50px' }} // Start below the navbar
+            style={{ top: "50px" }} // Start below the navbar
             onClick={() => setIsMobileMenuOpen(false)}
           />
         )}
