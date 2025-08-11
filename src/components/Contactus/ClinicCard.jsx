@@ -16,7 +16,7 @@ const clinics = [
   },
   {
     name: "CritiCare Asia Hospital",
-    address: `Building No 1, Kirol Road, off Lal Bahadur Shastri Marg,\nnear Kohinoor International School,\nAli Yavar Jung, Kurla West\nMumbai 400070`,
+    address: `Building No 1, Kirol Road, off Lal Bahadur Shastri Marg,\nnear Kohinoor International School,\nAli Yavar Jung, Kurla (W)\nMumbai 400070`,
     locationUrl: "https://maps.app.goo.gl/cZcxSMhRq5GfAJkK8?g_st=aw",
   },
   {
@@ -26,7 +26,7 @@ const clinics = [
   },
   {
     name: "CritiCare Asia Hospital",
-    address: `Plot No 516, Besides SBI, Teli Gali,\nMaheshwari Nagar, Andheri East,\nMumbai, Maharashtra 400069`,
+    address: `Plot No 516, Besides SBI, Teli Gali,\nMaheshwari Nagar, Andheri (E),\nMumbai, Maharashtra 400069`,
     locationUrl: "https://maps.app.goo.gl/5Ao6jnGeB3DP1k2eA?g_st=aw",
   },
   {
@@ -38,7 +38,11 @@ const clinics = [
     name: "NM Aesthetics",
     address: `Shop no. 1, Kaku Kunj CHS\nOpposite Mazgaon Garden\nSardar Balwant Singh Dodhi Marg\nMazgaon, Mumbai - 10`,
     locationUrl: "https://maps.app.goo.gl/CZn3wx7NM1bTkoB96?g_st=aw",
-    isFeatured: true, // Add a flag for the card you want to center
+  },
+  {
+    name: "HVS Hospital",
+    address: `3rd Floor, Silver Point\nLal Bahadur Shastri Marg, Kasturi Park\nManeklal Estate\nGhatkopar (W), Mumbai - 400086`,
+    locationUrl: "https://maps.app.goo.gl/CZn3wx7NM1bTkoB96?g_st=aw",
   },
 ];
 
@@ -72,6 +76,8 @@ const ClinicCard = () => {
   // When not showing all, display first 6 clinics
   // When showing all, we'll add an empty div if needed for layout
   const displayedClinics = showAll ? [...clinics] : clinics.slice(0, 6);
+  const lastTwo = displayedClinics.slice(-2);
+  const rest = displayedClinics.slice(0, -2);
 
   return (
     <>
@@ -161,11 +167,7 @@ const ClinicCard = () => {
 
       {/* main code start from here */}
       <div className="bg-[#f4f6fb] py-10 px-4">
-        <div
-          className={`max-w-5xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 ${
-            showAll ? "place-items-center" : ""
-          }`}
-        >
+        <div className="max-w-5xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
           {displayedClinics.map((clinic, index) => {
             const addressLines = clinic.address.split("\n");
             const shouldShowSub = SUBLOCATION_WHITELIST.has(clinic.name);
@@ -173,28 +175,87 @@ const ClinicCard = () => {
               ? getSubLocation(clinic.address)
               : null;
 
+            const isTwoInLastRow = displayedClinics.length % 3 === 2;
+            const isFirstOfLastTwo = index === displayedClinics.length - 2;
+            const isLast = index === displayedClinics.length - 1;
+
+            // When there are exactly two items in the last row:
+            if (isTwoInLastRow && isFirstOfLastTwo) {
+              const nextClinic = displayedClinics[index + 1];
+
+              const Card = ({ c }) => {
+                const lines = c.address.split("\n");
+                const showSub = SUBLOCATION_WHITELIST.has(c.name);
+                const sub = showSub ? getSubLocation(c.address) : null;
+
+                return (
+                  <div className="bg-white rounded-md shadow-[0_2px_4px_-1px_rgba(0,0,0,0.2)] border p-6 w-[320px] text-center flex flex-col justify-between h-[320px] border-gray-300">
+                    <div className="flex-grow flex flex-col items-center">
+                      <MapPin className="text-blue-600 mb-2" size={28} />
+                      <p className="font-semibold text-black mt-1 text-[19px] leading-tight">
+                        {c.name}
+                      </p>
+                      {sub && (
+                        <p className="font-bold text-black mt-1 text-[19px] leading-tight">
+                          {sub}
+                        </p>
+                      )}
+                      <div className="text-gray-700 mt-2 text-md">
+                        {lines.map((line, i) => (
+                          <p
+                            key={i}
+                            className={
+                              i === 1 || i === 2 ? "underline text-black" : ""
+                            }
+                          >
+                            {line}
+                          </p>
+                        ))}
+                      </div>
+                    </div>
+                    <div className="pt-4">
+                      <button
+                        onClick={() => window.open(c.locationUrl, "_blank")}
+                        className="bg-[#0085DC] hover:bg-blue-700 text-white text-sm px-4 py-2 rounded"
+                      >
+                        VIEW LOCATION
+                      </button>
+                    </div>
+                  </div>
+                );
+              };
+
+              // Full-width row that centers the last two cards
+              return (
+                <div
+                  key={`last-two-row`}
+                  className="col-span-1 sm:col-span-2 lg:col-span-3 flex justify-center gap-8"
+                >
+                  <Card c={clinic} />
+                  <Card c={nextClinic} />
+                </div>
+              );
+            }
+
+            // Skip rendering the actual last item (already rendered above)
+            if (isTwoInLastRow && isLast) return null;
+
+            // Normal cards
             return (
               <div
                 key={index}
-                className={`bg-white rounded-md shadow-[0_2px_4px_-1px_rgba(0,0,0,0.2)] border p-6 w-full max-w-[2800px] text-center flex flex-col justify-between h-[320px] border-gray-300 ${
-                  showAll && clinic.isFeatured ? "lg:col-start-2" : ""
-                }`}
+                className="bg-white rounded-md shadow-[0_2px_4px_-1px_rgba(0,0,0,0.2)] border p-6 w-full text-center flex flex-col justify-between h-[320px] border-gray-300"
               >
                 <div className="flex-grow flex flex-col items-center">
                   <MapPin className="text-blue-600 mb-2" size={28} />
-
-                  {/* Heading */}
                   <p className="font-semibold text-black mt-1 text-[19px] leading-tight">
                     {clinic.name}
                   </p>
-
-                  {/* Sub-location: ONLY for whitelisted cards */}
                   {subLocation && (
                     <p className="font-bold text-black mt-1 text-[19px] leading-tight">
                       {subLocation}
                     </p>
                   )}
-
                   <div className="text-gray-700 mt-2 text-md">
                     {addressLines.map((line, i) => (
                       <p
@@ -208,7 +269,6 @@ const ClinicCard = () => {
                     ))}
                   </div>
                 </div>
-
                 <div className="pt-4">
                   <button
                     onClick={() => window.open(clinic.locationUrl, "_blank")}
