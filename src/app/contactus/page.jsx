@@ -1,5 +1,3 @@
-
-
 import BookAppointment from "@/components/Aboutus/bookapoinment";
 import BookAppointmentMobile from "@/components/Aboutus/MobileBookapoinment";
 import ClinicCard from "@/components/Contactus/ClinicCard";
@@ -11,22 +9,20 @@ import React from "react";
 
 const page = () => {
   return (
-  <>
-    <div className="hidden md:block">
-      <WhatsAppButton />
-    <Maincontactus/>
-    <ClinicCard/>
-    <BookAppointment/>
-    </div>
-    <div className="block md:hidden">
-      <WhatsAppButton/>
-      <Mobilemaincontatcus/>
-      <MobileClinicCard/>
-      <BookAppointmentMobile/>
-      
-    </div>
-  </>
-
+    <>
+      <div className="hidden md:block">
+        <WhatsAppButton />
+        <Maincontactus />
+        <ClinicCard />
+        <BookAppointment />
+      </div>
+      <div className="block md:hidden">
+        <WhatsAppButton />
+        <Mobilemaincontatcus />
+        <MobileClinicCard />
+        <BookAppointmentMobile />
+      </div>
+    </>
   );
 };
 
