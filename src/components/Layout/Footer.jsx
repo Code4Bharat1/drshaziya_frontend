@@ -322,8 +322,8 @@ const Footer = () => {
               </h3>
               <ul className="space-y-2 lg:space-y-3 text-sm lg:text-base text-white">
                 {[
-                  { text: "Book Appointment", href: "/#" },
-                  { text: "Article by Dr. Shazia", href: "/" },
+                  { text: "Book Appointment", href: "/contactus" },
+                  { text: "Article by Dr. Shazia", href: "/#artical" },
                 ].map((item, idx) => (
                   <li key={idx}>
                     <a

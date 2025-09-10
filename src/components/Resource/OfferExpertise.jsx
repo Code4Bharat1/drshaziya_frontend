@@ -9,35 +9,35 @@ const expertiseData = [
     description:
       'Laparoscopic surgery is a minimally invasive procedure using small incisions, specialized instruments and a camera to operate inside the body.',
     image: 'offer1.png',
-    path: '/allartical/lepocrasy',
+    path: '/allartical/laparoscopy',
   },
   {
     title: 'Hernia Surgeries',
     description:
       'Hernia surgery is a procedure to repair a bulge or protrusion caused by an organ pushing through a weak spot in muscle or tissue.',
     image: 'offer2.png',
-    path: '/allartical/harnia',
+    path: '/allartical/harniasurgery',
   },
   {
     title: 'Breast Surgeries',
     description:
       'Breast surgery involves procedures for treating breast conditions; benign and malignant, or cosmetic procedures including reconstruction.',
     image: 'offer3.png',
-    path: '/allartical/breastcancer',
+    path: '/allartical/surgery',
   },
      {
     title: 'Thyroid Surgeries',
     description:
            'Thyroid surgery is performed to treat thyroid nodules, cancer, or hyperthyroidism by removing part or all of the thyroid gland.',
     image: 'offer8.png',
-     path: '/allartical/thyroid',
+     path: '/allartical/thyroidsurgery',
   },
   {
     title: 'Colorectal & Anorectal Surgeries',
     description:
       'Colorectal surgery treats disorders of the rectum, anus, and colon including polyps, tumors, and inflammatory bowel diseases.',
     image: 'offer5.png',
-    path: '/allartical/colorectal',
+    path: '/allartical/colorectalsurgery',
   },
  {
     title: 'Laser Surgeries',
@@ -45,14 +45,14 @@ const expertiseData = [
   'Laser surgery uses focused light to treat or remove abnormal tissues with precision and minimal damage to surrounding areas.',
 
     image: 'offer6.png',
-     path: '/allartical/leasersurgary',
+     path: '/allartical/lasersurgary',
   },
   {
     title: 'Abdominal wall Reconstruction ',
     description:
   'Abdominal wall reconstruction is a surgical procedure to repair complex hernias and restore abdominal strength.',
     image: 'offer7.png',
-     path: '/allartical/abdonomial',
+     path: '/allartical/abdominalsurgery',
   },
   {
     title: 'Gastrointestinal Surgeries',

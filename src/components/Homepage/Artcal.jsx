@@ -39,7 +39,7 @@ const Artical = () => {
         <meta property="og:type" content="website" />
       </Head>
 
-      <div className="py-6 bg-[#F8F9FE] flex flex-col items-center">
+      <div id="artical" className="py-6 bg-[#F8F9FE] flex flex-col items-center">
         <h2 className="text-[34px] font-bold text-center text-[#004979] mb-6">
           Articles by Dr. Shazia
         </h2>
