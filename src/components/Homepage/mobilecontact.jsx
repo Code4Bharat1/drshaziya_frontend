@@ -211,6 +211,7 @@ const ContactMobile = () => {
             </div>
           <div className="flex justify-center">
             <button
+              onClick={handleSubmit}
               type="submit"
               className=" w-50 px-4 bg-[#0288D1] text-white text-xs font-semibold py-2 rounded-md shadow hover:bg-blue-700 "
             >

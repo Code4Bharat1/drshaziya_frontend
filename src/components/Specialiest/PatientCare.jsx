@@ -59,7 +59,7 @@ import Head from 'next/head';
 
 const careItems = [
   {
-    title: 'Pre Operative Assessment',
+    title: 'Pre-Operative Assessment',
     text: 'Pre-operative assessment covers patient complaints, physical examination, counseling on illness and treatment, and addressing patient or family concerns.',
   },
   {
@@ -67,11 +67,11 @@ const careItems = [
     text: 'Physiotherapy, including limb and chest exercises, is vital for preoperative optimization, improving surgical outcomes and accelerating postoperative recovery.',
   },
   {
-    title: 'Post Operative Care',
+    title: 'Post-Operative Care',
     text: 'Post-operative care involves immediate hospital care after surgery, provided by a dedicated team of doctors and nurses. It includes pain management, wound care, and dietary support following the surgeon’s instructions.',
   },
   {
-    title: 'Follow Up Care',
+    title: 'Follow-Up Care',
     text: 'Follow-up care, tailored to the surgery and patient’s needs, is done regularly from discharge until full recovery and is crucial to surgical success, just like pre-op and post-op care.',
   },
   {
@@ -79,7 +79,7 @@ const careItems = [
     text: 'Diet and lifestyle consultations are essential across clinical, pre-operative, and post-operative care, with tailored advice and follow-up to ensure effective treatment and patient well-being.',
   },
   {
-    title: 'Patients’ Review',
+    title: 'Patient Reviews',
     text: 'One of the stellar patient reviews we have received on Google',
   },
 ];

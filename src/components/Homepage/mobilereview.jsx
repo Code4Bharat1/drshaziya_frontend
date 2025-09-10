@@ -12,7 +12,7 @@ const reviews = [
   {
     name: "Asma Khan",
     initial: "A",
-    text: "I had a wonderful experience with Dr. Shazia. She is not only highly skilled but also compassionate and attentive to her patients' needs. She took the time to explain everything thoroughly, making it a very comfortable and well-informed visit. Truly appreciate her professionalism and care. Highly recommend Dr. Shazia to anyone seeking expert medical attention!",
+    text: "I had a wonderful experience with Dr. Shazia. She is not only highly skilled but also compassionate and attentive to her patients needs. She took the time to explain everything thoroughly, making it a very comfortable and well-informed visit. Truly appreciate her professionalism and care. Highly recommend Dr. Shazia to anyone seeking expert medical attention!",
     date: "03/01/2025",
   },
   {

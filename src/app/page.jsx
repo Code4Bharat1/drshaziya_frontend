@@ -92,7 +92,7 @@ export default function Home() {
         <Consult />
         
         <WatchVedio />
-        <Artical />
+        {/* <Artical /> */}
         <BookAppointment />
       </div>
       <div className="block md:hidden">
@@ -107,7 +107,7 @@ export default function Home() {
         <DemystifyingMobile />
        <MobileConsult/>
         <MobileReviewsSwiper />
-      <MobileArtical/>
+        {/* <MobileArtical/> */}
         <MobileWatchVideo />
       </div>
     </>

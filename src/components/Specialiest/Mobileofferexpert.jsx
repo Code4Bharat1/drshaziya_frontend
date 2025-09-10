@@ -5,18 +5,18 @@ import Head from "next/head";
 
 const expertiseData = [
   {
-    title: "Laparoscopic Surgeries",
-    description:
-      "Laparoscopic surgery is a minimally invasive procedure using small incisions, specialized Laparoscopic instruments and a camera to operate inside the body.",
-    image: "offer1.png",
-    path: "/allartical/laparoscopy",
-  },
-  {
     title: "Hernia Surgeries",
     description:
       "Hernia surgery is a procedure to repair a bulge or protrusion caused by an organ pushing through a weak spot in muscle or tissue.",
     image: "offer2.png",
     path: "/allartical/harniasurgery",
+  },
+  {
+    title: "Laparoscopic Surgeries",
+    description:
+      "Laparoscopic surgery is a minimally invasive procedure using small incisions, specialized Laparoscopic instruments and a camera to operate inside the body.",
+    image: "offer1.png",
+    path: "/allartical/laparoscopy",
   },
   {
     title: "Breast Surgeries",
@@ -26,9 +26,16 @@ const expertiseData = [
     path: "/allartical/surgery",
   },
   {
-    title: "Colorectal Anorectal Surgeries",
+    title: "Abdominal Wall Reconstruction ",
     description:
-      "Breast surgery involves procedures for treating breast conditions: benign and malignant, or cosmetic procedures including reconstruction.",
+      "Abdominal wall reconstruction is a surgical procedure to repair complex hernias and restore abdominal strength.",
+    image: "offer7.png",
+    path: "/allartical/abdominalsurgery",
+  },
+  {
+    title: "Colorectal & Anorectal Surgeries",
+    description:
+      "Colorectal surgery treats disorders of the rectum, anus, and colon including polyps, tumors, and inflammatory bowel diseases.",
     image: "offer5.png",
     path: "/allartical/colorectalsurgery",
   },
@@ -52,13 +59,6 @@ const expertiseData = [
       "Thyroid surgery is a procedure to remove part or all of the thyroid gland, to improve conditions caused often due to cancer or nodules.",
     image: "offer8.png",
     path: "/allartical/thyroidsurgery",
-  },
-  {
-    title: "Abdominal wall Reconstruction ",
-    description:
-      "Laser surgery uses focused light to treat or remove tissue, used to treat anorectal diseases, varicose veins and benign thyroid nodules",
-    image: "offer7.png",
-    path: "/allartical/abdominalsurgery",
   },
 ];
 
