@@ -29,14 +29,14 @@ const expertiseData = [
   },
  
   {
-   title: 'Abdominal wall Reconstruction ',
+   title: 'Abdominal Wall Reconstruction ',
    description:
    'Abdominal wall reconstruction is a surgical procedure to repair complex hernias and restore abdominal strength.',
    image: 'offer7.png',
     path: '/allartical/abdominalsurgery',
   },
   {
-    title: 'Colorectal / Anorectal Surgeries',
+    title: 'Colorectal & Anorectal Surgeries',
     description:
       'Colorectal surgery treats disorders of the rectum, anus, and colon including polyps, tumors, and inflammatory bowel diseases.',
     image: 'offer5.png',

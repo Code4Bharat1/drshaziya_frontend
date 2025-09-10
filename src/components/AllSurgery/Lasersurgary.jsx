@@ -107,8 +107,8 @@ const LaserSurgery = () => {
         <div className="mt-10 space-y-10 text-gray-900">
           {laserContent.map((section, index) => (
             <div key={index}>
-              <h2 className="text-3xl md:text-xl font-bold mb-2">{section.heading}</h2>
-              <p className="text-xl md:text-xl leading-relaxed whitespace-pre-line">
+              <h2 className="text-xl md:text-2xl font-bold text-gray-900 mb-2">{section.heading}</h2>
+              <p className="text-xl md:text-base leading-relaxed mt-2 first:mt-0">
                 {section.text}
               </p>
             </div>

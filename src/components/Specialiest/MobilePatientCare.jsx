@@ -8,12 +8,12 @@ const MobilePatientCare = () => {
   const patientCareItems = [
     {
       id: 1,
-      title: "Pre Operative Assessment",
+      title: "Pre-Operative Assessment",
       description: "Pre-operative assessment includes discussing the patient's complaints, a thorough physical examination, counseling on the factors and treatment options, and addressing any questions or concerns from the patient or relatives."
     },
     {
       id: 2,
-      title: "Post Operative Care",
+      title: "Post-Operative Care",
       description: "Post-operative care involves immediate hospital care after surgery, provided by a dedicated team of doctors and nurses. It includes pain management, wound care and dietary support following the surgeon's instructions."
     },
     {
@@ -28,12 +28,12 @@ const MobilePatientCare = () => {
     },
     {
       id: 5,
-      title: "Follow Up Care",
+      title: "Follow-Up Care",
       description: "Follow up care the surgery performed and patients requirement but done on a regular basis. Follow up care extends from post discharge up to the time patient has completely recovered physically. Good follow up care goes a long way in determining the success of the surgery as is preop preparation and postoperative care."
     },
     {
       id: 6,
-      title: "Patients Review",
+      title: "Patient Reviews",
       description: "One of the stellar patient reviews we have received on Google"
     }
   ];
