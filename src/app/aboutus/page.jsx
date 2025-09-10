@@ -1,3 +1,18 @@
+export const metadata = {
+  title: "About Dr. Shaziya Waghoo | Trusted Doctor in Kurla, Mumbai",
+  description:
+    "Know more about Dr. Shaziya Waghoo – Over 10+ years of excellence in providing medical care and personalized treatment for patients in Mumbai with compassion and expertise.",
+  openGraph: {
+    url: "https://drshaziawaghoo.com/aboutus",
+    title: "About Us | Dr. Shaziya Waghoo",
+    description:
+      "Know more about Dr. Shaziya Waghoo – Over 10+ years of excellence in providing medical care and personalized treatment for patients in Mumbai with compassion and expertise.",
+    siteName: "Dr. Shaziya Waghoo",
+  },
+};
+
+
+
 
 import BookAppointment from "@/components/Aboutus/bookapoinment";
 import Conference from "@/components/Aboutus/Conference";

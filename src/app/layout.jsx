@@ -73,20 +73,20 @@ export const metadata = {
   description:
     "Dr. Shazia Waghoo is a highly skilled laparoscopic surgeon specializing in hernia, breast, and minimally invasive surgeries. Delivering compassionate, expert care in India.",
   keywords:
-    "Dr Shazia Waghoo, Hernia Surgery, Breast Surgeon, Laparoscopic Surgeon, Female Surgeon India, Best Surgeon India, Surgery Specialist, Minimally Invasive Surgery, Women's Health Surgery, General Surgery India, Expert Surgeon Thane, Indian Laparoscopic Surgeon",
+    ["Dr Shazia Waghoo, Hernia Surgery, Breast Surgeon, Laparoscopic Surgeon, Female Surgeon India, Best Surgeon India, Surgery Specialist, Minimally Invasive Surgery, Women's Health Surgery, General Surgery India, Expert Surgeon Thane, Indian Laparoscopic Surgeon"],
   
-  metadataBase: new URL("https://drshaziawaghoosurgery.com"),
+  metadataBase: new URL("https://drshaziawaghoo.com"),
 
   openGraph: {
     title: "Dr. Shazia Waghoo – Expert in Hernia, Breast & Laparoscopic Surgery",
     description:
       "Explore Dr. Shazia Waghoo’s excellence in surgical care. Specialized in hernia, breast, and laparoscopic procedures with a patient-first approach.",
-    url: "https://drshaziawaghoosurgery.com",
+    url: "https://drshaziawaghoo.com",
     siteName: "Dr. Shazia Waghoo",
     type: "website",
     images: [
       {
-        url: "https://drshaziawaghoosurgery.com/og-image.jpg", // ✅ Place this image in your public folder
+        url: "https://drshaziawaghoo.com/og-image.jpg", // ✅ Place this image in your public folder
         width: 1200,
         height: 630,
         alt: "Dr. Shazia Waghoo - Laparoscopic Surgeon",

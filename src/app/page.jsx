@@ -1,3 +1,53 @@
+export const metadata = {
+  title: "Dr. Shaziya Waghoo | Best Doctor in Kurla & Mumbai", 
+  description:
+    "Consult Dr. Shaziya Waghoo in Kurla, Mumbai – Experienced and trusted doctor offering personalized care, treatment, and medical consultation for all ages."
+  ,
+  keywords: [
+    "Dr. Shaziya Waghoo",
+    "best doctor in Kurla",
+    "doctor near me Kurla",
+    "general physician Kurla Mumbai",
+    "family doctor Kurla",
+    "health consultation Kurla",
+    "top doctor in Mumbai",
+    "women's health specialist Kurla",
+    "child care doctor Kurla",
+    "trusted doctor in Mumbai",
+    " Hernia Surgery", 
+    "Breast Surgeon",
+    " Laparoscopic Surgeon",
+     "Female Surgeon India", 
+     "Best Surgeon India",
+     "Surgery Specialist", 
+     "Minimally Invasive Surgery",
+     " Women's Health Surgery",
+     " General Surgery India",
+     " Expert Surgeon Thane", 
+     "Indian Laparoscopic Surgeon"],
+  
+
+  openGraph: {
+    title: "Dr. Shaziya Waghoo | Trusted Doctor in Mumbai",
+    description:
+      "Book an appointment with Dr. Shaziya Waghoo – Experienced doctor in Kurla & Mumbai providing compassionate care and medical treatment for families."
+    ,
+    url: "https://drshaziawaghoo.com/", // <- yaha doctor ka real domain daalna
+    siteName: "Dr. Shaziya Waghoo",
+    images: [
+      {
+        url: "/img/homeBanner.jpg", // doctor banner / profile image
+        width: 1200,
+        height: 630,
+        alt: "Dr. Shaziya Waghoo - Best Doctor in Kurla Mumbai",
+      },
+    ],
+    locale: "en_IN",
+    type: "website",
+  },
+};
+
+
 import BookAppointment from "@/components/Aboutus/bookapoinment";
 import Artical from "@/components/Homepage/Artcal";
 import Consult from "@/components/Homepage/Consult";

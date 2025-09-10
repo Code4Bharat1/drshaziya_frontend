@@ -1,3 +1,13 @@
+export const metadata = {
+  title: "Colorectal Surgery | Dr. Shaziya Waghoo",
+  description: "Advanced colorectal surgery procedures by Dr. Shaziya Waghoo, providing safe and effective treatments in Mumbai.",
+  openGraph: {
+    url: "https://drshaziawaghoo.com/allartical/colorectalsurgery",
+    title: "Colorectal Surgery | Dr. Shaziya Waghoo",
+    description: "Advanced colorectal surgery procedures by Dr. Shaziya Waghoo, providing safe and effective treatments in Mumbai.",
+    siteName: "Dr. Shaziya Waghoo",
+  },
+};
 
 import ColorectalSurgery from "@/components/AllSurgery/Colorectalsurgery";
 import Contact from "@/components/Homepage/Contact";

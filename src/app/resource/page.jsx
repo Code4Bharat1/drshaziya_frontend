@@ -1,3 +1,16 @@
+export const metadata = {
+  title: "Resources | Dr. Shaziya Waghoo",
+  description:
+    "Access trusted healthcare resources, guides, and articles by Dr. Shaziya Waghoo to help patients make informed decisions about surgery and treatment.",
+  openGraph: {
+    url: "https://drshaziawaghoo.com/resource",
+    title: "Resources | Dr. Shaziya Waghoo",
+    description:
+      "Explore healthcare resources and expert guides by Dr. Shaziya Waghoo for better understanding of surgical treatments.",
+    siteName: "Dr. Shaziya Waghoo",
+  },
+};
+
 import BookAppointmentMobile from '@/components/Aboutus/MobileBookapoinment'
 import Artical from '@/components/Homepage/Artcal'
 import MobileOfferExpertise from '@/components/Homepage/mobileofferexpertise'
