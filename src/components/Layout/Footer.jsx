@@ -397,7 +397,7 @@ const Footer = () => {
           <div className="mt-6 lg:mt-8">
             <div className="border-t border-white/30 w-full mb-4 lg:mb-6"></div>
             <div className="text-center text-xs lg:text-base font-medium text-white px-2">
-              © {new Date().getFullYear()} drshaziawaghoosurgery.com
+              © {new Date().getFullYear()} drshaziawaghoo.com
               <div className="mt-1 lg:mt-0 lg:inline">
                 <span className="hidden lg:inline mx-1">|</span>
                 <span>Designed by Code4Bharat</span>

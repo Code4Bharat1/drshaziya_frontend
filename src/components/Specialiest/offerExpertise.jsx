@@ -7,18 +7,18 @@ import Head from 'next/head';
 
 const expertiseData = [
   {
-    title: 'Laparoscopic Surgeries',
-    description:
-      'Laparoscopic surgery is a minimally invasive procedure using small incisions, specialized instruments and a camera to operate inside the body.',
-    image: 'offer1.png',
-     path: '/allartical/laparoscopy',
-  },
-  {
     title: 'Hernia Surgeries',
     description:
       'Hernia surgery is a procedure to repair a bulge or protrusion caused by an organ pushing through a weak spot in muscle or tissue.',
     image: 'offer2.png',
      path: '/allartical/harniasurgery',
+  },
+  {
+    title: 'Laparoscopic Surgeries',
+    description:
+      'Laparoscopic surgery is a minimally invasive procedure using small incisions, specialized instruments and a camera to operate inside the body.',
+    image: 'offer1.png',
+     path: '/allartical/laparoscopy',
   },
   {
     title: 'Breast Surgeries',
@@ -28,6 +28,13 @@ const expertiseData = [
      path: '/allartical/surgery',
   },
  
+  {
+   title: 'Abdominal wall Reconstruction ',
+   description:
+   'Abdominal wall reconstruction is a surgical procedure to repair complex hernias and restore abdominal strength.',
+   image: 'offer7.png',
+    path: '/allartical/abdominalsurgery',
+  },
   {
     title: 'Colorectal / Anorectal Surgeries',
     description:
@@ -57,13 +64,6 @@ const expertiseData = [
            'Thyroid surgery is performed to treat thyroid nodules, cancer, or hyperthyroidism by removing part or all of the thyroid gland.',
     image: 'offer8.png',
      path: '/allartical/thyroidsurgery',
-  },
-   {
-    title: 'Abdominal wall Reconstruction ',
-    description:
-  'Abdominal wall reconstruction is a surgical procedure to repair complex hernias and restore abdominal strength.',
-    image: 'offer7.png',
-     path: '/allartical/abdominalsurgery',
   },
   
  
