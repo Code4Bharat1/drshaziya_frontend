@@ -80,7 +80,7 @@ const DemystifyingMobile = () => {
       {/* Description */}
       <p className="text-gray-900 text-[19px] font-semibold leading-relaxed mb-6 text-center font-inter">
         Surgery may be complex, but getting the right diagnosis and treatment
-        doesn’t have to be a complex process. Our aim is to deliver a Seamless
+        doesn’t have to be a complex process. Our aim is to deliver a seamless
         Surgical Experience to patients and to help them heal faster. Consult{" "}
         with our expert surgeon, Dr. Shazia Waghoo for more than 30+ diseases.
       </p>

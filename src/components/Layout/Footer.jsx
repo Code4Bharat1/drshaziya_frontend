@@ -215,7 +215,7 @@ const Footer = () => {
                 { text: "About Us", href: "/aboutus" },
                 { text: "Specialties", href: "/specialiest" },
                 { text: "Patient Testimonials", href: "/testimonial" },
-                { text: "Book Appointment", href: "/#" },
+                { text: "Book Appointment", href: "/contactus " },
               ].map((item, idx) => (
                 <li key={idx}>
                   <a
@@ -233,18 +233,18 @@ const Footer = () => {
           <div className="flex justify-center mb-6">
             <div className="flex flex-wrap gap-2">
               {[
-                { href: "#", src: "/icons-youtube.png", alt: "YouTube" },
+                { href: "https://www.youtube.com/@Dr.ShaziaWaghoo", src: "/icons-youtube.png", alt: "YouTube" },
                 {
                   href: "https://www.instagram.com/drshazia_waghoo",
                   src: "/icon-insta.png",
                   alt: "Instagram",
                 },
                 {
-                  href: "https://drshaziawaghoo.com/",
+                  href: "https://share.google/aQWgRKd6PObAH88Fj",
                   src: "/icon-google.png",
                   alt: "Google",
                 },
-                { href: "#", src: "/icon-Facebook.jpg", alt: "Facebook" },
+                { href: "https://www.facebook.com/share/19w9fivDdr/", src: "/icon-Facebook.jpg", alt: "Facebook" },
                 {
                   href: "https://wa.me/919833584847",
                   src: "/icons-whatsapp.png",
@@ -323,7 +323,6 @@ const Footer = () => {
               <ul className="space-y-2 lg:space-y-3 text-sm lg:text-base text-white">
                 {[
                   { text: "Book Appointment", href: "/contactus" },
-                  { text: "Article by Dr. Shazia", href: "/#artical" },
                 ].map((item, idx) => (
                   <li key={idx}>
                     <a
@@ -347,18 +346,18 @@ const Footer = () => {
               {/* Social Icons */}
               <div className="flex justify-center lg:justify-start flex-wrap gap-2 lg:gap-3 mb-4">
                 {[
-                  { href: "#", src: "/icons-youtube.png", alt: "YouTube" },
+                  { href: "https://www.youtube.com/@Dr.ShaziaWaghoo", src: "/icons-youtube.png", alt: "YouTube" },
                   {
                     href: "https://www.instagram.com/drshazia_waghoo",
                     src: "/icon-insta.png",
                     alt: "Instagram",
                   },
                   {
-                    href: "https://drshaziawaghoo.com/",
+                    href: "https://share.google/aQWgRKd6PObAH88Fj",
                     src: "/icon-google.png",
                     alt: "Google",
                   },
-                  { href: "#", src: "/icon-Facebook.jpg", alt: "Facebook" },
+                  { href: "https://www.facebook.com/share/19w9fivDdr/", src: "/icon-Facebook.jpg", alt: "Facebook" },
                   {
                     href: "https://wa.me/919833584847",
                     src: "/icons-whatsapp.png",

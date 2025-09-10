@@ -79,7 +79,7 @@ const careItems = [
     text: 'Diet and lifestyle consultations are essential across clinical, pre-operative, and post-operative care, with tailored advice and follow-up to ensure effective treatment and patient well-being.',
   },
   {
-    title: 'Patients’ Review',
+    title: 'Patients Review',
     text: 'One of the stellar patient reviews we have received on Google',
   },
 ];

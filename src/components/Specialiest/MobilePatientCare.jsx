@@ -33,7 +33,7 @@ const MobilePatientCare = () => {
     },
     {
       id: 6,
-      title: "Patients' Review",
+      title: "Patients Review",
       description: "One of the stellar patient reviews we have received on Google"
     }
   ];

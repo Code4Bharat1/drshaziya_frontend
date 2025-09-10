@@ -99,7 +99,7 @@ const ColorectalSurgery = () => {
             objectFit="cover"
             priority
           />
-          <div className="absolute top-11 left-4 text-white text-xl md:text-5xl font-semibold px-4 py-2 rounded">
+          <div className="absolute top-7 left-4 text-white text-4xl font-semibold bg-opacity-50 px-4 py-2 rounded">
             Colorectal Surgery
           </div>
         </div>
@@ -108,7 +108,7 @@ const ColorectalSurgery = () => {
         <div className="mt-10 space-y-10 text-gray-900">
           {colorectalContent.map((section, index) => (
             <div key={index}>
-              <h2 className="text-3xl md:text-3xl font-bold mb-2">{section.heading}</h2>
+              <h2 className="text-3xl md:text-xl font-bold mb-2">{section.heading}</h2>
               <p className="text-base md:text-xl leading-relaxed">{section.text}</p>
             </div>
           ))}
