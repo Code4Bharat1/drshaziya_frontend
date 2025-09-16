@@ -1,11 +1,11 @@
 export const metadata = {
-  title: "Laser Surgery | Dr. Shaziya Waghoo",
-  description: "Precision laser surgery treatments by Dr. Shaziya Waghoo in Mumbai for safe, effective, and minimally invasive procedures.",
+  title: "Laser Surgery | Dr. Shazia Waghoo",
+  description: "Precision laser surgery treatments by Dr. Shazia Waghoo in Mumbai for safe, effective, and minimally invasive procedures.",
   openGraph: {
     url: "https://drshaziawaghoo.com/allartical/lasersurgary",
-    title: "Laser Surgery | Dr. Shaziya Waghoo",
-    description: "Precision laser surgery treatments by Dr. Shaziya Waghoo in Mumbai for safe, effective, and minimally invasive procedures.",
-    siteName: "Dr. Shaziya Waghoo",
+    title: "Laser Surgery | Dr. Shazia Waghoo",
+    description: "Precision laser surgery treatments by Dr. Shazia Waghoo in Mumbai for safe, effective, and minimally invasive procedures.",
+    siteName: "Dr. Shazia Waghoo",
   },
 };
 

@@ -1,13 +1,13 @@
 export const metadata = {
-  title: "Final Article | Dr. Shaziya Waghoo",
+  title: "Final Article | Dr. Shazia Waghoo",
   description:
-    "Read the final article by Dr. Shaziya Waghoo – expert insights on advanced surgical treatments, healthcare tips, and patient awareness.",
+    "Read the final article by Dr. Shazia Waghoo – expert insights on advanced surgical treatments, healthcare tips, and patient awareness.",
   openGraph: {
-    url: "https://drshaziyawaghoo.com/finalartical",
-    title: "Final Article | Dr. Shaziya Waghoo",
+    url: "https://drShaziawaghoo.com/finalartical",
+    title: "Final Article | Dr. Shazia Waghoo",
     description:
-      "Explore Dr. Shaziya Waghoo’s final article covering surgical expertise, healthcare updates, and patient-focused insights.",
-    siteName: "Dr. Shaziya Waghoo",
+      "Explore Dr. Shazia Waghoo’s final article covering surgical expertise, healthcare updates, and patient-focused insights.",
+    siteName: "Dr. Shazia Waghoo",
   },
 };
 

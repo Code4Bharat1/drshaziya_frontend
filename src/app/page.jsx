@@ -1,11 +1,11 @@
 // export const metadata = {
-//   title: "Dr. Shaziya Waghoo | Best Doctor in Kurla & Mumbai", 
+//   title: "Dr. Shazia Waghoo | Best Doctor in Kurla & Mumbai", 
 //   description:
-//     "Consult Dr. Shaziya Waghoo in Kurla, Mumbai – Experienced and trusted doctor offering personalized care, treatment, and medical consultation for all ages."
+//     "Consult Dr. Shazia Waghoo in Kurla, Mumbai – Experienced and trusted doctor offering personalized care, treatment, and medical consultation for all ages."
 //   ,
 
 //     keywords: [
-//     "Dr Shaziya Waghoo",
+//     "Dr Shazia Waghoo",
 //     "Hernia",
 //     "Breast Surgeon ladies",
 //     "ladies doctor for haernia",
@@ -23,33 +23,33 @@
 //     "doctor for laparoscopic surgery in mumbai",
 //     "doctor for hernia surgery in mumbai",
 //     "doctor for breast surgery in mumbai",
-//     "dr shaziya waghoo reviews",
-//     "dr shaziya waghoo",
-//     "dr shaziya waghoo contact",
-//     "dr shaziya waghoo appointment",
-//     "dr shaziya waghoo address",
-//     "dr shaziya waghoo phone number",
-//     "dr shaziya waghoo email",
-//     "dr shaziya waghoo website",
-//     "dr shaziya waghoo fees",
-//     "dr shaziya waghoo consultation",
-//     "dr shaziya waghoo clinic"
+//     "dr Shazia waghoo reviews",
+//     "dr Shazia waghoo",
+//     "dr Shazia waghoo contact",
+//     "dr Shazia waghoo appointment",
+//     "dr Shazia waghoo address",
+//     "dr Shazia waghoo phone number",
+//     "dr Shazia waghoo email",
+//     "dr Shazia waghoo website",
+//     "dr Shazia waghoo fees",
+//     "dr Shazia waghoo consultation",
+//     "dr Shazia waghoo clinic"
 //   ],
 
 
 //   openGraph: {
-//     title: "Dr. Shaziya Waghoo | Trusted Doctor in Mumbai",
+//     title: "Dr. Shazia Waghoo | Trusted Doctor in Mumbai",
 //     description:
-//       "Book an appointment with Dr. Shaziya Waghoo – Experienced doctor in Kurla & Mumbai providing compassionate care and medical treatment for families."
+//       "Book an appointment with Dr. Shazia Waghoo – Experienced doctor in Kurla & Mumbai providing compassionate care and medical treatment for families."
 //     ,
 //     url: "https://drshaziawaghoo.com/", // <- yaha doctor ka real domain daalna
-//     siteName: "Dr. Shaziya Waghoo",
+//     siteName: "Dr. Shazia Waghoo",
 //     images: [
 //       {
 //         url: "/img/homeBanner.jpg", // doctor banner / profile image
 //         width: 1200,
 //         height: 630,
-//         alt: "Dr. Shaziya Waghoo - Best Doctor in Kurla Mumbai",
+//         alt: "Dr. Shazia Waghoo - Best Doctor in Kurla Mumbai",
 //       },
 //     ],
 //     locale: "en_IN",
@@ -58,11 +58,11 @@
 // };
 
 export const metadata = {
-  title: "Dr. Shaziya Waghoo | Best Doctor in Kurla & Mumbai",
+  title: "Dr. Shazia Waghoo | Best Doctor in Kurla & Mumbai",
   description:
-    "Consult Dr. Shaziya Waghoo in Kurla, Mumbai – Experienced doctor providing trusted care and advanced treatments.",
+    "Consult Dr. Shazia Waghoo in Kurla, Mumbai – Experienced doctor providing trusted care and advanced treatments.",
   keywords: [
-    "Dr Shaziya Waghoo",
+    "Dr Shazia Waghoo",
     "Hernia",
     "Breast Surgeon ladies",
     "ladies doctor for haernia",
@@ -80,31 +80,31 @@ export const metadata = {
     "doctor for laparoscopic surgery in mumbai",
     "doctor for hernia surgery in mumbai",
     "doctor for breast surgery in mumbai",
-    "dr shaziya waghoo reviews",
-    "dr shaziya waghoo",
-    "dr shaziya waghoo contact",
-    "dr shaziya waghoo appointment",
-    "dr shaziya waghoo address",
-    "dr shaziya waghoo phone number",
-    "dr shaziya waghoo email",
-    "dr shaziya waghoo website",
-    "dr shaziya waghoo fees",
-    "dr shaziya waghoo consultation",
-    "dr shaziya waghoo clinic"
+    "dr Shazia waghoo reviews",
+    "dr Shazia waghoo",
+    "dr Shazia waghoo contact",
+    "dr Shazia waghoo appointment",
+    "dr Shazia waghoo address",
+    "dr Shazia waghoo phone number",
+    "dr Shazia waghoo email",
+    "dr Shazia waghoo website",
+    "dr Shazia waghoo fees",
+    "dr Shazia waghoo consultation",
+    "dr Shazia waghoo clinic"
   ],
 
   openGraph: {
-    title: "Dr. Shaziya Waghoo | Trusted Doctor in Mumbai",
+    title: "Dr. Shazia Waghoo | Trusted Doctor in Mumbai",
     description:
-      "Book an appointment with Dr. Shaziya Waghoo – Trusted surgeon in Kurla & Mumbai offering compassionate care.",
+      "Book an appointment with Dr. Shazia Waghoo – Trusted surgeon in Kurla & Mumbai offering compassionate care.",
     url: "https://drshaziawaghoosurgery.com/", // updated domain
-    siteName: "Dr. Shaziya Waghoo",
+    siteName: "Dr. Shazia Waghoo",
     images: [
       {
         url: "/img/homeBanner.jpg",
         width: 1200,
         height: 630,
-        alt: "Dr. Shaziya Waghoo - Best Doctor in Kurla Mumbai",
+        alt: "Dr. Shazia Waghoo - Best Doctor in Kurla Mumbai",
       },
     ],
     locale: "en_IN",
@@ -149,7 +149,7 @@ export default function Home() {
         {/* H1 - Main Heading */}
         <section className="text-center py-8">
           <h1 className="text-3xl md:text-5xl font-bold text-gray-900">
-            Best Hernia Surgeon in Mumbai – Dr. Shaziya Waghoo
+            Best Hernia Surgeon in Mumbai – Dr. Shazia Waghoo
           </h1>
           <p className="text-lg text-gray-600 mt-2">
             Trusted Laparoscopic & Breast Surgeon for women in Kurla, Mumbai

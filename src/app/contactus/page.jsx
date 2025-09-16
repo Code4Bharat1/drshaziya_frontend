@@ -1,11 +1,11 @@
 export const metadata = {
-  title: "Contact Dr. Shaziya Waghoo | Kurla, Mumbai",
-  description: "Get in touch with Dr. Shaziya Waghoo for appointments, consultations, or medical inquiries in Kurla, Mumbai.",
+  title: "Contact Dr. Shazia Waghoo | Kurla, Mumbai",
+  description: "Get in touch with Dr. Shazia Waghoo for appointments, consultations, or medical inquiries in Kurla, Mumbai.",
   openGraph: {
     url: "https://drshaziawaghoo.com/contactus",
-    title: "Contact Dr. Shaziya Waghoo",
-    description: "Get in touch with Dr. Shaziya Waghoo for appointments, consultations, or medical inquiries in Kurla, Mumbai.",
-    siteName: "Dr. Shaziya Waghoo",
+    title: "Contact Dr. Shazia Waghoo",
+    description: "Get in touch with Dr. Shazia Waghoo for appointments, consultations, or medical inquiries in Kurla, Mumbai.",
+    siteName: "Dr. Shazia Waghoo",
   },
 };
 

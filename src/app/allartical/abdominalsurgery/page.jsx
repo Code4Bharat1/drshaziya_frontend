@@ -1,11 +1,11 @@
 export const metadata = {
-  title: "Abdominal Surgery | Dr. Shaziya Waghoo",
-  description: "Comprehensive abdominal surgery treatments by Dr. Shaziya Waghoo in Kurla, Mumbai with expert care and modern techniques.",
+  title: "Abdominal Surgery | Dr. Shazia Waghoo",
+  description: "Comprehensive abdominal surgery treatments by Dr. Shazia Waghoo in Kurla, Mumbai with expert care and modern techniques.",
   openGraph: {
     url: "https://drshaziawaghoo.com/allartical/abdominalsurgery",
-    title: "Abdominal Surgery | Dr. Shaziya Waghoo",
-    description: "Comprehensive abdominal surgery treatments by Dr. Shaziya Waghoo in Kurla, Mumbai with expert care and modern techniques.",
-    siteName: "Dr. Shaziya Waghoo",
+    title: "Abdominal Surgery | Dr. Shazia Waghoo",
+    description: "Comprehensive abdominal surgery treatments by Dr. Shazia Waghoo in Kurla, Mumbai with expert care and modern techniques.",
+    siteName: "Dr. Shazia Waghoo",
   },
 };
 

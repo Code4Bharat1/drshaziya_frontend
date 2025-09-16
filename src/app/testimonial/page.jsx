@@ -1,13 +1,13 @@
 export const metadata = {
-  title: "Patient Testimonials | Dr. Shaziya Waghoo",
+  title: "Patient Testimonials | Dr. Shazia Waghoo",
   description:
-    "Read genuine patient testimonials and success stories about Dr. Shaziya Waghoo’s expert surgical care in Kurla, Mumbai.",
+    "Read genuine patient testimonials and success stories about Dr. Shazia Waghoo’s expert surgical care in Kurla, Mumbai.",
   openGraph: {
     url: "https://drshaziawaghoo.com/testimonial",
-    title: "Patient Testimonials | Dr. Shaziya Waghoo",
+    title: "Patient Testimonials | Dr. Shazia Waghoo",
     description:
-      "Discover patient experiences and feedback on surgeries performed by Dr. Shaziya Waghoo in Mumbai.",
-    siteName: "Dr. Shaziya Waghoo",
+      "Discover patient experiences and feedback on surgeries performed by Dr. Shazia Waghoo in Mumbai.",
+    siteName: "Dr. Shazia Waghoo",
   },
 };
 

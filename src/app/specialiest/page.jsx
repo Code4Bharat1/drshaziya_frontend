@@ -1,13 +1,13 @@
 export const metadata = {
-  title: "Meet the Specialist | Dr. Shaziya Waghoo",
+  title: "Meet the Specialist | Dr. Shazia Waghoo",
   description:
-    "Learn more about Dr. Shaziya Waghoo, a specialist surgeon in Kurla, Mumbai. Trusted expertise in advanced and minimally invasive surgeries.",
+    "Learn more about Dr. Shazia Waghoo, a specialist surgeon in Kurla, Mumbai. Trusted expertise in advanced and minimally invasive surgeries.",
   openGraph: {
     url: "https://drshaziawaghoo.com/specialiest",
-    title: "Meet the Specialist | Dr. Shaziya Waghoo",
+    title: "Meet the Specialist | Dr. Shazia Waghoo",
     description:
-      "Know your surgeon: Dr. Shaziya Waghoo, a leading surgical specialist in Mumbai providing expert care and advanced treatment.",
-    siteName: "Dr. Shaziya Waghoo",
+      "Know your surgeon: Dr. Shazia Waghoo, a leading surgical specialist in Mumbai providing expert care and advanced treatment.",
+    siteName: "Dr. Shazia Waghoo",
   },
 };
 

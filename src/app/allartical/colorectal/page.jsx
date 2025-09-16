@@ -1,11 +1,11 @@
 export const metadata = {
-  title: "Colorectal Treatments | Dr. Shaziya Waghoo",
-  description: "Expert colorectal treatments and surgeries by Dr. Shaziya Waghoo in Kurla, Mumbai, ensuring advanced and safe care.",
+  title: "Colorectal Treatments | Dr. Shazia Waghoo",
+  description: "Expert colorectal treatments and surgeries by Dr. Shazia Waghoo in Kurla, Mumbai, ensuring advanced and safe care.",
   openGraph: {
     url: "https://drshaziawaghoo.com/allartical/colorectalsurgery",
-    title: "Colorectal Treatments | Dr. Shaziya Waghoo",
-    description: "Expert colorectal treatments and surgeries by Dr. Shaziya Waghoo in Kurla, Mumbai, ensuring advanced and safe care.",
-    siteName: "Dr. Shaziya Waghoo",
+    title: "Colorectal Treatments | Dr. Shazia Waghoo",
+    description: "Expert colorectal treatments and surgeries by Dr. Shazia Waghoo in Kurla, Mumbai, ensuring advanced and safe care.",
+    siteName: "Dr. Shazia Waghoo",
   },
 };
 

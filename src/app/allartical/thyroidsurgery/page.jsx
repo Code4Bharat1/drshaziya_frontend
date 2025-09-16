@@ -1,11 +1,11 @@
 export const metadata = {
-  title: "Thyroid Surgery | Dr. Shaziya Waghoo",
-  description: "Expert thyroid surgery by Dr. Shaziya Waghoo in Kurla, Mumbai. Safe and advanced treatment for thyroid conditions.",
+  title: "Thyroid Surgery | Dr. Shazia Waghoo",
+  description: "Expert thyroid surgery by Dr. Shazia Waghoo in Kurla, Mumbai. Safe and advanced treatment for thyroid conditions.",
   openGraph: {
     url: "https://drshaziawaghoo.com/allartical/thyroidsurgery",
-    title: "Thyroid Surgery | Dr. Shaziya Waghoo",
-    description: "Expert thyroid surgery by Dr. Shaziya Waghoo in Kurla, Mumbai. Safe and advanced treatment for thyroid conditions.",
-    siteName: "Dr. Shaziya Waghoo",
+    title: "Thyroid Surgery | Dr. Shazia Waghoo",
+    description: "Expert thyroid surgery by Dr. Shazia Waghoo in Kurla, Mumbai. Safe and advanced treatment for thyroid conditions.",
+    siteName: "Dr. Shazia Waghoo",
   },
 };
 

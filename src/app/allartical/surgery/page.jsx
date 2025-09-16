@@ -1,11 +1,11 @@
 export const metadata = {
-  title: "General Surgery | Dr. Shaziya Waghoo",
-  description: "Comprehensive surgical care by Dr. Shaziya Waghoo in Kurla, Mumbai. Expert surgical treatments for all patients.",
+  title: "General Surgery | Dr. Shazia Waghoo",
+  description: "Comprehensive surgical care by Dr. Shazia Waghoo in Kurla, Mumbai. Expert surgical treatments for all patients.",
   openGraph: {
     url: "https://drshaziawaghoo.com/allartical/surgery",
-    title: "General Surgery | Dr. Shaziya Waghoo",
-    description: "Comprehensive surgical care by Dr. Shaziya Waghoo in Kurla, Mumbai. Expert surgical treatments for all patients.",
-    siteName: "Dr. Shaziya Waghoo",
+    title: "General Surgery | Dr. Shazia Waghoo",
+    description: "Comprehensive surgical care by Dr. Shazia Waghoo in Kurla, Mumbai. Expert surgical treatments for all patients.",
+    siteName: "Dr. Shazia Waghoo",
   },
 };
 
