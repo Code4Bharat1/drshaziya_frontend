@@ -146,6 +146,26 @@ export default function Home() {
     <>
       <div className="hidden md:block">
         <WhatsAppButton />
+        {/* H1 - Main Heading */}
+        <section className="text-center py-8">
+          <h1 className="text-3xl md:text-5xl font-bold text-gray-900">
+            Best Hernia Surgeon in Mumbai – Dr. Shaziya Waghoo
+          </h1>
+          <p className="text-lg text-gray-600 mt-2">
+            Trusted Laparoscopic & Breast Surgeon for women in Kurla, Mumbai
+          </p>
+        </section>
+
+        {/* H2 for section headings */}
+        <SurgicalExcellence />
+        <h2 className="text-2xl font-semibold text-gray-800 mt-12 text-center">
+          Why Choose Laparoscopic Hernia Surgery?
+        </h2>
+
+        <Seasoned />
+        <h2 className="text-2xl font-semibold text-gray-800 mt-12 text-center">
+          Trusted Lady Hernia Surgeon in Kurla
+        </h2>
         <SurgicalExcellence />
         <Seasoned />
         <OurImpact />
@@ -161,6 +181,7 @@ export default function Home() {
         {/* <Artical /> */}
         <BookAppointment />
       </div>
+      MOBILE VERSION
       <div className="block md:hidden">
         <WhatsAppButton/>
         <MobileSurgicalExcellence />
