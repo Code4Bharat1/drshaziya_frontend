@@ -161,7 +161,7 @@ export default function Home() {
         {/* <Artical /> */}
         <BookAppointment />
       </div>
-      MOBILE VERSION
+
       <div className="block md:hidden">
         <WhatsAppButton/>
         <MobileSurgicalExcellence />

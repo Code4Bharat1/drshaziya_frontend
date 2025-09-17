@@ -8,7 +8,7 @@ const Hernia = () => {
     {/* SEo from here */}
     <Head>
   {/* ✅ Basic SEO */}
-  <title>Dr. Shazia Waghoo – Expert Laparoscopic, Hernia & Breast Surgeon in Mumbai</title>
+  <title>Dr.Shazia Waghoo – Expert Laparoscopic, Hernia & Breast Surgeon in Mumbai</title>
   <meta
     name="description"
     content="Meet Dr. Shazia Waghoo, a highly skilled surgeon specializing in laparoscopic, hernia, and breast surgeries in Mumbai. Over 10 years of experience with patient-focused care."
