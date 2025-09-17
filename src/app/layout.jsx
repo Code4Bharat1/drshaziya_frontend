@@ -121,76 +121,75 @@ export const metadata = {
   },
 };
 
-export default function RootLayout({ children }) {
-  const structuredData = {
-    "@context": "https://schema.org",
-    "@type": "Physician",
-    "name": "Dr. Shazia Waghoo",
-    "url": "https://drshaziawaghoosurgery.com",
-    "image": "https://drshaziawaghoosurgery.com/og-image.jpg",
-    "description": "Trusted laparoscopic, hernia & breast surgeon in Mumbai",
-    "address": {
-      "@type": "PostalAddress",
-      "streetAddress": "Your Clinic Address, Kurla",
-      "addressLocality": "Kurla",
-      "addressRegion": "Mumbai",
-      "postalCode": "400070",
-      "addressCountry": "IN"
-    },
-    "telephone": "+91-XXXXXXXXXX",
-    "sameAs": [
-      "https://www.facebook.com/yourpage",
-      "https://www.instagram.com/yourpage",
-      "https://www.linkedin.com/in/yourprofile"
-    ]
-  };
-
-   return (
-    <html lang="en">
-      <head>
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
-        />
-      </head>
-      <body>{children}</body>
-    </html>
-  );
-}
-
 // export default function RootLayout({ children }) {
-//   return (
-//     <html lang="en">
-//       <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
-//         <Navbar />
-//         {children}
-//         <Footer />
+//   const structuredData = {
+//     "@context": "https://schema.org",
+//     "@type": "Physician",
+//     "name": "Dr. Shazia Waghoo",
+//     "url": "https://drshaziawaghoosurgery.com",
+//     "image": "https://drshaziawaghoosurgery.com/og-image.jpg",
+//     "description": "Trusted laparoscopic, hernia & breast surgeon in Mumbai",
+//     "address": {
+//       "@type": "PostalAddress",
+//       "streetAddress": "Your Clinic Address, Kurla",
+//       "addressLocality": "Kurla",
+//       "addressRegion": "Mumbai",
+//       "postalCode": "400070",
+//       "addressCountry": "IN"
+//     },
+//     "telephone": "+91-XXXXXXXXXX",
+//     "sameAs": [
+//       "https://www.facebook.com/yourpage",
+//       "https://www.instagram.com/yourpage",
+//       "https://www.linkedin.com/in/yourprofile"
+//     ]
+//   };
 
-//         {/* ✅ JSON-LD Schema for Physician */}
-//         <Script id="schema-doctor" type="application/ld+json" strategy="afterInteractive">
-//           {JSON.stringify({
-//             "@context": "https://schema.org",
-//             "@type": "Physician",
-//             name: "Dr. Shazia Waghoo",
-//             image: "https://drshaziawaghoo.com/og-image.jpg",
-//             description:
-//               "Dr. Shazia Waghoo is a female laparoscopic surgeon in Mumbai, specializing in hernia & breast surgery.",
-//             address: {
-//               "@type": "PostalAddress",
-//               addressLocality: "Kurla",
-//               addressRegion: "Maharashtra",
-//               addressCountry: "India",
-//             },
-//             url: "https://drshaziawaghoo.com",
-//             telephone: "+91-XXXXXXXXXX",
-//             medicalSpecialty: [
-//               "Laparoscopic Surgery",
-//               "Hernia Surgery",
-//               "Breast Surgery",
-//             ],
-//           })}
-//         </Script>
-//       </body>
+//    return (
+//     <html lang="en">
+//       <head>
+//         <script
+//           type="application/ld+json"
+//           dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
+//         />
+//       </head>
+//       <body>{children}</body>
 //     </html>
 //   );
 // }
+
+export default function RootLayout({ children }) {
+  return (
+    <html lang="en">
+      <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
+        <Navbar />
+        {children}
+        <Footer />
+
+        <Script id="schema-doctor" type="application/ld+json" strategy="afterInteractive">
+          {JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Physician",
+            name: "Dr. Shazia Waghoo",
+            image: "https://drshaziawaghoo.com/og-image.jpg",
+            description:
+              "Dr. Shazia Waghoo is a female laparoscopic surgeon in Mumbai, specializing in hernia & breast surgery.",
+            address: {
+              "@type": "PostalAddress",
+              addressLocality: "Kurla",
+              addressRegion: "Maharashtra",
+              addressCountry: "India",
+            },
+            url: "https://drshaziawaghoo.com",
+            telephone: "+91-XXXXXXXXXX",
+            medicalSpecialty: [
+              "Laparoscopic Surgery",
+              "Hernia Surgery",
+              "Breast Surgery",
+            ],
+          })}
+        </Script>
+      </body>
+    </html>
+  );
+}
