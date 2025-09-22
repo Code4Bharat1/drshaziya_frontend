@@ -67,11 +67,11 @@ export const metadata = {
   alternates: {
     canonical: "https://drshaziawaghoosurgery.com",
   },
-  icons: {
-    icon: "/logo.ico",
-    shortcut: "/logo.ico",
-    apple: "/apple-touch-icon.png",
-  },
+  // icons: {
+  //   icon: "/logo.ico",
+  //   shortcut: "/logo.ico",
+  //   apple: "/apple-touch-icon.png",
+  // },
 };
 
 export default function RootLayout({ children }) {
