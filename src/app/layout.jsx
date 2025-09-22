@@ -40,7 +40,7 @@ export const metadata = {
     title: "Dr. Shazia Waghoo – Expert Hernia & Laparoscopic Surgeon in Kurla",
     description:
       "Dr. Shazia Waghoo is a trusted laparoscopic surgeon in Kurla, Mumbai. Specializing in hernia & breast surgeries with 10+ years of experience.",
-    url: "https://drshaziawaghoosurgery.com",
+    url: "https://drshaziawaghoo.com/",
     siteName: "Dr. Shazia Waghoo",
     images: [
       {
