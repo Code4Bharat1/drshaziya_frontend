@@ -58,7 +58,7 @@
 // };
 
 export const metadata = {
-  title: "Dr. Shazia Waghoo | Best Doctor in Kurla & Mumbai",
+  title: "Dr. Shazia Waghoo | Best Surgeon in Kurla & Mumbai",
   description:
     "Consult Dr. Shazia Waghoo in Kurla, Mumbai – Experienced doctor providing trusted care and advanced treatments.",
   keywords: [
