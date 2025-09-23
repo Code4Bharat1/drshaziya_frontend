@@ -58,7 +58,7 @@
 // };
 
 export const metadata = {
-  title: "Dr. Shazia Waghoo | Best Surgeon in Kurla & Mumbai",
+  title: "Dr. Shazia Waghoo | Best Surgeon in Santacruz & Mumbai",
   description:
     "Consult Dr. Shazia Waghoo in Kurla, Mumbai – Experienced doctor providing trusted care and advanced treatments.",
   keywords: [
@@ -96,7 +96,7 @@ export const metadata = {
   openGraph: {
     title: "Dr. Shazia Waghoo | Trusted Doctor in Mumbai",
     description:
-      "Book an appointment with Dr. Shazia Waghoo – Trusted surgeon in Kurla & Mumbai offering compassionate care.",
+      "Book an appointment with Dr. Shazia Waghoo – Trusted surgeon in Kurla, Santacruz & Mumbai offering compassionate care.",
     url: "https://drshaziawaghoosurgery.com/", // updated domain
     siteName: "Dr. Shazia Waghoo",
     images: [
@@ -104,7 +104,7 @@ export const metadata = {
         url: "/img/homeBanner.jpg",
         width: 1200,
         height: 630,
-        alt: "Dr. Shazia Waghoo - Best Doctor in Kurla Mumbai",
+        alt: "Dr. Shazia Waghoo - Best Surgeon in Santacruz & Mumbai",
       },
     ],
     locale: "en_IN",
