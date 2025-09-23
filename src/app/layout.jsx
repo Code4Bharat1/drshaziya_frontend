@@ -16,7 +16,7 @@ const geistMono = Geist_Mono({
 
 // ✅ Global Metadata (fixed with metadataBase)
 export const metadata = {
-  metadataBase: new URL("https://drshaziawaghoosurgery.com"), // 👈 fixes localhost warning
+  metadataBase: new URL("https://drshaziawaghoo.com/"), // 👈 fixes localhost warning
   title: "Dr. Shazia Waghoo | Hernia Surgery in Kurla – 10+ Years Experience",
   description:
     "Expert hernia surgery in Kurla by Dr. Shazia Waghoo. 10+ years of experience in advanced, safe, and minimally invasive hernia treatment.",
@@ -65,7 +65,7 @@ export const metadata = {
     follow: true,
   },
   alternates: {
-    canonical: "https://drshaziawaghoosurgery.com",
+    canonical: "https://drshaziawaghoo.com/",
   },
   // icons: {
   //   icon: "/logo.ico",
@@ -94,7 +94,7 @@ export default function RootLayout({ children }) {
             "@context": "https://schema.org",
             "@type": "Physician",
             name: "Dr. Shazia Waghoo",
-            image: "https://drshaziawaghoosurgery.com/og-image.jpg",
+            image: "https://drshaziawaghoo.com/",
             description:
               "Dr. Shazia Waghoo is a female laparoscopic surgeon in Mumbai, specializing in hernia & breast surgery.",
             address: {
@@ -105,7 +105,7 @@ export default function RootLayout({ children }) {
               postalCode: "400070",
               addressCountry: "IN",
             },
-            url: "https://drshaziawaghoosurgery.com",
+            url: "https://drshaziawaghoo.com/",
             telephone: "+91-XXXXXXXXXX",
             medicalSpecialty: [
               "Dr.Shazia Waghoo",
