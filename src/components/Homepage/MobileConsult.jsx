@@ -47,7 +47,7 @@ const MobileConsult = () => {
   />
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://drshaziawaghoo.com/" />
-  <meta property="og:image" content="https://drshaziawaghoosurgery.com/images/drshazia-profile.jpg" />
+  <meta property="og:image" content="https://drshaziawaghoo.com/images/drshazia-profile.jpg" />
   <meta property="og:locale" content="en_IN" />
 
   {/* ✅ Twitter Card */}
@@ -57,7 +57,7 @@ const MobileConsult = () => {
     name="twitter:description"
     content="Consult Dr. Shazia Waghoo for advanced, accurate and patient-first surgical solutions across multiple clinics."
   />
-  <meta name="twitter:image" content="https://drshaziawaghoosurgery.com/images/drshazia-profile.jpg" />
+  <meta name="twitter:image" content="https://drshaziawaghoo.com/images/drshazia-profile.jpg" />
 
   {/* ✅ Structured Data (Schema.org) */}
   <script type="application/ld+json">
@@ -66,7 +66,7 @@ const MobileConsult = () => {
       "@context": "https://schema.org",
       "@type": "Physician",
       "name": "Dr. Shazia Waghoo",
-      "image": "https://drshaziawaghoosurgery.com/images/drshazia-profile.jpg",
+      "image": "https://drshaziawaghoo.com/images/drshazia-profile.jpg",
       "description": "Highly experienced laparoscopic and laser surgeon offering care across multiple locations with cashless facilities.",
       "medicalSpecialty": "Surgery",
       "address": {

@@ -43,7 +43,7 @@ const Thyroid = () => {
   />
   <meta name="author" content="Dr. Shazia Waghoo" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <link rel="canonical" href="https://drshaziawaghoosurgery.com/allartical/thyroid" />
+  <link rel="canonical" href="https://drshaziawaghoo.com/allartical/thyroid" />
 
   {/* ✅ Open Graph (OG) for Social Sharing */}
   <meta property="og:title" content="Thyroid Surgery in Mumbai – Dr. Shazia Waghoo" />
@@ -52,8 +52,8 @@ const Thyroid = () => {
     content="Understand when thyroid surgery is advised, conditions treated, and advanced methods used by Dr. Shazia Waghoo for treating thyroid disorders in Mumbai."
   />
   <meta property="og:type" content="article" />
-  <meta property="og:url" content="https://drshaziawaghoosurgery.com/allartical/thyroid" />
-  <meta property="og:image" content="https://drshaziawaghoosurgery.com/images/thyroid-surgery-og.jpg" />
+  <meta property="og:url" content="https://drshaziawaghoo.com/allartical/thyroid" />
+  <meta property="og:image" content="https://drshaziawaghoo.com/images/thyroid-surgery-og.jpg" />
 
   {/* ✅ Twitter Card */}
   <meta name="twitter:card" content="summary_large_image" />
@@ -62,7 +62,7 @@ const Thyroid = () => {
     name="twitter:description"
     content="Explore how Dr. Shazia Waghoo treats thyroid nodules, goitre, and cancer using minimally invasive techniques. Book consultation in Mumbai."
   />
-  <meta name="twitter:image" content="https://drshaziawaghoosurgery.com/images/thyroid-surgery-og.jpg" />
+  <meta name="twitter:image" content="https://drshaziawaghoo.com/images/thyroid-surgery-og.jpg" />
 
   {/* ✅ Structured Data */}
   <script type="application/ld+json">
@@ -71,7 +71,7 @@ const Thyroid = () => {
         "@context": "https://schema.org",
         "@type": "MedicalWebPage",
         "name": "Thyroid Surgery",
-        "url": "https://drshaziawaghoosurgery.com/allartical/thyroid",
+        "url": "https://drshaziawaghoo.com/allartical/thyroid",
         "description": "Thyroidectomy for nodules, goitre, and thyroid cancer by Dr. Shazia Waghoo, expert in minimally invasive and laser thyroid surgery in Mumbai.",
         "author": {
           "@type": "Person",
@@ -82,7 +82,7 @@ const Thyroid = () => {
           "name": "Dr. Shazia Waghoo Surgical Clinic",
           "logo": {
             "@type": "ImageObject",
-            "url": "https://drshaziawaghoosurgery.com/images/logo.png"
+            "url": "https://drshaziawaghoo.com/images/logo.png"
           }
         },
         "mainEntity": {

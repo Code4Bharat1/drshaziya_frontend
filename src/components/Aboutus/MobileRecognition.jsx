@@ -64,7 +64,7 @@ const MobileRecognitions = () => {
   />
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://drshaziawaghoo.com/" />
-  <meta property="og:image" content="https://drshaziawaghoosurgery.com/images/drshazia-cover.jpg" />
+  <meta property="og:image" content="https://drshaziawaghoo.com/images/drshazia-cover.jpg" />
 
   {/* ✅ Twitter Card */}
   <meta name="twitter:card" content="summary_large_image" />
@@ -73,7 +73,7 @@ const MobileRecognitions = () => {
     name="twitter:description"
     content="Recognized member of ASI, Minimal Access Surgeons of India, and more. Know more about Dr. Shazia Waghoo's credentials."
   />
-  <meta name="twitter:image" content="https://drshaziawaghoosurgery.com/images/drshazia-cover.jpg" />
+  <meta name="twitter:image" content="https://drshaziawaghoo.com/images/drshazia-cover.jpg" />
 
   {/* ✅ Schema Markup for Recognitions */}
   <script type="application/ld+json">

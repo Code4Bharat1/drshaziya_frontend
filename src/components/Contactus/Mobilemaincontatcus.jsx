@@ -132,9 +132,9 @@ const Mobilemaincontatcus = () => {
           content="Fill out our contact form to schedule your consultation at VLSR – The Clinic, Santacruz. Quick and easy online appointment booking."
         />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://drshaziawaghoosurgery.com/contact" />
+        <meta property="og:url" content="https://drshaziawaghoo.com/contact" />
         <meta property="og:image" content="/og-image-vlsr-contact.jpg" />
-        <link rel="canonical" href="https://drshaziawaghoosurgery.com/contact" />
+        <link rel="canonical" href="https://drshaziawaghoo.com/contact" />
       </Head>
 
       <Toaster position="top-center" reverseOrder={false} />

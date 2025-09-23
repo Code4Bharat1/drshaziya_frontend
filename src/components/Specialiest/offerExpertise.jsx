@@ -97,7 +97,7 @@ const OfferExpertise = () => {
   />
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://drshaziawaghoo.com/" />
-  <meta property="og:image" content="https://drshaziawaghoosurgery.com/images/surgery-expertise-og.jpg" />
+  <meta property="og:image" content="https://drshaziawaghoo.com/images/surgery-expertise-og.jpg" />
 
   {/* ✅ Twitter Card */}
   <meta name="twitter:card" content="summary_large_image" />
@@ -106,7 +106,7 @@ const OfferExpertise = () => {
     name="twitter:description"
     content="Laparoscopic, Hernia, Breast, and GI surgeries – Get advanced surgical care with compassion by Dr. Shazia Waghoo."
   />
-  <meta name="twitter:image" content="https://drshaziawaghoosurgery.com/images/surgery-expertise-og.jpg" />
+  <meta name="twitter:image" content="https://drshaziawaghoo.com/images/surgery-expertise-og.jpg" />
 
   {/* ✅ Structured Data with Schema.org */}
   <script type="application/ld+json">
@@ -126,7 +126,7 @@ const OfferExpertise = () => {
           "postalCode": "400016",
           "addressCountry": "IN"
         },
-        "image": "https://drshaziawaghoosurgery.com/images/surgery-expertise-og.jpg"
+        "image": "https://drshaziawaghoo.com/images/surgery-expertise-og.jpg"
       }
     `}
   </script>

@@ -28,7 +28,7 @@ const MobileHernia = () => {
   />
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://drshaziawaghoo.com/" />
-  <meta property="og:image" content="https://drshaziawaghoosurgery.com/images/drshazia-cover.jpg" />
+  <meta property="og:image" content="https://drshaziawaghoo.com/images/drshazia-cover.jpg" />
 
   {/* ✅ Twitter Card */}
   <meta name="twitter:card" content="summary_large_image" />
@@ -37,7 +37,7 @@ const MobileHernia = () => {
     name="twitter:description"
     content="Specialist in laparoscopic, hernia, and breast surgeries. 10+ years of experience, patient-first approach, and multi-hospital affiliation."
   />
-  <meta name="twitter:image" content="https://drshaziawaghoosurgery.com/images/drshazia-cover.jpg" />
+  <meta name="twitter:image" content="https://drshaziawaghoo.com/images/drshazia-cover.jpg" />
 
   {/* ✅ Structured Data for Doctor Schema */}
   <script type="application/ld+json">
@@ -46,7 +46,7 @@ const MobileHernia = () => {
         "@context": "https://schema.org",
         "@type": "Physician",
         "name": "Dr. Shazia Waghoo",
-        "image": "https://drshaziawaghoosurgery.com/images/drshazia-cover.jpg",
+        "image": "https://drshaziawaghoo.com/images/drshazia-cover.jpg",
         "description": "Experienced Laparoscopic, Hernia & Breast Surgeon in Mumbai with over 10 years of surgical excellence.",
         "medicalSpecialty": ["Laparoscopic Surgery", "Hernia Surgery", "Breast Surgery"],
         "url": "https://drshaziawaghoo.com/",

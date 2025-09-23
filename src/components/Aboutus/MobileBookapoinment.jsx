@@ -34,7 +34,7 @@ export default function BookAppointmentMobile() {
   />
   <meta property="og:url" content="https://drshaziawaghoo.com/" />
   <meta property="og:type" content="website" />
-  <meta property="og:image" content="https://drshaziawaghoosurgery.com/images/book-appointment-cover.jpg" />
+  <meta property="og:image" content="https://drshaziawaghoo.com/images/book-appointment-cover.jpg" />
 
   {/* ✅ Twitter Card */}
   <meta name="twitter:card" content="summary_large_image" />
@@ -43,7 +43,7 @@ export default function BookAppointmentMobile() {
     name="twitter:description"
     content="Book an appointment for advanced laparoscopic and hernia surgery with Dr. Shazia Waghoo."
   />
-  <meta name="twitter:image" content="https://drshaziawaghoosurgery.com/images/book-appointment-cover.jpg" />
+  <meta name="twitter:image" content="https://drshaziawaghoo.com/images/book-appointment-cover.jpg" />
 
   {/* ✅ Optional Schema Markup */}
   <script type="application/ld+json">
@@ -53,7 +53,7 @@ export default function BookAppointmentMobile() {
       "@type": "MedicalClinic",
       "name": "Dr. Shazia Waghoo's Surgery Clinic",
       "url": "https://drshaziawaghoo.com",
-      "image": "https://drshaziawaghoosurgery.com/images/book-appointment-cover.jpg",
+      "image": "https://drshaziawaghoo.com/images/book-appointment-cover.jpg",
       "description": "Trusted clinic for laparoscopic, hernia, and breast surgery led by Dr. Shazia Waghoo.",
       "address": {
         "@type": "PostalAddress",

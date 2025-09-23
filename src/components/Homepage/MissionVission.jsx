@@ -29,7 +29,7 @@ const MissionVission = () => {
   />
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://drshaziawaghoo.com/" />
-  <meta property="og:image" content="https://drshaziawaghoosurgery.com/images/drshazia-profile.jpg" />
+  <meta property="og:image" content="https://drshaziawaghoo.com/images/drshazia-profile.jpg" />
   <meta property="og:locale" content="en_IN" />
 
   {/* ✅ Twitter Card */}
@@ -39,7 +39,7 @@ const MissionVission = () => {
     name="twitter:description"
     content="Committed to patient-centered, affordable, and advanced surgical care for a healthier future. Learn more about our mission and vision."
   />
-  <meta name="twitter:image" content="https://drshaziawaghoosurgery.com/images/drshazia-profile.jpg" />
+  <meta name="twitter:image" content="https://drshaziawaghoo.com/images/drshazia-profile.jpg" />
 
   {/* ✅ Schema Markup */}
   <script type="application/ld+json">
@@ -50,7 +50,7 @@ const MissionVission = () => {
       "name": "Dr. Shazia Waghoo Surgical Care",
       "description": "We provide advanced, affordable surgical treatments with a focus on patient dignity and high outcomes.",
       "url": "https://drshaziawaghoo.com/",
-      "logo": "https://drshaziawaghoosurgery.com/images/logo.png",
+      "logo": "https://drshaziawaghoo.com/images/logo.png",
       "address": {
         "@type": "PostalAddress",
         "addressLocality": "Andheri | Santacruz ",

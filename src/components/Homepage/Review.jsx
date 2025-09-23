@@ -40,7 +40,7 @@ const Review = () => {
           property="og:description"
           content=" Dr. Shazia Waghoo – Read their real experiences and recommendations on Google."
         />
-        <meta property="og:image" content="https://drshaziawaghoosurgery.com/fivestar.png" />
+        <meta property="og:image" content="https://drshaziawaghoo.com/fivestar.png" />
         <meta property="og:url" content="https://drshaziawaghoo.com/" />
         <meta property="og:type" content="website" />
         <meta property="og:locale" content="en_IN" />
@@ -52,7 +52,7 @@ const Review = () => {
           name="twitter:description"
           content="Explore honest reviews and feedback from patients treated by Dr. Shazia Waghoo – Expert Laparoscopic and Hernia Surgeon in Mumbai."
         />
-        <meta name="twitter:image" content="https://drshaziawaghoosurgery.com/fivestar.png" />
+        <meta name="twitter:image" content="https://drshaziawaghoo.com/fivestar.png" />
 
         {/* ✅ Structured Data – Review Page */}
         <script type="application/ld+json">

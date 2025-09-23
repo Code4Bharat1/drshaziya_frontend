@@ -97,7 +97,7 @@ General Surgeon in Khar Laparoscopic Surgery in Khar Mumbai Best Female Surgeon 
         />
         <meta
           property="og:image"
-          content="https://drshaziawaghoosurgery.com/offer1.png"
+          content="https://drshaziawaghoo.com/offer1.png"
         />
         <meta property="og:locale" content="en_IN" />
         <meta name="twitter:card" content="summary_large_image" />
@@ -111,7 +111,7 @@ General Surgeon in Khar Laparoscopic Surgery in Khar Mumbai Best Female Surgeon 
         />
         <meta
           name="twitter:image"
-          content="https://drshaziawaghoosurgery.com/offer1.png"
+          content="https://drshaziawaghoo.com/offer1.png"
         />
         <script type="application/ld+json">
           {`
@@ -120,7 +120,7 @@ General Surgeon in Khar Laparoscopic Surgery in Khar Mumbai Best Female Surgeon 
             "@type": "MedicalOrganization",
             "name": "Dr. Shazia Waghoo Surgery Clinic",
             "url": "https://drshaziawaghoo.com/",
-            "logo": "https://drshaziawaghoosurgery.com/offer1.png",
+            "logo": "https://drshaziawaghoo.com/offer1.png",
             "address": {
               "@type": "PostalAddress",
               "addressLocality": "Mumbai",

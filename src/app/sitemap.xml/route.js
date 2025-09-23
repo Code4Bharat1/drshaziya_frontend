@@ -1,4 +1,4 @@
-const BASE_URL = "https://drshaziawaghoosurgery.com";
+const BASE_URL = "https://drshaziawaghoo.com";
 
 export async function GET() {
   // Static pages

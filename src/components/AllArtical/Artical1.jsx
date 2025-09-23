@@ -20,7 +20,7 @@ const Artical1 = () => {
   />
   <meta name="author" content="Dr. Shazia Waghoo" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <link rel="canonical" href="https://drshaziawaghoosurgery.com" />
+  <link rel="canonical" href="https://drshaziawaghoo.com" />
 
   {/* ✅ Open Graph (Facebook, LinkedIn) */}
   <meta property="og:title" content="Article 1: Training & Development in Healthcare – Dr. Shazia Waghoo" />
@@ -28,9 +28,9 @@ const Artical1 = () => {
     property="og:description"
     content="Read this in-depth article on the key elements affecting the quality of training provided to non-physician healthcare professionals."
   />
-  <meta property="og:url" content="https://drshaziawaghoosurgery.com/articles/article-1" />
+  <meta property="og:url" content="https://drshaziawaghoo.com/articles/article-1" />
   <meta property="og:type" content="article" />
-  <meta property="og:image" content="https://drshaziawaghoosurgery.com/images/lasersurgary-og.jpg" />
+  <meta property="og:image" content="https://drshaziawaghoo.com/images/lasersurgary-og.jpg" />
 
   {/* ✅ Twitter Card */}
   <meta name="twitter:card" content="summary_large_image" />
@@ -39,7 +39,7 @@ const Artical1 = () => {
     name="twitter:description"
     content="Scoping review insights on T&D process, system, environment, and healthcare professional factors."
   />
-  <meta name="twitter:image" content="https://drshaziawaghoosurgery.com/images/lasersurgary-og.jpg" />
+  <meta name="twitter:image" content="https://drshaziawaghoo.com/images/lasersurgary-og.jpg" />
 
   {/* ✅ Schema.org Article Markup */}
   <script type="application/ld+json">
@@ -49,7 +49,7 @@ const Artical1 = () => {
       "@type": "Article",
       "headline": "Training & Development in Healthcare",
       "description": "A comprehensive review of the quality factors affecting training and development for non-physician healthcare professionals.",
-      "image": "https://drshaziawaghoosurgery.com/images/lasersurgary-og.jpg",
+      "image": "https://drshaziawaghoo.com/images/lasersurgary-og.jpg",
       "author": {
         "@type": "Person",
         "name": "Dr. Shazia Waghoo"
@@ -59,7 +59,7 @@ const Artical1 = () => {
         "name": "Dr. Shazia Waghoo's Surgery Clinic",
         "logo": {
           "@type": "ImageObject",
-          "url": "https://drshaziawaghoosurgery.com/logo.png"
+          "url": "https://drshaziawaghoo.com/logo.png"
         }
       },
       "datePublished": "2025-06-18"

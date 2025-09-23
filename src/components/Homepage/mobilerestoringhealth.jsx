@@ -30,7 +30,7 @@ General Surgeon in Khar Laparoscopic Surgery in Khar Mumbai Best Female Surgeon 
   />
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://drshaziawaghoo.com/" />
-  <meta property="og:image" content="https://drshaziawaghoosurgery.com/restoringfinal.png" />
+  <meta property="og:image" content="https://drshaziawaghoo.com/restoringfinal.png" />
   <meta property="og:locale" content="en_IN" />
 
   {/* ✅ Twitter Card */}
@@ -40,7 +40,7 @@ General Surgeon in Khar Laparoscopic Surgery in Khar Mumbai Best Female Surgeon 
     name="twitter:description"
     content="Dr. Shazia Waghoo’s surgical care empowers patients through expert laparoscopic techniques and personalized recovery plans in Mumbai."
   />
-  <meta name="twitter:image" content="https://drshaziawaghoosurgery.com/restoringfinal.png" />
+  <meta name="twitter:image" content="https://drshaziawaghoo.com/restoringfinal.png" />
 
   {/* ✅ Structured Data (JSON-LD Schema) */}
   <script type="application/ld+json">
@@ -55,7 +55,7 @@ General Surgeon in Khar Laparoscopic Surgery in Khar Mumbai Best Female Surgeon 
           "@type": "Person",
           "name": "Dr. Shazia Waghoo",
           "jobTitle": "Laparoscopic, Hernia & Breast Surgeon",
-          "image": "https://drshaziawaghoosurgery.com/restoringfinal.png",
+          "image": "https://drshaziawaghoo.com/restoringfinal.png",
           "url": "https://drshaziawaghoo.com/",
           "worksFor": {
             "@type": "MedicalOrganization",

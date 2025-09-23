@@ -31,7 +31,7 @@ const MobileMissionVission = () => {
   />
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://drshaziawaghoo.com/" />
-  <meta property="og:image" content="https://drshaziawaghoosurgery.com/cover-mission.png" />
+  <meta property="og:image" content="https://drshaziawaghoo.com/cover-mission.png" />
   <meta property="og:locale" content="en_IN" />
 
   {/* ✅ Twitter Card */}
@@ -41,7 +41,7 @@ const MobileMissionVission = () => {
     name="twitter:description"
     content="Empowering lives through affordable surgical excellence. Learn more about Dr. Shazia Waghoo’s mission and vision."
   />
-  <meta name="twitter:image" content="https://drshaziawaghoosurgery.com/cover-mission.png" />
+  <meta name="twitter:image" content="https://drshaziawaghoo.com/cover-mission.png" />
 
   {/* ✅ JSON-LD Structured Data */}
   <script type="application/ld+json">
@@ -51,7 +51,7 @@ const MobileMissionVission = () => {
       "@type": "MedicalOrganization",
       "name": "Dr. Shazia Waghoo Surgery",
       "url": "https://drshaziawaghoo.com/",
-      "logo": "https://drshaziawaghoosurgery.com/cover-mission.png",
+      "logo": "https://drshaziawaghoo.com/cover-mission.png",
       "description": "Delivering accessible, high-quality surgical care with dignity, innovation, and patient-first values.",
       "founder": {
         "@type": "Person",

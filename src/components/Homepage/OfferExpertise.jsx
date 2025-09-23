@@ -96,7 +96,7 @@ const OfferExpertise = () => {
         />
         <meta property="og:url" content="https://drshaziawaghoo.com/" />
         <meta property="og:type" content="website" />
-        <meta property="og:image" content="https://drshaziawaghoosurgery.com/offer1.png" />
+        <meta property="og:image" content="https://drshaziawaghoo.com/offer1.png" />
         <meta property="og:locale" content="en_IN" />
 
         {/* ✅ Twitter Card */}
@@ -106,7 +106,7 @@ const OfferExpertise = () => {
           name="twitter:description"
           content="Explore the range of surgical specialties by Dr. Shazia Waghoo in Mumbai, including laparoscopic, GI, and cosmetic procedures."
         />
-        <meta name="twitter:image" content="https://drshaziawaghoosurgery.com/offer1.png" />
+        <meta name="twitter:image" content="https://drshaziawaghoo.com/offer1.png" />
 
         {/* ✅ Structured Data (Schema.org) */}
         <script type="application/ld+json">
@@ -116,7 +116,7 @@ const OfferExpertise = () => {
               "@type": "MedicalOrganization",
               "name": "Dr. Shazia Waghoo",
               "url": "https://drshaziawaghoo.com/",
-              "logo": "https://drshaziawaghoosurgery.com/offer1.png",
+              "logo": "https://drshaziawaghoo.com/offer1.png",
               "description": "Dr. Shazia Waghoo offers specialized surgeries including laparoscopic, breast, hernia, laser, GI, thyroid, and abdominal wall reconstruction.",
               "medicalSpecialty": [
                 "Laparoscopic Surgery",

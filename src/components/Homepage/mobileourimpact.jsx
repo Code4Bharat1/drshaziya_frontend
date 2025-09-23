@@ -60,7 +60,7 @@ const MobileOurImpact = () => {
   />
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://drshaziawaghoo.com/" />
-  <meta property="og:image" content="https://drshaziawaghoosurgery.com/heart.png" />
+  <meta property="og:image" content="https://drshaziawaghoo.com/heart.png" />
   <meta property="og:locale" content="en_IN" />
 
   {/* ✅ Twitter Card */}
@@ -70,7 +70,7 @@ const MobileOurImpact = () => {
     name="twitter:description"
     content="Explore how Dr. Shazia Waghoo has transformed lives with 2,000+ happy patients and 1,000+ surgeries in Mumbai."
   />
-  <meta name="twitter:image" content="https://drshaziawaghoosurgery.com/heart.png" />
+  <meta name="twitter:image" content="https://drshaziawaghoo.com/heart.png" />
 
   {/* ✅ Structured Data (JSON-LD Schema) */}
   <script type="application/ld+json">
@@ -95,7 +95,7 @@ const MobileOurImpact = () => {
           "addressLocality": "Mumbai",
           "addressCountry": "IN"
         },
-        "image": "https://drshaziawaghoosurgery.com/heart.png"
+        "image": "https://drshaziawaghoo.com/heart.png"
       }
     }
     `}

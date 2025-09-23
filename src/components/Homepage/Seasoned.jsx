@@ -30,7 +30,7 @@ const router = useRouter();
           content="Over 10 years of surgical excellence in Mumbai. Expert in minimally invasive hernia and breast surgeries. Trusted and compassionate care."
         />
         <meta property="og:url" content="https://drshaziawaghoo.com/" />
-        <meta property="og:image" content="https://drshaziawaghoosurgery.com/surgicalexellencedr.png" />
+        <meta property="og:image" content="https://drshaziawaghoo.com/surgicalexellencedr.png" />
         <meta property="og:type" content="profile" />
         <meta property="og:locale" content="en_IN" />
 
@@ -41,7 +41,7 @@ const router = useRouter();
           name="twitter:description"
           content="Learn more about Dr. Shazia Waghoo’s 10+ years of experience in minimally invasive surgeries and patient-centered surgical care."
         />
-        <meta name="twitter:image" content="https://drshaziawaghoosurgery.com/surgicalexellencedr.png" />
+        <meta name="twitter:image" content="https://drshaziawaghoo.com/surgicalexellencedr.png" />
 
         {/* ✅ Structured Data (Schema.org) */}
         <script type="application/ld+json">
@@ -51,7 +51,7 @@ const router = useRouter();
               "@type": "Physician",
               "name": "Dr. Shazia Waghoo",
               "url": "https://drshaziawaghoo.com/",
-              "image": "https://drshaziawaghoosurgery.com/surgicalexellencedr.png",
+              "image": "https://drshaziawaghoo.com/surgicalexellencedr.png",
               "description": "Laparoscopic, Hernia, and Breast Surgeon in Andheri | Santacruz with over 10 years of experience.",
               "medicalSpecialty": [
                 "Laparoscopic Surgery",

@@ -58,8 +58,8 @@ Minimally invasive surgery in Vashi/Santacruz/Khar Best laparoscopic gallbladder
           property="og:description"
           content="Over 10 years of experience with more than 2,000 happy patients and 1,000+ successful surgeries. Affiliated with leading hospitals in Mumbai."
         />
-        <meta property="og:image" content="https://drshaziawaghoosurgery.com/heart.png" />
-        <meta property="og:url" content="https://drshaziawaghoosurgery.com/our-impact" />
+        <meta property="og:image" content="https://drshaziawaghoo.com/heart.png" />
+        <meta property="og:url" content="https://drshaziawaghoo.com/our-impact" />
         <meta property="og:type" content="website" />
         <meta property="og:locale" content="en_IN" />
 
@@ -70,7 +70,7 @@ Minimally invasive surgery in Vashi/Santacruz/Khar Best laparoscopic gallbladder
           name="twitter:description"
           content="Dr. Shazia Waghoo’s expert surgical care has improved thousands of lives. Explore her impact across patients, surgeries, and hospitals."
         />
-        <meta name="twitter:image" content="https://drshaziawaghoosurgery.com/heart.png" />
+        <meta name="twitter:image" content="https://drshaziawaghoo.com/heart.png" />
 
         {/* ✅ Structured Data (Organization + Medical Specialty) */}
         <script type="application/ld+json">
@@ -80,8 +80,8 @@ Minimally invasive surgery in Vashi/Santacruz/Khar Best laparoscopic gallbladder
               "@type": "MedicalOrganization",
               "name": "Dr. Shazia Waghoo",
               "url": "https://drshaziawaghoo.com/",
-              "logo": "https://drshaziawaghoosurgery.com/heart.png",
-              "image": "https://drshaziawaghoosurgery.com/heart.png",
+              "logo": "https://drshaziawaghoo.com/heart.png",
+              "image": "https://drshaziawaghoo.com/heart.png",
               "description": "Experienced Laparoscopic, Hernia and Breast Surgeon with over 2,000 happy patients and affiliations with top hospitals in Mumbai.",
               "address": {
                 "@type": "PostalAddress",

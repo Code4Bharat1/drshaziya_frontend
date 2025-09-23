@@ -24,7 +24,7 @@ export default function BookAppointment() {
         <meta property="og:title" content="Dr. Shazia Waghoo's Surgery Clinic" />
         <meta property="og:description" content="Expert laparoscopic surgery services by Dr. Shazia Waghoo in Santacruz and Andheri. Book your appointment today!" />
         <meta property="og:image" content="/book-apoinment.jpg" />
-        <meta property="og:url" content="https://drshaziawaghoosurgery.com/contactus" />
+        <meta property="og:url" content="https://drshaziawaghoo.com/contactus" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
     <div className="relative w-full h-[400px] sm:h-[500px] md:h-[600px] lg:h-[700px] overflow-hidden">

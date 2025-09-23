@@ -31,7 +31,7 @@ const Demystifying = () => {
   />
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://drshaziawaghoo.com/" />
-  <meta property="og:image" content="https://drshaziawaghoosurgery.com/images/drshazia-profile.jpg" />
+  <meta property="og:image" content="https://drshaziawaghoo.com/images/drshazia-profile.jpg" />
   <meta property="og:locale" content="en_IN" />
 
   {/* ✅ Twitter Card */}
@@ -41,7 +41,7 @@ const Demystifying = () => {
     name="twitter:description"
     content="Book a consultation with Dr. Shazia Waghoo for hassle-free surgical care and faster recovery. Personalized treatment across multiple diseases."
   />
-  <meta name="twitter:image" content="https://drshaziawaghoosurgery.com/images/drshazia-profile.jpg" />
+  <meta name="twitter:image" content="https://drshaziawaghoo.com/images/drshazia-profile.jpg" />
 
   {/* ✅ Schema Markup for Doctor */}
   <script type="application/ld+json">
@@ -53,7 +53,7 @@ const Demystifying = () => {
       "description": "Delivering precise and compassionate surgical care with expertise in laparoscopic and laser surgery.",
       "medicalSpecialty": "Surgery",
       "url": "https://drshaziawaghoo.com/",
-      "image": "https://drshaziawaghoosurgery.com/images/drshazia-profile.jpg",
+      "image": "https://drshaziawaghoo.com/images/drshazia-profile.jpg",
       "address": {
         "@type": "PostalAddress",
         "addressLocality": "Andheri | Santacruz",

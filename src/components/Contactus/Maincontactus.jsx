@@ -118,8 +118,8 @@ const Maincontactus = () => {
         <meta property="og:description" content="Fill out the form to reach VLSR - The Clinic. Easily locate us on Google Maps." />
         <meta property="og:type" content="website" />
         <meta property="og:image" content="/contactus-image.jpg" />
-        <meta property="og:url" content="https://drshaziawaghoosurgery.com/contact" />
-        <link rel="canonical" href="https://drshaziawaghoosurgery.com/contact" />
+        <meta property="og:url" content="https://drshaziawaghoo.com/contact" />
+        <link rel="canonical" href="https://drshaziawaghoo.com/contact" />
       </Head>
 
       <ToastContainer />

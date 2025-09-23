@@ -42,7 +42,7 @@ const Conference = () => {
   />
   <meta name="author" content="Dr. Shazia Waghoo" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <link rel="canonical" href="https://drshaziawaghoosurgery.com" />
+  <link rel="canonical" href="https://drshaziawaghoo.com" />
 
   {/* ✅ Open Graph (Facebook, LinkedIn) */}
   <meta property="og:title" content="Conference Presentations – Dr. Shazia Waghoo" />
@@ -52,7 +52,7 @@ const Conference = () => {
   />
   <meta property="og:url" content="https://drshaziawaghoo.com" />
   <meta property="og:type" content="website" />
-  <meta property="og:image" content="https://drshaziawaghoosurgery.com/images/conference-og.jpg" />
+  <meta property="og:image" content="https://drshaziawaghoo.com/images/conference-og.jpg" />
 
   {/* ✅ Twitter Card */}
   <meta name="twitter:card" content="summary_large_image" />
@@ -61,7 +61,7 @@ const Conference = () => {
     name="twitter:description"
     content="Explore global conference presentations on advanced surgical techniques by Dr. Shazia Waghoo."
   />
-  <meta name="twitter:image" content="https://drshaziawaghoosurgery.com/images/conference-og.jpg" />
+  <meta name="twitter:image" content="https://drshaziawaghoo.com/images/conference-og.jpg" />
 
   {/* ✅ Optional Schema Markup */}
   <script type="application/ld+json">
@@ -71,7 +71,7 @@ const Conference = () => {
       "@type": "MedicalOrganization",
       "name": "Dr. Shazia Waghoo's Surgery Clinic",
       "url": "https://drshaziawaghoo.com/",
-      "logo": "https://drshaziawaghoosurgery.com/logo.png",
+      "logo": "https://drshaziawaghoo.com/logo.png",
       "sameAs": [
         "https://www.facebook.com/DrShaziaWaghoo",
         "https://www.linkedin.com/in/drshaziawaghoo"

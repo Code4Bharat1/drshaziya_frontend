@@ -21,7 +21,7 @@ const MobileSeasoned = () => {
         />
         <meta name="author" content="Dr. Shazia Waghoo" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="canonical" href="https://drshaziawaghoosurgery.com/mobile-seasoned" />
+        <link rel="canonical" href="https://drshaziawaghoo.com/mobile-seasoned" />
 
         {/* ✅ Open Graph for Social Sharing */}
         <meta property="og:title" content="Dr. Shazia Waghoo - Trusted Surgical Expertise in Mumbai" />
@@ -31,7 +31,7 @@ const MobileSeasoned = () => {
         />
         <meta property="og:type" content="profile" />
         <meta property="og:url" content="https://drshaziawaghoo.com/" />
-        <meta property="og:image" content="https://drshaziawaghoosurgery.com/surgicalexellencedr.png" />
+        <meta property="og:image" content="https://drshaziawaghoo.com/surgicalexellencedr.png" />
         <meta property="og:locale" content="en_IN" />
 
         {/* ✅ Twitter Card */}
@@ -41,7 +41,7 @@ const MobileSeasoned = () => {
           name="twitter:description"
           content="Dr. Shazia Waghoo is a trusted name in Laparoscopic, Hernia, and Breast Surgery. Learn more about her patient-first care approach."
         />
-        <meta name="twitter:image" content="https://drshaziawaghoosurgery.com/surgicalexellencedr.png" />
+        <meta name="twitter:image" content="https://drshaziawaghoo.com/surgicalexellencedr.png" />
 
         {/* ✅ Structured Data (JSON-LD Schema) */}
         <script type="application/ld+json">
@@ -51,7 +51,7 @@ const MobileSeasoned = () => {
             "@type": "Person",
             "name": "Dr. Shazia Waghoo",
             "url": "https://drshaziawaghoo.com/",
-            "image": "https://drshaziawaghoosurgery.com/surgicalexellencedr.png",
+            "image": "https://drshaziawaghoo.com/surgicalexellencedr.png",
             "jobTitle": "Laparoscopic, Hernia & Breast Surgeon",
             "worksFor": {
               "@type": "MedicalOrganization",

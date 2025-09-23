@@ -181,8 +181,8 @@ const MapComponent = ({ userLocation, clinics, selectedLocation }) => {
         <meta property="og:description" content="Find clinics and healthcare locations near you using our interactive Leaflet map." />
         <meta property="og:type" content="website" />
         <meta property="og:image" content="/clinic-map-preview.jpg" />
-        <meta property="og:url" content="https://drshaziawaghoosurgery.com/clinic-map" />
-        <link rel="canonical" href="https://drshaziawaghoosurgery.com/clinic-map" />
+        <meta property="og:url" content="https://drshaziawaghoo.com/clinic-map" />
+        <link rel="canonical" href="https://drshaziawaghoo.com/clinic-map" />
       </Head>
 
       <style jsx>{`

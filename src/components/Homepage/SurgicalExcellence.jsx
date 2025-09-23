@@ -29,7 +29,7 @@ const SurgicalExcellence = () => {
     property="og:description"
     content=" Dr. Shazia Waghoo for expert consultation in laparoscopic, hernia, and breast surgeries. Schedule your appointment today."
   />
-  <meta property="og:image" content="https://drshaziawaghoosurgery.com/hero4.png" />
+  <meta property="og:image" content="https://drshaziawaghoo.com/hero4.png" />
   <meta property="og:url" content="https://drshaziawaghoo.com/" />
   <meta property="og:type" content="website" />
   <meta property="og:locale" content="en_IN" />
@@ -41,7 +41,7 @@ const SurgicalExcellence = () => {
     name="twitter:description"
     content="Consult with Dr. Shazia Waghoo for laparoscopic, hernia, or breast surgery. Book an appointment or send your queries online."
   />
-  <meta name="twitter:image" content="https://drshaziawaghoosurgery.com/hero4.png" />
+  <meta name="twitter:image" content="https://drshaziawaghoo.com/hero4.png" />
 
   {/* ✅ Structured Data (Local Business Schema) */}
   <script type="application/ld+json">
@@ -50,8 +50,8 @@ const SurgicalExcellence = () => {
         "@context": "https://schema.org",
         "@type": "Physician",
         "name": "Dr. Shazia Waghoo",
-        "url": "https://drshaziawaghoosurgery.com",
-        "image": "https://drshaziawaghoosurgery.com/hero4.png",
+        "url": "https://drshaziawaghoo.com",
+        "image": "https://drshaziawaghoo.com/hero4.png",
         "address": {
           "@type": "PostalAddress",
           "streetAddress": "dr shazia Andheri ",

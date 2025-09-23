@@ -64,7 +64,7 @@ const MobilePatientCare = () => {
   />
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://drshaziawaghoo.com/" />
-  <meta property="og:image" content="https://drshaziawaghoosurgery.com/images/patient-care-og.jpg" />
+  <meta property="og:image" content="https://drshaziawaghoo.com/images/patient-care-og.jpg" />
 
   {/* ✅ Twitter Card */}
   <meta name="twitter:card" content="summary_large_image" />
@@ -73,7 +73,7 @@ const MobilePatientCare = () => {
     name="twitter:description"
     content="Detailed patient care approach by Dr. Shazia Waghoo from surgery planning to full recovery. Your health is our priority."
   />
-  <meta name="twitter:image" content="https://drshaziawaghoosurgery.com/images/patient-care-og.jpg" />
+  <meta name="twitter:image" content="https://drshaziawaghoo.com/images/patient-care-og.jpg" />
 
   {/* ✅ Schema.org Structured Data for Patient Care */}
   <script type="application/ld+json">
@@ -92,7 +92,7 @@ const MobilePatientCare = () => {
           "postalCode": "400047",
           "addressCountry": "IN"
         },
-        "image": "https://drshaziawaghoosurgery.com/images/patient-care-og.jpg"
+        "image": "https://drshaziawaghoo.com/images/patient-care-og.jpg"
       }
     `}
   </script>

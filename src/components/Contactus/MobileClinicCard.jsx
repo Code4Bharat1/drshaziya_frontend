@@ -66,9 +66,9 @@ const MobileClinicCard = () => {
           content="List of top-rated clinics and surgeons in Santacruz and surrounding Mumbai. View locations and specialties online."
         />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://drshaziawaghoosurgery.com/clinics" />
+        <meta property="og:url" content="https://drshaziawaghoo.com/clinics" />
         <meta property="og:image" content="/santacruz-clinic-thumbnail.jpg" />
-        <link rel="canonical" href="https://drshaziawaghoosurgery.com/clinics" />
+        <link rel="canonical" href="https://drshaziawaghoo.com/clinics" />
       </Head>
 
       <div className="bg-[#f4f6fb] py-10 px-4">

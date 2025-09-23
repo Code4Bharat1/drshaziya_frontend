@@ -11,4 +11,4 @@ Disallow:
 # Allow: /public/
 
 # Sitemap location
-Sitemap: https://drshaziawaghoosurgery.com/sitemap.xml
+Sitemap: https://drshaziawaghoo.com/sitemap.xml

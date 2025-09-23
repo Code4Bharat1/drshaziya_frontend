@@ -26,7 +26,7 @@ const Restoringhealth = () => {
           property="og:description"
           content="Dr. Shazia Waghoo delivers advanced surgical care focused on fast recovery and minimal hospital stay. Trusted by patients across Mumbai."
         />
-        <meta property="og:image" content="https://drshaziawaghoosurgery.com/restoringfinal.png" />
+        <meta property="og:image" content="https://drshaziawaghoo.com/restoringfinal.png" />
         <meta property="og:url" content="https://drshaziawaghoo.com/" />
         <meta property="og:type" content="website" />
         <meta property="og:locale" content="en_IN" />
@@ -38,7 +38,7 @@ const Restoringhealth = () => {
           name="twitter:description"
           content="Learn how Dr. Shazia Waghoo combines surgical excellence with patient care. Specialized in laparoscopic procedures in Mumbai."
         />
-        <meta name="twitter:image" content="https://drshaziawaghoosurgery.com/restoringfinal.png" />
+        <meta name="twitter:image" content="https://drshaziawaghoo.com/restoringfinal.png" />
 
         {/* ✅ Structured Data (Schema.org - MedicalOrganization) */}
         <script type="application/ld+json">
@@ -47,7 +47,7 @@ const Restoringhealth = () => {
               "@context": "https://schema.org",
               "@type": "MedicalOrganization",
               "name": "Dr. Shazia Waghoo",
-              "image": "https://drshaziawaghoosurgery.com/restoringfinal.png",
+              "image": "https://drshaziawaghoo.com/restoringfinal.png",
               "url": "https://drshaziawaghoo.com/",
               "address": {
                 "@type": "PostalAddress",

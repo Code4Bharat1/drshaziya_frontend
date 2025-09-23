@@ -98,7 +98,7 @@ const ClinicCard = () => {
         />
         <meta name="author" content="Dr. Shazia Waghoo" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="canonical" href="https://drshaziawaghoosurgery.com" />
+        <link rel="canonical" href="https://drshaziawaghoo.com" />
 
         {/* ✅ Open Graph Meta for Facebook/LinkedIn */}
         <meta
@@ -110,10 +110,10 @@ const ClinicCard = () => {
           content="Explore all clinic locations of Dr. Shazia Waghoo for expert laparoscopic and surgical consultations across Mumbai."
         />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://drshaziawaghoosurgery.com/" />
+        <meta property="og:url" content="https://drshaziawaghoo.com/" />
         <meta
           property="og:image"
-          content="https://drshaziawaghoosurgery.com/images/clinic-locations-og.jpg"
+          content="https://drshaziawaghoo.com/images/clinic-locations-og.jpg"
         />
 
         {/* ✅ Twitter Card Meta */}
@@ -128,7 +128,7 @@ const ClinicCard = () => {
         />
         <meta
           name="twitter:image"
-          content="https://drshaziawaghoosurgery.com/images/clinic-locations-og.jpg"
+          content="https://drshaziawaghoo.com/images/clinic-locations-og.jpg"
         />
 
         {/* ✅ Structured Data with Schema.org */}
@@ -138,7 +138,7 @@ const ClinicCard = () => {
         "@context": "https://schema.org",
         "@type": "MedicalClinic",
         "name": "Dr. Shazia Waghoo Surgical Clinics",
-        "url": "https://drshaziawaghoosurgery.com/clinics",
+        "url": "https://drshaziawaghoo.com/clinics",
         "description": "List of clinic locations of Dr. Shazia Waghoo in Mumbai for surgical consultations including laparoscopic, hernia, breast, and GI treatments.",
         "medicalSpecialty": "Surgical",
         "address": [
@@ -159,7 +159,7 @@ const ClinicCard = () => {
             "addressCountry": "IN"
           }
         ],
-        "image": "https://drshaziawaghoosurgery.com/images/clinic-locations-og.jpg"
+        "image": "https://drshaziawaghoo.com/images/clinic-locations-og.jpg"
       }
     `}
         </script>

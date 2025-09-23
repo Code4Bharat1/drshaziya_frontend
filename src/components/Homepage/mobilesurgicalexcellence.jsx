@@ -35,7 +35,7 @@ const MobileSurgicalExcellence = () => {
         />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://drshaziawaghoo.com/" />
-        <meta property="og:image" content="https://drshaziawaghoosurgery.com/hero4.png" />
+        <meta property="og:image" content="https://drshaziawaghoo.com/hero4.png" />
         <meta property="og:locale" content="en_IN" />
 
         {/* ✅ Twitter Card Meta */}
@@ -45,7 +45,7 @@ const MobileSurgicalExcellence = () => {
           name="twitter:description"
           content="Mobile-friendly advanced surgical care with Dr. Shazia Waghoo – focused on precision, expertise, and compassion."
         />
-        <meta name="twitter:image" content="https://drshaziawaghoosurgery.com/hero4.png" />
+        <meta name="twitter:image" content="https://drshaziawaghoo.com/hero4.png" />
 
         {/* ✅ Structured Data (JSON-LD) */}
         <script type="application/ld+json">
@@ -54,7 +54,7 @@ const MobileSurgicalExcellence = () => {
             "@context": "https://schema.org",
             "@type": "MedicalClinic",
             "name": "Dr. Shazia Waghoo Surgical Care",
-            "image": "https://drshaziawaghoosurgery.com/hero4.png",
+            "image": "https://drshaziawaghoo.com/hero4.png",
             "url": "https://drshaziawaghoo.com/",
             "description": "Mobile-optimized page offering immersive surgical care with modern modalities by Dr. Shazia Waghoo in Mumbai.",
             "address": {

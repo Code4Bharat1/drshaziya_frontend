@@ -90,7 +90,7 @@ const MobileReviewsSwiper = () => {
         <meta property="og:url" content="https://drshaziawaghoo.com/" />
         <meta
           property="og:image"
-          content="https://drshaziawaghoosurgery.com/surgicalexellencedr.png"
+          content="https://drshaziawaghoo.com/surgicalexellencedr.png"
         />
         <meta property="og:locale" content="en_IN" />
         <meta name="twitter:card" content="summary_large_image" />
@@ -101,7 +101,7 @@ const MobileReviewsSwiper = () => {
         />
         <meta
           name="twitter:image"
-          content="https://drshaziawaghoosurgery.com/surgicalexellencedr.png"
+          content="https://drshaziawaghoo.com/surgicalexellencedr.png"
         />
         <script type="application/ld+json">
           {`
@@ -115,7 +115,7 @@ const MobileReviewsSwiper = () => {
                 "@type": "Person",
                 "name": "Dr. Shazia Waghoo",
                 "jobTitle": "Laparoscopic, Hernia & Breast Surgeon",
-                "image": "https://drshaziawaghoosurgery.com/surgicalexellencedr.png",
+                "image": "https://drshaziawaghoo.com/surgicalexellencedr.png",
                 "url": "https://drshaziawaghoo.com/",
                 "worksFor": {
                   "@type": "MedicalOrganization",

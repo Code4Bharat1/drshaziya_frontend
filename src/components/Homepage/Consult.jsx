@@ -98,7 +98,7 @@ const Consult = () => {
   />
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://drshaziawaghoo.com/" />
-  <meta property="og:image" content="https://drshaziawaghoosurgery.com/images/drshazia-cover.jpg" />
+  <meta property="og:image" content="https://drshaziawaghoo.com/images/drshazia-cover.jpg" />
 
   {/* ✅ Twitter Card */}
   <meta name="twitter:card" content="summary_large_image" />
@@ -107,7 +107,7 @@ const Consult = () => {
     name="twitter:description"
     content="Patients consult Dr. Shazia Waghoo for accurate diagnosis, surgical precision, and multiple location support. Book now!"
   />
-  <meta name="twitter:image" content="https://drshaziawaghoosurgery.com/images/drshazia-cover.jpg" />
+  <meta name="twitter:image" content="https://drshaziawaghoo.com/images/drshazia-cover.jpg" />
 
   {/* ✅ Structured Data for Medical Webpage */}
   <script type="application/ld+json">
@@ -117,7 +117,7 @@ const Consult = () => {
       "@type": "MedicalOrganization",
       "name": "Dr. Shazia Waghoo Surgical Services",
       "url": "https://drshaziawaghoo.com/",
-      "logo": "https://drshaziawaghoosurgery.com/images/logo.png",
+      "logo": "https://drshaziawaghoo.com/images/logo.png",
       "description": "Minimally-invasive surgeries, laser treatments, and post-operative rehabilitation by Dr. Shazia Waghoo in Mumbai.",
       "founder": "Dr. Shazia Waghoo",
       "areaServed": {

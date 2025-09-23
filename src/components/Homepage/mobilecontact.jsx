@@ -105,7 +105,7 @@ const ContactMobile = () => {
     property="og:description"
     content="Secure your consultation with Dr. Shazia Waghoo – Expert female surgeon in Santacruz. Laparoscopic and daycare procedures available. Mobile-friendly form."
   />
-  <meta property="og:image" content="https://drshaziawaghoosurgery.com/images/drshazia-cover.jpg" />
+  <meta property="og:image" content="https://drshaziawaghoo.com/images/drshazia-cover.jpg" />
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://drshaziawaghoo.com/" />
 
@@ -113,7 +113,7 @@ const ContactMobile = () => {
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="Book Your Consultation – Dr. Shazia Waghoo" />
   <meta name="twitter:description" content="Mobile-friendly appointment form with Dr. Shazia Waghoo in Santacruz. Book now!" />
-  <meta name="twitter:image" content="https://drshaziawaghoosurgery.com/images/drshazia-cover.jpg" />
+  <meta name="twitter:image" content="https://drshaziawaghoo.com/images/drshazia-cover.jpg" />
 
   {/* Structured Data */}
   <script type="application/ld+json">
@@ -125,7 +125,7 @@ const ContactMobile = () => {
         "description": "Trusted lady surgeon in Santacruz offering laparoscopic, breast, hernia, piles, and daycare surgeries.",
         "medicalSpecialty": "General Surgery",
         "url": "https://drshaziawaghoo.com/",
-        "image": "https://drshaziawaghoosurgery.com/images/drshazia-cover.jpg",
+        "image": "https://drshaziawaghoo.com/images/drshazia-cover.jpg",
         "address": {
           "@type": "PostalAddress",
           "addressLocality": "Santacruz",

@@ -137,7 +137,7 @@ const Recognitions = () => {
   />
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://drshaziawaghoo.com/" />
-  <meta property="og:image" content="https://drshaziawaghoosurgery.com/images/membership-logo.png" />
+  <meta property="og:image" content="https://drshaziawaghoo.com/images/membership-logo.png" />
 
   {/* ✅ Twitter Tags */}
   <meta name="twitter:card" content="summary_large_image" />
@@ -146,7 +146,7 @@ const Recognitions = () => {
     name="twitter:description"
     content="Recognized member of surgical associations like ASI, Hernia Society of India, and Minimal Access Surgeons of India."
   />
-  <meta name="twitter:image" content="https://drshaziawaghoosurgery.com/images/drshazia-cover.jpg" />
+  <meta name="twitter:image" content="https://drshaziawaghoo.com/images/drshazia-cover.jpg" />
 
   {/* ✅ Structured Data */}
   <script type="application/ld+json">

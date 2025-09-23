@@ -39,7 +39,7 @@ const MobileSocialwork = () => {
   />
   <meta property="og:url" content="https://drshaziawaghoo.com/" />
   <meta property="og:type" content="website" />
-  <meta property="og:image" content="https://drshaziawaghoosurgery.com/aware1.png" />
+  <meta property="og:image" content="https://drshaziawaghoo.com/aware1.png" />
 
   {/* ✅ Twitter Card Tags */}
   <meta name="twitter:card" content="summary_large_image" />
@@ -48,7 +48,7 @@ const MobileSocialwork = () => {
     name="twitter:description"
     content="Educational and impactful breast cancer awareness drives led by Dr. Shazia Waghoo at Kokan Bank and Asian Paints."
   />
-  <meta name="twitter:image" content="https://drshaziawaghoosurgery.com/aware1.png" />
+  <meta name="twitter:image" content="https://drshaziawaghoo.com/aware1.png" />
 
   {/* ✅ JSON-LD Structured Data */}
   <script type="application/ld+json">
@@ -58,7 +58,7 @@ const MobileSocialwork = () => {
       "@type": "MedicalOrganization",
       "name": "Dr. Shazia Waghoo | Surgical Clinic",
       "url": "https://drshaziawaghoo.com/",
-      "image": "https://drshaziawaghoosurgery.com/aware1.png",
+      "image": "https://drshaziawaghoo.com/aware1.png",
       "description": "Dr. Shazia Waghoo's breast cancer awareness drives focus on educating women about early detection and cancer prevention.",
       "location": {
         "@type": "Place",

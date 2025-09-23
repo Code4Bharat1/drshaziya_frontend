@@ -53,7 +53,7 @@ const MobileConference = () => {
   />
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://drshaziawaghoo.com/" />
-  <meta property="og:image" content="https://drshaziawaghoosurgery.com/images/drshazia-cover.jpg" />
+  <meta property="og:image" content="https://drshaziawaghoo.com/images/drshazia-cover.jpg" />
 
   {/* ✅ Twitter Card */}
   <meta name="twitter:card" content="summary_large_image" />
@@ -62,7 +62,7 @@ const MobileConference = () => {
     name="twitter:description"
     content="International conference presentations by Dr. Shazia Waghoo on CRS+HIPEC, ovarian cancer, and surgery training."
   />
-  <meta name="twitter:image" content="https://drshaziawaghoosurgery.com/images/drshazia-cover.jpg" />
+  <meta name="twitter:image" content="https://drshaziawaghoo.com/images/drshazia-cover.jpg" />
 
   {/* ✅ Schema Markup for a Medical Professional & Scholarly Work */}
   <script type="application/ld+json">

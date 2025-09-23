@@ -62,7 +62,7 @@ const MobileTestimonial = () => {
   />
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://drshaziawaghoo.com/" />
-  <meta property="og:image" content="https://drshaziawaghoosurgery.com/images/testimonials-og.jpg" />
+  <meta property="og:image" content="https://drshaziawaghoo.com/images/testimonials-og.jpg" />
 
   {/* ✅ Twitter Card */}
   <meta name="twitter:card" content="summary_large_image" />
@@ -71,7 +71,7 @@ const MobileTestimonial = () => {
     name="twitter:description"
     content="Read reviews from real patients who received expert surgical care from Dr. Shazia Waghoo in Mumbai."
   />
-  <meta name="twitter:image" content="https://drshaziawaghoosurgery.com/images/testimonials-og.jpg" />
+  <meta name="twitter:image" content="https://drshaziawaghoo.com/images/testimonials-og.jpg" />
 
   {/* ✅ Schema.org Structured Data for Testimonials Page */}
   <script type="application/ld+json">
@@ -87,7 +87,7 @@ const MobileTestimonial = () => {
           "name": "Dr. Shazia Waghoo Clinic",
           "logo": {
             "@type": "ImageObject",
-            "url": "https://drshaziawaghoosurgery.com/logo.png"
+            "url": "https://drshaziawaghoo.com/logo.png"
           }
         }
       }

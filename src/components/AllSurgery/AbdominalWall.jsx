@@ -84,8 +84,8 @@ const AbdominalWall = () => {
           content="Expert abdominal wall reconstruction surgery in Mumbai. Treat hernia mesh failure, trauma, and recurrent hernias with advanced care at VLSR."
         />
         <meta property="og:image" content="/abdominalwall.jpg" />
-        <meta property="og:url" content="https://drshaziawaghoosurgery.com/abdominal-wall-reconstruction" />
-        <link rel="canonical" href="https://drshaziawaghoosurgery.com/abdominal-wall-reconstruction" />
+        <meta property="og:url" content="https://drshaziawaghoo.com/abdominal-wall-reconstruction" />
+        <link rel="canonical" href="https://drshaziawaghoo.com/abdominal-wall-reconstruction" />
       </Head>
      <div className=" md:mt-14 mt-24 bg-white">
     <div className="bg-white p-6 md:p-10 max-w-6xl mx-auto font-sans text-gray-800">

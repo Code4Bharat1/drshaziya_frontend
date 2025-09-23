@@ -24,7 +24,7 @@ const DemystifyingMobile = () => {
   />
   <meta name="author" content="Dr. Shazia Waghoo" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <link rel="canonical" href="https://drshaziawaghoosurgery.com/demystifying-surgery" />
+  <link rel="canonical" href="https://drshaziawaghoo.com/demystifying-surgery" />
 
   {/* ✅ Open Graph (OG) for social sharing */}
   <meta property="og:title" content="Demystifying Surgery – Consult Dr. Shazia Waghoo" />
@@ -34,7 +34,7 @@ const DemystifyingMobile = () => {
   />
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://drshaziawaghoo.com/" />
-  <meta property="og:image" content="https://drshaziawaghoosurgery.com/images/squarecircle1.png" />
+  <meta property="og:image" content="https://drshaziawaghoo.com/images/squarecircle1.png" />
   <meta property="og:locale" content="en_IN" />
 
   {/* ✅ Twitter Card */}
@@ -44,7 +44,7 @@ const DemystifyingMobile = () => {
     name="twitter:description"
     content="Book an appointment with Dr. Shazia Waghoo for expert surgical diagnosis and care. Over 30+ conditions treated with compassion."
   />
-  <meta name="twitter:image" content="https://drshaziawaghoosurgery.com/images/squarecircle1.png" />
+  <meta name="twitter:image" content="https://drshaziawaghoo.com/images/squarecircle1.png" />
 
   {/* ✅ Structured Data for Search Engines */}
   <script type="application/ld+json">
@@ -54,7 +54,7 @@ const DemystifyingMobile = () => {
       "@type": "MedicalOrganization",
       "name": "Dr. Shazia Waghoo Surgery",
       "url": "https://drshaziawaghoo.com/",
-      "logo": "https://drshaziawaghoosurgery.com/images/squarecircle1.png",
+      "logo": "https://drshaziawaghoo.com/images/squarecircle1.png",
       "description": "Expert surgical care made simple. Book a consultation with Dr. Shazia Waghoo to understand your diagnosis and treatment options.",
       "founder": {
         "@type": "Person",
