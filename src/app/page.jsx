@@ -97,7 +97,7 @@ export const metadata = {
     title: "Dr. Shazia Waghoo | Trusted Doctor in Mumbai",
     description:
       "Book an appointment with Dr. Shazia Waghoo – Trusted surgeon in Kurla, Santacruz & Mumbai offering compassionate care.",
-    url: "https://drshaziawaghoosurgery.com/", // updated domain
+    url: "https://drshaziawaghoo.com/", // updated domain
     siteName: "Dr. Shazia Waghoo",
     images: [
       {
