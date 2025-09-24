@@ -14,37 +14,32 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-// ✅ Global Metadata (fixed with metadataBase)
+// ✅ Global Metadata
 export const metadata = {
-  metadataBase: new URL("https://drshaziawaghoo.com/"), // 👈 fixes localhost warning
-  title: "Dr. Shazia Waghoo | Hernia Surgery in Kurla – 10+ Years Experience",
+  metadataBase: new URL("https://drshaziawaghoo.com/"),
+  title: "Dr. Shazia Waghoo | Best Hernia Surgeon in Santacruz, Mumbai",
   description:
-    "Expert hernia surgery in Kurla by Dr. Shazia Waghoo. 10+ years of experience in advanced, safe, and minimally invasive hernia treatment.",
+    "Consult Dr. Shazia Waghoo – trusted laparoscopic & hernia surgeon in Kurla, Mumbai. 10+ years of experience in advanced, safe, and minimally invasive treatments.",
   keywords: [
     "Dr Shazia Waghoo",
-    "Hernia Kurla",
     "Hernia Surgeon Kurla",
     "Laparoscopic Surgeon Kurla",
     "Best Breast Surgeon Kurla",
-    "Dr Shazia Waghoo reviews",
-    "Dr Shazia Waghoo appointment",
-    "Laparoscopic Surgeon Mumbai",
-    "Hernia Surgeon Mumbai",
-    "Breast Surgeon Mumbai",
-    "Minimally Invasive Surgeon Mumbai",
-    "Lady Surgeon Kurla",
+    "Lady Surgeon Mumbai",
     "Best lady doctor for hernia in Mumbai",
-    "Best lady doctor for breast surgery Mumbai",
+    "Breast Surgery Kurla",
+    "Minimally Invasive Surgeon Mumbai",
+    "Best Hernia Treatment Mumbai",
   ],
   openGraph: {
-    title: "Dr. Shazia Waghoo – Expert Hernia & Laparoscopic Surgeon in Kurla",
+    title: "Dr. Shazia Waghoo – Hernia & Laparoscopic Surgeon in Kurla, Mumbai",
     description:
-      "Dr. Shazia Waghoo is a trusted laparoscopic surgeon in Kurla, Mumbai. Specializing in hernia & breast surgeries with 10+ years of experience.",
+      "Trusted hernia & laparoscopic surgeon in Kurla with 10+ years of expertise. Book your appointment with Dr. Shazia Waghoo today.",
     url: "https://drshaziawaghoo.com/",
     siteName: "Dr. Shazia Waghoo",
     images: [
       {
-        url: "/og-image.jpg", // 👈 put this inside /public
+        url: "/og-image.jpg",
         width: 1200,
         height: 630,
         alt: "Dr. Shazia Waghoo - Hernia Surgeon in Kurla",
@@ -57,7 +52,7 @@ export const metadata = {
     card: "summary_large_image",
     title: "Dr. Shazia Waghoo | Hernia & Laparoscopic Surgeon in Kurla",
     description:
-      "Trusted laparoscopic & hernia surgeon in Kurla, Mumbai with 10+ years of experience.",
+      "Leading female laparoscopic & hernia surgeon in Kurla, Mumbai with 10+ years of experience.",
     images: ["/og-image.jpg"],
   },
   robots: {
@@ -67,11 +62,6 @@ export const metadata = {
   alternates: {
     canonical: "https://drshaziawaghoo.com/",
   },
-  // icons: {
-  //   icon: "/logo.ico",
-  //   shortcut: "/logo.ico",
-  //   apple: "/apple-touch-icon.png",
-  // },
 };
 
 export default function RootLayout({ children }) {
@@ -84,7 +74,7 @@ export default function RootLayout({ children }) {
         {children}
         <Footer />
 
-        {/* ✅ JSON-LD Structured Data */}
+        {/* ✅ Schema Markup for Local SEO */}
         <Script
           id="schema-doctor"
           type="application/ld+json"
@@ -94,21 +84,25 @@ export default function RootLayout({ children }) {
             "@context": "https://schema.org",
             "@type": "Physician",
             name: "Dr. Shazia Waghoo",
-            image: "https://drshaziawaghoo.com/",
+            image: "https://drshaziawaghoo.com",
             description:
-              "Dr. Shazia Waghoo is a female laparoscopic surgeon in Mumbai, specializing in hernia & breast surgery.",
+              "Dr. Shazia Waghoo is a laparoscopic surgeon in Mumbai specializing in hernia & breast surgery with 10+ years of experience.",
             address: {
               "@type": "PostalAddress",
-              streetAddress: "Your Clinic Address, Kurla",
+              streetAddress: "Kurla Clinic Address",
               addressLocality: "Kurla",
               addressRegion: "Maharashtra",
               postalCode: "400070",
               addressCountry: "IN",
             },
+            geo: {
+              "@type": "GeoCoordinates",
+              latitude: "19.06497", // replace with clinic lat
+              longitude: "72.88741", // replace with clinic lng
+            },
             url: "https://drshaziawaghoo.com/",
             telephone: "+91-XXXXXXXXXX",
             medicalSpecialty: [
-              "Dr.Shazia Waghoo",
               "Laparoscopic Surgery",
               "Hernia Surgery",
               "Breast Surgery",
