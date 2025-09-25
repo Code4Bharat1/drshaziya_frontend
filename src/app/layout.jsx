@@ -31,6 +31,11 @@ export const metadata = {
     "Minimally Invasive Surgeon Mumbai",
     "Best Hernia Treatment Mumbai",
   ],
+  icons: {
+    icon: "/favicon.ico",
+    shortcut: "/favicon.ico",
+    apple: "/apple-touch-icon.png",
+  },
   openGraph: {
     title: "Dr. Shazia Waghoo – Hernia & Laparoscopic Surgeon in Kurla, Mumbai",
     description:
@@ -39,7 +44,7 @@ export const metadata = {
     siteName: "Dr. Shazia Waghoo",
     images: [
       {
-        url: "/og-image.jpg",
+        url: "https://drshaziawaghoo.com/og-image.jpg",
         width: 1200,
         height: 630,
         alt: "Dr. Shazia Waghoo - Hernia Surgeon in Kurla",
@@ -53,7 +58,7 @@ export const metadata = {
     title: "Dr. Shazia Waghoo | Hernia & Laparoscopic Surgeon in Kurla",
     description:
       "Leading female laparoscopic & hernia surgeon in Kurla, Mumbai with 10+ years of experience.",
-    images: ["/og-image.jpg"],
+    images: ["https://drshaziawaghoo.com/og-image.jpg"],
   },
   robots: {
     index: true,
@@ -84,7 +89,7 @@ export default function RootLayout({ children }) {
             "@context": "https://schema.org",
             "@type": "Physician",
             name: "Dr. Shazia Waghoo",
-            image: "https://drshaziawaghoo.com",
+            image: "https://drshaziawaghoo.com/og-image.jpg", // fixed image
             description:
               "Dr. Shazia Waghoo is a laparoscopic surgeon in Mumbai specializing in hernia & breast surgery with 10+ years of experience.",
             address: {
@@ -97,11 +102,11 @@ export default function RootLayout({ children }) {
             },
             geo: {
               "@type": "GeoCoordinates",
-              latitude: "19.06497", // replace with clinic lat
-              longitude: "72.88741", // replace with clinic lng
+              latitude: "19.06497", // replace with real clinic lat
+              longitude: "72.88741", // replace with real clinic lng
             },
             url: "https://drshaziawaghoo.com/",
-            telephone: "+91-XXXXXXXXXX",
+            telephone: "+91-XXXXXXXXXX", // replace with real contact
             medicalSpecialty: [
               "Laparoscopic Surgery",
               "Hernia Surgery",
