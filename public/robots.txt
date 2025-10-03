@@ -11,4 +11,7 @@ Disallow:
 # Allow: /public/
 
 # Sitemap location
+Sitemap: User-agent: *
+Disallow:
+
 Sitemap: https://drshaziawaghoo.com/sitemap.xml
