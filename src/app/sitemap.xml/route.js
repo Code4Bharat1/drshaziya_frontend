@@ -1,57 +1,45 @@
-const BASE_URL = "https://drshaziawaghoo.com";
+import { NextResponse } from "next/server";
 
 export async function GET() {
-  // Static pages
-  const staticPages = [
+  const baseUrl = "https://drshaziawaghoo.com";
+
+  const urls = [
     "", 
     "aboutus", 
     "specialities", 
     "testimonials-media", 
     "resources", 
-    "contactus"
+    "contactus",
+    "allartical/laparoscopy",
+    "allartical/harnia",
+    "allartical/breastcancer",
+    "allartical/colorectalsurgery",
+    "allartical/leasersurgary",
+    "allartical/gisurgery",
+    "allartical/thyroid",
+    "allartical/abdonomial",
+    "allartical/colorectal",
+    "finalartical/artical1"
   ];
 
-  // All articles
-  const articles = [
-    "laparoscopy",
-    "harnia",
-    "breastcancer",
-    "colorectalsurgery",
-    "leasersurgary",
-    "gisurgery",
-    "thyroid",
-    "abdonomial",
-    "colorectal"
-  ];
-
-  // Final articles
-  const finalArticles = ["artical1"];
-
-  // Combine all URLs
-  const allPages = [
-    ...staticPages.map((page) => `${BASE_URL}/${page}`),
-    ...articles.map((slug) => `${BASE_URL}/allartical/${slug}`),
-    ...finalArticles.map((slug) => `${BASE_URL}/finalartical/${slug}`)
-  ];
-
-  // Generate XML sitemap
   const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-${allPages
-  .map((url) => `
-  <url>
-    <loc>${url}</loc>
-    <lastmod>${new Date().toISOString().split("T")[0]}</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-`).join("")}
-</urlset>`;
+  <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    ${urls
+      .map((url) => {
+        return `
+        <url>
+          <loc>${baseUrl}/${url}</loc>
+          <lastmod>${new Date().toISOString().split("T")[0]}</lastmod>
+          <changefreq>monthly</changefreq>
+          <priority>0.8</priority>
+        </url>`;
+      })
+      .join("")}
+  </urlset>`;
 
-  return new Response(sitemap, {
+  return new NextResponse(sitemap, {
     headers: {
       "Content-Type": "application/xml",
-      "Cache-Control": "s-maxage=3600, stale-while-revalidate"
     },
   });
 }

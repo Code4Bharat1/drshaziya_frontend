@@ -1,8 +1,11 @@
 # robots.txt for https://drshaziawaghoo.com
 
-# Allow all bots full access
+# Allow all bots
 User-agent: *
-Disallow:
+Disallow: /feed
+Disallow: /comments/feed
+Disallow: /img/
+Disallow: /wp-content/uploads/
 
 # Sitemap location
-Sitemap:https://drshaziawaghoo.com/sitemap.xml
+Sitemap: https://drshaziawaghoo.com/sitemap.xml
