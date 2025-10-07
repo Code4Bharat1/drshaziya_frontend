@@ -1,17 +1,8 @@
+# robots.txt for https://drshaziawaghoo.com
 
-# robots.txt 
-# Allow all user-agents (bots) to access all content
+# Allow all bots full access
 User-agent: *
 Disallow:
 
-# Block specific paths (for example, if you have private areas you don't want crawled)
-# Disallow: /private/
-
-# Allow bots to access specific files or directories
-# Allow: /public/
-
 # Sitemap location
-Sitemap: User-agent: *
-Disallow:
-
-Sitemap: https://drshaziawaghoo.com/sitemap.xml
+Sitemap:https://drshaziawaghoo.com/sitemap.xml
