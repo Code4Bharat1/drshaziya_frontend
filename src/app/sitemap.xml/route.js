@@ -11,15 +11,15 @@ export async function GET() {
     "resources", 
     "contactus",
     "allartical/laparoscopy",
-    "allartical/harnia",
+    "allartical/harniasurgery",
     "allartical/breastcancer",
     "allartical/colorectalsurgery",
-    "allartical/leasersurgary",
+    "allartical/lasersurgery",
     "allartical/gisurgery",
     "allartical/thyroid",
-    "allartical/abdonomial",
+    "allartical/abdominalsurgery",
     "allartical/colorectal",
-    "finalartical/artical1"
+    "allartical/artical1"
   ];
 
   const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
@@ -31,7 +31,7 @@ export async function GET() {
           <loc>${baseUrl}/${url}</loc>
           <lastmod>${new Date().toISOString().split("T")[0]}</lastmod>
           <changefreq>monthly</changefreq>
-          <priority>0.8</priority>
+          <priority>${url === "" ? "1.0" : "0.8"}</priority>
         </url>`;
       })
       .join("")}

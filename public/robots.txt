@@ -9,3 +9,5 @@ Disallow: /wp-content/uploads/
 
 # Sitemap location
 Sitemap: https://drshaziawaghoo.com/sitemap.xml
+
+
