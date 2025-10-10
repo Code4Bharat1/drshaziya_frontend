@@ -1,17 +1,14 @@
 # robots.txt for https://drshaziawaghoo.com
 
-# Allow all bots full access except unnecessary feeds
+# Allow all bots full access except unnecessary feeds and admin pages
 User-agent: *
 Disallow: /feed
 Disallow: /comments/feed
 Disallow: /wp-admin/
 Disallow: /cgi-bin/
 
-# Do NOT block images or uploads – Google needs these for rich results
+# Do NOT block images or uploads – needed for rich results
 # All service pages, articles, and media are accessible
 
 # Sitemap location
 Sitemap: https://drshaziawaghoo.com/sitemap.xml
-
-
-
