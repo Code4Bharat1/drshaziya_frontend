@@ -91,6 +91,12 @@ const MobileSeasoned = () => {
           <h2 className="text-[20px] text-center font-serif text-[#004979] mb-3">
             A seasoned Laparoscopic, Hernia, and Breast Surgeon
           </h2>
+          <p
+  className="text-blue-500 font-semibold text-sm sm:text-base lg:text-lg tracking-wide text-center mb-4"
+>
+  Diploma in Hernia Surgery Essentials <br />
+  (By Asia Pacific Hernia Society & The Royal College of Surgeons of Edinburgh)
+</p>
           <h3 className="text-[20px] text-center text-[#004979] font-serif mb-3">
             Creating Impact across Millions of Lives
           </h3>
