@@ -101,6 +101,14 @@ const router = useRouter();
           <h2 className="text-4xl font-serif text-[#004979] mb-4">
             A seasoned Laparoscopic, Hernia, <br /> and Breast Surgeon
           </h2>
+          <p
+                className="text-blue-500 font-semibold text-xl mb-4 tracking-widest md:text-left"
+                // style={{ fontFamily: "Times New Roman, serif" }}
+              >
+                Diploma in Hernia Surgery Essentials <br />
+                (By Asia Pacific Hernia Society & The Royal College of Surgeons
+                of Edinburgh)
+              </p>
           <h3 className="text-2xl text-[#004979] font-serif mb-4">
             Creating Impact across Millions of Lives
           </h3>

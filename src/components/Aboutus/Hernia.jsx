@@ -113,6 +113,15 @@ const Hernia = () => {
               A Seasoned Laparoscopic, Hernia, and Breast Surgeon
             </h1>
 
+            <p
+                className="text-blue-500 font-semibold text-xl mb-4 tracking-widest md:text-left"
+                // style={{ fontFamily: "Times New Roman, serif" }}
+              >
+                Diploma in Hernia Surgery Essentials <br />
+                (By Asia Pacific Hernia Society & The Royal College of Surgeons
+                of Edinburgh)
+              </p>
+
             
             <div className="text-gray-700 text-sm sm:text-base lg:text-lg leading-relaxed space-y-3 sm:space-y-4 text-left">
               <p>
