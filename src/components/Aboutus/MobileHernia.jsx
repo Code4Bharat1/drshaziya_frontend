@@ -90,7 +90,7 @@ const MobileHernia = () => {
 <p
   className="text-blue-500 font-semibold text-sm sm:text-base lg:text-xl mt-2 mb-4 tracking-widest text-center"
 >
-  Diploma in Hernia Surgery Essentials <br />
+  DIPLOMA in HERNIA SURGERY Essentials <br />
   (By Asia Pacific Hernia Society & The Royal College of Surgeons of Edinburgh)
 </p>
 
