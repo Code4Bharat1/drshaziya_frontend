@@ -117,7 +117,7 @@ const Hernia = () => {
                 className="text-blue-500 font-semibold text-xl mb-4 tracking-widest md:text-left"
                 // style={{ fontFamily: "Times New Roman, serif" }}
               >
-                DIPLOMA in HERNIA SURGERY Essentials <br />
+                DIPLOMA in HERNIA SURGERY  <br />
                 (By Asia Pacific Hernia Society & The Royal College of Surgeons
                 of Edinburgh)
               </p>

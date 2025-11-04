@@ -94,7 +94,7 @@ const MobileSeasoned = () => {
           <p
   className="text-blue-500 font-semibold text-sm sm:text-base lg:text-lg tracking-wide text-center mb-4"
 >
-  DIPLOMA in HERNIA SURGERY Essentials <br />
+  DIPLOMA in HERNIA SURGERY  <br />
   (By Asia Pacific Hernia Society & The Royal College of Surgeons of Edinburgh)
 </p>
           <h3 className="text-[20px] text-center text-[#004979] font-serif mb-3">
