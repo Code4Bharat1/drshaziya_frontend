@@ -1,10 +1,10 @@
 export const metadata = {
   title: "Gastrointestinal Surgery | Dr. Shazia Waghoo",
-  description: "Professional gastrointestinal surgery by Dr. Shazia Waghoo in Kurla, Mumbai. Personalized care for digestive health.",
+  description: "Professional gastrointestinal surgery by Dr. Shazia Waghoo in Santacruz, Mumbai. Personalized care for digestive health.",
   openGraph: {
     url: "https://drshaziawaghoo.com/allartical/gisurgery",
     title: "Gastrointestinal Surgery | Dr. Shazia Waghoo",
-    description: "Professional gastrointestinal surgery by Dr. Shazia Waghoo in Kurla, Mumbai. Personalized care for digestive health.",
+    description: "Professional gastrointestinal surgery by Dr. Shazia Waghoo in Santacruz, Mumbai. Personalized care for digestive health.",
     siteName: "Dr. Shazia Waghoo",
   },
 };

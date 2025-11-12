@@ -7,7 +7,7 @@ const SocialWork = () => {
   const events = [
     {
       image: '/social1.png',
-      title: 'Free Surgical Camp At Sehat NGO, Kurla West',
+      title: 'Free Surgical Camp At Sehat NGO, Santacruz West',
     },
     {
       image: '/social2.png',

@@ -1,7 +1,7 @@
 export const metadata = {
   title: "Meet the Specialist | Dr. Shazia Waghoo",
   description:
-    "Learn more about Dr. Shazia Waghoo, a specialist surgeon in Kurla, Mumbai. Trusted expertise in advanced and minimally invasive surgeries.",
+    "Learn more about Dr. Shazia Waghoo, a specialist surgeon in Santacruz, Mumbai. Trusted expertise in advanced and minimally invasive surgeries.",
   openGraph: {
     url: "https://drshaziawaghoo.com/specialiest",
     title: "Meet the Specialist | Dr. Shazia Waghoo",
