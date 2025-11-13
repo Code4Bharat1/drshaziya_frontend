@@ -106,7 +106,7 @@ const MobileOurImpact = () => {
     {/* main code start from here */}
     <div className="bg-[#F8F9FE] py-6 px-4 text-center block md:hidden">
       {/* Heading */}
-      <h2 className="text-2xl font-bold text-[#004979] mx-2 mb-8">
+      <h2 className="text-2xl font-bold text-[#284578] mx-2 mb-8">
         OUR IMPACT NUMBERS
       </h2>
 
@@ -129,10 +129,10 @@ const MobileOurImpact = () => {
       </div>
 
       {/* Affiliation Section */}
-      <h3 className="text-2xl font-bold text-[#004979] mb-3">
+      <h3 className="text-2xl font-bold text-[#284578] mb-3">
         Hospital Affiliations
       </h3>
-      <p className="text-[#004979] font-semibold  text-base px-2">
+      <p className="text-[#284578] font-semibold  text-base px-2">
         Affiliated with 7+ reputed Hospitals and Clinics in Mumbai
       </p>
 

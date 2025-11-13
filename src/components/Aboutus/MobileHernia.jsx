@@ -82,19 +82,19 @@ const MobileHernia = () => {
         <div className="flex flex-col lg:grid lg:grid-cols-2 gap-8 items-center">
           {/* Content section - First on mobile, second on desktop */}
           <div className="order-1 lg:order-2 space-y-4 sm:space-y-6">
-        <h1 className=" text-center text-[18px] mt-20 sm:text-2xl lg:text-4xl font-bold text-[#004979] leading-snug sm:leading-tight">
+        <h1 className=" text-center text-[18px] mt-20 sm:text-2xl lg:text-4xl font-bold text-[#284578] leading-snug sm:leading-tight">
   <span className="block pl-4 sm:pl-6 lg:pl-8">A Seasoned Laparoscopic, Hernia,</span>
   <span className="block">and Breast Surgeon</span>
 </h1>
 
-<p
-  className="text-blue-500 font-semibold text-sm sm:text-base lg:text-xl mt-2 mb-4 tracking-widest text-center"
+{/* <p
+  className="text-[#069BD8] font-semibold text-sm sm:text-base lg:text-xl mt-2 mb-4 tracking-widest text-center"
 >
   DIPLOMA in HERNIA SURGERY  <br />
   (By Asia Pacific Hernia Society & The Royal College of Surgeons of Edinburgh)
-</p>
+</p> */}
 
-           <div className="text-gray-700 mx-4 text-base sm:text-lg lg:text-xl leading-relaxed text-left">
+           <div className="text[#284578 mx-4 text-base sm:text-lg lg:text-xl leading-relaxed text-left">
   <p>
     Dr. Shazia Waghoo is a Laparoscopic, Hernia, and Breast Surgeon
     in Mumbai with{" "}
@@ -115,43 +115,74 @@ const MobileHernia = () => {
     with compassionate, patient-focused care.
   </p>
 </div>
-            <div className="space-y-4">
-              <div className="flex items-start space-x-3">
-                <div className="w-10 h-10 sm:w-12 sm:h-12 flex-shrink-0">
-                  <img
-                    src="/dnf.png"
-                    alt="DNB General Surgery"
-                    className="w-full h-full object-cover"
-                  />
-                </div>
-                <div>
-                  <h3 className="font-bold text-base sm:text-lg text-gray-800">
-                    DNB General Surgery
-                  </h3>
-                  <p className="text-sm sm:text-base text-gray-600">
-                    Saifee Hospital, Mumbai
-                  </p>
-                </div>
-              </div>
+            <div className="space-y-5">
+  {/* Heading */}
+  <h2 className="text-xl sm:text-2xl font-bold text-[#284578]">
+    Educational Qualification
+  </h2>
 
-              <div className="flex items-start space-x-3">
-                <div className="w-10 h-10 sm:w-12 sm:h-12 flex-shrink-0">
-                  <img
-                    src="/mbbs.png"
-                    alt="M.B.B.S Icon"
-                    className="w-full h-full object-cover"
-                  />
-                </div>
-                <div>
-                  <h3 className="font-bold text-base sm:text-lg text-gray-800">
-                    M.B.B.S
-                  </h3>
-                  <p className="text-sm sm:text-base text-gray-600">
-                    RCSM Government Medical College, Kolhapur
-                  </p>
-                </div>
-              </div>
-            </div>
+  {/* Qualification Details */}
+  <div className="space-y-4">
+    {/* DNB General Surgery */}
+    <div className="flex items-center justify-between">
+      <div className="text-left">
+        <h3 className="font-bold text-base sm:text-lg text-[#284578]">
+          DNB General Surgery
+        </h3>
+        <p className="text-sm sm:text-base text-[#284578] opacity-80">
+          Saifee Hospital, Mumbai
+        </p>
+      </div>
+      <div className="w-10 h-10 sm:w-12 sm:h-12 flex-shrink-0">
+        <img
+          src="/dnf.png"
+          alt="DNB General Surgery"
+          className="w-full h-full object-cover"
+        />
+      </div>
+    </div>
+
+    {/* MBBS */}
+    <div className="flex items-center justify-between">
+      <div className="text-left">
+        <h3 className="font-bold text-base sm:text-lg text-[#284578]">
+          M.B.B.S
+        </h3>
+        <p className="text-sm sm:text-base text-[#284578] opacity-80">
+          RCSM Government Medical College, Kolhapur
+        </p>
+      </div>
+      <div className="w-10 h-10 sm:w-12 sm:h-12 flex-shrink-0">
+        <img
+          src="/mbbs.png"
+          alt="M.B.B.S Icon"
+          className="w-full h-full object-cover"
+        />
+      </div>
+    </div>
+
+    {/* Diploma in Hernia Surgery */}
+    <div className="flex items-center justify-between">
+      <div className="text-left">
+        <h3 className="font-bold text-base sm:text-lg text-[#284578]">
+          Diploma in Hernia Surgery
+        </h3>
+        <p className="text-sm sm:text-base text-[#284578] opacity-80 leading-snug">
+          Asia Pacific Hernia Society & The Royal College of Surgeons of Edinburgh
+        </p>
+      </div>
+      <div className="w-10 h-10 sm:w-12 sm:h-12 flex-shrink-0">
+        <img
+          src="/image 191.png"
+          alt="Diploma in Hernia Surgery"
+          className="w-full h-full object-cover"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+
+
           </div>
 
           {/* Image section - Second on mobile, first on desktop */}
@@ -166,12 +197,12 @@ const MobileHernia = () => {
 
 
             <div className="w-full text-center lg:text-left mt-4 sm:mt-6">
-              <h2 className="text-2xl sm:text-3xl font-bold text-gray-800">
+              <h2 className="text-2xl sm:text-3xl font-bold  text-[#284578]">
                 Dr. Shazia Waghoo
               </h2>
-              <p className="text-lg sm:text-xl text-gray-600 font-medium">
+              {/* <p className="text-[#069BD8] font-semibold text-sm sm:text-base lg:text-xl mt-2 mb-4 tracking-widest text-center">
                 MBBS, DNB General Surgery
-              </p>
+              </p> */}
             </div>
           </div>
         </div>

@@ -13,15 +13,15 @@
 //     <div className="bg-white py-10 px-4">
 //       {/* Heading and line */}
 //       <div className="w-full max-w-5xl mx-auto mb-4 px-2">
-//         <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-[#004979] text-center mb-2">
+//         <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-[#284578] text-center mb-2">
 //           AWARENESS
 //         </h2>
-//         <hr className="border-t-2 border-[#004979] w-full mt-9" />
+//         <hr className="border-t-2 border-[#284578] w-full mt-9" />
 //       </div>
 
 //       {/* Subtitle */}
 //       <div className="w-full max-w-5xl mx-auto mb-8 px-2">
-//         <p className="text-[#004979] font-medium text-base sm:text-lg md:text-xl mt-8 ml-2">
+//         <p className="text-[#284578] font-medium text-base sm:text-lg md:text-xl mt-8 ml-2">
 //           Breast cancer awareness lecture at Kokan Cooperative Bank, Mumbai
 //         </p>
 //       </div>
@@ -143,11 +143,11 @@ const Awareness1 = () => {
       {/* Main Container */}
       <div className="max-w-5xl mx-auto">
         {/* Main Heading */}
-        <h2 className="text-3xl sm:text-4xl font-bold text-[#004979] mb-4 text-center">AWARENESS</h2>
-        <div className="border-t border-[#004979] w-full mb-10"></div>
+        <h2 className="text-3xl sm:text-4xl font-bold text-[#284578] mb-4 text-center">AWARENESS</h2>
+        <div className="border-t border-[#284578] w-full mb-10"></div>
 
         {/* Subtitle 1 */}
-        <p className="text-[#004979] font-bold text-lg sm:text-xl mb-6">
+        <p className="text-[#284578] font-bold text-lg sm:text-xl mb-6">
           Breast cancer awareness lecture at Kokan Cooperative Bank, Mumbai
         </p>
 
@@ -164,10 +164,10 @@ const Awareness1 = () => {
         </div>
 
         {/* Divider */}
-        <div className="border-t border-[#004979] w-full mb-6"></div>
+        <div className="border-t border-[#284578] w-full mb-6"></div>
 
         {/* Subtitle 2 */}
-        <p className="text-[#004979] font-semibold text-lg sm:text-xl mb-6">
+        <p className="text-[#284578] font-semibold text-lg sm:text-xl mb-6">
           Breast cancer awareness drive at Asian Paints Pvt Ltd, Mumbai
         </p>
 
@@ -184,7 +184,7 @@ const Awareness1 = () => {
         </div>
 
         {/* Bottom Divider */}
-        <div className="border-t border-[#004979] w-full"></div>
+        <div className="border-t border-[#284578] w-full"></div>
       </div>
     </div>
     </>

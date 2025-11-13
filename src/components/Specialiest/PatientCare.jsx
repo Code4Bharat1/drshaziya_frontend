@@ -29,12 +29,12 @@
 // const PatientCare = () => {
 //   return (
 //     <div className="py-12 px-6 max-w-8xl mx-auto bg-[#F9F8FE]">
-//       <h2 className="text-[52px] font-bold text-center mb-12 text-[#004979]">Patient Care</h2>
+//       <h2 className="text-[52px] font-bold text-center mb-12 text-[#284578]">Patient Care</h2>
 //       <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12">
 //         {careItems.map((item, index) => (
 //           <div key={index} className="relative w-[336px] h-[205px] mx-auto">
 //             {/* Blue background card */}
-//             <div className=" shadow-[0_3px_2px_rgba(0,0,0,0.3)] absolute top-0 left-0 w-full h-[199px] bg-[#0085DC] rounded-[38px] transform -translate-x-6 -translate-y-3"></div>
+//             <div className=" shadow-[0_3px_2px_rgba(0,0,0,0.3)] absolute top-0 left-0 w-full h-[199px] bg-[#069bd6] rounded-[38px] transform -translate-x-6 -translate-y-3"></div>
 
 //             {/* White card */}
 //             <div className="absolute top-1 left-6 w-[345px] h-[184px] bg-white rounded-[36px] shadow-[0_3px_2px_rgba(0,0,0,0.2)] p-4 pt-1 flex items-start z-10 border border-[#bcbbbb]">
@@ -147,12 +147,12 @@ const PatientCare = () => {
 
     {/* main code start from here  */}
     <div className="py-12 px-6 max-w-8xl mx-auto bg-[#F9F8FE]">
-      <h2 className="text-[52px] font-bold text-center mb-12 text-[#004979]">Patient Care</h2>
+      <h2 className="text-[52px] font-bold text-center mb-12 text-[#284578]">Patient Care</h2>
       <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12">
         {careItems.map((item, index) => (
           <div key={index} className="relative w-[336px] h-[205px] mx-auto">
             {/* Blue background card */}
-            <div className=" shadow-[0_3px_2px_rgba(0,0,0,0.3)] absolute top-0 left-0 w-full h-[199px] bg-[#0085DC] rounded-[38px] transform -translate-x-6 -translate-y-3"></div>
+            <div className=" shadow-[0_3px_2px_rgba(0,0,0,0.3)] absolute top-0 left-0 w-full h-[199px] bg-[#069bd6] rounded-[38px] transform -translate-x-6 -translate-y-3"></div>
 
             {/* White card */}
             <div className="absolute top-1 left-6 w-[345px] h-[184px] bg-white rounded-[36px] shadow-[0_3px_2px_rgba(0,0,0,0.2)] p-4 pt-1 flex flex-col items-start z-10 border border-[#bcbbbb]">

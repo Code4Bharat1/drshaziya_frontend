@@ -89,13 +89,13 @@ const MobileAwareness1 = () => {
     <div className="bg-white pt-2 pb-4 px-4">
       <div className="max-w-5xl mx-auto">
         {/* Heading */}
-        <h2 className="text-[34px] font-bold text-[#004979] text-center mb-2">
+        <h2 className="text-[34px] font-bold text-[#284578] text-center mb-2">
           AWARENESS
         </h2>
-        <div className="border-t border-[#004979] w-full mb-6"></div>
+        <div className="border-t border-[#284578] w-full mb-6"></div>
 
         {/* Section 1 */}
-        <p className="text-[#004979] font-semibold text-[19px] mb-3">
+        <p className="text-[#284578] font-semibold text-[19px] mb-3">
           Breast cancer awareness lecture at Kokan Cooperative Bank, Mumbai
         </p>
         <div className="grid grid-cols-2 gap-4 mb-6">
@@ -110,7 +110,7 @@ const MobileAwareness1 = () => {
         </div>
 
         {/* Section 2 */}
-        <p className="text-[#004979] font-semibold text-[19px] mb-3">
+        <p className="text-[#284578] font-semibold text-[19px] mb-3">
           Breast cancer awareness drive at Asian Paints Pvt Ltd, Mumbai
         </p>
         <div className="grid grid-cols-2 gap-4 mb-6">

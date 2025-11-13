@@ -40,7 +40,7 @@ const Artical = () => {
       </Head>
 
       <div id="artical" className="py-6 bg-[#F8F9FE] flex flex-col items-center">
-        <h2 className="text-[34px] font-bold text-center text-[#004979] mb-6">
+        <h2 className="text-[34px] font-bold text-center text-[#284578] mb-6">
           Articles by Dr. Shazia
         </h2>
 
@@ -68,7 +68,7 @@ const Artical = () => {
 
         {/* ✅ SEO-rich visible section */}
         <section className="max-w-3xl text-center text-gray-700 mt-12 px-4">
-          <h3 className="text-xl font-bold text-[#004979] mb-2 display-none">
+          <h3 className="text-xl font-bold text-[#284578] mb-2 display-none">
             Looking for a Lady Surgeon in Vashi/Santacruz/Khar, Mumbai?
           </h3>
           <p className="text-base leading-7 ">

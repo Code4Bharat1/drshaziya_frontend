@@ -101,7 +101,7 @@ const Demystifying = () => {
 
       {/* Right Side */}
       <div className="w-full md:w-1/2 text-center md:text-left">
-        <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-[#004979] mb-4 font-inter">
+        <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-[#284578] mb-4 font-inter">
           Demystifying the Surgery experience
         </h2>
         <p className="text-gray-700 mb-6 text-base sm:text-lg leading-relaxed font-inter">
@@ -109,7 +109,7 @@ const Demystifying = () => {
           Our aim is to deliver a seamless<br />Surgical Experience to patients and to help them heal faster.
           Consult <br />with our expert surgeon, Dr. Shazia Waghoo for more than 30+ diseases.
         </p>
-        <button className="bg-[#0085DC] text-white font-semibold px-6 py-3 rounded-md hover:bg-blue-900  "   onClick={() => router.push('/contactus')}>
+        <button className="bg-[#069bd6] text-white font-semibold px-6 py-3 rounded-md hover:bg-blue-900  "   onClick={() => router.push('/contactus')}>
           BOOK AN APPOINTMENT
         </button>
       </div>

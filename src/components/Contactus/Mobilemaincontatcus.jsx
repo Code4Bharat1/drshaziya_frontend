@@ -143,7 +143,7 @@ const Mobilemaincontatcus = () => {
 
           {/* Left: Contact Form */}
           <div className="flex-1 px-4 md:px-0">
-            <h2 className="text-xl font-semibold text-center text-[#0085DC] mb-4 md:hidden">
+            <h2 className="text-xl font-semibold text-center text-[#069BD8] mb-4 md:hidden">
               Book Your Appointment
             </h2>
 
@@ -208,7 +208,7 @@ const Mobilemaincontatcus = () => {
                 <button
                   type="submit"
                   disabled={isSubmitting}
-                  className="bg-[#0085DC] hover:bg-blue-500 text-white px-6 py-2 rounded-md shadow-md transition duration-200 disabled:opacity-50"
+                  className="bg-[#069bd6] hover:bg-blue-500 text-white px-6 py-2 rounded-md shadow-md transition duration-200 disabled:opacity-50"
                 >
                   {isSubmitting ? 'SENDING...' : 'SEND REQUEST'}
                 </button>

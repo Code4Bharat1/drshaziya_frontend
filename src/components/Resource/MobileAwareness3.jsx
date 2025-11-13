@@ -89,8 +89,8 @@ const MobileAwareness3 = () => {
 {/* main code start from here */}
     <div className="bg-white pt-6 pb-10 px-4">
       {/* Horizontal line + Heading tightly grouped */}
-      <div className="border-t border-[#004979] w-full border-[1.5px] mb-3"></div>
-      <p className="text-[#004979] text-[18px] font-bold mb-4">
+      <div className="border-t border-[#284578] w-full border-[1.5px] mb-3"></div>
+      <p className="text-[#284578] text-[18px] font-bold mb-4">
         Breast illness awareness lecture at Rizvi College, Bandra West
       </p>
 
@@ -107,7 +107,7 @@ const MobileAwareness3 = () => {
       </div>
 
       {/* Operation Theatre Section */}
-      <h3 className="text-[22px] font-semibold text-[#004979] text-center mb-4">
+      <h3 className="text-[22px] font-semibold text-[#284578] text-center mb-4">
         In the Operation Theatre
       </h3>
 

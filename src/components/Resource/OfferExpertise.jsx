@@ -137,7 +137,7 @@ const OfferExpertise = () => {
     <div className="bg-[#F8F9FE] py-10">
 
         <div className="text-center mb-9">
-         <h2 className="text-[#004979] text-3xl md:text-4xl font-bold mb-4 ">Top Surgeries</h2>
+         <h2 className="text-[#284578] text-3xl md:text-4xl font-bold mb-4 ">Top Surgeries</h2>
           <p className="text-black text-[23px] font-bold mt-9">
                  Dr. Shazia Waghoo offers Expertise in the following Surgeries
           </p>
@@ -167,7 +167,7 @@ const OfferExpertise = () => {
                 <p className="text-[#000000] text-sm">{item.description}</p>
               </div>
               <Link href={item.path}>
-              <button className=" shadow-[0_3px_2px_rgba(0,0,0,0.3)] bg-[#0085DC] text-white text-xs px-6 py-3 rounded-md hover:bg-blue-500 mt-5 mx-auto block">
+              <button className=" shadow-[0_3px_2px_rgba(0,0,0,0.3)] bg-[#069bd6] text-white text-xs px-6 py-3 rounded-md hover:bg-blue-500 mt-5 mx-auto block">
                 KNOW MORE
               </button>
              </Link>

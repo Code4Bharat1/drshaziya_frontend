@@ -81,7 +81,7 @@ export default function BookAppointmentMobile() {
         className="absolute top-0 left-0 w-full h-full object-cover"
         priority
       />
-      <div className="absolute inset-0 bg-[linear-gradient(to_right,#0085dc70)]"></div>
+      <div className="absolute inset-0 bg-[linear-gradient(to_right,#069bd670)]"></div>
       
  {/* White gradient from bottom */}
       <div className="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-white/50 to-transparent z-20"></div>
@@ -96,7 +96,7 @@ export default function BookAppointmentMobile() {
           </p>
           <div className="flex justify-center mt-8 sm:mt-6">
             <button 
-              className="bg-[#0085DC] text-white font-bold py-2 sm:py-3 px-4 sm:px-5 rounded text-xs sm:text-sm hover:bg-[#006bb3] transition duration-300 shadow-lg min-w-[140px] sm:min-w-[160px]"
+              className="bg-[#069bd6] text-white font-bold py-2 sm:py-3 px-4 sm:px-5 rounded text-xs sm:text-sm hover:bg-[#006bb3] transition duration-300 shadow-lg min-w-[140px] sm:min-w-[160px]"
               onClick={() => router.push('/contactus')}
             >
               BOOK AN APPOINTMENT

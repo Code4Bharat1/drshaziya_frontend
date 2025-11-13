@@ -34,16 +34,16 @@ const Navbar = () => {
         </div>
 
         {/* Yellow and Blue Sections */}
-        <div className="flex bg-[#FFD54F] relative w-full h-20 clip-triangle-left shadow-lg">
-          <div className="absolute top-0 left-7 bg-blue-400 w-full h-20 clip-triangle-left shadow-lg flex items-center justify-center">
+        <div className="flex bg-[#FFB900] relative w-full h-20 clip-triangle-left shadow-lg">
+          <div className="absolute top-0 left-7 bg-[#284578]  w-full h-20 clip-triangle-left shadow-lg flex items-center justify-center">
             {/* Desktop Navigation Menu */}
             <nav className="hidden lg:flex items-center space-x-20 px-16 mr-12">
               {navigationItems.map((item, index) => (
                 <a
                   key={index}
                   href={item.href}
-                  className={`text-white font-bold text-sm tracking-wider hover:text-yellow-300 transition-colors duration-200 whitespace-nowrap relative ${
-                    pathname === item.href ? "text-yellow-300" : ""
+                  className={`text-white font-bold text-sm tracking-wider hover:text-[#FFB900] transition-colors duration-200 whitespace-nowrap relative ${
+                    pathname === item.href ? "text-[#FFB900]" : ""
                   }`}
                 >
                   {item.name}
@@ -57,7 +57,7 @@ const Navbar = () => {
         {/* Mobile Menu Button - Positioned outside the clipped area */}
         <button
           onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
-          className="lg:hidden fixed top-4 right-4 sm:right-6 text-white bg-blue-400 hover:bg-blue-400 focus:outline-none p-2 rounded-md shadow-lg z-50 transition-all duration-200  mt-2 "
+          className="lg:hidden fixed top-4 right-4 sm:right-6 text-white bg-[#284578]  hover:bg-[#284578]  focus:outline-none p-2 rounded-md shadow-lg z-50 transition-all duration-200  mt-2 "
           aria-label="Toggle mobile menu"
           style={{ top: "12px" }} // Ensures it's vertically centered in the 80px navbar
         >
@@ -101,8 +101,8 @@ const Navbar = () => {
               <a
                 key={index}
                 href={item.href}
-                className={`block text-black font-bold text-sm tracking-wider hover:text-yellow-300 hover:bg-blue-600 px-4 py-3 rounded-lg transition-all duration-200 ${
-                  pathname === item.href ? "text-white bg-blue-400" : ""
+                className={`block text-black font-bold text-sm tracking-wider hover:text-[#FFB900] hover:bg-blue-600 px-4 py-3 rounded-lg transition-all duration-200 ${
+                  pathname === item.href ? "text-white bg-[#284578] " : ""
                 }`}
                 onClick={() => setIsMobileMenuOpen(false)}
               >

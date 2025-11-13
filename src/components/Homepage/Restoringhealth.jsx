@@ -91,7 +91,7 @@ const Restoringhealth = () => {
  
  <span className='block mt-3 font-jaldi'> Dr. Shazia Waghoo’s brand offers expert, technology-driven</span> <span className='block mt-2'>surgical care with a focus on faster recovery and minimal</span><span className='block mt-2'> hospital stay. With over 10 years of experience, her team is </span> <span  className='block mt-2'>committed to making quality surgeries accessible to all.</span> 
           </p>
-          <ul className="text-[#004979] text-2xl list-disc pl-6 space-y-4 font-semibold">
+          <ul className="text-[#284578] text-2xl list-disc pl-6 space-y-4 font-semibold">
             <li>Deep Expertise in Laparoscopic Surgeries</li>
             <li>Affiliated to Major Hospitals in Mumbai</li>
           </ul>

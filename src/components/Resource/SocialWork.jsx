@@ -83,7 +83,7 @@ const SocialWork = () => {
 
 {/* Main code start from here */}
     <div className="bg-white py-12 px-4 text-center">
-      <h2 className="text-4xl font-bold text-[#004979] mb-10">SOCIAL WORK</h2>
+      <h2 className="text-4xl font-bold text-[#284578] mb-10">SOCIAL WORK</h2>
 
       <div className="grid md:grid-cols-2 gap-16 max-w-5xl mx-auto">
         {events.map((event, index) => (

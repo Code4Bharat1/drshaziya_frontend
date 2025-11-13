@@ -13,7 +13,7 @@
 //   return (
 //     <div className="bg-white pt-7 pb-16 px-4 md:px-20">
 //       {/* Heading */}
-//       <h2 className="text-xl md:text-xl font-bold text-[#004979] mb-9 text-center leading-relaxed ml-[-27rem]">
+//       <h2 className="text-xl md:text-xl font-bold text-[#284578] mb-9 text-center leading-relaxed ml-[-27rem]">
 //         Breast illness awareness lecture at Rizvi College, Bandra West
 //       </h2>
 
@@ -123,7 +123,7 @@ const Awareness3 = () => {
 {/* Main code start from here */}
     <div className="bg-white pt-7 pb-16 px-4 md:px-20">
       {/* Lecture Section */}
-      <h2 className="text-xl md:text-xl font-bold text-[#004979] mb-9 text-center leading-relaxed ml-[-27rem]">
+      <h2 className="text-xl md:text-xl font-bold text-[#284578] mb-9 text-center leading-relaxed ml-[-27rem]">
         Breast cancer awareness lecture at Rizvi College, Bandra West
       </h2>
 
@@ -137,11 +137,11 @@ const Awareness3 = () => {
       </div>
 
       {/* Horizontal Line */}
-      <div className="mt-16 border-b border-1 border-[#004979]  max-w-5xl mx-auto"></div>
+      <div className="mt-16 border-b border-1 border-[#284578]  max-w-5xl mx-auto"></div>
 
       {/* Operation Theatre Section */}
       <div className="mt-10 max-w-5xl mx-auto">
-        <h3 className="text-[32px] font-bold text-[#004979] mb-8 text-center">
+        <h3 className="text-[32px] font-bold text-[#284578] mb-8 text-center">
           In the Operation Theatre
         </h3>
         <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">

@@ -21,7 +21,7 @@
 // const Consult = () => {
 //   return (
 //     <div className="bg-[#F8F9FE] py-3 sm:py-12 px-2 sm:px-8 md:px-12 lg:px-20 xl:px-32">
-//       <h2 className="text-[30px] md:text-[36px] mx-3 md:mx-0 font-bold text-center text-[#004979] mb-4 sm:mb-12">
+//       <h2 className="text-[30px] md:text-[36px] mx-3 md:mx-0 font-bold text-center text-[#284578] mb-4 sm:mb-12">
 //         Why you should Consult Dr. Shazia Waghoo
 //       </h2>
 
@@ -139,7 +139,7 @@ const Consult = () => {
 
     {/* main code start from here */}
     <div className="bg-[#F8F9FE] py-3 sm:py-12 px-2 sm:px-8 md:px-12 lg:px-20 xl:px-32">
-      <h2 className="text-[30px] md:text-[36px] mx-3 md:mx-0 font-bold text-center text-[#004979] mb-4 sm:mb-12">
+      <h2 className="text-[30px] md:text-[36px] mx-3 md:mx-0 font-bold text-center text-[#284578] mb-4 sm:mb-12">
         Why you should Consult Dr. Shazia Waghoo
       </h2>
 

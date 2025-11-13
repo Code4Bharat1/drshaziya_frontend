@@ -106,7 +106,7 @@ const Conference = () => {
     {/* main code start from here */}
     <div className="w-full bg-[#F9F8FE]">
     <div className="max-w-6xl mx-auto p-6 ">
-      <h1 className="text-4xl font-bold text-[#004979] text-center mb-10">
+      <h1 className="text-4xl font-bold text-[#284578] text-center mb-10">
         Conference Presentations
       </h1>
       
@@ -115,7 +115,7 @@ const Conference = () => {
         <div className="flex-1 space-y-8 bg-[#F8F9FE] p-8">
           {/* First Presentation */}
           <div>
-            <h2 className="text-2xl font-bold text-[#004979] mb-5">
+            <h2 className="text-2xl font-bold text-[#284578] mb-5">
               COVID 19 pandemic induced Nominal training and <br />
               Deskilling in the specialty of General Surgery
             </h2>
@@ -126,7 +126,7 @@ const Conference = () => {
 
           {/* Second Presentation */}
           <div>
-            <h2 className="text-2xl font-bold text-[#004979] mb-5">
+            <h2 className="text-2xl font-bold text-[#284578] mb-5">
               Extent of Peritoneal disease in lower <br />
               abdomen and its relation to nodal disease in <br />
               Stage 3c Epithelial Ovarian Cancer
@@ -140,7 +140,7 @@ const Conference = () => {
 
           {/* Third Presentation */}
           <div>
-            <h2 className="text-2xl font-bold text-[#004979] mb-5">
+            <h2 className="text-2xl font-bold text-[#284578] mb-5">
               Utility of BiPAP (Biphasic Positive Airway <br />
               Pressure) ventilation in CRS+HIPEC <br />
               (Cytoreductive Surgery +Hyperthermic <br />
@@ -155,7 +155,7 @@ const Conference = () => {
         </div>
 
         {/* Right side - Images stacked vertically */}
-        <div className="w-110 border-2 border-[#004979] p-4 bg-gray-50">
+        <div className="w-110 border-2 border-[#284578] p-4 bg-gray-50">
           <div className="space-y-3">
             <div className="w-80 h-56 bg-gray-200 ">
               <img 
@@ -187,7 +187,7 @@ const Conference = () => {
       {/* Mobile Layout - Visible only on Mobile */}
       <div className="lg:hidden space-y-8">
         {presentations.map((presentation) => (
-          <div key={presentation.id} className="bg-white border-2 border-[#004979] rounded-lg overflow-hidden">
+          <div key={presentation.id} className="bg-white border-2 border-[#284578] rounded-lg overflow-hidden">
             {/* Image */}
             <div className="w-full h-48 bg-gray-200">
               <img 
@@ -199,7 +199,7 @@ const Conference = () => {
             
             {/* Content */}
             <div className="p-4">
-              <h2 className="text-lg font-bold text-[#004979] mb-3 leading-tight">
+              <h2 className="text-lg font-bold text-[#284578] mb-3 leading-tight">
                 {presentation.title}
               </h2>
               <p className="text-gray-700 text-base leading-relaxed">

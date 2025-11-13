@@ -107,7 +107,7 @@ const Contact = () => {
       <ToastContainer />
 
       <div className="bg-gray-50 py-6 px-4 flex items-center justify-center">
-        <div className="bg-[#0085DC] text-white rounded-xl border-4 border-[#FFD54F] p-8 flex flex-col md:flex-row items-center justify-between max-w-5xl mx-auto mt-2 mb-9 shadow-[0_4px_2px_rgba(0,0,0,0.2)]">
+        <div className="bg-[#069bd6] text-white rounded-xl border-4 border-[#FFB900] p-8 flex flex-col md:flex-row items-center justify-between max-w-5xl mx-auto mt-2 mb-9 shadow-[0_4px_2px_rgba(0,0,0,0.2)]">
 
           <div className="md:w-1/2 mb-8 md:mb-0 md:pr-6">
             <h2 className="text-3xl font-bold mb-4">Book a Consultation</h2>

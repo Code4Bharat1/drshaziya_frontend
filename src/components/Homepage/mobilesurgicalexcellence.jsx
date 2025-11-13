@@ -83,7 +83,7 @@ const MobileSurgicalExcellence = () => {
         />
 
         {/* Blue Overlay */}
-        <div className="absolute inset-0 bg-[#0085DC] bg-opacity-35 z-10"></div>
+        <div className="absolute inset-0 bg-[#069bd6] bg-opacity-35 z-10"></div>
 
         {/* Text Content */}
         <div className="absolute inset-0 z-20 flex flex-col justify-center items-center text-center px-6">
@@ -96,7 +96,7 @@ const MobileSurgicalExcellence = () => {
             <span className="block mt-1">Modalities.</span>
           </h1>
 
-          <button className="mt-7 bg-[#0085DC] hover:bg-blue-700 text-white font-medium text-sm py-2 px-3 rounded-md transition duration-300" onClick={() => router.push('/contactus')}>
+          <button className="mt-7 bg-[#284578] hover:bg-[#FFB900] text-white font-medium text-sm py-2 px-3 rounded-md transition duration-300" onClick={() => router.push('/contactus')}>
             BOOK AN APPOINTMENT
           </button>
         </div>

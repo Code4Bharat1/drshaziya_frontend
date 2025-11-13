@@ -4,7 +4,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer className="bg-[#2973a4] text-white py-8 lg:py-12 w-full overflow-hidden">
+    <footer className="bg-[#284578] text-white py-8 lg:py-12 w-full overflow-hidden">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Mobile Layout */}
         <div className="block lg:hidden">
@@ -29,7 +29,7 @@ const Footer = () => {
                 <li key={idx}>
                   <a
                     href={item.href}
-                    className="hover:text-yellow-300 transition-colors duration-200 font-bold text-[16px] block"
+                    className="hover:text-[#FFB900] transition-colors duration-200 font-bold text-[16px] block"
                   >
                     {item.text}
                   </a>
@@ -109,7 +109,7 @@ const Footer = () => {
                   <li key={idx}>
                     <a
                       href={item.href}
-                      className="hover:text-yellow-300 transition-colors duration-200 inline-flex items-center"
+                      className="hover:text-[#FFB900] transition-colors duration-200 inline-flex items-center"
                     >
                       <span className="mr-2">•</span>
                       <span className="font-bold text-[16px]">{item.text}</span>
@@ -128,7 +128,7 @@ const Footer = () => {
                   <li key={idx}>
                     <a
                       href={item.href}
-                      className="hover:text-yellow-300 transition-colors duration-200 inline-flex items-center"
+                      className="hover:text-[#FFB900] transition-colors duration-200 inline-flex items-center"
                     >
                       <span className="mr-2">•</span>
                       <span className="font-bold text-[16px]">{item.text}</span>
@@ -175,7 +175,7 @@ const Footer = () => {
 
               <div className="text-white text-sm lg:text-base font-medium break-all">
                 <span className="whitespace-nowrap">9833584847</span>
-                <span className="mx-2 text-yellow-300">|</span>
+                <span className="mx-2 text-[#FFB900]">|</span>
                 <span className="whitespace-nowrap">9892933421</span>
               </div>
             </div>

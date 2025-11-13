@@ -133,7 +133,7 @@ const MobileReviewsSwiper = () => {
       </Head>
 
       <div className="py-6 bg-[#F8F9FE]">
-        <h2 className="text-[26px] sm:text-[30px] font-bold text-center text-[#004979] mb-6 px-4">
+        <h2 className="text-[26px] sm:text-[30px] font-bold text-center text-[#284578] mb-6 px-4">
           Reviews on Google
         </h2>
 
@@ -151,7 +151,7 @@ const MobileReviewsSwiper = () => {
               return (
                 <div key={index} className="w-full flex-shrink-0 px-6">
                   <div className="relative w-full max-w-sm mx-auto min-h-[500px] m-2">
-                    <div className="relative bg-[#FFD54F] h-20 border-b border-gray-300 overflow-hidden shadow-[inset_0_8px_10px_-4px_rgba(0,0,0,0.1),inset_4px_0_6px_-2px_rgba(0,0,0,0.08),inset_-4px_0_6px_-5px_rgba(0,0,0,0.08)] rounded-t-lg mx-4">
+                    <div className="relative bg-[#FFB900] h-20 border-b border-gray-300 overflow-hidden shadow-[inset_0_8px_10px_-4px_rgba(0,0,0,0.1),inset_4px_0_6px_-2px_rgba(0,0,0,0.08),inset_-4px_0_6px_-5px_rgba(0,0,0,0.08)] rounded-t-lg mx-4">
                       <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-b from-black/10 to-transparent"></div>
                     </div>
 
@@ -198,7 +198,7 @@ const MobileReviewsSwiper = () => {
               key={index}
               className={`w-3 h-3 rounded-full transition-all duration-200 ${
                 index === currentIndex
-                  ? "bg-[#004979] scale-110"
+                  ? "bg-[#284578] scale-110"
                   : "bg-gray-300 hover:bg-gray-400"
               }`}
               onClick={() => goToSlide(index)}

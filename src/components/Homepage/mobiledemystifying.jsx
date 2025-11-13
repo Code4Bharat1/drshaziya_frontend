@@ -73,7 +73,7 @@ const DemystifyingMobile = () => {
     {/* code start from here */}
     <div className="flex flex-col items-start bg-gray-50 px-6  md:hidden ">
       {/* Heading */}
-      <h2 className="text-[29px] text-center  font-bold text-[#004979] mb-2  font-inter mt-4">
+      <h2 className="text-[29px] text-center  font-bold text-[#284578] mb-2  font-inter mt-4">
         Demystifying the Surgery experience
       </h2>
 
@@ -87,7 +87,7 @@ const DemystifyingMobile = () => {
       {/* Button */}
     <div className=" mb-10 flex justify-center items-center w-full">
   <button
-    className="font-semibold text-sm bg-[#0085DC] hover:bg-blue-600 text-white px-5 py-3 rounded-md transition duration-200"
+    className="font-semibold text-sm bg-[#069bd6] hover:bg-blue-600 text-white px-5 py-3 rounded-md transition duration-200"
     onClick={() => router.push("/contactus")}
   >
     BOOK AN APPOINTMENT

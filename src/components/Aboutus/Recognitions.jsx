@@ -39,7 +39,7 @@
 
 //   return (
 //     <section className="bg-[#F9F8FE] py-12 px-4">
-//       <h2 className="text-4xl font-bold text-center text-[#004979] mb-10">
+//       <h2 className="text-4xl font-bold text-center text-[#284578] mb-10">
 //         RECOGNITIONS
 //       </h2>
 
@@ -186,7 +186,7 @@ const Recognitions = () => {
 
     {/* main code strt from here */}
     <section className="bg-[#F9F8FE] py-12 px-4">
-      <h2 className="text-4xl font-bold text-center text-[#004979] mb-10">
+      <h2 className="text-4xl font-bold text-center text-[#284578] mb-10">
         RECOGNITIONS
       </h2>
 
@@ -194,7 +194,7 @@ const Recognitions = () => {
         {recognitions.map((item, index) => (
           <div
             key={index}
-            className="w-[350px] h-[240px] bg-white rounded-xl border-4 border-[#0085DC] p-6 flex flex-col items-center text-center space-y-2 mx-auto"
+            className="w-[350px] h-[240px] bg-white rounded-xl border-4 border-[#069bd6] p-6 flex flex-col items-center text-center space-y-2 mx-auto"
             style={{ boxShadow: '0 4px 6px -1px rgba(0, 0, 255, 0.4)' }}
           >
             <Image src={item.image} alt="Recognition Icon" width={40} height={40} />

@@ -82,7 +82,7 @@ const MobileArtical = () => {
 
 {/* main code start from here */}
     <div className="py-6 bg-[#F8F9FE] flex flex-col items-center px-4">
-      <h2 className="text-[28px] sm:text-[34px] font-bold text-center text-[#004979] mb-6">
+      <h2 className="text-[28px] sm:text-[34px] font-bold text-center text-[#284578] mb-6">
         Articles by Dr. Shazia
       </h2>
 

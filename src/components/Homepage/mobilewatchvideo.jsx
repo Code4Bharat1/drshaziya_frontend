@@ -32,7 +32,7 @@ const MobileWatchVideo = () => {
 
       <div className="relative bg-[#F8F9FE] pt-12 pb-12 px-2 overflow-hidden max-w-md ">
         <div className="flex justify-center items-center px-2">
-          <h2 className="relative text-[18px] font-bold text-[#004979] mb-8 text-center leading-relaxed">
+          <h2 className="relative text-[18px] font-bold text-[#284578] mb-8 text-center leading-relaxed">
             Watch these videos to get more information{" "}
             <span>
               about <br /> Dr. Shazia Waghoo.

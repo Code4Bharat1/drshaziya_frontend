@@ -79,7 +79,7 @@ General Surgeon in Khar Laparoscopic Surgery in Khar Mumbai Best Female Surgeon 
         {/* Image First in Mobile */}
 
         {/* Text Content */}
-        <h2 className="text-[23px] font-bold text-[#004979] mb-4 leading-tight">
+        <h2 className="text-[23px] font-bold text-[#284578] mb-4 leading-tight">
           <span>Restoring Health and Hope,</span>
           <br />
           <span>One Surgery At A Time</span>
@@ -90,7 +90,7 @@ General Surgeon in Khar Laparoscopic Surgery in Khar Mumbai Best Female Surgeon 
           over 10 years of experience, her team is committed to making quality
           surgeries accessible to all.
         </p>
-        <ul className="text-[#004979] text-xl mb-6 list-none pl-5 text-center space-y-3 font-semibold">
+        <ul className="text-[#284578] text-xl mb-6 list-none pl-5 text-center space-y-3 font-semibold">
           <li>Deep Expertise in Laparoscopic Surgeries</li>
           <li>Affiliated to Major Hospitals in Mumbai</li>
         </ul>

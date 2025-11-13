@@ -95,7 +95,7 @@ const MobileClinicCard = () => {
                 <div className="pt-4">
                   <button
                     onClick={() => window.open(clinic.locationUrl, '_blank')}
-                    className="bg-[#0085DC] hover:bg-blue-700 text-white text-sm px-4 py-2 rounded"
+                    className="bg-[#069bd6] hover:bg-blue-700 text-white text-sm px-4 py-2 rounded"
                   >
                     VIEW LOCATION
                   </button>
@@ -109,7 +109,7 @@ const MobileClinicCard = () => {
           <div className="text-center mt-6">
             <button
               onClick={handleToggle}
-              className="bg-[#0085DC] hover:bg-blue-700 text-white px-6 py-2 rounded text-sm"
+              className="bg-[#069bd6] hover:bg-blue-700 text-white px-6 py-2 rounded text-sm"
             >
               VIEW MORE
             </button>

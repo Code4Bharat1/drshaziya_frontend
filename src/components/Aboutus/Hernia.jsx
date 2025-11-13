@@ -95,12 +95,20 @@ const Hernia = () => {
 
   {/* Name and Qualification */}
   <div className="mt-5">
-    <h2 className="text-3xl sm:text-3xl lg:text-3xl font-bold text-gray-800">
+    <h2 className="text-3xl sm:text-3xl lg:text-3xl font-bold  text-[#284578]">
       Dr. Shazia Waghoo
     </h2>
-    <p className="text-xl text-gray-600 font-medium">
+    {/* <p className="text-[#069BD8] font-semibold text-xl mb-4 tracking-widest md:text">
       MBBS, DNB General Surgery
-    </p>
+    </p> */}
+     {/* <p
+                className="text-[#069BD8] font-semibold text-xl mb-4 tracking-widest md:text"
+                // style={{ fontFamily: "Times New Roman, serif" }}
+              >
+                DIPLOMA in HERNIA SURGERY  <br />
+                (By Asia Pacific Hernia Society & The Royal College of Surgeons
+                of Edinburgh)
+              </p> */}
   </div>
 </div>
 
@@ -109,18 +117,11 @@ const Hernia = () => {
 
           <div className="space-y-4 sm:space-y-6 order-2 lg:order-2 mb-11">
            
-            <h1 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-[#004979] leading-tight text-left">
+            <h1 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-[#284578] leading-tight text-left">
               A Seasoned Laparoscopic, Hernia, and Breast Surgeon
             </h1>
 
-            <p
-                className="text-blue-500 font-semibold text-xl mb-4 tracking-widest md:text-left"
-                // style={{ fontFamily: "Times New Roman, serif" }}
-              >
-                DIPLOMA in HERNIA SURGERY  <br />
-                (By Asia Pacific Hernia Society & The Royal College of Surgeons
-                of Edinburgh)
-              </p>
+           
 
             
             <div className="text-gray-700 text-sm sm:text-base lg:text-lg leading-relaxed space-y-3 sm:space-y-4 text-left">
@@ -146,43 +147,79 @@ const Hernia = () => {
               </p>
             </div>
 
-            <div className="space-y-3 sm:space-y-4">
-              <div className="flex items-start sm:items-center space-x-3 sm:space-x-4 justify-start">
-                <div className="w-10 h-10 sm:w-12 sm:h-12 flex-shrink-0 mt-1 sm:mt-0">
-                  <img
-                    src="/dnf.png"
-                    alt="DNB General Surgery"
-                    className="w-10 h-10 object-cover "
-                  />
-                </div>
-                <div className="text-left">
-                  <h3 className="font-bold text-base sm:text-lg text-gray-800">
-                    DNB General Surgery
-                  </h3>
-                  <p className="text-sm sm:text-base text-gray-600">
-                    Saifee Hospital, Mumbai
-                  </p>
-                </div>
-              </div>
+            <div className="space-y-6">
 
-              <div className="flex items-start sm:items-center space-x-3 sm:space-x-4 justify-start">
-                <div className="w-10 h-10 sm:w-12 sm:h-12 flex-shrink-0 mt-1 sm:mt-0">
-                  <img
-                    src="/mbbs.png"
-                    alt="M.B.B.S Icon"
-                    className="w-full h-full object-cover"
-                  />
-                </div>
-                <div className="text-left">
-                  <h3 className="font-bold text-base sm:text-lg text-gray-800">
-                    M.B.B.S
-                  </h3>
-                  <p className="text-sm sm:text-base text-gray-600">
-                    RCSM Government Medical College, Kolhapur
-                  </p>
-                </div>
-              </div>
-            </div>
+
+  {/* Qualification Details */}
+  <div className="space-y-6">
+  {/* Heading */}
+  <h2 className="text-xl sm:text-2xl font-bold text-[#004979]">
+    Educational Qualification
+  </h2>
+
+  {/* Qualification Details */}
+  <div className="space-y-5">
+    {/* DNB General Surgery */}
+    <div className="flex flex-col md:flex-row md:items-center md:justify-between w-full">
+      <div className="text-left">
+        <h3 className="font-bold text-base sm:text-lg md:text-xl text-[#004979]">
+          DNB General Surgery
+        </h3>
+        <p className="text-sm sm:text-base md:text-lg text-[#004979] opacity-80">
+          Saifee Hospital, Mumbai
+        </p>
+      </div>
+      <div className="w-10 h-10 sm:w-12 sm:h-12 md:w-14 md:h-14 flex-shrink-0 mt-2 md:mt-0">
+        <img
+          src="/dnf.png"
+          alt="DNB General Surgery"
+          className="w-full h-full object-cover"
+        />
+      </div>
+    </div>
+
+    {/* M.B.B.S */}
+    <div className="flex flex-col md:flex-row md:items-center md:justify-between w-full">
+      <div className="text-left">
+        <h3 className="font-bold text-base sm:text-lg md:text-xl text-[#004979]">
+          M.B.B.S
+        </h3>
+        <p className="text-sm sm:text-base md:text-lg text-[#004979] opacity-80">
+          RCSM Government Medical College, Kolhapur
+        </p>
+      </div>
+      <div className="w-10 h-10 sm:w-12 sm:h-12 md:w-14 md:h-14 flex-shrink-0 mt-2 md:mt-0">
+        <img
+          src="/mbbs.png"
+          alt="M.B.B.S Icon"
+          className="w-full h-full object-cover"
+        />
+      </div>
+    </div>
+
+    {/* Diploma in Hernia Surgery */}
+    <div className="flex flex-col md:flex-row md:items-center md:justify-between w-full">
+      <div className="text-left">
+        <h3 className="font-bold text-base sm:text-lg md:text-xl text-[#004979]">
+          Diploma in Hernia Surgery
+        </h3>
+        <p className="text-sm sm:text-base md:text-lg text-[#004979] opacity-80 leading-snug">
+          By Asia Pacific Hernia Society & The Royal College of Surgeons of Edinburgh
+        </p>
+      </div>
+      <div className="w-10 h-10 sm:w-12 sm:h-12 md:w-14 md:h-14 flex-shrink-0 mt-2 md:mt-0">
+        <img
+          src="/image 191.png"
+          alt="Diploma in Hernia Surgery"
+          className="w-full h-full object-cover"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+
+</div>
+
           </div>
         </div>
       </div>

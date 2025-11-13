@@ -113,7 +113,7 @@ const Review = () => {
 
     {/* main code start from herre */}
     <div className="py-4 bg-[#F8F9FE] ">
-      <h2 className="text-[44px] font-bold text-center text-[#004979] mb-2 ">Reviews on Google</h2>
+      <h2 className="text-[44px] font-bold text-center text-[#284578] mb-2 ">Reviews on Google</h2>
 
       <div className="overflow-hidden pb-6">
         {/* Center container and add spacing */}
@@ -123,7 +123,7 @@ const Review = () => {
             return (
               <div key={index} className="relative w-[280px] h-[380px] shrink-0 box-border">
                 {/* YELLOW TOP CARD: slightly taller and enhanced */}
-                <div className="relative bg-[#FFD54F] h-24 border-b border-gray-300 overflow-hidden shadow-[inset_0_8px_10px_-4px_rgba(0,0,0,0.1),inset_4px_0_6px_-2px_rgba(0,0,0,0.08),inset_-4px_0_6px_-5px_rgba(0,0,0,0.08)]">
+                <div className="relative bg-[#FFB900] h-24 border-b border-gray-300 overflow-hidden shadow-[inset_0_8px_10px_-4px_rgba(0,0,0,0.1),inset_4px_0_6px_-2px_rgba(0,0,0,0.08),inset_-4px_0_6px_-5px_rgba(0,0,0,0.08)]">
                   <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-b from-black/10 to-transparent"></div>
                 </div>
 

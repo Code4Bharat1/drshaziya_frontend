@@ -93,7 +93,7 @@ const MobileConference = () => {
     {/* main code start from here */}
     <div className="w-full bg-[#F9F8FE] py-2 px-4">
       <div className="max-w-6xl mx-4">
-        <h1 className="text-2xl sm:text-3xl font-bold text-[#004979] text-center mb-4">
+        <h1 className="text-2xl sm:text-3xl font-bold text-[#284578] text-center mb-4">
           Conference Presentations
         </h1>
         
@@ -111,7 +111,7 @@ const MobileConference = () => {
               
               {/* Text Content - Outside the image box */}
               <div className="mt-4">
-                <h2 className="text-lg sm:text-xl font-bold text-center text-[#004979] mb-2 leading-tight">
+                <h2 className="text-lg sm:text-xl font-bold text-center text-[#284578] mb-2 leading-tight">
                   {presentation.title}
                 </h2>
                 <p className="text-gray-700 text-base text-center sm:text-lg">

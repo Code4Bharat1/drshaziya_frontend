@@ -84,20 +84,19 @@ const MobileSeasoned = () => {
 
         <div className="text-center">
           <h2 className="text-2xl font-bold">Dr. Shazia Waghoo</h2>
-          <p className="text-base text-[#000000]">MBBS, DNB General Surgery</p>
+         <p className="text-[#284578] font-semibold text-sm sm:text-base lg:text-lg tracking-wide text-center mt-2 leading-relaxed">
+  MBBS, DNB (General Surgery) & Diploma in Hernia Surgery — by Asia Pacific Hernia Society & The Royal College of Surgeons of Edinburgh
+</p>
+
+
         </div>
 
         <div className="text-left mx-4">
-          <h2 className="text-[20px] text-center font-serif text-[#004979] mb-3">
+          <h2 className="text-[20px] text-center font-serif text-[#284578] mb-3">
             A seasoned Laparoscopic, Hernia, and Breast Surgeon
           </h2>
-          <p
-  className="text-blue-500 font-semibold text-sm sm:text-base lg:text-lg tracking-wide text-center mb-4"
->
-  DIPLOMA in HERNIA SURGERY  <br />
-  (By Asia Pacific Hernia Society & The Royal College of Surgeons of Edinburgh)
-</p>
-          <h3 className="text-[20px] text-center text-[#004979] font-serif mb-3">
+         
+          <h3 className="text-[20px] text-center text-[#284578] font-serif mb-3">
             Creating Impact across Millions of Lives
           </h3>
           <p className="text-gray-800 text-[18px] font-jaldi leading-relaxed text-center">
@@ -110,7 +109,7 @@ const MobileSeasoned = () => {
           </p>
           <div className="flex justify-center">
   <button
-    className="font-semibold text-sm bg-[#0085DC] hover:bg-blue-600 text-white px-5 py-3 rounded-md transition duration-200 mt-6"
+    className="font-semibold text-sm bg-[#069bd6] hover:bg-blue-600 text-white px-5 py-3 rounded-md transition duration-200 mt-6"
     onClick={() => router.push("/contactus")}
   >
     BOOK AN APPOINTMENT

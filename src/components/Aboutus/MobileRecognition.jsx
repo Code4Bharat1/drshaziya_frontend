@@ -114,7 +114,7 @@ const MobileRecognitions = () => {
 
     {/* main code start from here */}
     <section className="bg-[#F9F8FE] py-8 px-4 block md:hidden">
-      <h2 className="text-3xl font-bold text-center text-[#004979] mb-6">
+      <h2 className="text-3xl font-bold text-center text-[#284578] mb-6">
         RECOGNITIONS
       </h2>
 

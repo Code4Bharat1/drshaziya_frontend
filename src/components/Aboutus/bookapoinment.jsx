@@ -35,7 +35,7 @@ export default function BookAppointment() {
         alt="Modern hospital background"
         className="absolute top-0 left-0 w-full h-full object-cover"
       />
-      <div className="absolute inset-0 bg-[linear-gradient(to_right,#0085dc70)]"></div>
+      <div className="absolute inset-0 bg-[linear-gradient(to_right,#069bd670)]"></div>
 
       <div className="relative z-10 flex items-center justify-start h-full px-4 sm:px-6 md:px-12 lg:px-16 py-6 sm:py-8 md:py-10 text-left">
         <div className="max-w-4xl">
@@ -45,7 +45,7 @@ export default function BookAppointment() {
           <p className="text-sm sm:text-base md:text-lg lg:text-xl xl:text-2xl text-white font-semibold mt-4 sm:mt-6 md:mt-8 lg:mt-10 max-w-xs sm:max-w-sm md:max-w-md lg:max-w-xl xl:max-w-2xl leading-relaxed">
             "Your trusted partner in advanced laparoscopic surgery."
           </p>
-          <button className="bg-[#0085DC] text-white font-bold py-2 sm:py-3 md:py-3 lg:py-4 px-4 sm:px-5 md:px-6 lg:px-8 rounded text-xs sm:text-sm md:text-base lg:text-lg hover:bg-[#006bb3] transition duration-300 shadow-lg mt-4 sm:mt-6 md:mt-8 lg:mt-10 w-auto min-w-[140px] sm:min-w-[160px] md:min-w-[180px] lg:min-w-[200px]" onClick={() => router.push('/contactus')}>
+          <button className="bg-[#069bd6] text-white font-bold py-2 sm:py-3 md:py-3 lg:py-4 px-4 sm:px-5 md:px-6 lg:px-8 rounded text-xs sm:text-sm md:text-base lg:text-lg hover:bg-[#006bb3] transition duration-300 shadow-lg mt-4 sm:mt-6 md:mt-8 lg:mt-10 w-auto min-w-[140px] sm:min-w-[160px] md:min-w-[180px] lg:min-w-[200px]" onClick={() => router.push('/contactus')}>
             BOOK AN APPOINTMENT
           </button>
         </div>

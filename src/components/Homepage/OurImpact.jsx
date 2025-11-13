@@ -114,7 +114,7 @@ Minimally invasive surgery in Vashi/Santacruz/Khar Best laparoscopic gallbladder
     {/* code start from here */}
     <div className="bg-[#F8F9FE] py-10 px-4 text-center">
       {/* Main Heading */}
-      <h2 className="text-5xl font-bold text-[#004979] mb-10">OUR IMPACT NUMBERS</h2>
+      <h2 className="text-5xl font-bold text-[#284578] mb-10">OUR IMPACT NUMBERS</h2>
 
       {/* Impact Cards */}
       <div className="flex flex-col md:flex-row justify-center items-center gap-16 mb-12">
@@ -135,8 +135,8 @@ Minimally invasive surgery in Vashi/Santacruz/Khar Best laparoscopic gallbladder
       </div>
 
       {/* Hospital Affiliation Section */}
-      <h3 className="text-5xl font-bold text-[#004979] mb-2">Hospital Affiliations</h3>
-      <p className="text-[#004979] font-bold text-2xl mt-5">
+      <h3 className="text-5xl font-bold text-[#284578] mb-2">Hospital Affiliations</h3>
+      <p className="text-[#284578] font-bold text-2xl mt-5">
         Affiliated with 7+ reputed Hospitals and Clinics in Mumbai
       </p>
 

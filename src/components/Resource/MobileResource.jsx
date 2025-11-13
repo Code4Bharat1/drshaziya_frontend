@@ -92,7 +92,7 @@ const MobileResource = () => {
 
 
     <div className="bg-[#F8F9FE] py-12 px-4 text-center mt-14">
-      <h2 className="text-4xl font-bold text-[#004979] mb-4 mt-5">RESOURCES</h2>
+      <h2 className="text-4xl font-bold text-[#284578] mb-4 mt-5">RESOURCES</h2>
 
       <div className="grid md:grid-cols-3 gap-12 max-w-7xl mx-auto">
         {resources.map((res, index) => (

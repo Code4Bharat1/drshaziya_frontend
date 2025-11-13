@@ -153,7 +153,7 @@ General Surgeon in Khar Laparoscopic Surgery in Khar Mumbai Best Female Surgeon 
 
       {/* Code starts here */}
       <div className="bg-[#F8F9FE] py-2 px-4 overflow-hidden block md:hidden">
-        <h2 className="text-center text-xl px-5 font-bold text-[#004979] my-6">
+        <h2 className="text-center text-xl px-5 font-bold text-[#284578] my-6">
           Dr. Shazia Waghoo offers Expertise in the following Surgeries
         </h2>
 
@@ -177,7 +177,7 @@ General Surgeon in Khar Laparoscopic Surgery in Khar Mumbai Best Female Surgeon 
                 {item.description}
               </p>
               <Link href={item.path}>
-                <button className="bg-[#0085DC] text-white text-xs px-6 py-3 rounded-md hover:bg-blue-500 mt-5 mx-auto block shadow-[0_3px_4px_-1px_rgba(0,0,0,0.4)]">
+                <button className="bg-[#069bd6] text-white text-xs px-6 py-3 rounded-md hover:bg-blue-500 mt-5 mx-auto block shadow-[0_3px_4px_-1px_rgba(0,0,0,0.4)]">
                   KNOW MORE
                 </button>
               </Link>
