@@ -16,7 +16,7 @@ const clinics = [
   },
   {
     name: 'CritiCare Asia Hospital',
-    address: `Building No 1, Kirol Road, off Lal Bahadur Shastri Marg,\nnear Kohinoor International School,\nAli Yavar Jung, Kurla West\nMumbai 400070`,
+    address: `Building No 1, Kirol Road, off Lal Bahadur Shastri Marg,\nnear Kohinoor International School,\nAli Yavar Jung, Santacruz West\nMumbai 400070`,
     locationUrl: 'https://maps.app.goo.gl/cZcxSMhRq5GfAJkK8?g_st=aw',
   },
   {

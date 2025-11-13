@@ -19,15 +19,15 @@ export const metadata = {
   metadataBase: new URL("https://drshaziawaghoo.com/"),
   title: "Dr. Shazia Waghoo | Best Hernia Surgeon in Santacruz, Mumbai",
   description:
-    "Consult Dr. Shazia Waghoo – trusted laparoscopic & hernia surgeon in Kurla, Mumbai. 10+ years of experience in advanced, safe, and minimally invasive treatments.",
+    "Consult Dr. Shazia Waghoo – trusted laparoscopic & hernia surgeon in Santacruz, Mumbai. 10+ years of experience in advanced, safe, and minimally invasive treatments.",
   keywords: [
     "Dr Shazia Waghoo",
-    "Hernia Surgeon Kurla",
-    "Laparoscopic Surgeon Kurla",
-    "Best Breast Surgeon Kurla",
+    "Hernia Surgeon Santacruz",
+    "Laparoscopic Surgeon Santacruz",
+    "Best Breast Surgeon Santacruz",
     "Lady Surgeon Mumbai",
     "Best lady doctor for hernia in Mumbai",
-    "Breast Surgery Kurla",
+    "Breast Surgery Santacruz",
     "Minimally Invasive Surgeon Mumbai",
     "Best Hernia Treatment Mumbai",
   ],
@@ -37,9 +37,9 @@ export const metadata = {
     apple: "/apple-touch-icon.png",
   },
   openGraph: {
-    title: "Dr. Shazia Waghoo – Hernia & Laparoscopic Surgeon in Kurla, Mumbai",
+    title: "Dr. Shazia Waghoo – Hernia & Laparoscopic Surgeon in Santacruz, Mumbai",
     description:
-      "Trusted hernia & laparoscopic surgeon in Kurla with 10+ years of expertise. Book your appointment with Dr. Shazia Waghoo today.",
+      "Trusted hernia & laparoscopic surgeon in Santacruz with 10+ years of expertise. Book your appointment with Dr. Shazia Waghoo today.",
     url: "https://drshaziawaghoo.com/",
     siteName: "Dr. Shazia Waghoo",
     images: [
@@ -47,7 +47,7 @@ export const metadata = {
         url: "https://drshaziawaghoo.com/og-image.jpg",
         width: 1200,
         height: 630,
-        alt: "Dr. Shazia Waghoo - Hernia Surgeon in Kurla",
+        alt: "Dr. Shazia Waghoo - Hernia Surgeon in Santacruz",
       },
     ],
     locale: "en_IN",
@@ -55,9 +55,9 @@ export const metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Dr. Shazia Waghoo | Hernia & Laparoscopic Surgeon in Kurla",
+    title: "Dr. Shazia Waghoo | Hernia & Laparoscopic Surgeon in Santacruz",
     description:
-      "Leading female laparoscopic & hernia surgeon in Kurla, Mumbai with 10+ years of experience.",
+      "Leading female laparoscopic & hernia surgeon in Santacruz, Mumbai with 10+ years of experience.",
     images: ["https://drshaziawaghoo.com/og-image.jpg"],
   },
   robots: {
@@ -94,8 +94,8 @@ export default function RootLayout({ children }) {
               "Dr. Shazia Waghoo is a laparoscopic surgeon in Mumbai specializing in hernia & breast surgery with 10+ years of experience.",
             address: {
               "@type": "PostalAddress",
-              streetAddress: "Kurla Clinic Address",
-              addressLocality: "Kurla",
+              streetAddress: "Santacruz Clinic Address",
+              addressLocality: "Santacruz",
               addressRegion: "Maharashtra",
               postalCode: "400070",
               addressCountry: "IN",

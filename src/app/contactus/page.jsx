@@ -1,10 +1,10 @@
 export const metadata = {
-  title: "Contact Dr. Shazia Waghoo | Kurla, Mumbai",
-  description: "Get in touch with Dr. Shazia Waghoo for appointments, consultations, or medical inquiries in Kurla, Mumbai.",
+  title: "Contact Dr. Shazia Waghoo | Santacruz, Mumbai",
+  description: "Get in touch with Dr. Shazia Waghoo for appointments, consultations, or medical inquiries in Santacruz, Mumbai.",
   openGraph: {
     url: "https://drshaziawaghoo.com/contactus",
     title: "Contact Dr. Shazia Waghoo",
-    description: "Get in touch with Dr. Shazia Waghoo for appointments, consultations, or medical inquiries in Kurla, Mumbai.",
+    description: "Get in touch with Dr. Shazia Waghoo for appointments, consultations, or medical inquiries in Santacruz, Mumbai.",
     siteName: "Dr. Shazia Waghoo",
   },
 };

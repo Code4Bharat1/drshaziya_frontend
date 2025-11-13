@@ -1,7 +1,7 @@
 export const metadata = {
   title: "Patient Testimonials | Dr. Shazia Waghoo",
   description:
-    "Read genuine patient testimonials and success stories about Dr. Shazia Waghoo’s expert surgical care in Kurla, Mumbai.",
+    "Read genuine patient testimonials and success stories about Dr. Shazia Waghoo’s expert surgical care in Santacruz, Mumbai.",
   openGraph: {
     url: "https://drshaziawaghoo.com/testimonial",
     title: "Patient Testimonials | Dr. Shazia Waghoo",

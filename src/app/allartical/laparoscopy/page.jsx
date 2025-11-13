@@ -1,10 +1,10 @@
 export const metadata = {
   title: "Laparoscopy Surgery | Dr. Shazia Waghoo",
-  description: "Minimally invasive laparoscopy procedures by Dr. Shazia Waghoo in Kurla, Mumbai with quick recovery and expert care.",
+  description: "Minimally invasive laparoscopy procedures by Dr. Shazia Waghoo in Santacruz, Mumbai with quick recovery and expert care.",
   openGraph: {
     url: "https://drshaziawaghoo.com/allartical/laparoscopy",
     title: "Laparoscopy Surgery | Dr. Shazia Waghoo",
-    description: "Minimally invasive laparoscopy procedures by Dr. Shazia Waghoo in Kurla, Mumbai with quick recovery and expert care.",
+    description: "Minimally invasive laparoscopy procedures by Dr. Shazia Waghoo in Santacruz, Mumbai with quick recovery and expert care.",
     siteName: "Dr. Shazia Waghoo",
   },
 };

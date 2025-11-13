@@ -16,7 +16,7 @@ const clinics = [
   },
   {
     name: "CritiCare Asia Hospital",
-    address: `Building No 1, Kirol Road, off Lal Bahadur Shastri Marg,\nnear Kohinoor International School,\nAli Yavar Jung, Kurla (W)\nMumbai 400070`,
+    address: `Building No 1, Kirol Road, off Lal Bahadur Shastri Marg,\nnear Kohinoor International School,\nAli Yavar Jung, Santacruz (W)\nMumbai 400070`,
     locationUrl: "https://maps.app.goo.gl/cZcxSMhRq5GfAJkK8?g_st=aw",
   },
   {
@@ -48,7 +48,7 @@ const clinics = [
 
 const ClinicCard = () => {
   const [showAll, setShowAll] = useState(false);
-  // helper: pull a locality like "Khar West", "Santacruz East", "Kurla West", "Chembur", "Andheri East", "Vashi", "Mazgaon", "Navi Mumbai"
+  // helper: pull a locality like "Khar West", "Santacruz East", "Santacruz West", "Chembur", "Andheri East", "Vashi", "Mazgaon", "Navi Mumbai"
   // put these above your component or inside it (before return)
   const SUBLOCATION_WHITELIST = new Set(["CritiCare Asia Hospital"]);
 
@@ -57,7 +57,7 @@ const ClinicCard = () => {
 
     // Capture a known locality and optional direction
     const match = haystack.match(
-      /(Khar|Santacruz|Kurla|Chembur|Andheri|Vashi|Mazgaon|Navi\s*Mumbai)\s*(?:\(?\s*(East|West|E|W)\s*\)?)?/i
+      /(Khar|Santacruz|Santacruz|Chembur|Andheri|Vashi|Mazgaon|Navi\s*Mumbai)\s*(?:\(?\s*(East|West|E|W)\s*\)?)?/i
     );
 
     if (!match) return null;
@@ -68,7 +68,7 @@ const ClinicCard = () => {
     if (!dir) return base; // e.g., "Vashi", "Mazgaon", "Navi Mumbai"
 
     const letter = /^w/i.test(dir) ? "W" : "E";
-    return `${base} (${letter})`; // e.g., "Kurla (W)", "Andheri (E)"
+    return `${base} (${letter})`; // e.g., "Santacruz (W)", "Andheri (E)"
   };
 
   const handleToggle = () => setShowAll(true);
@@ -90,11 +90,11 @@ const ClinicCard = () => {
         </title>
         <meta
           name="description"
-          content="Find all clinic locations of Dr. Shazia Waghoo in Mumbai including Khar West, Santacruz East, Kurla West, Chembur, Andheri East, Navi Mumbai, and Mazgaon."
+          content="Find all clinic locations of Dr. Shazia Waghoo in Mumbai including Khar West, Santacruz East, Santacruz West, Chembur, Andheri East, Navi Mumbai, and Mazgaon."
         />
         <meta
           name="keywords"
-          content=" Hernia specialist in Andheri Laparoscopic surgeon in Santacruz Breast surgery doctor in Andheri Dr Shazia Waghoo, clinic locations Mumbai, surgery clinics Mumbai, laparoscopic surgery clinics, multispecialty surgical clinics, Andheri, Chembur, Khar, Santacruz, Kurla ,Best surgeon in Santacruz, Lady surgeon Santacruz Mumbai, Laparoscopic surgeon Santacruz, General surgeon Santacruz West, Piles treatment Santacruz, Gallbladder stone surgery Santacruz, Hernia specialist in Santacruz, Fissure doctor Santacruz, Fistula specialist Santacruz, Laser piles surgery Mumbai, Breast lump surgery in Santacruz, Appendix surgery in Mumbai, Female surgeon for daycare surgery Santacruz, Dr Shazia Waghoo surgeon Mumbai, Expert laparoscopic surgeon Santacruz, Proctologist near Santacruz"
+          content=" Hernia specialist in Andheri Laparoscopic surgeon in Santacruz Breast surgery doctor in Andheri Dr Shazia Waghoo, clinic locations Mumbai, surgery clinics Mumbai, laparoscopic surgery clinics, multispecialty surgical clinics, Andheri, Chembur, Khar, Santacruz, Santacruz ,Best surgeon in Santacruz, Lady surgeon Santacruz Mumbai, Laparoscopic surgeon Santacruz, General surgeon Santacruz West, Piles treatment Santacruz, Gallbladder stone surgery Santacruz, Hernia specialist in Santacruz, Fissure doctor Santacruz, Fistula specialist Santacruz, Laser piles surgery Mumbai, Breast lump surgery in Santacruz, Appendix surgery in Mumbai, Female surgeon for daycare surgery Santacruz, Dr Shazia Waghoo surgeon Mumbai, Expert laparoscopic surgeon Santacruz, Proctologist near Santacruz"
         />
         <meta name="author" content="Dr. Shazia Waghoo" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -124,7 +124,7 @@ const ClinicCard = () => {
         />
         <meta
           name="twitter:description"
-          content="Locate the nearest clinic of Dr. Shazia Waghoo in Mumbai including Khar, Santacruz, Kurla, Chembur, Andheri and Navi Mumbai."
+          content="Locate the nearest clinic of Dr. Shazia Waghoo in Mumbai including Khar, Santacruz, Santacruz, Chembur, Andheri and Navi Mumbai."
         />
         <meta
           name="twitter:image"
