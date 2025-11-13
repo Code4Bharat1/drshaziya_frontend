@@ -85,7 +85,7 @@ const Hernia = () => {
           <div className="flex flex-col items-center lg:items-start order-1 lg:order-1">
             <div className="flex flex-col items-center text-center">
   {/* Image */}
-  <div className="w-60 h-60 md:w-52 md:h-52 lg:w-[33rem] lg:h-[30rem] overflow-hidden shadow-sm">
+  <div className="w-60 h-60 md:w-52 md:h-52 lg:w-[33rem] lg:h-[30rem] overflow-hidden shadow-sm -mt-32">
     <img
       src="/circle1.png"
       alt="Dr. Shazia Waghoo"
