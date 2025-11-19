@@ -37,11 +37,11 @@ const page = () => {
    <div id="testimonials">
    <Testimonial/>
    </div>
-   <div id="awareness">
+   <div id="awareness" className="scroll-mt-20">  {/* Add scroll-mt-20 here */}
    <Awareness1/>
     <Awareness3/>
     </div>
-    <div id="social-media">
+    <div id="social-media" className="scroll-mt-20">  {/* Add here too */}
     <WatchVedio/>
     </div>
     <BookAppointment/>
@@ -49,21 +49,20 @@ const page = () => {
    </div>
 
    
-   <div className='bolck md:hidden'>
+   <div className='block md:hidden'>  {/* Fixed typo */}
     <WhatsAppButton/>
-    <div id="testimonials">
+    <div id="testimonials-mobile" className="scroll-mt-20">  {/* Add scroll-mt-20 */}
     <MobileTestimonial/>
     </div>
-    <div id="awareness">
+    <div id="awareness-mobile" className="scroll-mt-20">  {/* Add scroll-mt-20 */}
     <MobileAwareness1/>
     <MobileAwareness3/>
     </div>
-    <div id="social-media">
+    <div id="social-media-mobile" className="scroll-mt-20">  {/* Add scroll-mt-20 */}
     <MobileWatchVideo/>
     </div>
     <ContactMobile/>
     <BookAppointmentMobile/>
-
    </div>
    </>
   )

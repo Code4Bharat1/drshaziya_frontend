@@ -50,13 +50,13 @@ const page = () => {
     <div className='block md:hidden'>
       <WhatsAppButton/>
 
-        <div id="blogs">
+        <div id="blogs-mobile">
           <MobileResource/>
           </div>
-        <div id="social-work">
+        <div id="social-work-mobile">
         <MobileSocialwork/>
         </div>
-        <div id="awards">
+        <div id="awards-mobile">
           <MobileAwareness3/>
         </div>
         {/* <MobileArtical/> */}

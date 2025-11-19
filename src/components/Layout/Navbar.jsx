@@ -29,35 +29,135 @@ const Navbar = () => {
 
   // Function to handle smooth scroll to section
   const handleSectionScroll = (sectionId, targetPath) => {
+    console.log(`[Navbar] handleSectionScroll called: sectionId=${sectionId}, targetPath=${targetPath}, currentPathname=${pathname}`);
+    
     setIsMobileMenuOpen(false);
     setMediaOpen(false);
     setResourceOpen(false);
 
+    // Detect if mobile view (same breakpoint as navbar)
+    const isMobile = typeof window !== 'undefined' && window.innerWidth < 1024;
+    const scrollDelay = isMobile ? 800 : 400;
+    const navbarHeight = 80;
+
+    console.log(`[Navbar] isMobile=${isMobile}, scrollDelay=${scrollDelay}ms`);
+
+    // On mobile, use "-mobile" suffix for IDs to target mobile sections instead of desktop
+    const actualSectionId = isMobile ? `${sectionId}-mobile` : sectionId;
+    console.log(`[Navbar] Actual section ID to scroll to: ${actualSectionId}`);
+
+    const performScroll = () => {
+      console.log(`[Navbar] performScroll called for id="${actualSectionId}"`);
+      const element = document.getElementById(actualSectionId);
+      console.log(`[Navbar] Element found: ${!!element}`);
+      
+      if (element) {
+        console.log(`[Navbar] Element details:`, {
+          tagName: element.tagName,
+          classes: element.className,
+          offsetTop: element.offsetTop,
+        });
+        
+        const elementTop = element.getBoundingClientRect().top + window.scrollY;
+        const scrollTarget = Math.max(0, elementTop - navbarHeight);
+        
+        console.log(`[Navbar] Scrolling to ${scrollTarget}px`);
+        
+        window.scrollTo({
+          top: scrollTarget,
+          behavior: "smooth"
+        });
+      } else {
+        console.warn(`[Navbar] Element not found on first attempt, trying again...`);
+        setTimeout(() => {
+          const element2 = document.getElementById(actualSectionId);
+          console.log(`[Navbar] Second attempt - element found: ${!!element2}`);
+          if (element2) {
+            const elementTop = element2.getBoundingClientRect().top + window.scrollY;
+            const scrollTarget = Math.max(0, elementTop - navbarHeight);
+            window.scrollTo({
+              top: scrollTarget,
+              behavior: "smooth"
+            });
+          } else {
+            console.error(`[Navbar] ELEMENT STILL NOT FOUND for id="${actualSectionId}"`);
+            console.log(`[Navbar] Available IDs:`, Array.from(document.querySelectorAll('[id]')).map(el => el.id).slice(0, 20));
+          }
+        }, 300);
+      }
+    };
+
     if (pathname === targetPath) {
       // Already on the page, just scroll
+      console.log(`[Navbar] Already on page ${targetPath}`);
+      window.history.pushState(null, '', `${targetPath}#${sectionId}`);
+      
       setTimeout(() => {
-        const element = document.getElementById(sectionId);
-        if (element) {
-          element.scrollIntoView({ behavior: "smooth", block: "start" });
-        }
-      }, 100);
+        console.log(`[Navbar] Timeout fired, performing scroll`);
+        performScroll();
+      }, scrollDelay);
     } else {
       // Navigate to page first, then scroll
+      console.log(`[Navbar] Navigating to ${targetPath}#${sectionId}`);
       router.push(`${targetPath}#${sectionId}`);
     }
   };
 
   // Handle scroll on page load if hash is present
   useEffect(() => {
-    if (window.location.hash) {
-      const sectionId = window.location.hash.substring(1);
-      setTimeout(() => {
-        const element = document.getElementById(sectionId);
-        if (element) {
-          element.scrollIntoView({ behavior: "smooth", block: "start" });
-        }
-      }, 300);
-    }
+    const scrollToHash = () => {
+      const hash = window.location.hash;
+      console.log(`[Navbar useEffect] scrollToHash called, hash="${hash}"`);
+      
+      if (hash) {
+        const sectionId = hash.substring(1);
+        const isMobile = typeof window !== 'undefined' && window.innerWidth < 1024;
+        const scrollDelay = isMobile ? 800 : 300;
+        const navbarHeight = 80;
+        
+        // Use mobile-specific ID on mobile
+        const actualSectionId = isMobile ? `${sectionId}-mobile` : sectionId;
+        
+        console.log(`[Navbar useEffect] sectionId="${sectionId}", actualSectionId="${actualSectionId}", isMobile=${isMobile}`);
+        
+        setTimeout(() => {
+          console.log(`[Navbar useEffect] Timeout fired after ${scrollDelay}ms`);
+          const element = document.getElementById(actualSectionId);
+          console.log(`[Navbar useEffect] Element with id="${actualSectionId}" found: ${!!element}`);
+          
+          if (element) {
+            const elementTop = element.getBoundingClientRect().top + window.scrollY;
+            const scrollTarget = Math.max(0, elementTop - navbarHeight);
+            console.log(`[Navbar useEffect] Scrolling to ${scrollTarget}px`);
+            
+            window.scrollTo({
+              top: scrollTarget,
+              behavior: "smooth"
+            });
+          } else {
+            console.warn(`[Navbar useEffect] Element with id="${actualSectionId}" NOT FOUND`);
+          }
+        }, scrollDelay);
+      }
+    };
+
+    // Small delay to ensure DOM is ready after navigation
+    const timer = setTimeout(() => {
+      scrollToHash();
+    }, 100);
+
+    // Listen for hash changes
+    const handleHashChange = () => {
+      console.log(`[Navbar useEffect] hashchange event`);
+      scrollToHash();
+    };
+
+    window.addEventListener('hashchange', handleHashChange);
+    
+    return () => {
+      clearTimeout(timer);
+      window.removeEventListener('hashchange', handleHashChange);
+    };
   }, [pathname]);
 
   // Close dropdown when clicking outside
@@ -286,7 +386,7 @@ const Navbar = () => {
                   {resourceOpen && (
                     <div className="mt-2 ml-4 space-y-2">
                       <button
-                        onClick={() => handleSectionScroll("resource", "/resource")}
+                        onClick={() => handleSectionScroll("blogs", "/resource")}
                         className="w-full text-left block text-black bg-gray-50 px-4 py-2 rounded hover:bg-[#284578] hover:text-white"
                       >
                         Resource
