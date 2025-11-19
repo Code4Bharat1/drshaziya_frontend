@@ -7,17 +7,17 @@ const OurImpact = () => {
   const impactCards = [
     {
       image: '/heart.png', // 👈 Replace with your actual image path
-      count: '2,000+',
+      count: '3000+',
       label: 'Happy Patients',
     },
     {
       image: '/experience.png',
-      count: '10+',
+      count: '11+',
       label: 'Years Of Experience',
     },
     {
       image: '/heart-hand.png',
-      count: '1,000+',
+      count: '1500+',
       label: 'Successful Surgeries',
     },
   ];
@@ -56,7 +56,7 @@ Minimally invasive surgery in Vashi/Santacruz/Khar Best laparoscopic gallbladder
         <meta property="og:title" content="Our Impact | Dr. Shazia Waghoo – Transforming Surgical Outcomes" />
         <meta
           property="og:description"
-          content="Over 10 years of experience with more than 2,000 happy patients and 1,000+ successful surgeries. Affiliated with leading hospitals in Mumbai."
+          content="Over 11+ years of experience with more than 2,000 happy patients and 1500+ successful surgeries. Affiliated with leading hospitals in Mumbai."
         />
         <meta property="og:image" content="https://drshaziawaghoo.com/heart.png" />
         <meta property="og:url" content="https://drshaziawaghoo.com/our-impact" />
@@ -65,7 +65,7 @@ Minimally invasive surgery in Vashi/Santacruz/Khar Best laparoscopic gallbladder
 
         {/* ✅ Twitter Card Tags */}
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="Our Impact – 2,000+ Happy Patients | Dr. Shazia Waghoo" />
+        <meta name="twitter:title" content="Our Impact – 3000+ Happy Patients | Dr. Shazia Waghoo" />
         <meta
           name="twitter:description"
           content="Dr. Shazia Waghoo’s expert surgical care has improved thousands of lives. Explore her impact across patients, surgeries, and hospitals."
@@ -136,9 +136,7 @@ Minimally invasive surgery in Vashi/Santacruz/Khar Best laparoscopic gallbladder
 
       {/* Hospital Affiliation Section */}
       <h3 className="text-5xl font-bold text-[#284578] mb-2">Hospital Affiliations</h3>
-      <p className="text-[#284578] font-bold text-2xl mt-5">
-        Affiliated with 7+ reputed Hospitals and Clinics in Mumbai
-      </p>
+      
 
      {/* Scrolling Logos */}
  <div className="overflow-hidden h-40 mt-12"> {/* Increased height */}

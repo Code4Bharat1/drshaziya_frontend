@@ -1,12 +1,12 @@
 export const metadata = {
   title: "About Dr. Shazia Waghoo | Trusted Doctor in Santacruz, Mumbai",
   description:
-    "Know more about Dr. Shazia Waghoo – Over 10+ years of excellence in providing medical care and personalized treatment for patients in Mumbai with compassion and expertise.",
+    "Know more about Dr. Shazia Waghoo – Over 11+ years of excellence in providing medical care and personalized treatment for patients in Mumbai with compassion and expertise.",
   openGraph: {
     url: "https://drshaziawaghoo.com/aboutus",
     title: "About Us | Dr. Shazia Waghoo",
     description:
-      "Know more about Dr. Shazia Waghoo – Over 10+ years of excellence in providing medical care and personalized treatment for patients in Mumbai with compassion and expertise.",
+      "Know more about Dr. Shazia Waghoo – Over 11+ years of excellence in providing medical care and personalized treatment for patients in Mumbai with compassion and expertise.",
     siteName: "Dr. Shazia Waghoo",
   },
 };

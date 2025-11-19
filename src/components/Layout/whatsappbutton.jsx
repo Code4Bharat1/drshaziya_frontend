@@ -69,25 +69,38 @@ export default function WhatsAppButton() {
   return (
     <div className="fixed bottom-6 right-6 z-50">
       <div className="flex flex-col items-end space-y-3">
-        {/* Phone/Call Button */}
-        <div
-          onClick={handlePhoneClick}
-          className="flex items-center justify-center bg-[#00C853] hover:bg-[#00B248] w-12 h-12 rounded-full shadow-lg transition-all duration-300 cursor-pointer transform hover:scale-110"
-        >
-          <svg
-            className="w-6 h-6"
-            fill="#FFFFFF"
-            viewBox="0 0 24 24"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z" />
-          </svg>
-        </div>
+        
+{/* Sticky Call Strip */}
+<div
+  onClick={handlePhoneClick}
+  className="fixed left-1/2 -translate-x-1/2 
+             w-[95%] sm:w-full 
+             bg-[#284578] text-white py-3 
+             flex items-center justify-center gap-3 
+             cursor-pointer shadow-xl rounded-t-xl
+             transition-all duration-300 z-50
+             pb-[calc(env(safe-area-inset-bottom)+12px)]"
+  style={{
+    bottom: "0",
+  }}
+>
+  <svg
+    className="w-6 h-6"
+    fill="#FFFFFF"
+    viewBox="0 0 24 24"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z" />
+  </svg>
+  <span className="text-lg font-semibold">Call Now</span>
+</div>
+
+
 
         {/* WhatsApp Button */}
         <div
           onClick={handleWhatsAppClick}
-          className="flex items-center justify-center bg-[#00C853] hover:bg-[#00B248] w-12 h-12 rounded-full shadow-lg transition-all duration-300 cursor-pointer transform hover:scale-110"
+          className="flex items-center justify-center bg-[#00C853] hover:bg-[#00B248] w-12 h-12 rounded-full shadow-lg transition-all duration-300 cursor-pointer transform hover:scale-110 translate-y-[-35px]"
         >
           <svg
             className="w-7 h-7"

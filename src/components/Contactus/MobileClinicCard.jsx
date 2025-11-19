@@ -20,9 +20,9 @@ const clinics = [
     locationUrl: 'https://maps.app.goo.gl/cZcxSMhRq5GfAJkK8?g_st=aw',
   },
   {
-    name: 'Chembur clinic (Dr.sheth clinic)',
-    address: `8-28/B, DK Sandu Marg, Chembur Gaothan,\nChembur, Mumbai,\nMaharashtra 400071`,
-    locationUrl: 'https://maps.app.goo.gl/RXbJbeJMTn8nix728?g_st=aw',
+    name: 'Precision Super Speciality',
+    address: `Vashi-Turbhe Rd, Sector 17,\nVashi, Navi Mumbai,\nMaharashtra 400705`,
+    locationUrl: 'https://maps.app.goo.gl/M3uiBh3fyG5Jy2YeA?g_st=aw',
   },
   {
     name: 'CritiCare Asia Hospital',
@@ -30,14 +30,19 @@ const clinics = [
     locationUrl: 'https://maps.app.goo.gl/5Ao6jnGeB3DP1k2eA?g_st=aw',
   },
   {
-    name: 'Precision super speciality',
-    address: `Vashi-Turbhe Rd, Sector 17,\nVashi, Navi Mumbai,\nMaharashtra 400705`,
-    locationUrl: 'https://maps.app.goo.gl/M3uiBh3fyG5Jy2YeA?g_st=aw',
+    name: 'Chembur clinic (Dr.Sheth Clinic)',
+    address: `8-28/B, DK Sandu Marg, Chembur Gaothan,\nChembur, Mumbai,\nMaharashtra 400071`,
+    locationUrl:'https://maps.app.goo.gl/RXbJbeJMTn8nix728?g_st=aw' ,
   },
   {
     name: 'NM Aesthetics',
     address: `Shop no. 1, Kaku Kunj CHS\nOpposite Mazgaon Garden\nSardar Balwant Singh Dodhi Marg\nMazgaon, Mumbai - 10`,
     locationUrl: 'https://maps.app.goo.gl/CZn3wx7NM1bTkoB96?g_st=aw',
+  },
+  {
+    name: "SRV Hospital",
+    address: `Dr. Mandakini Parihar Marg, Shell Colony, Chembur, Mumbai, Maharashtra 400089`,
+    locationUrl: "https://share.google/48KldfYZktqTd4laW",
   },
 ];
 
@@ -63,7 +68,7 @@ const MobileClinicCard = () => {
         <meta property="og:title" content="Top Clinics & Laparoscopic Surgeons in Santacruz" />
         <meta
           property="og:description"
-          content="List of top-rated clinics and surgeons in Santacruz and surrounding Mumbai. View locations and specialties online."
+          content="List of top-rated clinics and surgeons in Santacruz and surrounding Mumbai. View Directions and specialties online."
         />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://drshaziawaghoo.com/clinics" />
@@ -71,7 +76,7 @@ const MobileClinicCard = () => {
         <link rel="canonical" href="https://drshaziawaghoo.com/clinics" />
       </Head>
 
-      <div className="bg-[#f4f6fb] py-10 px-4">
+      <div className="bg-[#f4f6fb] py-10 px-4 mt-[120px]">
         <div className="max-w-5xl mx-8 grid grid-cols-1 gap-8">
           {displayedClinics.map((clinic, index) => {
             const addressLines = clinic.address.split('\n');
@@ -97,7 +102,7 @@ const MobileClinicCard = () => {
                     onClick={() => window.open(clinic.locationUrl, '_blank')}
                     className="bg-[#069bd6] hover:bg-blue-700 text-white text-sm px-4 py-2 rounded"
                   >
-                    VIEW LOCATION
+                    View Direction
                   </button>
                 </div>
               </div>

@@ -12,7 +12,7 @@ const router = useRouter();
         <title>Dr. Shazia – Laparoscopic & Breast Surgeon Andheri, Santacruz</title>
         <meta
           name="description"
-          content="Meet Dr. Shazia Waghoo, a Mumbai-based surgeon with 10+ years of experience in laparoscopic, hernia, and breast surgeries. Book an appointment today."
+          content="Meet Dr. Shazia Waghoo, a Mumbai-based surgeon with 11+ years of experience in laparoscopic, hernia, and breast surgeries. Book an appointment today."
         />
         <meta
           name="keywords"
@@ -27,7 +27,7 @@ const router = useRouter();
         <meta property="og:title" content="Dr. Shazia Waghoo Laparoscopic, Hernia & Breast Surgeon in Andheri and santacruz" />
         <meta
           property="og:description"
-          content="Over 10 years of surgical excellence in Mumbai. Expert in minimally invasive hernia and breast surgeries. Trusted and compassionate care."
+          content="Over 11+ years of surgical excellence in Mumbai. Expert in minimally invasive hernia and breast surgeries. Trusted and compassionate care."
         />
         <meta property="og:url" content="https://drshaziawaghoo.com/" />
         <meta property="og:image" content="https://drshaziawaghoo.com/surgicalexellencedr.png" />
@@ -39,7 +39,7 @@ const router = useRouter();
         <meta name="twitter:title" content="Dr. Shazia Waghoo | Laparoscopic & Hernia Surgeon in Mumbai" />
         <meta
           name="twitter:description"
-          content="Learn more about Dr. Shazia Waghoo’s 10+ years of experience in minimally invasive surgeries and patient-centered surgical care."
+          content="Learn more about Dr. Shazia Waghoo’s 11+ years of experience in minimally invasive surgeries and patient-centered surgical care."
         />
         <meta name="twitter:image" content="https://drshaziawaghoo.com/surgicalexellencedr.png" />
 
@@ -52,7 +52,7 @@ const router = useRouter();
               "name": "Dr. Shazia Waghoo",
               "url": "https://drshaziawaghoo.com/",
               "image": "https://drshaziawaghoo.com/surgicalexellencedr.png",
-              "description": "Laparoscopic, Hernia, and Breast Surgeon in Andheri | Santacruz with over 10 years of experience.",
+              "description": "Laparoscopic, Hernia, and Breast Surgeon in Andheri | Santacruz with over 11+ years of experience.",
               "medicalSpecialty": [
                 "Laparoscopic Surgery",
                 "Hernia Surgery",
@@ -93,7 +93,7 @@ const router = useRouter();
           <div className="text-center mt-7">
             <h2 className="text-[27px] font-bold">Dr. Shazia Waghoo</h2>
            <p className="text-[#284578] font-semibold text-sm sm:text-base lg:text-lg tracking-wide text-center mt-2 leading-relaxed">
-  MBBS, DNB (General Surgery) & Diploma in Hernia Surgery — by Asia Pacific Hernia Society & The Royal College of Surgeons of Edinburgh
+  MBBS, DNB GENRAL SURGERY <br></br> Diploma in Hernia Surgery <br></br>Accredited by Asia Pacific Hernia Society & The Royal College of Surgeons of Edinburgh
 </p>
 
             
@@ -119,9 +119,9 @@ const router = useRouter();
             Creating Impact across Millions of Lives
           </h3>
           <p className="text-gray-800  text-xl mb-3 ">
-            Dr. Shazia Waghoo is a skilled Laparoscopic, Hernia, and <br /> Breast Surgeon based in Mumbai with <strong>over 10 years</strong> of <br /> experience. She is known for minimally invasive <br /> techniques and a strong patient-focused approach. . <br /> Dr Waghoo actively <strong>promotes cancer and health awareness <br /> </strong> through camps and educational sessions. Her expertise, <br /> surgical care, and commitment to patient recovery <br /> make her highly recommended.
+            Dr. Shazia Waghoo is a skilled Laparoscopic, Hernia, and <br /> Breast Surgeon based in Mumbai with <strong>over 11+ years</strong> of <br /> experience. She is known for minimally invasive <br /> techniques and a strong patient-focused approach. . <br /> Dr Waghoo actively <strong>promotes ethical surgical practices & health awareness <br /> </strong> through camps and educational sessions. Her expertise, <br /> surgical care, and commitment to patient recovery <br /> make her highly recommended.
           </p>
-          <button className=" font-semibold text-md bg-[#069bd6] hover:bg-yellow-500 text-white px-6 py-3 rounded-md transition duration-200 mt-7 mb-7"  onClick={() => router.push('/contactus')}>
+          <button className=" font-semibold text-md bg-[#284578] hover:bg-yellow-500 text-white px-6 py-3 rounded-md transition duration-200 mt-7 mb-7"  onClick={() => router.push('/contactus')}>
             BOOK AN APPOINTMENT
           </button>
         </div>

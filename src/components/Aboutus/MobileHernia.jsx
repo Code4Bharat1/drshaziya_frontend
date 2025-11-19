@@ -10,7 +10,7 @@ const MobileHernia = () => {
    <title>Dr. Shazia Waghoo – Expert Laparoscopic, Hernia & Breast Surgeon in Mumbai</title>
   <meta
     name="description"
-    content="Meet Dr. Shazia Waghoo, a highly skilled surgeon specializing in laparoscopic, hernia, and breast surgeries in Mumbai. Over 10 years of experience with patient-focused care."
+    content="Meet Dr. Shazia Waghoo, a highly skilled surgeon specializing in laparoscopic, hernia, and breast surgeries in Mumbai. Over 11+ years of experience with patient-focused care."
   />
   <meta
     name="keywords"
@@ -35,7 +35,7 @@ const MobileHernia = () => {
   <meta name="twitter:title" content="Dr. Shazia Waghoo – Hernia & Breast Surgeon in Mumbai" />
   <meta
     name="twitter:description"
-    content="Specialist in laparoscopic, hernia, and breast surgeries. 10+ years of experience, patient-first approach, and multi-hospital affiliation."
+    content="Specialist in laparoscopic, hernia, and breast surgeries. 11+ years of experience, patient-first approach, and multi-hospital affiliation."
   />
   <meta name="twitter:image" content="https://drshaziawaghoo.com/images/drshazia-cover.jpg" />
 
@@ -47,7 +47,7 @@ const MobileHernia = () => {
         "@type": "Physician",
         "name": "Dr. Shazia Waghoo",
         "image": "https://drshaziawaghoo.com/images/drshazia-cover.jpg",
-        "description": "Experienced Laparoscopic, Hernia & Breast Surgeon in Mumbai with over 10 years of surgical excellence.",
+        "description": "Experienced Laparoscopic, Hernia & Breast Surgeon in Mumbai with over 11+ years of surgical excellence.",
         "medicalSpecialty": ["Laparoscopic Surgery", "Hernia Surgery", "Breast Surgery"],
         "url": "https://drshaziawaghoo.com/",
         "alumniOf": [
@@ -77,13 +77,13 @@ const MobileHernia = () => {
 
 
     {/* main cvode start from here */}
-    <div className="bg-[#F9F8FE] py-6 sm:py-10 lg:py-16 relative">
+    <div className="bg-[#F9F8FE] py-6 sm:py-10 lg:py-16 relative mt-[60px]">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col lg:grid lg:grid-cols-2 gap-8 items-center">
           {/* Content section - First on mobile, second on desktop */}
           <div className="order-1 lg:order-2 space-y-4 sm:space-y-6">
         <h1 className=" text-center text-[18px] mt-20 sm:text-2xl lg:text-4xl font-bold text-[#284578] leading-snug sm:leading-tight">
-  <span className="block pl-4 sm:pl-6 lg:pl-8">A Seasoned Laparoscopic, Hernia,</span>
+  <span className="block pl-4 sm:pl-6 lg:pl-8">Minimally invasive in Laparoscopic, Hernia,</span>
   <span className="block">and Breast Surgeon</span>
 </h1>
 
@@ -98,18 +98,29 @@ const MobileHernia = () => {
   <p>
     Dr. Shazia Waghoo is a Laparoscopic, Hernia, and Breast Surgeon
     in Mumbai with{" "}
-    <span className="font-bold">over 10 years of experience</span>.
-    She trained at Government Medical College, Kolhapur, and Saifee
+    <span className="font-bold">over 11+ years of experience</span>.
+    She is trained at Government Medical College, Kolhapur, and Saifee
     Hospital, and later served as Consultant Surgeon at HBT Medical
     College and R.N. Cooper Hospital. She is currently associated
     with Criticare Asia, Surya, RG Stone, Apollo Spectra, Sushrut,
-    and SRV Hospitals.
+    and SRV Hospitals.<bold>She has performed 1500+ surgeries and is an advocate for comprehensive and
+specialised patient care</bold>
   </p>
   <p className="mt-0">
+    <p></p>
     <span className="font-bold">
-      She specializes in laparoscopic, hernia, breast, and GI
-      surgeries and actively promotes women's health awareness.
+      Dr Waghoo provides world class surgical care to her patients while keeping
+herself updated on all the latest treatment protocols and techniques in
+laparoscopy, hernia, breast surgery and general surgery. 
     </span>{" "}
+    She is very well
+trained to handle both simple and complex cases with precision and patient
+centric approach.
+She is an advocate for patient health and focuses on surgical problems in both
+men and women, making it easier for women to get examined without any
+reservations.
+Dr Waghoo is a passionate laparoscopic surgeon and want to provide the best
+surgical outcomes focussing on overall healing and health upgrade.
     Dr. Waghoo conducts screening camps and lectures on early breast
     cancer detection and hernia care, combining surgical expertise
     with compassionate, patient-focused care.
@@ -135,7 +146,7 @@ const MobileHernia = () => {
       </div>
       <div className="w-10 h-10 sm:w-12 sm:h-12 flex-shrink-0">
         <img
-          src="/dnf.png"
+          src="/mbbs.png"
           alt="DNB General Surgery"
           className="w-full h-full object-cover"
         />
@@ -173,7 +184,7 @@ const MobileHernia = () => {
       </div>
       <div className="w-10 h-10 sm:w-12 sm:h-12 flex-shrink-0">
         <img
-          src="/image 191.png"
+          src="/mbbs.png"
           alt="Diploma in Hernia Surgery"
           className="w-full h-full object-cover"
         />

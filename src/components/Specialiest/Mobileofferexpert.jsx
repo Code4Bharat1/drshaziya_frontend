@@ -152,7 +152,7 @@ const MobileOfferExpertise = () => {
       </Head>
 
       {/* Code starts here */}
-      <div className="bg-[#F8F9FE] py-2 px-4 overflow-hidden block md:hidden">
+      <div className="bg-[#F8F9FE] py-2 px-4 overflow-hidden block md:hidden mt-[80px]">
         <h2 className="text-center text-xl px-5 font-bold text-[#284578] mt-24">
           Dr. Shazia Waghoo offers Expertise in the following Surgeries
         </h2>

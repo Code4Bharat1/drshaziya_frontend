@@ -139,19 +139,7 @@ const Awareness3 = () => {
       {/* Horizontal Line */}
       <div className="mt-16 border-b border-1 border-[#284578]  max-w-5xl mx-auto"></div>
 
-      {/* Operation Theatre Section */}
-      <div className="mt-10 max-w-5xl mx-auto">
-        <h3 className="text-[32px] font-bold text-[#284578] mb-8 text-center">
-          In the Operation Theatre
-        </h3>
-        <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
-          {operationTheatreImages.map((src, index) => (
-            <div key={`ot-${index}`} className="w-full aspect-square rounded-md overflow-hidden">
-              <img src={src} alt={`Operation Theatre ${index + 1}`} className="w-full h-full object-cover rounded-xl" />
-            </div>
-          ))}
-        </div>
-      </div>
+     
 
       {/* Bottom Gray Line */}
       <div className="mt-16 border-b border-gray-100 shadow-[0_3px_1px_rgba(0,0,0,0.2)] max-w-5xl mx-auto"></div>

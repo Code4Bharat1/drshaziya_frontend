@@ -18,13 +18,13 @@ const MobilePatientCare = () => {
     },
     {
       id: 3,
-      title: "Diet & Lifestyle",
-      description: "Diet and lifestyle consultations are vital in every clinical, pre-operative, and post-operative management. Specialized recommendations are provided and followed up to ensure effective treatment and proper care for the patient."
+      title: "Physiotherapy",
+      description: "Physiotherapy plays a crucial role in preoperative optimization, enhancing surgical outcomes and speeding up post-operative recovery. Limb and chest physiotherapy work together to aid patients in recovering quickly from surgery."
     },
     {
       id: 4,
-      title: "Physiotherapy",
-      description: "Physiotherapy plays a crucial role in preoperative optimization, enhancing surgical outcomes and speeding up post-operative recovery. Limb and chest physiotherapy work together to aid patients in recovering quickly from surgery."
+      title: "Diet Consultation",
+      description: "Diet and lifestyle consultations are vital in every clinical, pre-operative, and post-operative management. Specialized recommendations are provided and followed up to ensure effective treatment and proper care for the patient."
     },
     {
       id: 5,

@@ -12,7 +12,7 @@ const MobileSeasoned = () => {
         <title>Dr. Shazia Waghoo Laparoscopic Surgeon in Andheri and Santacruz</title>
         <meta
           name="description"
-          content="Meet Dr. Shazia Waghoo, a seasoned Laparoscopic, Hernia, and Breast Surgeon based in Mumbai with 10+ years of expertise in minimally invasive techniques and patient-focused care."
+          content="Meet Dr. Shazia Waghoo, a seasoned Laparoscopic, Hernia, and Breast Surgeon based in Mumbai with 11+ years of expertise in minimally invasive techniques and patient-focused care."
         />
         <meta
           name="keywords"
@@ -27,7 +27,7 @@ const MobileSeasoned = () => {
         <meta property="og:title" content="Dr. Shazia Waghoo - Trusted Surgical Expertise in Mumbai" />
         <meta
           property="og:description"
-          content="10+ years of experience in Laparoscopic, Hernia, and Breast Surgeries. Book your consultation with Dr. Shazia Waghoo today."
+          content="11+ years of experience in Laparoscopic, Hernia, and Breast Surgeries. Book your consultation with Dr. Shazia Waghoo today."
         />
         <meta property="og:type" content="profile" />
         <meta property="og:url" content="https://drshaziawaghoo.com/" />
@@ -101,7 +101,7 @@ const MobileSeasoned = () => {
           </h3>
           <p className="text-gray-800 text-[18px] font-jaldi leading-relaxed text-center">
             Dr. Shazia Waghoo is a skilled Laparoscopic, Hernia, and Breast
-            Surgeon based in Mumbai. With <strong>10+ years</strong> of
+            Surgeon based in Mumbai. With <strong>11+ years</strong> of
             experience, she is known for minimally invasive techniques and a
             patient-first approach. She{" "}
             <strong>promotes health awareness</strong> via camps and education

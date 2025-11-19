@@ -84,9 +84,10 @@ const MobileSocialwork = () => {
     <div className="bg-white py-12 px-4 text-center">
       <h2 className="text-4xl font-bold text-[#284578] mb-10">SOCIAL WORK</h2>
 
-      <div className="grid  gap-16 max-w-3xl mx-auto">
+      <div className="grid  grid-cols-2 gap-6 max-w-3xl mx-auto">
         {events.map((event, index) => (
-          <div key={index}>
+          <div key={index}  className="max-w-[170px] mx-auto">
+
             <img
               src={event.image}
               alt={event.title}

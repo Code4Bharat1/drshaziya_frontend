@@ -180,7 +180,7 @@ const OfferExpertise = () => {
       <style jsx>{`
         .scrollbar-hide {
           scrollbar-width: none; /* Firefox */
-          -ms-overflow-style: none; /* IE 10+ */
+          -ms-overflow-style: none; /* IE 11+ */
         }
         .scrollbar-hide::-webkit-scrollbar {
           display: none; /* Chrome, Safari */

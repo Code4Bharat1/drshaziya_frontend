@@ -1,3 +1,4 @@
+"Use client";
 export const metadata = {
   title: "Patient Testimonials | Dr. Shazia Waghoo",
   description:
@@ -19,21 +20,47 @@ import WatchVedio from '@/components/Homepage/WatchVedio'
 import WhatsAppButton from '@/components/Layout/whatsappbutton'
 import MobileTestimonial from '@/components/Testimonial/MobileTestimonial'
 import Testimonial from '@/components/Testimonial/Testimonial'
-import React from 'react'
+import Awareness1 from '@/components/Resource/Awareness1';
+import MobileAwareness1 from '@/components/Resource/MobileAwareness1';
+import Awareness3 from '@/components/Resource/Awareness3';
+import MobileAwareness3 from '@/components/Resource/MobileAwareness3';
+import BookAppointment from '@/components/Aboutus/bookapoinment';
+
+
+
 
 const page = () => {
   return (
    <>
    <div className='hidden md:block'>
    <WhatsAppButton/>
+   <div id="testimonials">
    <Testimonial/>
-   <WatchVedio/>
+   </div>
+   <div id="awareness">
+   <Awareness1/>
+    <Awareness3/>
+    </div>
+    <div id="social-media">
+    <WatchVedio/>
+    </div>
+    <BookAppointment/>
    <Contact/>
    </div>
+
+   
    <div className='bolck md:hidden'>
     <WhatsAppButton/>
+    <div id="testimonials">
     <MobileTestimonial/>
+    </div>
+    <div id="awareness">
+    <MobileAwareness1/>
+    <MobileAwareness3/>
+    </div>
+    <div id="social-media">
     <MobileWatchVideo/>
+    </div>
     <ContactMobile/>
     <BookAppointmentMobile/>
 

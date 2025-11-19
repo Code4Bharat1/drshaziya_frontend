@@ -26,7 +26,7 @@ General Surgeon in Khar Laparoscopic Surgery in Khar Mumbai Best Female Surgeon 
   <meta property="og:title" content="Restoring Health & Hope – Dr. Shazia Waghoo" />
   <meta
     property="og:description"
-    content="With 10+ years of experience, Dr. Shazia Waghoo provides accessible and advanced surgical care in Mumbai, focusing on quicker recovery and compassionate treatment."
+    content="With 11+ years of experience, Dr. Shazia Waghoo provides accessible and advanced surgical care in Mumbai, focusing on quicker recovery and compassionate treatment."
   />
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://drshaziawaghoo.com/" />
@@ -87,12 +87,15 @@ General Surgeon in Khar Laparoscopic Surgery in Khar Mumbai Best Female Surgeon 
         <p className="text-black text-normal text-lg px-2 leading-relaxed mb-4 font-jaldi">
           Dr. Shazia Waghoo’s brand offers expert, technology-driven surgical
           care with a focus on faster recovery and minimal hospital stay. With
-          over 10 years of experience, her team is committed to making quality
+          over 11+ years of experience, her team is committed to making quality
           surgeries accessible to all.
         </p>
         <ul className="text-[#284578] text-xl mb-6 list-none pl-5 text-center space-y-3 font-semibold">
           <li>Deep Expertise in Laparoscopic Surgeries</li>
           <li>Affiliated to Major Hospitals in Mumbai</li>
+          <li>Minimally invasive</li>
+          <li>Cashless facility</li>
+          
         </ul>
       </div>
       <div className="flex justify-center items-center ">

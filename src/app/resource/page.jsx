@@ -33,20 +33,32 @@ const page = () => {
     <>
     <div className='hidden md:block'>
     <WhatsAppButton/>
+    <div id="blogs">
     <Resource/>
+    </div>
+    <div id="social-work">
     <SocialWork/>
-    <Awareness1/>
-  
-    <Awareness3/>
+    </div>
+    <div id="awards">
+     <Awareness3/>
+    </div>
     {/* <Artical/> */}
     <OfferExpertise/>
     </div>
-    <div className='block md:hidden'>
 
-        <MobileResource/>
+
+    <div className='block md:hidden'>
+      <WhatsAppButton/>
+
+        <div id="blogs">
+          <MobileResource/>
+          </div>
+        <div id="social-work">
         <MobileSocialwork/>
-        <MobileAwareness1/>
-        <MobileAwareness3/>
+        </div>
+        <div id="awards">
+          <MobileAwareness3/>
+        </div>
         {/* <MobileArtical/> */}
         <MobileOfferExpertise/>
         <BookAppointmentMobile/>
