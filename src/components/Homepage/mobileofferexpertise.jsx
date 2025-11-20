@@ -74,7 +74,7 @@ const MobileOfferExpertise = () => {
         <meta
           name="keywords"
           content=" Laparoscopic Surgeon in Vashi Piles Doctor in Vashi Fissure Treatment in Vashi Fistula Specialist in Vashi Female Surgeon in Vashi Best General Surgeon in Vashi Hernia Surgery in Vashi Gallbladder Surgeon Vashi Proctologist in Vashi Women Surgeon near Vashi Navi Mumbai
-General Surgeon in Khar Laparoscopic Surgery in Khar Mumbai Best Female Surgeon in Khar Piles and Fissure Doctor Khar Fistula Treatment Khar Gallbladder Surgery Doctor Khar Hernia Specialist in Khar Mumbai Surgeon near Khar West  Hernia specialist in Andheri Laparoscopic surgeon in Santacruz Breast surgery doctor in Andheri Dr Shazia Waghoo, Dr Shazia Waghoo Santacruz ,Dr Shazia Waghoo Andheri,Best laparoscopic surgeon in Santacruz  expert surgeon Mumbai, hope through surgery, quality surgical care ,Book appointment Dr Shazia Waghoo, Best surgeon in Santacruz, Lady surgeon Mumbai, Mobile consultation form, Piles treatment Santacruz, Gallbladder stone surgery Santacruz, Laparoscopic surgeon Santacruz, Hernia treatment, Fistula fissure doctor, Breast lump surgeon Santacruz"
+General Surgeon in Khar Laparoscopic Surgery in Khar Mumbai Best Female Surgeon in Khar Piles and Fissure Doctor Khar Fistula Treatment Khar Gallbladder Surgery Doctor Khar Hernia Specialist in Khar Mumbai Surgeon near Khar West  Hernia specialist in Andheri Laparoscopic surgeon in Santacruz Breast surgery doctor in Andheri Dr Shazia Waghoo, Dr Shazia Waghoo Santacruz ,Dr Shazia Waghoo Andheri,Best laparoscopic surgeon in Santacruz  expert surgeon Mumbai, hope through surgery, quality surgical care ,Book appointment Dr Shazia Waghoo, Best surgeon in Santacruz, Lady surgeon Mumbai, Mobile consultation form, Piles treatment Santacruz, Gallbladder stone surgery Santacruz, Laparoscopic surgeon Santacruz, Hernia treatment, Fistula fissure doctor, Breast lump surgeon Santacruz"
         />
         <meta name="author" content="Dr. Shazia Waghoo" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -107,7 +107,7 @@ General Surgeon in Khar Laparoscopic Surgery in Khar Mumbai Best Female Surgeon 
         />
         <meta
           name="twitter:description"
-          content="Discover Dr. Shazia Waghoo’s surgical excellence with expertise in laparoscopic, breast, thyroid, hernia, GI, and laser surgeries."
+          content="Discover Dr. Shazia Waghoo's surgical excellence with expertise in laparoscopic, breast, thyroid, hernia, GI, and laser surgeries."
         />
         <meta
           name="twitter:image"
@@ -152,7 +152,7 @@ General Surgeon in Khar Laparoscopic Surgery in Khar Mumbai Best Female Surgeon 
       </Head>
 
       {/* Code starts here */}
-      <div className="bg-[#F8F9FE] py-2 px-4 overflow-hidden block md:hidden">
+      <div className="bg-[#F8F9FE] py-2 px-4 overflow-hidden block md:hidden mt-[120px]">
         <h2 className="text-center text-xl px-5 font-bold text-[#284578] my-6">
           Dr. Shazia Waghoo offers Expertise in the following Surgeries
         </h2>

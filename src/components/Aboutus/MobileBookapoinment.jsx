@@ -81,22 +81,22 @@ export default function BookAppointmentMobile() {
         className="absolute top-0 left-0 w-full h-full object-cover"
         priority
       />
-      <div className="absolute inset-0 bg-[linear-gradient(to_right,#069bd670)]"></div>
+      <div className="absolute inset-0 bg-[#ADD8E6]/40"></div>
       
  {/* White gradient from bottom */}
       <div className="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-white/50 to-transparent z-20"></div>
 
       <div className="relative z-10 flex flex-col items-center justify-center h-full px-4 sm:px-6 py-6 text-center">
         <div className="max-w-xs">
-          <h1 className="text-lg text-center font-bold text-white mb-2 sm:mb-3 leading-tight">
+          <h1 className="text-xl m:text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-bold  text-[#284578] mb-2 sm:mb-3 md:mb-4 leading-tight">
             Dr. Shazia Waghoo's Surgery Clinic
           </h1>
-          <p className="text-2xl sm:text-3xl text-white font-semibold mt-4 sm:mt-6 leading-relaxed">
+          <p className="text-sm sm:text-base md:text-lg lg:text-xl xl:text-2xl text-[3284578] font-semibold mt-4 sm:mt-6 md:mt-8 lg:mt-10 max-w-xs sm:max-w-sm md:max-w-md lg:max-w-xl xl:max-w-2xl leading-relaxed">
             "Your trusted partner in advanced laparoscopic surgery."
           </p>
           <div className="flex justify-center mt-8 sm:mt-6">
             <button 
-              className="bg-[#069bd6] text-white font-bold py-2 sm:py-3 px-4 sm:px-5 rounded text-xs sm:text-sm hover:bg-[#006bb3] transition duration-300 shadow-lg min-w-[140px] sm:min-w-[160px]"
+              className="bg-[#004979] text-white font-bold py-2 sm:py-3 px-4 sm:px-5 rounded text-xs sm:text-sm hover:bg-[#006bb3] transition duration-300 shadow-lg min-w-[140px] sm:min-w-[160px]"
               onClick={() => router.push('/contactus')}
             >
               BOOK AN APPOINTMENT

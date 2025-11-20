@@ -89,11 +89,13 @@ const Restoringhealth = () => {
           <p className="text-black text-xl leading-relaxed mb-6 font-jaldi">
           
  
- <span className='block mt-3 font-jaldi'> Dr. Shazia Waghoo’s brand offers expert, technology-driven</span> <span className='block mt-2'>surgical care with a focus on faster recovery and minimal</span><span className='block mt-2'> hospital stay. With over 10 years of experience, her team is </span> <span  className='block mt-2'>committed to making quality surgeries accessible to all.</span> 
+ <span className='block mt-3 font-jaldi'> Dr. Shazia Waghoo’s brand offers expert, technology-driven</span> <span className='block mt-2'>surgical care with a focus on faster recovery and minimal</span><span className='block mt-2'> hospital stay. With over 11+ years of experience, her team is </span> <span  className='block mt-2'>committed to making quality surgeries accessible to all.</span> 
           </p>
           <ul className="text-[#284578] text-2xl list-disc pl-6 space-y-4 font-semibold">
             <li>Deep Expertise in Laparoscopic Surgeries</li>
             <li>Affiliated to Major Hospitals in Mumbai</li>
+            <li>Minimally invasive</li>
+            <li>Cashless facility</li>
           </ul>
         </div>
 

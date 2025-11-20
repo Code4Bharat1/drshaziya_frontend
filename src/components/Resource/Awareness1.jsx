@@ -140,11 +140,14 @@ const Awareness1 = () => {
 
 {/* main code start from here */}
     <div className="bg-white py-10 px-4">
+
       {/* Main Container */}
       <div className="max-w-5xl mx-auto">
-        {/* Main Heading */}
+
+                {/* Main Heading */}
         <h2 className="text-3xl sm:text-4xl font-bold text-[#284578] mb-4 text-center">AWARENESS</h2>
         <div className="border-t border-[#284578] w-full mb-10"></div>
+
 
         {/* Subtitle 1 */}
         <p className="text-[#284578] font-bold text-lg sm:text-xl mb-6">
@@ -184,7 +187,7 @@ const Awareness1 = () => {
         </div>
 
         {/* Bottom Divider */}
-        <div className="border-t border-[#284578] w-full"></div>
+        {/* <div className="border-t border-[#284578] w-full"></div> */}
       </div>
     </div>
     </>

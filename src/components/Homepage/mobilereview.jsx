@@ -71,7 +71,7 @@ const MobileReviewsSwiper = () => {
         <title>Dr. Shazia Waghoo Laparoscopic Surgeon in Andheri and Santacruz</title>
         <meta
           name="description"
-          content="Read real patient reviews about Dr. Shazia Waghoo, a compassionate and skilled Laparoscopic, Hernia & Breast Surgeon in Mumbai. Trusted for over 10 years."
+          content="Read real patient reviews about Dr. Shazia Waghoo, a compassionate and skilled Laparoscopic, Hernia & Breast Surgeon in Mumbai. Trusted for over 11+ years."
         />
         <meta
           name="keywords"

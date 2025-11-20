@@ -23,15 +23,19 @@ const page = () => {
     <>
       <div className="hidden md:block">
         <WhatsAppButton />
-        <Maincontactus />
+        
         <ClinicCard />
+        <Maincontactus />
         <BookAppointment />
+        
       </div>
       <div className="block md:hidden">
         <WhatsAppButton />
-        <Mobilemaincontatcus />
+        
         <MobileClinicCard />
+        <Mobilemaincontatcus />
         <BookAppointmentMobile />
+        
       </div>
     </>
   );

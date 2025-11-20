@@ -7,17 +7,17 @@ const MobileOurImpact = () => {
   const impactCards = [
     {
       image: "/heart.png",
-      count: "2,000+",
+      count: "3000+",
       label: "Happy Patients",
     },
     {
       image: "/experience.png",
-      count: "10+",
+      count: "11+",
       label: "Years Of Experience",
     },
     {
       image: "/heart-hand.png",
-      count: "1,000+",
+      count: "1500+",
       label: "Successful Surgeries",
     },
   ];
@@ -41,7 +41,7 @@ const MobileOurImpact = () => {
   <title>Dr. Shazia Waghoo Laparoscopic Surgeon in Andheri and Santacruz</title>
   <meta
     name="description"
-    content="Discover the impact of Dr. Shazia Waghoo’s surgical journey – 2,000+ happy patients, 1,000+ successful surgeries, and 10+ years of experience across top hospitals in Mumbai."
+    content="Discover the impact of Dr. Shazia Waghoo’s surgical journey – 3000+ happy patients, 1500+ successful surgeries, and 11+ years of experience across top hospitals in Mumbai."
   />
   <meta
     name="keywords"
@@ -68,7 +68,7 @@ const MobileOurImpact = () => {
   <meta name="twitter:title" content="Our Impact – Dr. Shazia Waghoo’s Surgical Journey" />
   <meta
     name="twitter:description"
-    content="Explore how Dr. Shazia Waghoo has transformed lives with 2,000+ happy patients and 1,000+ surgeries in Mumbai."
+    content="Explore how Dr. Shazia Waghoo has transformed lives with 3000+ happy patients and 1500+ surgeries in Mumbai."
   />
   <meta name="twitter:image" content="https://drshaziawaghoo.com/heart.png" />
 
@@ -80,7 +80,7 @@ const MobileOurImpact = () => {
       "@type": "WebPage",
       "name": "Our Impact - Dr. Shazia Waghoo",
       "url": "https://drshaziawaghoo.com/",
-      "description": "2000+ happy patients, 1000+ surgeries, 10+ years of experience. Discover Dr. Shazia Waghoo’s surgical achievements and trusted hospital affiliations in Mumbai.",
+      "description": "2000+ happy patients, 1000+ surgeries, 11+ years of experience. Discover Dr. Shazia Waghoo’s surgical achievements and trusted hospital affiliations in Mumbai.",
       "mainEntity": {
         "@type": "Person",
         "name": "Dr. Shazia Waghoo",

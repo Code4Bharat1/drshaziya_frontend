@@ -86,55 +86,65 @@ const MobileAwareness1 = () => {
 </Head>
 
 
-    <div className="bg-white pt-2 pb-4 px-4">
-      <div className="max-w-5xl mx-auto">
-        {/* Heading */}
-        <h2 className="text-[34px] font-bold text-[#284578] text-center mb-2">
-          AWARENESS
-        </h2>
-        <div className="border-t border-[#284578] w-full mb-6"></div>
+    <div className="bg-white pt-2 pb-4 px-4 mt-[60px]">
+  <div className="max-w-5xl mx-auto">
+    {/* Heading */}
+    <h2 className="text-[34px] font-bold text-[#284578] text-center mb-2">
+      AWARENESS
+    </h2>
+    <div className="border-t border-[#284578] w-full mb-6"></div>
 
-        {/* Section 1 */}
-        <p className="text-[#284578] font-semibold text-[19px] mb-3">
-          Breast cancer awareness lecture at Kokan Cooperative Bank, Mumbai
-        </p>
-        <div className="grid grid-cols-2 gap-4 mb-6">
-          {firstImages.map((src, idx) => (
-            <img
-              key={idx}
-              src={src}
-              alt={`Kokan Bank ${idx + 1}`}
-              className="w-full h-40 rounded-lg object-cover"
-            />
-          ))}
-        </div>
+    {/* Section 1 */}
+    <p className="text-[#284578] font-semibold text-[19px] mb-3">
+      Breast cancer awareness lecture at Kokan Cooperative Bank, Mumbai
+    </p>
 
-        {/* Section 2 */}
-        <p className="text-[#284578] font-semibold text-[19px] mb-3">
-          Breast cancer awareness drive at Asian Paints Pvt Ltd, Mumbai
-        </p>
-        <div className="grid grid-cols-2 gap-4 mb-6">
-          {secondImages.map((src, idx) => (
-            <img
-              key={idx}
-              src={src}
-              alt={`Asian Paints ${idx + 1}`}
-              className="w-full h-40 rounded-lg object-cover"
-            />
-          ))}
+    {/* FIXED GRID */}
+    <div className="grid grid-cols-2 gap-4 mb-6">
+      {firstImages.map((src, idx) => (
+        <div key={idx} className="w-full aspect-[4/3]">
+          <img
+            src={src}
+            alt={`Kokan Bank ${idx + 1}`}
+            className="w-full h-full rounded-lg object-cover"
+          />
         </div>
-        <div className="grid grid-cols-2 gap-4 mb-6">
-          {thirdImages.map((src, idx) => (
-            <img
-              key={idx}
-              src={src}
-              alt={`Asian Paints extra ${idx + 1}`}
-              className="w-full h-40 rounded-lg object-cover"
-            />
-          ))}
-        </div>
-      </div>
+      ))}
     </div>
+
+    {/* Section 2 */}
+    <p className="text-[#284578] font-semibold text-[19px] mb-3">
+      Breast cancer awareness drive at Asian Paints Pvt Ltd, Mumbai
+    </p>
+
+    {/* FIXED GRID */}
+    <div className="grid grid-cols-2 gap-4 mb-6">
+      {secondImages.map((src, idx) => (
+        <div key={idx} className="w-full aspect-[4/3]">
+          <img
+            src={src}
+            alt={`Asian Paints ${idx + 1}`}
+            className="w-full h-full rounded-lg object-cover"
+          />
+        </div>
+      ))}
+    </div>
+
+    {/* FIXED GRID */}
+    <div className="grid grid-cols-2 gap-4 mb-6">
+      {thirdImages.map((src, idx) => (
+        <div key={idx} className="w-full aspect-[4/3]">
+          <img
+            src={src}
+            alt={`Asian Paints extra ${idx + 1}`}
+            className="w-full h-full rounded-lg object-cover"
+          />
+        </div>
+      ))}
+    </div>
+  </div>
+</div>
+
     </>
   );
 };

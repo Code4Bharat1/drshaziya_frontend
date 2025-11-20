@@ -20,9 +20,9 @@ const clinics = [
     locationUrl: "https://maps.app.goo.gl/cZcxSMhRq5GfAJkK8?g_st=aw",
   },
   {
-    name: "Chembur clinic (Dr.Sheth Clinic)",
-    address: `8-28/B, DK Sandu Marg, Chembur Gaothan,\nChembur, Mumbai,\nMaharashtra 400071`,
-    locationUrl: "https://maps.app.goo.gl/RXbJbeJMTn8nix728?g_st=aw",
+    name: "Precision Super Speciality",
+    address: `Vashi-Turbhe Rd, Sector 17,\nVashi, Navi Mumbai,\nMaharashtra 400705`,
+    locationUrl: "https://maps.app.goo.gl/M3uiBh3fyG5Jy2YeA?g_st=aw",
   },
   {
     name: "CritiCare Asia Hospital",
@@ -30,9 +30,9 @@ const clinics = [
     locationUrl: "https://maps.app.goo.gl/5Ao6jnGeB3DP1k2eA?g_st=aw",
   },
   {
-    name: "Precision Super Speciality",
-    address: `Vashi-Turbhe Rd, Sector 17,\nVashi, Navi Mumbai,\nMaharashtra 400705`,
-    locationUrl: "https://maps.app.goo.gl/M3uiBh3fyG5Jy2YeA?g_st=aw",
+    name: "Chembur clinic (Dr.Sheth CLinic)",
+    address: `8-28/B, DK Sandu Marg, Chembur Gaothan,\nChembur, Mumbai,\nMaharashtra 400071`,
+    locationUrl: "https://maps.app.goo.gl/RXbJbeJMTn8nix728?g_st=aw",
   },
   {
     name: "NM Aesthetics",
@@ -40,9 +40,9 @@ const clinics = [
     locationUrl: "https://maps.app.goo.gl/CZn3wx7NM1bTkoB96?g_st=aw",
   },
   {
-    name: "HVS Hospital",
-    address: `3rd Floor, Silver Point\nLal Bahadur Shastri Marg, Kasturi Park\nManeklal Estate\nGhatkopar (W), Mumbai - 400086`,
-    locationUrl: "https://maps.app.goo.gl/CZn3wx7NM1bTkoB96?g_st=aw",
+    name: "SRV Hospital",
+    address: `Dr. Mandakini Parihar Marg, Shell Colony, Chembur, Mumbai, Maharashtra 400089`,
+    locationUrl: "https://share.google/48KldfYZktqTd4laW",
   },
 ];
 
@@ -166,7 +166,7 @@ const ClinicCard = () => {
       </Head>
 
       {/* main code start from here */}
-      <div className="bg-[#f4f6fb] py-10 px-4">
+      <div className="bg-[#f4f6fb] py-10 px-4 mt-[120px]">
         <div className="max-w-5xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
           {displayedClinics.map((clinic, index) => {
             const addressLines = clinic.address.split("\n");
@@ -218,7 +218,7 @@ const ClinicCard = () => {
                         onClick={() => window.open(c.locationUrl, "_blank")}
                         className="bg-[#069bd6] hover:bg-blue-700 text-white text-sm px-4 py-2 rounded"
                       >
-                        VIEW LOCATION
+                        View Direction
                       </button>
                     </div>
                   </div>
@@ -274,7 +274,7 @@ const ClinicCard = () => {
                     onClick={() => window.open(clinic.locationUrl, "_blank")}
                     className="bg-[#069bd6] hover:bg-blue-700 text-white text-sm px-4 py-2 rounded"
                   >
-                    VIEW LOCATION
+                    View Direction
                   </button>
                 </div>
               </div>

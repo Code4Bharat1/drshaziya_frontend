@@ -1,3 +1,4 @@
+"Use client";
 export const metadata = {
   title: "Patient Testimonials | Dr. Shazia Waghoo",
   description:
@@ -19,24 +20,49 @@ import WatchVedio from '@/components/Homepage/WatchVedio'
 import WhatsAppButton from '@/components/Layout/whatsappbutton'
 import MobileTestimonial from '@/components/Testimonial/MobileTestimonial'
 import Testimonial from '@/components/Testimonial/Testimonial'
-import React from 'react'
+import Awareness1 from '@/components/Resource/Awareness1';
+import MobileAwareness1 from '@/components/Resource/MobileAwareness1';
+import Awareness3 from '@/components/Resource/Awareness3';
+import MobileAwareness3 from '@/components/Resource/MobileAwareness3';
+import BookAppointment from '@/components/Aboutus/bookapoinment';
+
+
+
 
 const page = () => {
   return (
    <>
    <div className='hidden md:block'>
    <WhatsAppButton/>
+   <div id="testimonials">
    <Testimonial/>
-   <WatchVedio/>
+   </div>
+   <div id="awareness" className="scroll-mt-20">  {/* Add scroll-mt-20 here */}
+   <Awareness1/>
+    <Awareness3/>
+    </div>
+    <div id="social-media" className="scroll-mt-20">  {/* Add here too */}
+    <WatchVedio/>
+    </div>
+    <BookAppointment/>
    <Contact/>
    </div>
-   <div className='bolck md:hidden'>
+
+   
+   <div className='block md:hidden'>  {/* Fixed typo */}
     <WhatsAppButton/>
+    <div id="testimonials-mobile" className="scroll-mt-20">  {/* Add scroll-mt-20 */}
     <MobileTestimonial/>
+    </div>
+    <div id="awareness-mobile" className="scroll-mt-20">  {/* Add scroll-mt-20 */}
+    <MobileAwareness1/>
+    <MobileAwareness3/>
+    </div>
+    <div id="social-media-mobile" className="scroll-mt-20">  {/* Add scroll-mt-20 */}
     <MobileWatchVideo/>
+    </div>
     <ContactMobile/>
     <BookAppointmentMobile/>
-
    </div>
    </>
   )

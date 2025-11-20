@@ -78,35 +78,35 @@ import Head from "next/head";
 const Recognitions = () => {
   const recognitions = [
     {
-      title: 'Membership',
+      title: '',
       image: '/membership-logo.png',
       description: (
-        <>
+        <p className='text-xl leading relaxed'>
           Member of Association of Surgeons <br />
           of India and Maharashtra Surgical <br />
           Society
-        </>
+        </p>
       ),
     },
     {
-      title: 'Membership',
+      title: '',
       image: '/membership-logo.png',
       description: (
-        <>
+        <p className='text-xl leading relaxed'>
           Member of Asia-Pacific Hernia <br />
           Society, & Hernia Society of <br />
           India
-        </>
+        </p>
       ),
     },
     {
-      title: 'Membership',
+      title: '',
       image: '/membership-logo.png',
       description: (
-        <>
+        <p className='text-xl leading relaxed'>
           Member of Minimal Access <br />
           Surgeons of India
-        </>
+        </p>
       ),
     },
   ];

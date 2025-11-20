@@ -84,7 +84,7 @@ const SurgicalExcellence = () => {
 </Head>
 
 {/* main code start from here */}
-    <section className="bg-white min-h-screen relative w-full max-w-screen overflow-hidden pt-24 md:pt-28">
+    <section className="bg-white min-h-screen relative w-full max-w-screen overflow-hidden pt-24 md:pt-0">
       {/* Image Container */}
       <div className="relative w-full h-[87vh] md:min-h-screen">
         <Image

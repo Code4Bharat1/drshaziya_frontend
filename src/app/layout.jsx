@@ -19,7 +19,7 @@ export const metadata = {
   metadataBase: new URL("https://drshaziawaghoo.com/"),
   title: "Dr. Shazia Waghoo | Best Hernia Surgeon in Santacruz, Mumbai",
   description:
-    "Consult Dr. Shazia Waghoo – trusted laparoscopic & hernia surgeon in Santacruz, Mumbai. 10+ years of experience in advanced, safe, and minimally invasive treatments.",
+    "Consult Dr. Shazia Waghoo – trusted laparoscopic & hernia surgeon in Santacruz, Mumbai. 11+ years of experience in advanced, safe, and minimally invasive treatments.",
   keywords: [
     "Dr Shazia Waghoo",
     "Dr Shazia Waghoo khar",
@@ -44,7 +44,7 @@ export const metadata = {
   openGraph: {
     title: "Dr. Shazia Waghoo – Hernia & Laparoscopic Surgeon in Santacruz, Mumbai",
     description:
-      "Trusted hernia & laparoscopic surgeon in Santacruz with 10+ years of expertise. Book your appointment with Dr. Shazia Waghoo today.",
+      "Trusted hernia & laparoscopic surgeon in Santacruz with 11+ years of expertise. Book your appointment with Dr. Shazia Waghoo today.",
     url: "https://drshaziawaghoo.com/",
     siteName: "Dr. Shazia Waghoo",
     images: [
@@ -62,7 +62,7 @@ export const metadata = {
     card: "summary_large_image",
     title: "Dr. Shazia Waghoo | Hernia & Laparoscopic Surgeon in Santacruz",
     description:
-      "Leading female laparoscopic & hernia surgeon in Santacruz, Mumbai with 10+ years of experience.",
+      "Leading female laparoscopic & hernia surgeon in Santacruz, Mumbai with 11+ years of experience.",
     images: ["https://drshaziawaghoo.com/og-image.jpg"],
   },
   robots: {
@@ -96,7 +96,7 @@ export default function RootLayout({ children }) {
             name: "Dr. Shazia Waghoo",
             image: "https://drshaziawaghoo.com/og-image.jpg", // fixed image
             description:
-              "Dr. Shazia Waghoo is a laparoscopic surgeon in Mumbai specializing in hernia & breast surgery with 10+ years of experience.",
+              "Dr. Shazia Waghoo is a laparoscopic surgeon in Mumbai specializing in hernia & breast surgery with 11+ years of experience.",
             address: {
               "@type": "PostalAddress",
               streetAddress: "Santacruz Clinic Address",
