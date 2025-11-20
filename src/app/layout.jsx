@@ -22,6 +22,11 @@ export const metadata = {
     "Consult Dr. Shazia Waghoo – trusted laparoscopic & hernia surgeon in Santacruz, Mumbai. 10+ years of experience in advanced, safe, and minimally invasive treatments.",
   keywords: [
     "Dr Shazia Waghoo",
+    "Dr Shazia Waghoo khar",
+    "Dr Shazia Waghoo vashi",
+  "Dr Shazia Waghoo andheri",
+  "Dr Shazia Waghoo chembur",
+  "Dr Shazia Waghoo Linking Road",
     "Hernia Surgeon Santacruz",
     "Laparoscopic Surgeon Santacruz",
     "Best Breast Surgeon Santacruz",
