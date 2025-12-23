@@ -1,10 +1,10 @@
 export const metadata = {
-  title: "Contact Dr. Shazia Waghoo | Santacruz, Mumbai ,Santacruz West, Khar West",
-  description: "Get in touch with Dr. Shazia Waghoo for appointments, consultations, or medical inquiries in Santacruz, Mumbai,Santacruz West,Khar West",
+  title: "Contact Dr. Shazia Waghoo | Santacruz, Mumbai ,Santacruz West, Khar West, Malad, Goregaon, Mahalaxmi, Govandi",
+  description: "Get in touch with Dr. Shazia Waghoo for appointments, consultations, or medical inquiries in Santacruz, Mumbai,Santacruz West,Khar West,malad,goregaon,mahalaxmi,govandi.",
   openGraph: {
     url: "https://drshaziawaghoo.com/contactus",
     title: "Contact Dr. Shazia Waghoo",
-    description: "Get in touch with Dr. Shazia Waghoo for appointments, consultations, or medical inquiries in Santacruz, Mumbai,Santacruz West,Khar West.",
+    description: "Get in touch with Dr. Shazia Waghoo for appointments, consultations, or medical inquiries in Santacruz, Mumbai,Santacruz West,Khar West,malad,goregaon,mahalaxmi,govandi.",
     siteName: "Dr. Shazia Waghoo",
   },
 };
