@@ -1,90 +1,190 @@
 "use client";
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { MapPin } from "lucide-react";
 import Head from "next/head";
 
+/* ===========================
+   DISTANCE FUNCTION
+=========================== */
+const getDistanceKm = (lat1, lon1, lat2, lon2) => {
+  const R = 6371;
+  const dLat = (lat2 - lat1) * Math.PI / 180;
+  const dLon = (lon2 - lon1) * Math.PI / 180;
+
+  const a =
+    Math.sin(dLat / 2) * Math.sin(dLat / 2) +
+    Math.cos(lat1 * Math.PI / 180) *
+      Math.cos(lat2 * Math.PI / 180) *
+      Math.sin(dLon / 2) *
+      Math.sin(dLon / 2);
+
+  return R * (2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a)));
+};
+
+/* ===========================
+   CLINIC DATA
+=========================== */
 const clinics = [
   {
     name: "VLSR – The Clinic",
-    address: `2nd floor, Corinthian, Linking Road,\nOpp. DBS Bank, Khar West,\nMumbai 400052`,
-    locationUrl: "https://maps.app.goo.gl/GYtbkfdc1cVYi3zR7?g_st=aw",
+    area: "Khar West",
+    nearbyAreas: ["Bandra West", "Santacruz West", "Linking Road"],
+    address: `2nd floor, Corinthian, Linking Road,
+Opp. DBS Bank, Khar West,
+Mumbai 400052`,
+    locationUrl: "https://maps.app.goo.gl/GYtbkfdc1cVYi3zR7",
+    lat: 19.0717,
+    lng: 72.8320,
   },
   {
     name: "The Diagnostic Hub",
-    address: `Florence, Nehru Road, Next to Axis Bank,\nVakola, Santacruz East,\nMumbai 400055`,
-    locationUrl: "https://maps.app.goo.gl/zT1GPjM5zAae4FGa7?g_st=aw",
+    area: "Santacruz East",
+    nearbyAreas: ["Vakola", "Kalina", "Bandra East"],
+    address: `Florence, Nehru Road, Next to Axis Bank,
+Vakola, Santacruz East,
+Mumbai 400055`,
+    locationUrl: "https://maps.app.goo.gl/zT1GPjM5zAae4FGa7",
+    lat: 19.079,
+    lng: 72.8479,
   },
   {
-    name: "CritiCare Asia Hospital",
-    address: `Building No 1, Kirol Road, off Lal Bahadur Shastri Marg,\nnear Kohinoor International School,\nAli Yavar Jung, Santacruz (W)\nMumbai 400070`,
-    locationUrl: "https://maps.app.goo.gl/cZcxSMhRq5GfAJkK8?g_st=aw",
+    name: "CritiCare Asia Hospital Santacruz (W)",
+    area: "Santacruz West",
+    nearbyAreas: ["Khar West", "Bandra West", "Juhu"],
+    address: `Building No 1, Kirol Road,
+near Kohinoor International School,
+Ali Yavar Jung, Santacruz (W)
+Mumbai 400070`,
+    locationUrl: "https://maps.app.goo.gl/cZcxSMhRq5GfAJkK8",
+    lat: 19.0866,
+    lng: 72.83,
   },
   {
     name: "Precision Super Speciality",
-    address: `Vashi-Turbhe Rd, Sector 17,\nVashi, Navi Mumbai,\nMaharashtra 400705`,
-    locationUrl: "https://maps.app.goo.gl/M3uiBh3fyG5Jy2YeA?g_st=aw",
+    area: "Vashi",
+    nearbyAreas: ["Navi Mumbai","Turbhe","Sanpada", "Turbhe", "Nerul"],
+    address: `Vashi-Turbhe Rd, Sector 17,
+Vashi, Navi Mumbai,
+Maharashtra 400705`,
+    locationUrl: "https://maps.app.goo.gl/M3uiBh3fyG5Jy2YeA",
+    lat: 19.0759,
+    lng: 72.9987,
   },
   {
-    name: "CritiCare Asia Hospital",
-    address: `Plot No 516, Besides SBI, Teli Gali,\nMaheshwari Nagar, Andheri (E),\nMumbai, Maharashtra 400069`,
-    locationUrl: "https://maps.app.goo.gl/5Ao6jnGeB3DP1k2eA?g_st=aw",
+    name: "CritiCare Asia Hospital Andheri (E)",
+    area: "Andheri East",
+    nearbyAreas: ["Jogeshwari East", "MIDC", "Chakala"],
+    address: `Plot No 516, Teli Gali,
+Maheshwari Nagar, Andheri (E),
+Mumbai 400069`,
+    locationUrl: "https://maps.app.goo.gl/5Ao6jnGeB3DP1k2eA",
+    lat: 19.1136,
+    lng: 72.8697,
   },
   {
-    name: "Chembur clinic (Dr.Sheth CLinic)",
-    address: `8-28/B, DK Sandu Marg, Chembur Gaothan,\nChembur, Mumbai,\nMaharashtra 400071`,
-    locationUrl: "https://maps.app.goo.gl/RXbJbeJMTn8nix728?g_st=aw",
+    name: "Chembur clinic (Dr.Sheth Clinic)",
+    area: "Chembur",
+    nearbyAreas: ["Ghatkopar", "Kurla", "Tilak Nagar"],
+    address: `8-28/B, DK Sandu Marg,
+Chembur, Mumbai 400071`,
+    locationUrl: "https://maps.app.goo.gl/RXbJbeJMTn8nix728",
+    lat: 19.0534,
+    lng: 72.9005,
   },
   {
     name: "NM Aesthetics",
-    address: `Shop no. 1, Kaku Kunj CHS\nOpposite Mazgaon Garden\nSardar Balwant Singh Dodhi Marg\nMazgaon, Mumbai - 10`,
-    locationUrl: "https://maps.app.goo.gl/CZn3wx7NM1bTkoB96?g_st=aw",
+    area: "Mazgaon",
+    nearbyAreas: ["Mahalaxmi", "Byculla", "Lower Parel"],
+    address: `Shop no. 1, Kaku Kunj CHS
+Opposite Mazgaon Garden
+Sardar Balwant Singh Dodhi Marg
+Mazgaon, Mumbai - 10`,
+    locationUrl: "https://maps.app.goo.gl/CZn3wx7NM1bTkoB96",
+    lat: 18.969,
+    lng: 72.8353,
   },
   {
-    name: "SRV Hospital",
-    address: `Dr. Mandakini Parihar Marg, Shell Colony, Chembur, Mumbai, Maharashtra 400089`,
+    name: " SRV Hospital",
+    area: "Chembur",
+    nearbyAreas: ["Govandi", "Mankhurd", "Kurla East"],
+    address: `Dr. Mandakini Parihar Marg,
+Shell Colony, Chembur,
+Mumbai 400089`,
     locationUrl: "https://share.google/48KldfYZktqTd4laW",
+    lat: 19.0544,
+    lng: 72.8992,
   },
 ];
 
+
+
 const ClinicCard = () => {
   const [showAll, setShowAll] = useState(false);
-  // helper: pull a locality like "Khar West", "Santacruz East", "Santacruz West", "Chembur", "Andheri East", "Vashi", "Mazgaon", "Navi Mumbai"
-  // put these above your component or inside it (before return)
+  const [nearbyClinics, setNearbyClinics] = useState([]);
+
   const SUBLOCATION_WHITELIST = new Set(["CritiCare Asia Hospital"]);
 
   const getSubLocation = (address) => {
-    const haystack = address.replace(/\n/g, " ");
-
-    // Capture a known locality and optional direction
-    const match = haystack.match(
-      /(Khar|Santacruz|Santacruz|Chembur|Andheri|Vashi|Mazgaon|Navi\s*Mumbai)\s*(?:\(?\s*(East|West|E|W)\s*\)?)?/i
+    const match = address.match(
+      /(Khar|Santacruz|Chembur|Andheri|Vashi|Mazgaon|Navi\s*Mumbai)\s*(East|West|E|W)?/i
     );
-
     if (!match) return null;
-
-    const base = match[1].replace(/Navi\s*Mumbai/i, "Navi Mumbai").trim();
-    const dir = match[2];
-
-    if (!dir) return base; // e.g., "Vashi", "Mazgaon", "Navi Mumbai"
-
-    const letter = /^w/i.test(dir) ? "W" : "E";
-    return `${base} (${letter})`; // e.g., "Santacruz (W)", "Andheri (E)"
+    return match[2]
+      ? `${match[1]} (${match[2][0].toUpperCase()})`
+      : match[1];
   };
 
-  const handleToggle = () => setShowAll(true);
+useEffect(() => {
+  if (!navigator.geolocation) {
+    setNearbyClinics(clinics);
+    return;
+  }
 
-  // When not showing all, display first 6 clinics
-  // When showing all, we'll add an empty div if needed for layout
-  const displayedClinics = showAll ? [...clinics] : clinics.slice(0, 6);
-  const lastTwo = displayedClinics.slice(-2);
-  const rest = displayedClinics.slice(0, -2);
+  const searchArea =
+    typeof window !== "undefined"
+      ? new URLSearchParams(window.location.search)
+          .get("area")
+          ?.toLowerCase()
+      : "";
+
+  navigator.geolocation.getCurrentPosition(
+    (pos) => {
+      const { latitude, longitude } = pos.coords;
+
+      const filtered = clinics.filter((clinic) => {
+        const dist = getDistanceKm(
+          latitude,
+          longitude,
+          clinic.lat,
+          clinic.lng
+        );
+
+        const areaMatch =
+          clinic.area.toLowerCase().includes(searchArea || "") ||
+          clinic.nearbyAreas.some((a) =>
+            a.toLowerCase().includes(searchArea || "")
+          );
+
+        // ✅ show clinic if near OR area matches
+        return dist <= 10 || areaMatch;
+      });
+
+      setNearbyClinics(filtered.length ? filtered : clinics);
+    },
+    () => setNearbyClinics(clinics)
+  );
+}, []);
+
+
+
+  const displayedClinics = showAll
+    ? nearbyClinics
+    : nearbyClinics.slice(0, 6);
 
   return (
     <>
-      {/* SEO start from here */}
       <Head>
-        {/* ✅ Page Title and Description */}
-        <title>
+       <title>
           Clinic Locations – Dr. Shazia Waghoo | Multispecialty Surgery Clinics
           in Mumbai
         </title>
@@ -92,15 +192,14 @@ const ClinicCard = () => {
           name="description"
           content="Find all clinic locations of Dr. Shazia Waghoo in Mumbai including Khar West, Santacruz East, Santacruz West, Chembur, Andheri East, Navi Mumbai, and Mazgaon."
         />
-        <meta
+         <meta
           name="keywords"
           content=" Hernia specialist in Andheri Laparoscopic surgeon in Santacruz Breast surgery doctor in Andheri Dr Shazia Waghoo, clinic locations Mumbai, surgery clinics Mumbai, laparoscopic surgery clinics, multispecialty surgical clinics, Andheri, Chembur, Khar, Santacruz, Santacruz ,Best surgeon in Santacruz, Lady surgeon Santacruz Mumbai, Laparoscopic surgeon Santacruz, General surgeon Santacruz West, Piles treatment Santacruz, Gallbladder stone surgery Santacruz, Hernia specialist in Santacruz, Fissure doctor Santacruz, Fistula specialist Santacruz, Laser piles surgery Mumbai, Breast lump surgery in Santacruz, Appendix surgery in Mumbai, Female surgeon for daycare surgery Santacruz, Dr Shazia Waghoo surgeon Mumbai, Expert laparoscopic surgeon Santacruz, Proctologist near Santacruz"
         />
         <meta name="author" content="Dr. Shazia Waghoo" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="canonical" href="https://drshaziawaghoo.com" />
-
-        {/* ✅ Open Graph Meta for Facebook/LinkedIn */}
+         {/* ✅ Open Graph Meta for Facebook/LinkedIn */}
         <meta
           property="og:title"
           content="Clinic Locations – Dr. Shazia Waghoo | Multispecialty Surgery Clinics in Mumbai"
@@ -130,7 +229,6 @@ const ClinicCard = () => {
           name="twitter:image"
           content="https://drshaziawaghoo.com/images/clinic-locations-og.jpg"
         />
-
         {/* ✅ Structured Data with Schema.org */}
         <script type="application/ld+json">
           {`
@@ -164,14 +262,13 @@ const ClinicCard = () => {
     `}
         </script>
       </Head>
-
-      {/* main code start from here */}
+  {/* main code start from here */}
       <div className="bg-[#f4f6fb] py-10 px-4 mt-[120px]">
         <div className="max-w-5xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+
           {displayedClinics.map((clinic, index) => {
             const addressLines = clinic.address.split("\n");
-            const shouldShowSub = SUBLOCATION_WHITELIST.has(clinic.name);
-            const subLocation = shouldShowSub
+            const subLocation = SUBLOCATION_WHITELIST.has(clinic.name)
               ? getSubLocation(clinic.address)
               : null;
 
@@ -179,56 +276,48 @@ const ClinicCard = () => {
             const isFirstOfLastTwo = index === displayedClinics.length - 2;
             const isLast = index === displayedClinics.length - 1;
 
-            // When there are exactly two items in the last row:
             if (isTwoInLastRow && isFirstOfLastTwo) {
               const nextClinic = displayedClinics[index + 1];
 
-              const Card = ({ c }) => {
-                const lines = c.address.split("\n");
-                const showSub = SUBLOCATION_WHITELIST.has(c.name);
-                const sub = showSub ? getSubLocation(c.address) : null;
+              const Card = ({ c }) => (
+                  <div className="bg-white border
+                  
+                border-gray-300 rounded-md shadow-md p-6 w-[320px] text-center flex flex-col justify-between h-[320px]">
 
-                return (
-                  <div className="bg-white rounded-md shadow-[0_2px_4px_-1px_rgba(0,0,0,0.2)] border p-6 w-[320px] text-center flex flex-col justify-between h-[320px] border-gray-300">
-                    <div className="flex-grow flex flex-col items-center">
-                      <MapPin className="text-blue-600 mb-2" size={28} />
-                      <p className="font-semibold text-black mt-1 text-[19px] leading-tight">
-                        {c.name}
+                  <div>
+                    <MapPin className="text-blue-600 mb-2 mx-auto" size={28} />
+                    <p className="font-semibold text-[20px] leading-tight">
+    {c.name}
+  </p>
+
+                    {SUBLOCATION_WHITELIST.has(c.name) && (
+                      <p className="font-bold">
+                        {getSubLocation(c.address)}
                       </p>
-                      {sub && (
-                        <p className="font-bold text-black mt-1 text-[19px] leading-tight">
-                          {sub}
-                        </p>
-                      )}
-                      <div className="text-gray-700 mt-2 text-md">
-                        {lines.map((line, i) => (
-                          <p
-                            key={i}
-                            className={
-                              i === 1 || i === 2 ? "underline text-black" : ""
-                            }
-                          >
-                            {line}
-                          </p>
-                        ))}
-                      </div>
-                    </div>
-                    <div className="pt-4">
-                      <button
-                        onClick={() => window.open(c.locationUrl, "_blank")}
-                        className="bg-[#069bd6] hover:bg-blue-700 text-white text-sm px-4 py-2 rounded"
+                    )}
+                    {c.address.split("\n").map((line, i) => (
+                      <p
+                        key={i}
+                        className="underline decoration-gray-500 underline-offset-2"
                       >
-                        View Direction
-                      </button>
-                    </div>
+                        {line}
+                      </p>
+                    ))}
                   </div>
-                );
-              };
+                  <div className="pt-4 text-center">
+                    <button
+                      onClick={() => window.open(c.locationUrl, "_blank")}
+                      className="bg-[#069bd6] hover:bg-blue-700 text-white text-sm px-6 py-2 rounded"
+                    >
+                      View Direction
+                    </button>
+                  </div>
+                </div>
+              );
 
-              // Full-width row that centers the last two cards
               return (
                 <div
-                  key={`last-two-row`}
+                  key="last-two"
                   className="col-span-1 sm:col-span-2 lg:col-span-3 flex justify-center gap-8"
                 >
                   <Card c={clinic} />
@@ -237,42 +326,34 @@ const ClinicCard = () => {
               );
             }
 
-            // Skip rendering the actual last item (already rendered above)
             if (isTwoInLastRow && isLast) return null;
 
-            // Normal cards
             return (
               <div
                 key={index}
-                className="bg-white rounded-md shadow-[0_2px_4px_-1px_rgba(0,0,0,0.2)] border p-6 w-full text-center flex flex-col justify-between h-[320px] border-gray-300"
-              >
-                <div className="flex-grow flex flex-col items-center">
-                  <MapPin className="text-blue-600 mb-2" size={28} />
-                  <p className="font-semibold text-black mt-1 text-[19px] leading-tight">
-                    {clinic.name}
-                  </p>
+                className="bg-white border border-gray-300 rounded-md shadow-md p-6 text-center flex flex-col justify-between h-[320px]">
+
+                <div>
+                  <MapPin className="text-blue-600 mb-2 mx-auto" size={28} />
+                  <p className="font-semibold text-[20px] leading-snug">{clinic.name}</p>
                   {subLocation && (
-                    <p className="font-bold text-black mt-1 text-[19px] leading-tight">
-                      {subLocation}
-                    </p>
+                    <p className="font-bold">{subLocation}</p>
                   )}
-                  <div className="text-gray-700 mt-2 text-md">
-                    {addressLines.map((line, i) => (
-                      <p
-                        key={i}
-                        className={
-                          i === 1 || i === 2 ? "underline text-black" : ""
-                        }
-                      >
-                        {line}
-                      </p>
-                    ))}
-                  </div>
+                  {addressLines.map((line, i) => (
+                    <p
+                      key={i}
+                      className="underline decoration-gray-500 underline-offset-2"
+                    >
+                      {line}
+                    </p>
+                  ))}
                 </div>
-                <div className="pt-4">
+                <div className="pt-4 text-center">
                   <button
-                    onClick={() => window.open(clinic.locationUrl, "_blank")}
-                    className="bg-[#069bd6] hover:bg-blue-700 text-white text-sm px-4 py-2 rounded"
+                    onClick={() =>
+                      window.open(clinic.locationUrl, "_blank")
+                    }
+                    className="bg-[#069bd6] hover:bg-blue-700 text-white px-6 py-2 rounded"
                   >
                     View Direction
                   </button>
@@ -280,21 +361,13 @@ const ClinicCard = () => {
               </div>
             );
           })}
-
-          {/* Add empty divs if needed to maintain grid layout when showing all */}
-          {showAll && clinics.length % 3 === 1 && (
-            <>
-              <div className="hidden lg:block"></div>
-              <div className="hidden lg:block"></div>
-            </>
-          )}
         </div>
 
         {!showAll && (
           <div className="text-center mt-6">
             <button
-              onClick={handleToggle}
-              className="bg-[#069bd6] hover:bg-blue-700 text-white px-6 py-2 rounded text-sm"
+              onClick={() => setShowAll(true)}
+              className="bg-[#069bd6] hover:bg-blue-700 text-white px-6 py-2 rounded"
             >
               VIEW MORE
             </button>
